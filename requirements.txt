@@ -1,0 +1,2 @@
+# Validator dependency for tools/validate_catalog_json.py
+jsonschema>=4.19.0,<5

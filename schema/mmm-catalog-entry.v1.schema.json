@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema/mmm-catalog-entry.v1.schema.json",
+  "title": "MMM catalog entry v1",
+  "description": "One row from mmm_catalog.csv as canonical JSON. Empty CSV cells are null. All keys present.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "catalog_id",
+    "category",
+    "title",
+    "release_date",
+    "authors",
+    "forum_thread_url_mmm",
+    "wiki_url_mmm",
+    "forum_thread_url_adventure_treff",
+    "forum_thread_url_adventure_treff_legacy",
+    "youtube_longplay_url",
+    "download_url_mmm_docman",
+    "download_url_mmm_canonical",
+    "release_package_filename",
+    "release_package_stemname",
+    "game_files_subpath",
+    "engine",
+    "engine_version",
+    "mirror_url_github_private",
+    "mirror_url_dropbox_public"
+  ],
+  "properties": {
+    "catalog_id": { "type": "string", "minLength": 1 },
+    "category": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "release_date": { "type": ["string", "null"] },
+    "authors": {
+      "type": ["array", "null"],
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "forum_thread_url_mmm": { "type": ["string", "null"] },
+    "wiki_url_mmm": { "type": ["string", "null"] },
+    "forum_thread_url_adventure_treff": { "type": ["string", "null"] },
+    "forum_thread_url_adventure_treff_legacy": { "type": ["string", "null"] },
+    "youtube_longplay_url": { "type": ["string", "null"] },
+    "download_url_mmm_docman": { "type": ["string", "null"] },
+    "download_url_mmm_canonical": { "type": ["string", "null"] },
+    "release_package_filename": { "type": ["string", "null"] },
+    "release_package_stemname": { "type": ["string", "null"] },
+    "game_files_subpath": { "type": ["string", "null"] },
+    "engine": { "type": ["string", "null"] },
+    "engine_version": { "type": ["string", "null"] },
+    "mirror_url_github_private": { "type": ["string", "null"] },
+    "mirror_url_dropbox_public": { "type": ["string", "null"] }
+  }
+}
