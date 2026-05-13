@@ -10,6 +10,13 @@
 
 **Build:** from this directory, after a one-time `python -m pip install -r requirements.txt`, run `python tools/build_catalog.py`. That encodes `source/mmm_catalog.csv` into `data/catalog.jsonl` and validates every line against `schema/mmm-catalog-entry.v1.schema.json`. Exit code `0` means the export matches the v1 contract.
 
+**Consuming:** each line of `data/catalog.jsonl` is one JSON object (catalog entry v1). **Raw file (branch `main`):**  
+[https://raw.githubusercontent.com/selloa/mmm-data/main/data/catalog.jsonl](https://raw.githubusercontent.com/selloa/mmm-data/main/data/catalog.jsonl)  
+
+For anything that should not move when `main` updates, pin a **commit** or **tag** instead of `main` in the URL (replace `main` with the full commit SHA or tag name).
+
+Contributing: see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 Field meanings and validation in plain language: `docs/CATALOG_ENTRY_v1.md`.
 
 **License:** [MIT](LICENSE) (see file for full text).
