@@ -1,6 +1,8 @@
 # mmm-data
 
-**Canonical, versioned metadata** for the [Maniac Mansion Mania](https://www.maniac-mansion-mania.de/) (MMM) fan project: episode and related catalog rows, distribution links, and engine hints. The machine-readable bundle is `data/catalog.jsonl` (generated from `source/mmm_catalog.csv`). Planning and broader ecosystem notes live in the separate [`mmm-system-design`](https://github.com/selloa/mmm-system-design) repository.
+**Canonical, versioned metadata** for the [Maniac Mansion Mania](https://www.maniac-mansion-mania.de/) (MMM) fan project: episode and related catalog rows, distribution links, and engine hints. The machine-readable bundle is `data/catalog.jsonl` (generated from `source/mmm_catalog.csv`).
+
+**Planning:** lives in [mmm-system-design](https://github.com/selloa/mmm-system-design).
 
 **Purpose:** a **versioned canonical catalog** of MMM works (episodes, collections, fan games, and related rows). Later you can add more datasets and schemas beside the catalog without changing this core idea.
 
