@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-018",
+  "category": "MMM-Episoden",
+  "title": "Episode 018: Shit Happens!",
+  "release_date": "2005-05-10",
+  "authors": [
+    "jr"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Shit_Happens!",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/6347",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=6347",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=p5pWvh7BhpQ&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=33",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=20",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm18.rar",
+  "release_package_filename": "mmm18.rar",
+  "release_package_stemname": "mmm18",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm18.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ucb7rm5kgcdkfvvaqywbe/mmm18.rar?rlkey=otaw05oogl5ardrgconcek5w3&dl=1"
+}

@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-003",
+  "category": "MMM-Episoden",
+  "title": "Episode 003: Stubenarrest",
+  "release_date": "2005-03-20",
+  "authors": [
+    "Lak"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Stubenarrest",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/5677",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=5677",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=-UzLAN8eNpw&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=9",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=1",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm03.zip",
+  "release_package_filename": "mmm03.zip",
+  "release_package_stemname": "mmm03",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm03.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/2vznb9xrn4yq3q6sqgkig/mmm03.zip?rlkey=qep34cr06q64qiqyf8qvwlitx&dl=1"
+}

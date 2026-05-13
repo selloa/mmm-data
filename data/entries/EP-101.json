@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-101",
+  "category": "MMM-Episoden",
+  "title": "Episode 101: Mit anderen Augen",
+  "release_date": "2023-01-09",
+  "authors": [
+    "alphawolf300"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2736.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Mit_anderen_Augen",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=FmFZMhUqz0o&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=143",
+  "download_url_mmm_docman": "https://maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-11/1118-episode-101-mit-anderen-augen.html",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel11/mmm101.zip",
+  "release_package_filename": "mmm101.zip",
+  "release_package_stemname": "mmm101",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "3.5.1.19",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm101.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/d5ahg0zxsswl4tz439bpt/mmm101.zip?rlkey=uh974x3esfanf903x32a35bj9&dl=1"
+}

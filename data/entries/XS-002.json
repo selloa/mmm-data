@@ -1,0 +1,23 @@
+{
+  "catalog_id": "XS-002",
+  "category": "Mini Masterpieces",
+  "title": "MMMMM #2: Wendy im finsteren Keller (Version 2.0)",
+  "release_date": "2015-07-05",
+  "authors": [
+    "fireorange"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2407.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Wendy_im_finsteren_Keller",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=Tln5zAj7XjY&list=PLF3YnSazju8E6vEfW_2HpdS-EvYo8dL01&index=9&pp=iAQB",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/spiele/mini-episoden/413-mmmmm-2.html",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.com/index.php/de/spiele/mini-episoden/413-mmmmm-2/file.html",
+  "release_package_filename": "MMMMM2Talky.zip",
+  "release_package_stemname": "MMMMM2Talky",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "3.5.1.27",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/MMMMM2Talky.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ep63gs9kqpnyu381114b3/MMMMM2Talky.zip?rlkey=el7dvkw3r6z860hwpwx0zfdld&dl=1"
+}

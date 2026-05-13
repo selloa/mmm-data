@@ -1,0 +1,23 @@
+{
+  "catalog_id": "MD-014",
+  "category": "Maniac Dungeon",
+  "title": "Raum 14: Vor der Tür",
+  "release_date": "2008-08-31",
+  "authors": [
+    "eX"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Vor_der_T%C3%BCr",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=fKts2B6BXIM&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=15",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=291",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/014_V1_00.rar",
+  "release_package_filename": "014_V1_00.rar",
+  "release_package_stemname": "014_V1_00",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/014_V1_00.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/r21c5x4pmjb0jfb86426s/014_V1_00.rar?rlkey=a3lhtd9sd3pgjvrylhqw0ssez&dl=1"
+}

@@ -1,0 +1,23 @@
+{
+  "catalog_id": "HS-002",
+  "category": "Halloween Specials",
+  "title": "Episode H05-2: Escape from Maniac Mansion",
+  "release_date": "2005-10-31",
+  "authors": [
+    "MisterL"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Escape_from_Maniac_Mansion",
+  "forum_thread_url_adventure_treff": "https://web.archive.org/web/20060226103340/http://mmmportal.michigun.de:80/viewtopic.php?t=216",
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=ODhlwBVXGjg&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=2&pp=iAQB",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=60",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2005/Escape.rar",
+  "release_package_filename": "Escape.rar",
+  "release_package_stemname": "Escape",
+  "game_files_subpath": "Escape",
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Escape.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/7lnoqfmma66dfhvvtl0oa/Escape.rar?rlkey=j5o3wcxvqrenkb9qnosqnbgot&dl=1"
+}

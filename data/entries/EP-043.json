@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-043",
+  "category": "MMM-Episoden",
+  "title": "Episode 043: Vorsicht, Edna kommt!",
+  "release_date": "2006-03-07",
+  "authors": [
+    "Rayman"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Vorsicht,_Edna_kommt!",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/8911",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=8911",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=3i7hc1r2DTY&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=68",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=45",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm43.rar",
+  "release_package_filename": "mmm43.rar",
+  "release_package_stemname": "mmm43",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.70.864",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm43.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/hq9942jor7qehllh6t4x9/mmm43.rar?rlkey=1ch9ux8fug7o2lkdfuw57d7q7&dl=1"
+}

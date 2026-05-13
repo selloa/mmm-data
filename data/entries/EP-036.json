@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-036",
+  "category": "MMM-Episoden",
+  "title": "Episode 036: Der Liebesbrief",
+  "release_date": "2005-10-10",
+  "authors": [
+    "MalleTheRedPhoenix"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Der_Liebesbrief",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/7640",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=7640",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=Aev3pjtFi0k&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=56",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=38",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm36.exe",
+  "release_package_filename": "mmm36.exe",
+  "release_package_stemname": "mmm36",
+  "game_files_subpath": "Episode 36",
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm36.exe",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/x84nnsh5tko8pmmksm7ps/mmm36.exe?rlkey=k2jc3xwcwwbq0cd59zom50f28&dl=1"
+}

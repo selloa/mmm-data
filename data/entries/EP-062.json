@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-062",
+  "category": "MMM-Episoden",
+  "title": "Episode 062: Bernard gegen Berthold",
+  "release_date": "2007-07-24",
+  "authors": [
+    "JPS"
+  ],
+  "forum_thread_url_mmm": "http://www.maniac-mansion-mania.de/forum/index.php?topic=432.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Bernard_gegen_Berthold",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=90fLYudrua0&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=93",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=163",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm62.rar",
+  "release_package_filename": "mmm62.rar",
+  "release_package_stemname": "mmm62",
+  "game_files_subpath": "mmm62",
+  "engine": "Visionaire",
+  "engine_version": null,
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm62.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/jb7p0nt5hhighahbg0h2e/mmm62.rar?rlkey=qo2utlcek33mf463qz7zh1zac&dl=1"
+}

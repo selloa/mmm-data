@@ -1,0 +1,23 @@
+{
+  "catalog_id": "MD-004",
+  "category": "Maniac Dungeon",
+  "title": "Raum 04: Die Grotte",
+  "release_date": "2006-12-13",
+  "authors": [
+    "Kaktus"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Die_Grotte",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=K9RCM4apA0U&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=4",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=73",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/004_V1_00.zip",
+  "release_package_filename": "004_V1_00.zip",
+  "release_package_stemname": "004_V1_00",
+  "game_files_subpath": "004_V.1.0",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/004_V1_00.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/y4pbca14arve50zc6nqq6/004_V1_00.zip?rlkey=ruii9llskolo9sgkdisxeh2oq&dl=1"
+}

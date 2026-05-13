@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-091",
+  "category": "MMM-Episoden",
+  "title": "Episode 091: Fels in der Brandung",
+  "release_date": "2015-01-09",
+  "authors": [
+    "MalleTheRedPhoenix"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2345.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Fels_in_der_Brandung",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/21953",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=21953",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=QVEKv-QO64o&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=129",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=406",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm91.rar",
+  "release_package_filename": "mmm91.rar",
+  "release_package_stemname": "mmm91",
+  "game_files_subpath": "Episode 91 V1.0",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm91.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/tvtqityp8dltkbr213vvj/mmm91.rar?rlkey=r7k61kx8jocehu11ufvssv12h&dl=1"
+}

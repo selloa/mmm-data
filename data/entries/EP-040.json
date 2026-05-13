@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-040",
+  "category": "MMM-Episoden",
+  "title": "Episode 040: Verflixte Türen (Version 2.05)",
+  "release_date": "2006-01-08",
+  "authors": [
+    "Rayman"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=131.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Verflixte_T%C3%BCren",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/11096",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=11096",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=nwaBPDJdsqc&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=62",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=42",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm40.rar",
+  "release_package_filename": "mmm40.rar",
+  "release_package_stemname": "mmm40",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm40.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/4sr9hkj9udems7mt7ww2z/mmm40.rar?rlkey=58tk3z4zbpdsfj1xbom3eznuk&dl=1"
+}

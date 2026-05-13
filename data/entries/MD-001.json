@@ -1,0 +1,24 @@
+{
+  "catalog_id": "MD-001",
+  "category": "Maniac Dungeon",
+  "title": "Raum 01: The great Escape from Maniac Dungeon",
+  "release_date": "2006-11-13",
+  "authors": [
+    "Rayman",
+    "MisterL"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/The_great_Escape_from_Maniac_Dungeon",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=FouMxpS91yc&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=1",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=70",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/Maniac_Dungeon.zip",
+  "release_package_filename": "Maniac_Dungeon.zip",
+  "release_package_stemname": "Maniac_Dungeon",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Maniac_Dungeon.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/mk28q3kxq52d1zpi0zdzi/Maniac_Dungeon.zip?rlkey=5d6y9sb6firxve9t4paou8q2b&dl=1"
+}

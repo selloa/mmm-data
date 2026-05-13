@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-014",
+  "category": "MMM-Episoden",
+  "title": "Episode 014: Ed's Rache für den Hamsterbraten",
+  "release_date": "2005-05-01",
+  "authors": [
+    "Monsum"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Ed's_Rache_f%C3%BCr_den_Hamsterbraten",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/6232",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=6232",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=1YgzdT2iDPI&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=29",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=16",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm14.zip",
+  "release_package_filename": "mmm14.zip",
+  "release_package_stemname": "mmm14",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm14.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/0p0yi3x9x52ns4bb7jgz9/mmm14.zip?rlkey=acbous5qi4byocsizhs3fkh2m&dl=1"
+}

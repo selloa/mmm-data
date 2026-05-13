@@ -2,7 +2,7 @@
 
 ## What to change
 
-- **Catalog facts** (titles, URLs, authors, and so on) go in **`source/mmm_catalog.csv`**. Do not hand-edit `data/catalog.jsonl`; it is generated.
+- **Catalog facts** (titles, URLs, authors, and so on) go in **`source/mmm_catalog.csv`**. Do not hand-edit files under **`data/entries/`**; they are generated.
 
 ## Before you open a PR
 
@@ -20,7 +20,7 @@
 
    Exit code **0** means the JSON matches **`schema/mmm-catalog-entry.v1.schema.json`** and `catalog_id` values are unique.
 
-3. Commit **both** `source/mmm_catalog.csv` and `data/catalog.jsonl` when the CSV changed, so `main` always reflects a passing build.
+3. Commit **`source/mmm_catalog.csv`** and the updated files under **`data/entries/`** when the CSV changed, so `main` always reflects a passing build.
 
 ## Pull requests
 
@@ -29,4 +29,4 @@
 
 ## Schema or tooling changes
 
-- Changing **`schema/`** or **`tools/`** is a bigger contract change. Prefer a dedicated PR and mention any impact on consumers of `catalog.jsonl`.
+- Changing **`schema/`** or **`tools/`** is a bigger contract change. Prefer a dedicated PR and mention any impact on consumers of the JSON under **`data/entries/`**.

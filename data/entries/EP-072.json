@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-072",
+  "category": "MMM-Episoden",
+  "title": "Episode 072: Mindbending TV",
+  "release_date": "2008-06-15",
+  "authors": [
+    "fireorange"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=960.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Mindbending_TV",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/13451",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=13451",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=rtbghs_s90U&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=105",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=287",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm72.rar",
+  "release_package_filename": "mmm72.rar",
+  "release_package_stemname": "mmm72",
+  "game_files_subpath": "mindbending 1.01",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm72.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/bhw8vt4fldqu357s431ig/mmm72.rar?rlkey=gneguz0hyep1hp1882z07zapu&dl=1"
+}

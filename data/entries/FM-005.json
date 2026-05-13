@@ -1,0 +1,23 @@
+{
+  "catalog_id": "FM-005",
+  "category": "Fan Movies",
+  "title": "Doktor in da House III",
+  "release_date": "Created on 13 May 2008.",
+  "authors": [
+    "MalleTheRedPhoenix"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": null,
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=7HRK22sS26o&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=27&pp=iAQB",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=282",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/didh3.rar",
+  "release_package_filename": "didh3.rar",
+  "release_package_stemname": "didh3",
+  "game_files_subpath": null,
+  "engine": null,
+  "engine_version": null,
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
+}

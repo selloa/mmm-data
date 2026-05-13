@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-022",
+  "category": "MMM-Episoden",
+  "title": "Episode 022: Presserummel",
+  "release_date": "2005-06-15",
+  "authors": [
+    "Tribble"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Presserummel",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/6674",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=6674",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=gpDgaJzdnUM&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=39",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=24",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm22.zip",
+  "release_package_filename": "mmm22.zip",
+  "release_package_stemname": "mmm22",
+  "game_files_subpath": "mmm22v1[1].1",
+  "engine": "AGS",
+  "engine_version": "2.61.747",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm22.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/b48wqzavmtddmsglfgzz5/mmm22.zip?rlkey=r0ucknzfamkt35881eifh8365&dl=1"
+}

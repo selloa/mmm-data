@@ -1,0 +1,23 @@
+{
+  "catalog_id": "MD-003",
+  "category": "Maniac Dungeon",
+  "title": "Raum 03: Der Verbindungstunnel",
+  "release_date": "2006-11-23",
+  "authors": [
+    "Nall-chan"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Der_Verbindungstunnel",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=gZpEVukMkOY&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=3",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=72",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/003_V1_00.zip",
+  "release_package_filename": "003_V1_00.zip",
+  "release_package_stemname": "003_V1_00",
+  "game_files_subpath": "003_V1_00",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/003_V1_00.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/r1oep1apk9lc9ass012yp/003_V1_00.zip?rlkey=iksc20drnfo8dgyeiclxmdk0h&dl=1"
+}

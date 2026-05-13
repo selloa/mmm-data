@@ -1,0 +1,23 @@
+{
+  "catalog_id": "MD-013",
+  "category": "Maniac Dungeon",
+  "title": "Raum 13: Der Trockenraum",
+  "release_date": "2008-07-01",
+  "authors": [
+    "Endres"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Der_Trockenraum",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=OO6GHK_Js8U&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=14",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=288",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/013_V1_01.zip",
+  "release_package_filename": "013_V1_01.zip",
+  "release_package_stemname": "013_V1_01",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/013_V1_01.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/5jewhqfbqiqc6k4wsl686/013_V1_01.zip?rlkey=cnho641s35lyu537etkeclwe8&dl=1"
+}

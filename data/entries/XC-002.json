@@ -1,0 +1,23 @@
+{
+  "catalog_id": "XC-002",
+  "category": "Christmas Specials",
+  "title": "#02: Three Days Before Christmas",
+  "release_date": "2015-12-21",
+  "authors": [
+    "fireorange"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Three_Days_Before_Christmas",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/22723",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=22723",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=ucCHaz7i7QI&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=17&pp=iAQB",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads/episoden/specials/417-x-mas-2015/file.html",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/xmas2015TDBC.rar",
+  "release_package_filename": "xmas2015TDBC.rar",
+  "release_package_stemname": "xmas2015TDBC",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "3.1.0.1050",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/xmas2015TDBC.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/jqkz3iffk3fmtwvfz5loy/xmas2015TDBC.rar?rlkey=ry7d383zgl32yrffez8wqqkne&dl=1"
+}

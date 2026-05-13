@@ -1,0 +1,23 @@
+{
+  "catalog_id": "MD-011",
+  "category": "Maniac Dungeon",
+  "title": "Raum 11: Die vergrabene Gruft",
+  "release_date": "2008-03-09",
+  "authors": [
+    "Timer"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Die_vergrabene_Gruft",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=qub3LG9fEV4&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=12",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=275",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/011_V1_00.zip",
+  "release_package_filename": "011_V1_00.zip",
+  "release_package_stemname": "011_V1_00",
+  "game_files_subpath": "MMMD011",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/011_V1_00.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/rvrk8punb0dd2h0i5tl5e/011_V1_00.zip?rlkey=ezhuj2kuykmaf82kl559ol4ja&dl=1"
+}

@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-030",
+  "category": "MMM-Episoden",
+  "title": "Episode 030: Remembering Zak",
+  "release_date": "2005-08-17",
+  "authors": [
+    "SMASH GAMES"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Remembering_Zak",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/7168",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=7168",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=kTx8VC6alIw&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=47",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=32",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm30.zip",
+  "release_package_filename": "mmm30.zip",
+  "release_package_stemname": "mmm30",
+  "game_files_subpath": "mmm30",
+  "engine": "AGS",
+  "engine_version": "2.70.864",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm30.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/aex9vsok2aw54dk9p445y/mmm30.zip?rlkey=h2dievnp63catd3pjy6jtb0yh&dl=1"
+}

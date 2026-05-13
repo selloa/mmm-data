@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-099",
+  "category": "MMM-Episoden",
+  "title": "Episode 099: Die Premiere",
+  "release_date": "2018-02-20",
+  "authors": [
+    "Kaktus"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2598.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Die_Premiere",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=h9zA4iu10Lk&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=140",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10/1080-episode-99-die-premiere.html",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm99.zip",
+  "release_package_filename": "mmm99.zip",
+  "release_package_stemname": "mmm99",
+  "game_files_subpath": "mmm99",
+  "engine": "AGS",
+  "engine_version": "3.4.0.16",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm99.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/0rpztxtx245e603vqlu7s/mmm99.zip?rlkey=mwnlg6iupvox4toeo28pbagvm&dl=1"
+}

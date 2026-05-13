@@ -3,11 +3,11 @@
 # On every push and pull request to `main`, GitHub runs a fresh Ubuntu VM that:
 #   1. Checks out your repo
 #   2. Installs Python and `requirements.txt` (jsonschema, etc.)
-#   3. Runs `python tools/build_catalog.py` (same as locally: CSV → JSONL + validate)
+#   3. Runs `python tools/build_catalog.py` (same as locally: CSV → data/entries/*.json + validate)
 #   4. Runs `git diff --exit-code` so the job FAILS if anything changed
 #
 # So: if you edit `source/mmm_catalog.csv` but forget to commit the regenerated
-# `data/catalog.jsonl`, or the export is invalid, the check goes red until fixed.
+# `data/entries/` JSON files, or the export is invalid, the check goes red until fixed.
 # That is the whole point — no surprises on `main`.
 
 name: Catalog CI

@@ -1,0 +1,33 @@
+{
+  "catalog_id": "CO-001",
+  "category": "Collections",
+  "title": "Ronmastered Collection 1 - Episode 01-09",
+  "release_date": "2025-03-07",
+  "authors": [
+    "Cmdr",
+    "LucasFan",
+    "KhrisMUC",
+    "Lak",
+    "dasJan",
+    "Gremlin",
+    "MarkusD",
+    "Lak",
+    "MisterL",
+    "hansa_export",
+    "Rocco"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2838.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Maniac_Mansion_Mania_Ronmastered_Collection",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": null,
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=477",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/MMM_RonmasteredCollection.zip",
+  "release_package_filename": "MMM_RonmasteredCollection.zip",
+  "release_package_stemname": "MMM_RonmasteredCollection",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "3.62",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/MMM_RonmasteredCollection.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/wu53p1h6gai8jv5n4j5ht/MMM_RonmasteredCollection.zip?rlkey=imzz9s5gt06weqyuxy8tmy68z&dl=1"
+}

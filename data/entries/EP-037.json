@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-037",
+  "category": "MMM-Episoden",
+  "title": "Episode 037: Verabredung mit Dave",
+  "release_date": "2005-12-27",
+  "authors": [
+    "Rulaman"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2825.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Verabredung_mit_Dave",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/8333",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=8333",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=WNgC8cStxH0&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=57",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=39",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm37.zip",
+  "release_package_filename": "mmm37.zip",
+  "release_package_stemname": "mmm37",
+  "game_files_subpath": "MMM37",
+  "engine": "AGS",
+  "engine_version": "2.70.864",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm37.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/oshz33vbepa33tm80dhxc/mmm37.zip?rlkey=e4rgh6jcyqpfdtxl3bbhbxqv4&dl=1"
+}

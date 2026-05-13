@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-055",
+  "category": "MMM-Episoden",
+  "title": "Episode 055: Hamsters of the mysterious man: Chapter of dream",
+  "release_date": "2006-11-15",
+  "authors": [
+    "DarthConan"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=53.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Hamsters_of_the_mysterious_man:_Chapter_of_dream",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/10755",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=10755",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=xdlewa2R9DY&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=84",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=57",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm55.zip",
+  "release_package_filename": "mmm55.zip",
+  "release_package_stemname": "mmm55",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm55.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/5rrub3eqizwm6nm98m00i/mmm55.zip?rlkey=yuso10pnr7vhjgspobbnvfet6&dl=1"
+}

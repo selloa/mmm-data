@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-042",
+  "category": "MMM-Episoden",
+  "title": "Episode 042: Die furchtbaren Pläne des Psycho Bernie",
+  "release_date": "2006-02-20",
+  "authors": [
+    "fireorange"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Die_furchtbaren_Pl%C3%A4ne_des_Psycho_Bernie",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/8801",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=8801",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=jNrDPhfjZMk&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=67",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=44",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm42.rar",
+  "release_package_filename": "mmm42.rar",
+  "release_package_stemname": "mmm42",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.70.864",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm42.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/fsea4kniy2g3aaz94y91o/mmm42.rar?rlkey=c4ijizgkigq6p7yacxootwfh7&dl=1"
+}

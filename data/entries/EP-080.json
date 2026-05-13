@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-080",
+  "category": "MMM-Episoden",
+  "title": "Episode 080: Spiel des Lebens",
+  "release_date": "2011-01-06",
+  "authors": [
+    "JPJF"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=1725.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Spiel_des_Lebens",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/17523",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=17523",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=WCP6YiR1AyY&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=114",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=366",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm80.rar",
+  "release_package_filename": "mmm80.rar",
+  "release_package_stemname": "mmm80",
+  "game_files_subpath": "Compiled",
+  "engine": "AGS",
+  "engine_version": "3.1.2.1074",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm80.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/mzt1kv62yusg90rnefs5k/mmm80.rar?rlkey=4esxss6wfibgau5th7ag9fexf&dl=1"
+}

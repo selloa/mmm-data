@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-035",
+  "category": "MMM-Episoden",
+  "title": "Episode 035: Weggebeamt",
+  "release_date": "2005-09-26",
+  "authors": [
+    "Dapor"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Weggebeamt",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/7530",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=7530",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=IIya2oH-_mE&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=55",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=37",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm35.zip",
+  "release_package_filename": "mmm35.zip",
+  "release_package_stemname": "mmm35",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.70.864",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm35.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/i7sui2xa45rrr56cdnzez/mmm35.zip?rlkey=6rxgebdj8sg5dc1xrbsrl5tho&dl=1"
+}

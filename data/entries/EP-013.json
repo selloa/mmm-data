@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-013",
+  "category": "MMM-Episoden",
+  "title": "Episode 013: Nur geträumt",
+  "release_date": "2005-04-30",
+  "authors": [
+    "ZENSIERT"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Nur_getr%C3%A4umt",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/6222",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=6222",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=Bf2yOOFWcro&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=28",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=15",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm13.zip",
+  "release_package_filename": "mmm13.zip",
+  "release_package_stemname": "mmm13",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm13.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/akh60y64vhkmv96najvny/mmm13.zip?rlkey=93jqsft01tp3q5o5ulvksc6ux&dl=1"
+}

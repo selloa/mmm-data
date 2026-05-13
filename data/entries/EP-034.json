@@ -1,0 +1,28 @@
+{
+  "catalog_id": "EP-034",
+  "category": "MMM-Episoden",
+  "title": "Episode 034: Helden des Tages",
+  "release_date": "2005-07-23",
+  "authors": [
+    "Edison Interactive",
+    "Kruttan",
+    "MisterL",
+    "Bòógieman",
+    "dasJan",
+    "Rayman"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Helden_des_Tages",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/7396",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=7396",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=uBYrw6VElzw&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=54",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=36",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm34.zip",
+  "release_package_filename": "mmm34.zip",
+  "release_package_stemname": "mmm34",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm34.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/3555kqydvot0uc8pvyg34/mmm34.zip?rlkey=54knvv51hsskk11inp2kham7v&dl=1"
+}

@@ -1,0 +1,23 @@
+{
+  "catalog_id": "HS-004",
+  "category": "Halloween Specials",
+  "title": "Episode H05-4: MMM-HORROR",
+  "release_date": "2005-10-31",
+  "authors": [
+    "ManiakFreak"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/MMM-Horror",
+  "forum_thread_url_adventure_treff": "https://web.archive.org/web/20060226103348/http://mmmportal.michigun.de:80/viewtopic.php?t=218",
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=oxyRiz37CV8&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=4&pp=iAQB",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=62",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2005/MMM-HORROR.zip",
+  "release_package_filename": "MMM-HORROR.zip",
+  "release_package_stemname": "MMM-HORROR",
+  "game_files_subpath": "MMM-HORROR_1.01",
+  "engine": "AGS",
+  "engine_version": "2.70.864",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/MMM-HORROR.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/p5z9gkb2kmn18ah5xsp3p/MMM-HORROR.zip?rlkey=hsi63ds8y34ncabrasagl3i42&dl=1"
+}

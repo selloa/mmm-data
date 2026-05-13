@@ -1,0 +1,23 @@
+{
+  "catalog_id": "HS-003",
+  "category": "Halloween Specials",
+  "title": "Episode H05-3: Day of the Dead",
+  "release_date": "2005-10-31",
+  "authors": [
+    "Bòógieman"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Day_of_the_Dead",
+  "forum_thread_url_adventure_treff": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2130.0",
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=LGIIqhJmEOY&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=3&pp=iAQB",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=61",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2005/MMM-DotD.zip",
+  "release_package_filename": "MMM-DotD.zip",
+  "release_package_stemname": "MMM-DotD",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/MMM-DotD.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/hjpbzy3wchckai1lt897y/MMM-DotD.zip?rlkey=ohiz94vf8s7iyfhf4j2x51blq&dl=1"
+}

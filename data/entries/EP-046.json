@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-046",
+  "category": "MMM-Episoden",
+  "title": "Episode 046: Verschollen",
+  "release_date": "2006-04-09",
+  "authors": [
+    "Kate"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Verschollen",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/9199",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=9199",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=Vjt6TIeTG0E&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=72",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=48",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm46.rar",
+  "release_package_filename": "mmm46.rar",
+  "release_package_stemname": "mmm46",
+  "game_files_subpath": "Lost",
+  "engine": "AGS",
+  "engine_version": "2.70.864",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm46.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/jr56qz66cubaklkzfnuqa/mmm46.rar?rlkey=u7lrahse2vfw7y3hb38f6fd76&dl=1"
+}

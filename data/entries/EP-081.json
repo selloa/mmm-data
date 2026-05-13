@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-081",
+  "category": "MMM-Episoden",
+  "title": "Episode 081: Bernard bricht aus!",
+  "release_date": "2011-02-18",
+  "authors": [
+    "JPJF"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=1812.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Bernard_bricht_aus",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/17834",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=17834",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=6FSldSPAH7g&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=116",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=369",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm81.rar",
+  "release_package_filename": "mmm81.rar",
+  "release_package_stemname": "mmm81",
+  "game_files_subpath": "Compiled",
+  "engine": "AGS",
+  "engine_version": "3.1.2.1074",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm81.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/u2vz750kcrtekwk7ob17r/mmm81.rar?rlkey=z3b3m2birkv8iv242xtkyhimu&dl=1"
+}

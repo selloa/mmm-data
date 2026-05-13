@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-008",
+  "category": "MMM-Episoden",
+  "title": "Episode 008: Die Abfuhr",
+  "release_date": "2005-04-01",
+  "authors": [
+    "hansa_export"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Die_Abfuhr",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/5770",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=5770",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=bY6g1s8etEE&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=19",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=10",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm08.zip",
+  "release_package_filename": "mmm08.zip",
+  "release_package_stemname": "mmm08",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.70.851",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm08.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/rszzejg7dtoe2mqj6838j/mmm08.zip?rlkey=5n9b4du9z5v4x2vsossxtk5mk&dl=1"
+}

@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-011",
+  "category": "MMM-Episoden",
+  "title": "Episode 011: Ein haariger Ausflug - Special Edison",
+  "release_date": "2005-04-10",
+  "authors": [
+    "MalleTheRedPhoenix"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2870.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Ein_haariger_Ausflug",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/7003",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=7003",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=9yo9Uafy-b8&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=26",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=13",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/MMM11SE.zip",
+  "release_package_filename": "MMM11SE.zip",
+  "release_package_stemname": "MMM11SE",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/MMM11SE.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/r51ar3n9r046ins2xcbs2/MMM11SE.zip?rlkey=uq4at4ttn5ib544z8nd430a5n&dl=1"
+}

@@ -1,0 +1,23 @@
+{
+  "catalog_id": "HS-009",
+  "category": "Halloween Specials",
+  "title": "Episode H10-2: TMMCMFH",
+  "release_date": "2010-11-12",
+  "authors": [
+    "Bòógieman"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/TMMCMFH",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/17320",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=17320",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=IphMZ4QfRGA&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=9&pp=iAQB",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=360",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2010/TMMCMFH_V1.1.zip",
+  "release_package_filename": "TMMCMFH_V1.1.zip",
+  "release_package_stemname": "TMMCMFH_V1.1",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "3.1.2.1074",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/TMMCMFH_V1.1.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/y4exzjh6zdwiymgep9iwz/TMMCMFH_V1.1.zip?rlkey=tlp4z2rbwtado2mq8itl3bsmd&dl=1"
+}

@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-093",
+  "category": "MMM-Episoden",
+  "title": "Episode 093: Murder at the Moonshine Mansion",
+  "release_date": "2015-03-30",
+  "authors": [
+    "MisterL"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2373.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Murder_at_the_Moonshine_Mansion",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/22114",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=22114",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=Kzix7wNcdxA&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=131",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads/doc_download/409-episode-93.html",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm93.zip",
+  "release_package_filename": "mmm93.zip",
+  "release_package_stemname": "mmm93",
+  "game_files_subpath": "mmm93",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm93.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/p8wgabhcc3y3vt0keulq9/mmm93.zip?rlkey=9jvca52bfbcfifaor3bj89y0d&dl=1"
+}

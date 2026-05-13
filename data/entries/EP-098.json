@@ -1,0 +1,24 @@
+{
+  "catalog_id": "EP-098",
+  "category": "MMM-Episoden",
+  "title": "Episode 098: Maniac Apartment",
+  "release_date": "2018-02-14",
+  "authors": [
+    "Magic Productions (Viktor Höchtl)",
+    "Kinkilla"
+  ],
+  "forum_thread_url_mmm": "http://www.maniac-mansion-mania.de/forum/index.php?topic=2597",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Maniac_Apartment",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=lbVn9PHj_ts&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=138",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10/1078-episode-98-maniac-apartment.html",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm98.zip",
+  "release_package_filename": "mmm98.zip",
+  "release_package_stemname": "mmm98",
+  "game_files_subpath": "mmm98",
+  "engine": "AGS",
+  "engine_version": "3.4.0.16",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm98.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/1o17qof6v72m3rl3q6jq0/mmm98.zip?rlkey=2tucn72dk5khiyy3hri7cyoep&dl=1"
+}

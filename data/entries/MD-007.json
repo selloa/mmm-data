@@ -1,0 +1,23 @@
+{
+  "catalog_id": "MD-007",
+  "category": "Maniac Dungeon",
+  "title": "Raum 07: Das unheimliche Wesen aus einem fremden Raum",
+  "release_date": "2007-04-15",
+  "authors": [
+    "fireorange"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Das_unheimliche_Wesen_aus_einem_fremden_Raum",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=MclZq03DH5I&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=7",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=144",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/007_V2_00.rar",
+  "release_package_filename": "007_V2_00.rar",
+  "release_package_stemname": "007_V2_00",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/007_V2_00.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/m77miw7fi0j3juo3slajv/007_V2_00.rar?rlkey=8ub5eipcwpqvbx2bl49fi0pww&dl=1"
+}

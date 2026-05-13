@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-019",
+  "category": "MMM-Episoden",
+  "title": "Episode 019: Das Date",
+  "release_date": "2005-05-29",
+  "authors": [
+    "Chaosbytes"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Das_Date",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/6615",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=6615",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=_gZZgPs76RA&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=34",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=21",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm19.zip",
+  "release_package_filename": "mmm19.zip",
+  "release_package_stemname": "mmm19",
+  "game_files_subpath": "Epi19v1",
+  "engine": "Visionaire",
+  "engine_version": "3.7.1",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm19.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/axhyqjga5ydiec384grwd/mmm19.zip?rlkey=5ppb23yaf29qhl5ldmmfcqpbm&dl=1"
+}

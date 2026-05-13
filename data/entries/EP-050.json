@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-050",
+  "category": "MMM-Episoden",
+  "title": "Episode 050: Das Date 3",
+  "release_date": "2006-06-26",
+  "authors": [
+    "Tütensuppe"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2135.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Das_Date_3",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/9679",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=9679",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=Pp5DsZqyZ3Q&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=76",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=52",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm50.zip",
+  "release_package_filename": "mmm50.zip",
+  "release_package_stemname": "mmm50",
+  "game_files_subpath": "MMM50",
+  "engine": "AGS",
+  "engine_version": "3.4.0.12",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm50.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/bmdmkx55xsr4vhzehu49e/mmm50.zip?rlkey=nc7apzlml9sjdptz57r17rrgm&dl=1"
+}

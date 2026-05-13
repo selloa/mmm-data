@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-073",
+  "category": "MMM-Episoden",
+  "title": "Episode 073: Even a broken clock",
+  "release_date": "2008-09-17",
+  "authors": [
+    "1mal_volltanken"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=1019.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Even_a_broken_clock",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/13902",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=13902",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=Aabp_C8y5DI&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=106",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=296",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm73.zip",
+  "release_package_filename": "mmm73.zip",
+  "release_package_stemname": "mmm73",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm73.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/y2sss7v76n4w60bnfj1ka/mmm73.zip?rlkey=l8kb26un7g35361z524wksdhg&dl=1"
+}

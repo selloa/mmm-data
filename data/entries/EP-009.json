@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-009",
+  "category": "MMM-Episoden",
+  "title": "Episode 009: Radioaktiv",
+  "release_date": "2005-04-03",
+  "authors": [
+    "Rocco"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Radioactive",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/5783",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=5783",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=1MtOP40Lb9U&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=22",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=11",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm09.zip",
+  "release_package_filename": "mmm09.zip",
+  "release_package_stemname": "mmm09",
+  "game_files_subpath": "mmm_09_v1_06",
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm09.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/gw9cb0j4w1yshc659tv16/mmm09.zip?rlkey=3iqyi28tmsybxpgh63j173owt&dl=1"
+}

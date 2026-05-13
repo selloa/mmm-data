@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-039",
+  "category": "MMM-Episoden",
+  "title": "Episode 039: Erinnerungen",
+  "release_date": "2005-12-31",
+  "authors": [
+    "Lampengeist_M"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2127.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Erinnerungen",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/8378",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=8378",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=pDJCqhVLigk&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=60",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=41",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm39.zip",
+  "release_package_filename": "mmm39.zip",
+  "release_package_stemname": "mmm39",
+  "game_files_subpath": "MMM39_Erinnerungen_V13",
+  "engine": "AGS",
+  "engine_version": "3.3.5.7",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm39.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/wc65wozbyjokws5uc6goj/mmm39.zip?rlkey=51jvenpslwul9exxyvrtes2jq&dl=1"
+}

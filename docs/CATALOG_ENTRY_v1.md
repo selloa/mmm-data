@@ -2,7 +2,7 @@
 
 **v1** means: one logical record per CSV row, **every CSV column** represented in the canonical JSON (no dropped fields).
 
-Human-edited source file in this repo layout: `source/mmm_catalog.csv`. Generated canonical bundle: `data/catalog.jsonl`.
+Human-edited source file in this repo layout: `source/mmm_catalog.csv`. Generated catalog: **`data/entries/<catalog_id>.json`** (one v1 object per file).
 
 ## Rules
 
@@ -44,19 +44,16 @@ Human-edited source file in this repo layout: `source/mmm_catalog.csv`. Generate
 1. This markdown (field table and rules).
 2. The **JSON Schema** file `schema/mmm-catalog-entry.v1.schema.json` (same rules in a precise, checkable form).
 
-The validator loads the schema, then for each JSON object it checks things like: every required key exists, types are correct (`authors` is array or `null`, URLs are strings or `null`, and so on). If something is wrong, it prints **where** (which file or JSONL line) and **what** failed. Exit code `0` means everything passed; non-zero means “do not trust this export until fixed.”
+The validator loads the schema, then for each JSON file it checks things like: every required key exists, types are correct (`authors` is array or `null`, URLs are strings or `null`, and so on). If something is wrong, it prints **which file** and **what** failed. Exit code `0` means everything passed; non-zero means “do not trust this export until fixed.”
 
-On top of the schema, our script checks **`catalog_id` is unique** across the whole catalog (the schema alone cannot express “no duplicates across lines in a file”).
+On top of the schema, our script checks **`catalog_id` is unique** across all entry files (the schema alone cannot express “no duplicates across files”).
 
 This is not “AI checking your data.” It is a **deterministic checklist** you can run the same way every time.
 
-## Commands (from `mmm-data-design-v2/`)
+## Commands (from repo root `mmm-data/`)
 
 1. One-time: `python -m pip install -r requirements.txt`
 2. Encode + validate: `python tools/build_catalog.py`
-3. Manual encode only: `python tools/csv_to_catalog_json.py --jsonl data/catalog.jsonl` (optional `--input` override).
-4. Manual validate only: `python tools/validate_catalog_json.py --jsonl data/catalog.jsonl`
-
-From the parent `mmm-system-design` repo you can instead run:  
-`python mmm-data-design-v2/tools/build_catalog.py`  
-(paths inside the tools resolve to `mmm-data-design-v2` as the data repo root).
+3. Manual encode only: `python tools/csv_to_catalog_json.py --out-dir data/entries` (optional `--input` override).
+4. Manual validate only: `python tools/validate_catalog_json.py --entries-dir data/entries`
+5. Optional single JSONL export: `python tools/build_catalog.py --jsonl path/to/catalog.jsonl`

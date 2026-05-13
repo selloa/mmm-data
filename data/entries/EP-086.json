@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-086",
+  "category": "MMM-Episoden",
+  "title": "Episode 086: Bernard bekommt Besuch",
+  "release_date": "2011-08-19",
+  "authors": [
+    "Panniban"
+  ],
+  "forum_thread_url_mmm": "http://www.maniac-mansion-mania.de/forum/index.php?topic=1992.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Bernard_bekommt_Besuch",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=o0OV8jW2ArA&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=122",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=378",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm86.zip",
+  "release_package_filename": "mmm86.zip",
+  "release_package_stemname": "mmm86",
+  "game_files_subpath": "Epi86 Bernard bekommt Besuch",
+  "engine": "AGS",
+  "engine_version": "3.2.1.1115",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm86.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/fra6xyb9n4dkx8qg06hgr/mmm86.zip?rlkey=qb2mb88init9cmmwx1hoiookq&dl=1"
+}

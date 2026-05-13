@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-077",
+  "category": "MMM-Episoden",
+  "title": "Episode 077: Schwer verquer",
+  "release_date": "2009-08-05",
+  "authors": [
+    "FrasierCrane"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=1235.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Schwer_verquer",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/15381",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=15381",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=MHdXD6o6fME&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=110",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=331",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm77.zip",
+  "release_package_filename": "mmm77.zip",
+  "release_package_stemname": "mmm77",
+  "game_files_subpath": "MMM77",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm77.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/8040reqw8s01k2hj5htno/mmm77.zip?rlkey=vp3ibnsx7pwlj2gng322hf7ek&dl=1"
+}

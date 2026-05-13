@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-004",
+  "category": "MMM-Episoden",
+  "title": "Episode 004: Mimikry der Emotionen",
+  "release_date": "2005-03-25",
+  "authors": [
+    "dasJan"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Mimikry_der_Emotionen",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/5701",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=5701",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=c57iSEaS-2Y&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=11",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=4",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm04.zip",
+  "release_package_filename": "mmm04.zip",
+  "release_package_stemname": "mmm04",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm04.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/a3muln7a8bp5rjv0us15o/mmm04.zip?rlkey=iyanate7cfif9s1m5y4bireo4&dl=1"
+}

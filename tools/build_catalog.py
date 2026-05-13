@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Run CSV → JSONL encode, then JSON Schema validation.
+Run CSV → per-entry JSON files, then JSON Schema validation.
 
-From this folder (future mmm-data root):
+From this folder (mmm-data root):
   python tools/build_catalog.py
 
 From parent mmm-system-design:
@@ -25,8 +25,8 @@ def _default_csv() -> Path:
     return _data_repo_root() / "source" / "mmm_catalog.csv"
 
 
-def _default_jsonl() -> Path:
-    return _data_repo_root() / "data" / "catalog.jsonl"
+def _default_entries_dir() -> Path:
+    return _data_repo_root() / "data" / "entries"
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -38,10 +38,17 @@ def main(argv: list[str] | None = None) -> int:
         help=f"mmm_catalog.csv (default: {_default_csv()})",
     )
     p.add_argument(
+        "--entries-dir",
+        type=Path,
+        default=_default_entries_dir(),
+        help=f"one <catalog_id>.json per row (default: {_default_entries_dir()})",
+    )
+    p.add_argument(
         "--jsonl",
         type=Path,
-        default=_default_jsonl(),
-        help=f"output JSONL path, also validated (default: {_default_jsonl()})",
+        default=None,
+        metavar="PATH",
+        help="optional: write a single JSONL file instead of per-entry files (not the default layout)",
     )
     p.add_argument(
         "--skip-validate",
@@ -54,20 +61,21 @@ def main(argv: list[str] | None = None) -> int:
     encode = tools / "csv_to_catalog_json.py"
     validate = tools / "validate_catalog_json.py"
 
-    r1 = subprocess.run(
-        [sys.executable, str(encode), "--input", str(args.input), "--jsonl", str(args.jsonl)],
-        check=False,
-    )
+    if args.jsonl is not None:
+        enc_cmd = [sys.executable, str(encode), "--input", str(args.input), "--jsonl", str(args.jsonl)]
+        val_cmd = [sys.executable, str(validate), "--jsonl", str(args.jsonl)]
+    else:
+        enc_cmd = [sys.executable, str(encode), "--input", str(args.input), "--out-dir", str(args.entries_dir)]
+        val_cmd = [sys.executable, str(validate), "--entries-dir", str(args.entries_dir)]
+
+    r1 = subprocess.run(enc_cmd, check=False)
     if r1.returncode != 0:
         return r1.returncode
 
     if args.skip_validate:
         return 0
 
-    r2 = subprocess.run(
-        [sys.executable, str(validate), "--jsonl", str(args.jsonl)],
-        check=False,
-    )
+    r2 = subprocess.run(val_cmd, check=False)
     return r2.returncode
 
 

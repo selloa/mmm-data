@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-006",
+  "category": "MMM-Episoden",
+  "title": "Episode 006: Er is' weg",
+  "release_date": "2005-03-30",
+  "authors": [
+    "Lak"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Er_is'_weg",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/5731",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=5731",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=_w8qekelkcY&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=15",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=8",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm06.zip",
+  "release_package_filename": "mmm06.zip",
+  "release_package_stemname": "mmm06",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm06.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/63x4m3zrcuskt81am63o0/mmm06.zip?rlkey=xaucp7p22ivrojtf0mtysufp1&dl=1"
+}

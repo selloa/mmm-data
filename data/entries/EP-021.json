@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-021",
+  "category": "MMM-Episoden",
+  "title": "Episode 021: Rettet Kanal 13!",
+  "release_date": "2005-06-11",
+  "authors": [
+    "ManiakFreak"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Rettet_Kanal_13!",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/6628",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=6628",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=r_mg9sjCSnY&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=38",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=23",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm21.rar",
+  "release_package_filename": "mmm21.rar",
+  "release_package_stemname": "mmm21",
+  "game_files_subpath": "Maniac Mansion Mania 021 - Rettet Kanal 13/Files",
+  "engine": "AGS",
+  "engine_version": "2.61.747",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm21.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/b4qoi2a3t73cg0tw7doz6/mmm21.rar?rlkey=m3j4j6k4o7ok5qhdsln9pa0i7&dl=1"
+}

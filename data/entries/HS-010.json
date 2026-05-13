@@ -1,0 +1,23 @@
+{
+  "catalog_id": "HS-010",
+  "category": "Halloween Specials",
+  "title": "Episode H10-3: Und Bernard läutet zur Geisterstunde",
+  "release_date": "2010-11-21",
+  "authors": [
+    "WeirdEd strikes back"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Und_Bernard_l%C3%A4utet_zur_Geisterstunde",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/17338",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=17338",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=x5OXFQYaWMI&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=10&pp=iAQB",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=362",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2010/Bernard_Geisterstunde.zip",
+  "release_package_filename": "Bernard_Geisterstunde.zip",
+  "release_package_stemname": "Bernard_Geisterstunde",
+  "game_files_subpath": "Bernard_Geisterstunde",
+  "engine": "AGS",
+  "engine_version": "2.72",
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
+}

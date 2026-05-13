@@ -1,0 +1,23 @@
+{
+  "catalog_id": "MD-019",
+  "category": "Maniac Dungeon",
+  "title": "Raum 19: Weihnachts-Edition",
+  "release_date": "2009-12-24",
+  "authors": [
+    "ManiacTwister"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Weihnachts-Edition",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=-lNiq6iA6o4&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=20",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=345",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/019_V1_00.rar",
+  "release_package_filename": "019_V1_00.rar",
+  "release_package_stemname": "019_V1_00",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/019_V1_00.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/nhn3mtds8ogu35golxax0/019_V1_00.rar?rlkey=y3bpdd8mqendncoyxp28pbr0d&dl=1"
+}

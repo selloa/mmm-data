@@ -1,0 +1,24 @@
+{
+  "catalog_id": "EP-026",
+  "category": "MMM-Episoden",
+  "title": "Episode 026: Zeitenwende",
+  "release_date": "2005-07-26",
+  "authors": [
+    "Hainet",
+    "Jucksalbe"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Zeitenwende",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/6969",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=6969",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=4mynWNhdstA&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=43",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=28",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm26.zip",
+  "release_package_filename": "mmm26.zip",
+  "release_package_stemname": "mmm26",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.70.861",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm26.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/xfsfvgqxrpehi4e0euq3d/mmm26.zip?rlkey=0e881hzptu5isrijj6q3mqzd3&dl=1"
+}

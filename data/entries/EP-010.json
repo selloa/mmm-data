@@ -1,0 +1,28 @@
+{
+  "catalog_id": "EP-010",
+  "category": "MMM-Episoden",
+  "title": "Episode 010: Tales of Weird Ed",
+  "release_date": "2005-04-04",
+  "authors": [
+    "Edison Interactive",
+    "Kruttan",
+    "MisterL",
+    "Bòógieman",
+    "dasJan",
+    "Rayman"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Tales_of_the_Weird_Ed",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/5798",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=5798",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=Ndwb_gc9dFw&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=23",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=12",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm10.zip",
+  "release_package_filename": "mmm10.zip",
+  "release_package_stemname": "mmm10",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm10.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/v2je7rb4renp4p3lqhlnp/mmm10.zip?rlkey=mn8o73jng5i8fe35qrmdwzlg4&dl=1"
+}

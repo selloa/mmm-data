@@ -1,0 +1,23 @@
+{
+  "catalog_id": "MD-009",
+  "category": "Maniac Dungeon",
+  "title": "Raum 09: Und dann gab's wirklich, echt überhaupt gar keins mehr, ehrlich!",
+  "release_date": "2007-04-22",
+  "authors": [
+    "MisterL"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Und_dann_gab%27s_wirklich_echt_%C3%BCberhaupt_gar_keins_mehr_ehrlich!",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=pbrmNxePgAw&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=10",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=147",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/009_V1_00.zip",
+  "release_package_filename": "009_V1_00.zip",
+  "release_package_stemname": "009_V1_00",
+  "game_files_subpath": "009",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/009_V1_00.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/gh6e6v9ddbr55bt3vaeh1/009_V1_00.zip?rlkey=8ogntklv5kqimn0u02zzbkbxg&dl=1"
+}

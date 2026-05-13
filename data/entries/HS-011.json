@@ -1,0 +1,23 @@
+{
+  "catalog_id": "HS-011",
+  "category": "Halloween Specials",
+  "title": "Episode H10-4: Bad and Mad",
+  "release_date": "2010-12-11",
+  "authors": [
+    "Rayman"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Bad_and_Mad",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/17420",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=17420",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=YoqFxudlD_0&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=11&pp=iAQB",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=363",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2010/BMAD.rar",
+  "release_package_filename": "BMAD.rar",
+  "release_package_stemname": "BMAD",
+  "game_files_subpath": "BMAD",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/BMAD.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/88huv89zv59g9pczaluo4/BMAD.rar?rlkey=jthuygxkh8xhnmgsq0fr0u47j&dl=1"
+}

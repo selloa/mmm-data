@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-045",
+  "category": "MMM-Episoden",
+  "title": "Episode 045: Maniac Monday",
+  "release_date": "2006-04-03",
+  "authors": [
+    "MisterL"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Maniac_Monday",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/9152",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=9152",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=VigPB-4wDEg&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=71",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=47",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm45.zip",
+  "release_package_filename": "mmm45.zip",
+  "release_package_stemname": "mmm45",
+  "game_files_subpath": "MMM45",
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm45.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/bykzratvn7td63zc9luq0/mmm45.zip?rlkey=wbqf3y1thp66y9yni4fo7fx2n&dl=1"
+}

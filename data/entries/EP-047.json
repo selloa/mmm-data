@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-047",
+  "category": "MMM-Episoden",
+  "title": "Episode 047: Maniac Ostern",
+  "release_date": "2006-04-18",
+  "authors": [
+    "Bissiger Witzbold"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2510.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Maniac_Ostern",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/9269",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=9269",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=50gSvLoJSHQ&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=73",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=49",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm47.zip",
+  "release_package_filename": "mmm47.zip",
+  "release_package_stemname": "mmm47",
+  "game_files_subpath": "MMM47",
+  "engine": "AGS",
+  "engine_version": "3.4.0.12",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm47.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/pc8wusws0h6ygs5mthro3/mmm47.zip?rlkey=zxnb54zqx0mgra37tlj2a8x1v&dl=1"
+}

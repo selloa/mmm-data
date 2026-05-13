@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-078",
+  "category": "MMM-Episoden",
+  "title": "Episode 078: Dumm geholfen",
+  "release_date": "2009-10-01",
+  "authors": [
+    "Fatal hoch zwei"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=1275.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Dumm_geholfen",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/15685",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=15685",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=c6D-XUvBWGA&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=112",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=336",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm78.zip",
+  "release_package_filename": "mmm78.zip",
+  "release_package_stemname": "mmm78",
+  "game_files_subpath": "mmm78",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm78.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/gx8nt43omcx10dw60ig5p/mmm78.zip?rlkey=8hgwdcqqb262io81jyk95xwc4&dl=1"
+}

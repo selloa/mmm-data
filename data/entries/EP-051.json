@@ -1,0 +1,24 @@
+{
+  "catalog_id": "EP-051",
+  "category": "MMM-Episoden",
+  "title": "Episode 051: Ortmaschine II",
+  "release_date": "2006-07-22",
+  "authors": [
+    "Problem",
+    "Floyd"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2140.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Ortmaschine_II",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/9850",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=9850",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=8vBxSpm_yEk&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=78",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=53",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm51-v12.zip",
+  "release_package_filename": "mmm51-v12.zip",
+  "release_package_stemname": "mmm51-v12",
+  "game_files_subpath": "mmm51-v12",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm51-v12.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/drqg475u9e8lqquaehv1v/mmm51-v12.zip?rlkey=40vxwbwwdf0ztrzfpeck5y9j8&dl=1"
+}

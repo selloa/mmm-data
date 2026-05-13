@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-084",
+  "category": "MMM-Episoden",
+  "title": "Episode 084: Surf'n'Ronville",
+  "release_date": "2011-06-05",
+  "authors": [
+    "ZAK"
+  ],
+  "forum_thread_url_mmm": "http://www.maniac-mansion-mania.de/forum/index.php?topic=1904.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Surf%22n%22Ronville",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=NmNSF41C45g&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=119",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=376",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm84.zip",
+  "release_package_filename": "mmm84.zip",
+  "release_package_stemname": "mmm84",
+  "game_files_subpath": "Epi 84 - Surf'n'Ronville",
+  "engine": "AGS",
+  "engine_version": "3.2.1.1115",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm84.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/6ufp8sbb4ika3tl2e8gw8/mmm84.zip?rlkey=i7ocdzrxxd3tr5m1ogeyrjehl&dl=1"
+}

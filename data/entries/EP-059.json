@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-059",
+  "category": "MMM-Episoden",
+  "title": "Episode 059: Computerliebe",
+  "release_date": "2007-05-21",
+  "authors": [
+    "Gul Loki"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=362.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Computerliebe",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/11740",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=11740",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=TvEsXI9p5zU&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=88",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=150",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm59.rar",
+  "release_package_filename": "mmm59.rar",
+  "release_package_stemname": "mmm59",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm59.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/i1syyltfpg85reezjflps/mmm59.rar?rlkey=un9htyla4loljb6ehhg6tjpyz&dl=1"
+}

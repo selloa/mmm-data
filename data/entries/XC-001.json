@@ -1,0 +1,23 @@
+{
+  "catalog_id": "XC-001",
+  "category": "Christmas Specials",
+  "title": "#01: A Xmas-Odysee",
+  "release_date": "2008-12-11",
+  "authors": [
+    "LilaQ"
+  ],
+  "forum_thread_url_mmm": "http://www.maniac-mansion-mania.de/forum/index.php?topic=1101.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/A_Christmas_Odyssey",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=4cK6vDC9osE&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=16&pp=iAQB",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=302",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/X_Mas_Odysee.zip",
+  "release_package_filename": "X_Mas_Odysee.zip",
+  "release_package_stemname": "X_Mas_Odysee",
+  "game_files_subpath": "X Mas Odyssey",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/X_Mas_Odysee.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ubhwb5e3wwe3ffxhe4acu/X_Mas_Odysee.zip?rlkey=retidaom01o7f3c9z7fkgvvyg&dl=1"
+}

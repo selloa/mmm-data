@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-079",
+  "category": "MMM-Episoden",
+  "title": "Episode 079: Der Wunsch-O-Mat",
+  "release_date": "2010-08-22",
+  "authors": [
+    "Siel"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=1560.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Der_Wunsch-O-Mat",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/17010",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=17010",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=2WrMdPK1DtA&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=113",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=356",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm79.zip",
+  "release_package_filename": "mmm79.zip",
+  "release_package_stemname": "mmm79",
+  "game_files_subpath": "Episode 79 - Der Wunsch-O-Mat 1.01",
+  "engine": "AGS",
+  "engine_version": "3.0.2.1025",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm79.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ftyqu0pufb6xvduzdzks8/mmm79.zip?rlkey=wkdtnn3ia2zbbql2r5uulz9b3&dl=1"
+}

@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-001",
+  "category": "MMM-Episoden",
+  "title": "Episode 001: Geschwisterliebe",
+  "release_date": "2005-03-07",
+  "authors": [
+    "LucasFan"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2696.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Geschwisterliebe",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/5554",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=5554",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=1Bm9CZWhGv4&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=3",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=5",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm01.zip",
+  "release_package_filename": "mmm01.zip",
+  "release_package_stemname": "mmm01",
+  "game_files_subpath": "MMM",
+  "engine": "AGS",
+  "engine_version": "3.4.3.1",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm01.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/51lrhj8k66wyp46723um4/mmm01.zip?rlkey=37081hebv2x8zcr1yffm9lqar&dl=1"
+}

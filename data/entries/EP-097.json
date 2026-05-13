@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-097",
+  "category": "MMM-Episoden",
+  "title": "Episode 097: Tollhaus Weihnachten",
+  "release_date": "2017-12-24",
+  "authors": [
+    "Fatal hoch zwei"
+  ],
+  "forum_thread_url_mmm": "http://www.maniac-mansion-mania.de/forum/index.php?topic=2586.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Tollhaus_Weihnachten",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=_Vtaxnjl8EQ&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=137",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=429",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm97.zip",
+  "release_package_filename": "mmm97.zip",
+  "release_package_stemname": "mmm97",
+  "game_files_subpath": "X-mas Mansion",
+  "engine": "AGS",
+  "engine_version": "3.5.0.22",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm97.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/netaq4p7aiixpcccjrn1r/mmm97.zip?rlkey=b6hsvyj3j7ed7ko3t889ydmht&dl=1"
+}

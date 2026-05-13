@@ -1,0 +1,24 @@
+{
+  "catalog_id": "EP-012",
+  "category": "MMM-Episoden",
+  "title": "Episode 012: Giga Mansion",
+  "release_date": null,
+  "authors": [
+    "Philipp 'Pippo' Thalmann",
+    "Frank 'TheBrain' Beilenhoff"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/GIGA_Mansion",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/6028",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=6028",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=TgGAA37fnco&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=27",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=14",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm12.zip",
+  "release_package_filename": "mmm12.zip",
+  "release_package_stemname": "mmm12",
+  "game_files_subpath": "Giga Mansion",
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm12.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/bz8iy0erqbbsjawgvw8to/mmm12.zip?rlkey=a4l02yoxj994wxgcdbontxkmv&dl=1"
+}

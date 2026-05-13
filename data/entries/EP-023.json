@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-023",
+  "category": "MMM-Episoden",
+  "title": "Episode 023: Das verflixte Geschenk",
+  "release_date": "2005-06-20",
+  "authors": [
+    "Agent Cat"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Das_verflixte_Geschenk",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/6701",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=6701",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=oU6S0dx1tzk&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=40",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=25",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm23.zip",
+  "release_package_filename": "mmm23.zip",
+  "release_package_stemname": "mmm23",
+  "game_files_subpath": "Compiled",
+  "engine": "AGS",
+  "engine_version": "2.61.747",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm23.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/k2sfw8pwt9bihxchtc73p/mmm23.zip?rlkey=1f7cfbz3z6rnsgbvk1ooitlqy&dl=1"
+}

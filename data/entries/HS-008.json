@@ -1,0 +1,23 @@
+{
+  "catalog_id": "HS-008",
+  "category": "Halloween Specials",
+  "title": "Episode H10-1: Das Monster aus der Racoon Lagoon",
+  "release_date": "2010-10-31",
+  "authors": [
+    "fireorange"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Das_Monster_aus_der_Racoon_Lagoon",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/17271",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=17271&start=0",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=IfDj58DcNZ0&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=8&pp=iAQB",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=359&Itemid=39",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2010/racoonlagoon.rar",
+  "release_package_filename": "racoonlagoon.rar",
+  "release_package_stemname": "racoonlagoon",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/racoonlagoon.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/v1sf3vessjgsrd6hyikqv/racoonlagoon.rar?rlkey=4po2k917one7uug6oay3kkkcr&dl=1"
+}

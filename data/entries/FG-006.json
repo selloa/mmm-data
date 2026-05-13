@@ -1,0 +1,23 @@
+{
+  "catalog_id": "FG-006",
+  "category": "Fan Games",
+  "title": "Die neuen Abenteuer des Zak McKracken",
+  "release_date": "2002",
+  "authors": [
+    "LucasFan"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": null,
+  "forum_thread_url_adventure_treff": "https://archive.org/details/fanadv_zak2",
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=QVJwrtmeLuk",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=95",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/fanadv_zak2.exe",
+  "release_package_filename": "fanadv_zak2.exe",
+  "release_package_stemname": "fanadv_zak2",
+  "game_files_subpath": null,
+  "engine": null,
+  "engine_version": null,
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
+}

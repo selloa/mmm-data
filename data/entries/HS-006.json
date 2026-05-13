@@ -1,0 +1,23 @@
+{
+  "catalog_id": "HS-006",
+  "category": "Halloween Specials",
+  "title": "Episode H06-1: The Curse of Maniac Mansion",
+  "release_date": "2006-10-31",
+  "authors": [
+    "Rayman"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/The_Curse_of_Maniac_Mansion",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/10629",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=10629",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=NpneJE8nH8g&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=6&pp=iAQB",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=64",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2006/TCoMM.rar",
+  "release_package_filename": "TCoMM.rar",
+  "release_package_stemname": "TCoMM",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.71.894",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/TCoMM.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ncr5ur232jxpb5igje88h/TCoMM.rar?rlkey=7trnmvrb7fwz5a9x8z3wxagol&dl=1"
+}

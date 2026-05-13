@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-089",
+  "category": "MMM-Episoden",
+  "title": "Episode 089: Der Weltrettungsalgorithmus - Die neue Version",
+  "release_date": "2013-03-17",
+  "authors": [
+    "Kiwa"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2200.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Der_Weltrettungsalgorithmus",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/20673",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=20673",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=7aQaNgaZeFM&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=125",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads/doc_download/393-episode-89.html",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm89.rar",
+  "release_package_filename": "mmm89.rar",
+  "release_package_stemname": "mmm89",
+  "game_files_subpath": "Epi 89 Die neue Version",
+  "engine": "AGS",
+  "engine_version": "3.2.1.1115",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm89.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/h915przyjnh3j4ha3ucuc/mmm89.rar?rlkey=1jalcv7xswe20mxh4jeflnp0i&dl=1"
+}

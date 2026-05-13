@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-017",
+  "category": "MMM-Episoden",
+  "title": "Episode 017: Das Labor",
+  "release_date": "2005-05-08",
+  "authors": [
+    "TimurY"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Das_Labor",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/6325",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=6325",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=yVM8Zl9SyRo&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=32",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=19",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm17.zip",
+  "release_package_filename": "mmm17.zip",
+  "release_package_stemname": "mmm17",
+  "game_files_subpath": "Compiled",
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm17.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/xuj03iv5b33lpccvnxurb/mmm17.zip?rlkey=7q33dst8hatiwpqlux8v71rfq&dl=1"
+}

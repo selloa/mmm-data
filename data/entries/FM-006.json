@@ -1,0 +1,23 @@
+{
+  "catalog_id": "FM-006",
+  "category": "Fan Movies",
+  "title": "just Maniac Mansion Mania - a special to 5 years of MMM",
+  "release_date": "Created on 11 March 2010.",
+  "authors": [
+    "fireorange"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": null,
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": null,
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=350",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/justmmm.rar",
+  "release_package_filename": "justmmm.rar",
+  "release_package_stemname": "justmmm",
+  "game_files_subpath": null,
+  "engine": null,
+  "engine_version": null,
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
+}

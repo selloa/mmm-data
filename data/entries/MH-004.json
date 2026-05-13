@@ -1,0 +1,23 @@
+{
+  "catalog_id": "MH-004",
+  "category": "Meteorhead Series",
+  "title": "#04: Meteorhead IV: Forgotten Memories",
+  "release_date": "Created on 17 July 2007.",
+  "authors": [
+    "fireorange"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": null,
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=xhwFh4l3z0Y&list=PLF3YnSazju8EctrcVvL-wLq8KhcVgAzM9&index=4&pp=iAQB",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=161",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/mh4.rar",
+  "release_package_filename": "mh4.rar",
+  "release_package_stemname": "mh4",
+  "game_files_subpath": null,
+  "engine": null,
+  "engine_version": null,
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
+}

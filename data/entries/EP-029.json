@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-029",
+  "category": "MMM-Episoden",
+  "title": "Episode 029: Die Flucht des Meteoriten",
+  "release_date": "2005-08-17",
+  "authors": [
+    "fireorange"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Flucht_des_Meteoriten",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/7166",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=7166",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=U_m-0IAvJmY&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=46",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=31",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm29.zip",
+  "release_package_filename": "mmm29.zip",
+  "release_package_stemname": "mmm29",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm29.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/f48ub9efbj3zr5o24vh3d/mmm29.zip?rlkey=lqd19p8jodz25w6epsun10fq8&dl=1"
+}

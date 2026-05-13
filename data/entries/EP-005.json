@@ -1,0 +1,24 @@
+{
+  "catalog_id": "EP-005",
+  "category": "MMM-Episoden",
+  "title": "Episode 005: Rhythmen zum Reinbeißen",
+  "release_date": "2005-03-29",
+  "authors": [
+    "Gremlin",
+    "MarkusD"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Rhythmen_zum_Reinbei%C3%9Fen",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/5724",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=5724",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=XgAZ1a0-248&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=13",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=7",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm05.zip",
+  "release_package_filename": "mmm05.zip",
+  "release_package_stemname": "mmm05",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm05.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/mgcoxxic49986gks149y9/mmm05.zip?rlkey=gvu42w8nnuv5xuur0a47dypfa&dl=1"
+}

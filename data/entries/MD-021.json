@@ -1,0 +1,23 @@
+{
+  "catalog_id": "MD-021",
+  "category": "Maniac Dungeon",
+  "title": "Raum 21: Durch Raum (21) und Zeit",
+  "release_date": "2014-09-24",
+  "authors": [
+    "Champ"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Durch_Raum_(21)_und_Zeit",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=0MHN9yWorM4&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=22",
+  "download_url_mmm_docman": "https://maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=402",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/021_V1_00.rar",
+  "release_package_filename": "021_V1_00.rar",
+  "release_package_stemname": "021_V1_00",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/021_V1_00.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/6yylzmygtd7umsuiqgltw/021_V1_00.rar?rlkey=x41ib3vz69cvxjpya668ln32y&dl=1"
+}

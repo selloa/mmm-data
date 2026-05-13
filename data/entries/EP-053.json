@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-053",
+  "category": "MMM-Episoden",
+  "title": "Episode 053: Der Klaus schlägt zurück",
+  "release_date": "2006-08-28",
+  "authors": [
+    "Bòógieman"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=1017.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Der_Klaus_schl%C3%A4gt_zur%C3%BCck",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/10151",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=10151",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=d2uUxDWbsTg&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=81",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=55",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/MMM-53-dksz-v1_7.zip",
+  "release_package_filename": "MMM-53-dksz-v1_7.zip",
+  "release_package_stemname": "MMM-53-dksz-v1_7",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/MMM-53-dksz-v1_7.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/urvkhpzmktzqg6zyqvlp8/MMM-53-dksz-v1_7.zip?rlkey=i3vmuk3s0xi0molli6koh8y7s&dl=1"
+}

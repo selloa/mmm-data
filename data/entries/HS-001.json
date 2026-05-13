@@ -1,0 +1,23 @@
+{
+  "catalog_id": "HS-001",
+  "category": "Halloween Specials",
+  "title": "Episode H05-1: Halloween Special 2005",
+  "release_date": "2005-10-31",
+  "authors": [
+    "ZENSIERT"
+  ],
+  "forum_thread_url_mmm": "https://web.archive.org/web/20060208113515/https://maniacmansion.microspace.ch/halloween2005.htm",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Ohne_Titel",
+  "forum_thread_url_adventure_treff": "https://web.archive.org/web/20060226103334/http://mmmportal.michigun.de:80/viewtopic.php?t=215",
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=EuzmqTKkaYc&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=1&t=1106s&pp=iAQB",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=59",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2005/Halloween.rar",
+  "release_package_filename": "Halloween.rar",
+  "release_package_stemname": "Halloween",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.70.861",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Halloween.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/43oob054nj70uiyufv4mb/Halloween.rar?rlkey=x4oxkjtt9ehdmh9qqluslyskp&dl=1"
+}

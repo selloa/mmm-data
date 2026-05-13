@@ -116,6 +116,8 @@ def emit_jsonl(entries: list[dict[str, Any]], dest: Path) -> None:
 
 def emit_one_file_per_row(entries: list[dict[str, Any]], out_dir: Path) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
+    for old in out_dir.glob("*.json"):
+        old.unlink()
     for e in entries:
         cid = e["catalog_id"]
         if not isinstance(cid, str) or "/" in cid or "\\" in cid:

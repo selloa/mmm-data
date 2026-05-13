@@ -1,0 +1,23 @@
+{
+  "catalog_id": "XS-001",
+  "category": "Mini Masterpieces",
+  "title": "MMMMM #1: Eds Paket",
+  "release_date": "2015-07-05",
+  "authors": [
+    "Kiwa"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2394.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Eds_Paket",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=ISGQ2_KrvT8&list=PLF3YnSazju8E6vEfW_2HpdS-EvYo8dL01&index=2&pp=iAQB",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=412",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.com/index.php/de/spiele/mini-episoden/412-mmmmm-1-eds-paket/file.html",
+  "release_package_filename": "EdsPaket.zip",
+  "release_package_stemname": "EdsPaket",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "3.5.1.27",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/EdsPaket.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/mpcbr861n7svjrhwowki7/EdsPaket.zip?rlkey=h93e5yxhnokjxyntt70x12xs7&dl=1"
+}

@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-065",
+  "category": "MMM-Episoden",
+  "title": "Episode 065: Save Smiley!",
+  "release_date": "2007-08-12",
+  "authors": [
+    "Rayman"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=530.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Save_Smiley!",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/12098",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=12098",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=snesip3zroU&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=96",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=166",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm65.rar",
+  "release_package_filename": "mmm65.rar",
+  "release_package_stemname": "mmm65",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.71.894",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm65.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/dzqc16es2o2s50yb5uhj0/mmm65.rar?rlkey=y5oetp10wlxm3iyri5wz5melu&dl=1"
+}

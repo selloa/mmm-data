@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-066",
+  "category": "MMM-Episoden",
+  "title": "Episode 066: Hoagies neuer Freund",
+  "release_date": "2007-08-12",
+  "authors": [
+    "fireorange"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=532.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Hoagies_neuer_Freund",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/12100",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=12100",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=narSZwtiN5A&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=97",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=167",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm66.rar",
+  "release_package_filename": "mmm66.rar",
+  "release_package_stemname": "mmm66",
+  "game_files_subpath": "mmm66",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm66.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/3eo4ep6xufy7ypj6vs21m/mmm66.rar?rlkey=v9rq11ksgrsr6vvglihhmmo21&dl=1"
+}

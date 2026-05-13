@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-049",
+  "category": "MMM-Episoden",
+  "title": "Episode 049: Clouso's Großer Coup",
+  "release_date": "2006-06-05",
+  "authors": [
+    "AdventureMoe"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Clouso's_Gro%C3%9Fer_Coup",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/9544",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=9544",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=69K5ZY26ags&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=75",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=51",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm49.rar",
+  "release_package_filename": "mmm49.rar",
+  "release_package_stemname": "mmm49",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.70.864",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm49.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/rjyn52isc5b2gzwb75pfn/mmm49.rar?rlkey=ek89qovcde96g6ado7egbt3p9&dl=1"
+}

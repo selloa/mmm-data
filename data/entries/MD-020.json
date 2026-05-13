@@ -1,0 +1,23 @@
+{
+  "catalog_id": "MD-020",
+  "category": "Maniac Dungeon",
+  "title": "Raum 20: Die Pharaonen-Grabkammer",
+  "release_date": "2011-03-07",
+  "authors": [
+    "Rayman"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Die_Pharaonen-Grabkammer",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=lzCVwE5dpnk&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=21",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=371",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/020_V1_00.rar",
+  "release_package_filename": "020_V1_00.rar",
+  "release_package_stemname": "020_V1_00",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/020_V1_00.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/a2e18b59xpwh7w46chqd5/020_V1_00.rar?rlkey=ckprjnbf4qucd1d9uzfqyjilx&dl=1"
+}

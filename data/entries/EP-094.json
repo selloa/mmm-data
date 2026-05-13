@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-094",
+  "category": "MMM-Episoden",
+  "title": "Episode 094: Maniac on the Mississippi",
+  "release_date": "2015-11-13",
+  "authors": [
+    "Elvis"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2439.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Maniac_on_the_Mississippi",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/22636",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=22636",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=dlYt7GmGrrc&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=132",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10/1023-episode-94-murder-at-the-mississippi.html",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/ManiacOnTheMississippi.zip",
+  "release_package_filename": "ManiacOnTheMississippi.zip",
+  "release_package_stemname": "ManiacOnTheMississippi",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "3.3.4.2",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/ManiacOnTheMississippi.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/wg9xyrvjb8dd0pewzxowa/ManiacOnTheMississippi.zip?rlkey=chh50f4q29bjt90updangr4wv&dl=1"
+}

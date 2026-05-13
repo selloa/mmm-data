@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-007",
+  "category": "MMM-Episoden",
+  "title": "Episode 007: Right said Fred!?!",
+  "release_date": "2005-03-30",
+  "authors": [
+    "MisterL"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2765.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Right_said_Fred!%3F!",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/5735",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=5735",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=yotA2j8fPb4&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=16",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=9",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm07.zip",
+  "release_package_filename": "mmm07.zip",
+  "release_package_stemname": "mmm07",
+  "game_files_subpath": "mmm07",
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm07.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/04wyl90pt68sdd43n5ysl/mmm07.zip?rlkey=cyg5elyem6tyjo8su2fwp6o8l&dl=1"
+}

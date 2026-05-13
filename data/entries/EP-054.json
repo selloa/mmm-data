@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-054",
+  "category": "MMM-Episoden",
+  "title": "Episode 054: CSI:RONVILLE",
+  "release_date": "2006-09-13",
+  "authors": [
+    "MisterL"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/CSI:Ronville",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/10289",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=10289",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=lUlV-vdgt_M&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=83",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=56",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm54.zip",
+  "release_package_filename": "mmm54.zip",
+  "release_package_stemname": "mmm54",
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": "2.62.772",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm54.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/kx2peq6y6buiggyj5cf8h/mmm54.zip?rlkey=12w2kegzh3vrm9xgxrvnv5ymw&dl=1"
+}

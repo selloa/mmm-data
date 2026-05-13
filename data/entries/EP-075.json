@@ -1,0 +1,23 @@
+{
+  "catalog_id": "EP-075",
+  "category": "MMM-Episoden",
+  "title": "Episode 075: Das Necronomicon",
+  "release_date": "2008-12-12",
+  "authors": [
+    "Larry Wolf"
+  ],
+  "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=1091.0",
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Das_Necronomicon",
+  "forum_thread_url_adventure_treff": "https://www.adventure-treff.de/forum/topic/14248",
+  "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=14248",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=9QW5puUvA2A&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=108",
+  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=301",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm75.zip",
+  "release_package_filename": "mmm75.zip",
+  "release_package_stemname": "mmm75",
+  "game_files_subpath": "Necronomicon",
+  "engine": "AGS",
+  "engine_version": "2.70.864",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm75.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/i89oyijbeqvve1u4lm063/mmm75.zip?rlkey=xwskyzjibnyth0kdo2i3wmiqa&dl=1"
+}
