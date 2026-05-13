@@ -4,9 +4,11 @@
 
 **Planning:** lives in [mmm-system-design](https://github.com/selloa/mmm-system-design).
 
+**Public read API (hosted):** https://mmm-api-production-7f5a.up.railway.app — OpenAPI at `/docs`, browse index at `/v1/entries`, full row at `/v1/entries/{catalog_id}` ([mmm-api](https://github.com/selloa/mmm-api) repo; deployment tracks the git ref in its `build/catalog-data-ref.txt`, currently **`v0.2.0`** of this repo).
+
 **Purpose:** a **versioned canonical catalog** of MMM works (episodes, collections, fan games, and related rows). Later you can add more datasets and schemas beside the catalog without changing this core idea.
 
-**What belongs here (v1):** `schema/` (JSON Schema), `source/` (authoring CSV), `data/entries/` (generated JSON, one object per file), `tools/` (encode + validate), `requirements.txt`, and `docs/` (human semantics). **Not** required on day one: a public API, website, or mirror automation—those consume this repo later.
+**What belongs here (v1):** `schema/` (JSON Schema), `source/` (authoring CSV), `data/entries/` (generated JSON, one object per file), `tools/` (encode + validate), `requirements.txt`, and `docs/` (human semantics). **Not** required on day one: a public website or mirror automation—**read access** is also available via the **public API** above in addition to raw GitHub files.
 
 **Build:** from this directory, after a one-time `python -m pip install -r requirements.txt`, run `python tools/build_catalog.py`. That encodes `source/mmm_catalog.csv` into `data/entries/*.json` and validates every file against `schema/mmm-catalog-entry.v1.schema.json`. Exit code `0` means the export matches the v1 contract.
 
