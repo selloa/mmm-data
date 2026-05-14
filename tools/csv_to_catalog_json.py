@@ -88,7 +88,8 @@ def validate_required_strings(entry: dict[str, Any], *, row_index: int) -> None:
 
 
 def read_csv_rows(path: Path) -> tuple[list[str], list[dict[str, str]]]:
-    text = path.read_text(encoding="utf-8-sig", newline="")
+    with path.open(encoding="utf-8-sig", newline="") as f:
+        text = f.read()
     reader = csv.DictReader(text.splitlines())
     if reader.fieldnames is None:
         raise ValueError(f"{path}: missing header row")
