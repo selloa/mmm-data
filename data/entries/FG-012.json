@@ -21,8 +21,8 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/ManiacMetalheadManiaII.zip",
   "release_package_filename": "ManiacMetalheadManiaII.zip",
   "release_package_stemname": "ManiacMetalheadManiaII",
-  "game_files_subpath": null,
-  "engine": null,
+  "game_files_subpath": "ManiacMetalheadMania II/Game Data",
+  "engine": "AGS",
   "engine_version": null,
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null

@@ -21,8 +21,8 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/Familie-Herfurth-2_0.rar",
   "release_package_filename": "Familie-Herfurth-2_0.rar",
   "release_package_stemname": "Familie-Herfurth-2_0",
-  "game_files_subpath": null,
-  "engine": null,
+  "game_files_subpath": "Familie Herfurth 2.0",
+  "engine": "AGS",
   "engine_version": null,
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null

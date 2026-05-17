@@ -22,7 +22,7 @@
   "release_package_filename": "BM4M.rar",
   "release_package_stemname": "BM4M",
   "game_files_subpath": null,
-  "engine": null,
+  "engine": "AGS",
   "engine_version": null,
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null

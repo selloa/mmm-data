@@ -21,9 +21,9 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/Bernard_muss_3_mahlfinal.rar",
   "release_package_filename": "Bernard_muss_3_mahlfinal.rar",
   "release_package_stemname": "Bernard_muss_3_mahlfinal",
-  "game_files_subpath": null,
-  "engine": null,
-  "engine_version": null,
+  "game_files_subpath": "Bernard muss 3 mahl",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null
 }

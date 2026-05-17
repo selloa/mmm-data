@@ -22,8 +22,8 @@
   "release_package_filename": "Edgar_Award_St7.rar",
   "release_package_stemname": "Edgar_Award_St7",
   "game_files_subpath": null,
-  "engine": null,
-  "engine_version": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null
 }

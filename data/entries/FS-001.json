@@ -21,9 +21,9 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/Ostereiersuche_2010.zip",
   "release_package_filename": "Ostereiersuche_2010.zip",
   "release_package_stemname": "Ostereiersuche_2010",
-  "game_files_subpath": null,
-  "engine": null,
-  "engine_version": null,
+  "game_files_subpath": "Ostereiersuche2010",
+  "engine": "AGS",
+  "engine_version": "3.02.1025",
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null
 }

@@ -22,8 +22,8 @@
   "release_package_filename": "IWWHIIWWHITOMIROTPG-TheGame.zip",
   "release_package_stemname": "IWWHIIWWHITOMIROTPG-TheGame",
   "game_files_subpath": null,
-  "engine": null,
-  "engine_version": null,
+  "engine": "AGS",
+  "engine_version": "3.20.1099",
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null
 }

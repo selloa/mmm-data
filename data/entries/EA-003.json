@@ -22,7 +22,7 @@
   "release_package_filename": "Edgar_Staffel_2_Show_II.zip",
   "release_package_stemname": "Edgar_Staffel_2_Show_II",
   "game_files_subpath": null,
-  "engine": null,
+  "engine": "AGS",
   "engine_version": null,
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null

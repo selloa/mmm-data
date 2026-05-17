@@ -21,9 +21,9 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/BritMMFinal.7z",
   "release_package_filename": "BritMMFinal.7z",
   "release_package_stemname": "BritMMFinal",
-  "game_files_subpath": null,
-  "engine": null,
-  "engine_version": null,
+  "game_files_subpath": "Compiled",
+  "engine": "AGS",
+  "engine_version": "3.01.1018",
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null
 }

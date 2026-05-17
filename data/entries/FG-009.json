@@ -22,7 +22,7 @@
   "release_package_filename": "lonkey.zip",
   "release_package_stemname": "lonkey",
   "game_files_subpath": null,
-  "engine": null,
+  "engine": "unknown",
   "engine_version": null,
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null

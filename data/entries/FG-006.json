@@ -22,7 +22,7 @@
   "release_package_filename": "fanadv_zak2.exe",
   "release_package_stemname": "fanadv_zak2",
   "game_files_subpath": null,
-  "engine": null,
+  "engine": "unknown",
   "engine_version": null,
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null

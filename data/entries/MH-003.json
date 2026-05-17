@@ -22,8 +22,8 @@
   "release_package_filename": "m3t30rh34dm4n 111 - 5p137 m1r d45 1337 v0m t0d.rar",
   "release_package_stemname": "m3t30rh34dm4n 111 - 5p137 m1r d45 1337 v0m t0d",
   "game_files_subpath": null,
-  "engine": null,
-  "engine_version": null,
+  "engine": "AGS",
+  "engine_version": "2.72.920",
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null
 }

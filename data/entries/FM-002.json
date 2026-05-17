@@ -21,9 +21,9 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/doktor2.rar",
   "release_package_filename": "doktor2.rar",
   "release_package_stemname": "doktor2",
-  "game_files_subpath": null,
-  "engine": null,
-  "engine_version": null,
+  "game_files_subpath": "Doktor2",
+  "engine": "AGS",
+  "engine_version": "2.72.920",
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null
 }
