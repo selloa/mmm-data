@@ -1,2 +1,4 @@
 # Validator dependency for tools/validate_catalog_json.py
 jsonschema>=4.19.0,<5
+# tools/resolve_downloads.py
+requests>=2.31.0,<3

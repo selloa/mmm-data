@@ -37,7 +37,7 @@ def partial_to_master_row(partial_row: dict[str, str]) -> dict[str, str]:
     out["release_date"] = (partial_row.get("release_date") or "").strip()
     out["authors"] = (partial_row.get("author") or partial_row.get("authors") or "").strip()
     out["download_url_mmm_docman"] = (partial_row.get("download_url") or "").strip()
-    out["walkthrough_url"] = (partial_row.get("walkthrough_url") or "").strip()
+    out["walkthrough_url_mmm"] = (partial_row.get("walkthrough_url") or partial_row.get("walkthrough_url_mmm") or "").strip()
     out["mmm_description"] = (
         partial_row.get("mmm_description") or partial_row.get("description") or ""
     ).strip()

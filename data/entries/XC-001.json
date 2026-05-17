@@ -1,15 +1,19 @@
 {
   "catalog_id": "XC-001",
   "category": "Christmas Specials",
-  "title": "#01: A Xmas-Odysee",
+  "title": "#01: A Christmas Odyssey",
   "release_date": "2008-12-11",
   "authors": [
     "LilaQ"
   ],
   "forum_thread_url_mmm": "http://www.maniac-mansion-mania.de/forum/index.php?topic=1101.0",
   "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/A_Christmas_Odyssey",
-  "walkthrough_url": null,
-  "mmm_description": null,
+  "walkthrough_url_mmm": null,
+  "walkthrough_mmm_author": null,
+  "walkthrough_mmm_date": null,
+  "walkthrough_mmm_body": null,
+  "walkthrough_url_amigamaster": "https://github.com/AmigaMaster/Simple-Game-Solutions/blob/master/solutions/M/Maniac%20Mansion%20Mania%20-%20A%20Christmas%20Odyssey%20-%20Christmas%202008-DE.md",
+  "mmm_description": "Unartige Mädchen haben es nicht immer leicht: So darf Marcy nicht mit ihrer Familie nach Mallorca reisen und soll die Weihnachtstage ALLEINE im eiskalten Ronville verbringen. Doch Marcy gibt nicht auf: Auf der Straße trifft sie auf Claire, ein 14jähriges Mädel aus reichem Hause. Vielleicht kann sie diese davon überzeugen, mit Marcy den Heiligen Abend zu begehen.",
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=4cK6vDC9osE&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=16&pp=iAQB",

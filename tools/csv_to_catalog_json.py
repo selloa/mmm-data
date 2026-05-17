@@ -25,7 +25,11 @@ CANONICAL_FIELDS: list[str] = [
     "authors",
     "forum_thread_url_mmm",
     "wiki_url_mmm",
-    "walkthrough_url",
+    "walkthrough_url_mmm",
+    "walkthrough_mmm_author",
+    "walkthrough_mmm_date",
+    "walkthrough_mmm_body",
+    "walkthrough_url_amigamaster",
     "mmm_description",
     "forum_thread_url_adventure_treff",
     "forum_thread_url_adventure_treff_legacy",
@@ -91,23 +95,22 @@ def validate_required_strings(entry: dict[str, Any], *, row_index: int) -> None:
 
 def read_csv_rows(path: Path) -> tuple[list[str], list[dict[str, str]]]:
     with path.open(encoding="utf-8-sig", newline="") as f:
-        text = f.read()
-    reader = csv.DictReader(text.splitlines())
-    if reader.fieldnames is None:
-        raise ValueError(f"{path}: missing header row")
-    header = [h.strip() for h in reader.fieldnames if h is not None and h.strip()]
-    if set(header) != set(CANONICAL_FIELDS):
-        missing = sorted(set(CANONICAL_FIELDS) - set(header))
-        extra = sorted(set(header) - set(CANONICAL_FIELDS))
-        msg = f"{path}: CSV columns must match canonical v1 set exactly."
-        if missing:
-            msg += f" Missing: {missing}."
-        if extra:
-            msg += f" Extra: {extra}."
-        raise ValueError(msg)
-    rows: list[dict[str, str]] = []
-    for row in reader:
-        rows.append({k: (row.get(k) or "") for k in CANONICAL_FIELDS})
+        reader = csv.DictReader(f)
+        if reader.fieldnames is None:
+            raise ValueError(f"{path}: missing header row")
+        header = [h.strip() for h in reader.fieldnames if h is not None and h.strip()]
+        if set(header) != set(CANONICAL_FIELDS):
+            missing = sorted(set(CANONICAL_FIELDS) - set(header))
+            extra = sorted(set(header) - set(CANONICAL_FIELDS))
+            msg = f"{path}: CSV columns must match canonical v1 set exactly."
+            if missing:
+                msg += f" Missing: {missing}."
+            if extra:
+                msg += f" Extra: {extra}."
+            raise ValueError(msg)
+        rows: list[dict[str, str]] = []
+        for row in reader:
+            rows.append({k: (row.get(k) or "") for k in CANONICAL_FIELDS})
     return header, rows
 
 

@@ -17,7 +17,7 @@
 **Consuming:** each **`data/entries/<catalog_id>.json`** file is one catalog entry (v1 schema). Example raw URL (branch `main`):  
 [https://raw.githubusercontent.com/selloa/mmm-data/main/data/entries/EP-001.json](https://raw.githubusercontent.com/selloa/mmm-data/main/data/entries/EP-001.json)  
 
-Browse all entry files: [data/entries on `main`](https://github.com/selloa/mmm-data/tree/main/data/entries). For stable links, pin a **commit** or **tag** instead of `main` in the URL.
+Browse all entry files: [data/entries on `main`](https://github.com/selloa/mmm-data/tree/main/data/entries). For stable links, pin a **commit** or **tag** instead of `main` in the URL. The current release version is also recorded in [`VERSION`](VERSION) (matches git tags like `v0.2.2`).
 
 Contributing: see [CONTRIBUTING.md](CONTRIBUTING.md).
 

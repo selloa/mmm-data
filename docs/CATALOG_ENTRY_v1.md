@@ -22,7 +22,11 @@ Human-edited source file in this repo layout: `source/mmm_catalog.csv`. Generate
 | `authors` | array of string \| null | Normalized from `;`-separated list. |
 | `forum_thread_url_mmm` | string \| null | URI string; stricter URL checks can come later. |
 | `wiki_url_mmm` | string \| null | |
-| `walkthrough_url` | string \| null | MMM site walkthrough / Komplettlösung page. |
+| `walkthrough_url_mmm` | string \| null | MMM site walkthrough / Komplettlösung page. |
+| `walkthrough_mmm_author` | string \| null | Walkthrough author from the MMM page (`Geschrieben von …`). |
+| `walkthrough_mmm_date` | string \| null | Walkthrough creation date (ISO-8601 from page metadata). |
+| `walkthrough_mmm_body` | string \| null | Full walkthrough text from the MMM page. |
+| `walkthrough_url_amigamaster` | string \| null | GitHub blob URL to the AmigaMaster [Simple-Game-Solutions](https://github.com/AmigaMaster/Simple-Game-Solutions) markdown walkthrough for this entry, when one exists. |
 | `mmm_description` | string \| null | Short synopsis from the MMM website listing. |
 | `forum_thread_url_adventure_treff` | string \| null | |
 | `forum_thread_url_adventure_treff_legacy` | string \| null | |
