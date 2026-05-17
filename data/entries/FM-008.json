@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.12.1074",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/DinnerForOne.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/0wqnaaexfwj8bht19neb2/DinnerForOne.zip?rlkey=k0kabzse2o9l5313twcb7ipo7&dl=1"
 }

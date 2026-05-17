@@ -24,6 +24,6 @@
   "game_files_subpath": "Doktor-talk",
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Doktor-talk.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ugg96ufo4k8ru9xx9o2bm/Doktor-talk.zip?rlkey=n71py0mobfjqn665ip6cr21c5&dl=1"
 }

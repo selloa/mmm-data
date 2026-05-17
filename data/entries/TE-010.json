@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.71.894",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmmquiz.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/dzk8v8bc4vv3tuj5v04vb/mmmquiz.rar?rlkey=52k0bwjflrqet1gpdpmvyym8z&dl=1"
 }

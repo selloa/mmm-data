@@ -24,6 +24,6 @@
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Maniac-Mansion-DS.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/16ers7lkmbaa1vxjijyzc/Maniac-Mansion-DS.rar?rlkey=662cksh3egcy3tsvx3le27cn4&dl=1"
 }

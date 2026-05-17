@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "unknown",
   "engine_version": null,
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmd13setup.exe",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/3cfvpu527r7gnigrk5old/mmd13setup.exe?rlkey=6itzmdzq9u1rglwujnvec4dgf&dl=1"
 }

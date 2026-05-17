@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": null,
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Edgar_Staffel_2_Show_II.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/32wv6r0od8jvc1u1zqgui/Edgar_Staffel_2_Show_II.zip?rlkey=clbv6trggxz5wmnw246puqysx&dl=1"
 }

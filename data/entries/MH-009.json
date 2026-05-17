@@ -24,6 +24,6 @@
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "3.00.1000",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/MHIXFinal.7z",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/37lb6iq22cw6p9s5560po/MHIXFinal.7z?rlkey=0dhwta3et7sddevxo4cy7buuo&dl=1"
 }

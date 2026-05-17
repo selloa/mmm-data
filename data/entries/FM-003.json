@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.61.747",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Kochen_mit_Fred.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/4o1y5bghnjcakwkeunkxf/Kochen_mit_Fred.zip?rlkey=bc13r3yo1vurpgh693yo4ilt5&dl=1"
 }

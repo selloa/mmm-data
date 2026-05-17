@@ -24,6 +24,6 @@
   "game_files_subpath": "mmmRunHoagieRun",
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmmRunHoagieRun.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/8oltsccocpqwffuskbbdd/mmmRunHoagieRun.zip?rlkey=we5s4sq94mbfief4qsp99kt1l&dl=1"
 }

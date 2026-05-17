@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mh4.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/beh8889jt03jsn625w54l/mh4.rar?rlkey=3auvd3mfmwm31y3bi07r04egr&dl=1"
 }

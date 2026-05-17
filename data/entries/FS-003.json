@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "unknown",
   "engine_version": null,
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/easter18.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/6ezwlrvvz3jvjdytwzmxk/easter18.zip?rlkey=5hkjlx7oveo9h000om4r6ic95&dl=1"
 }

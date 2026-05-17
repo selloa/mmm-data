@@ -24,6 +24,6 @@
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "3.01.1018",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/BritMMFinal.7z",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/hdlpzqu2crw8dnl47s0hd/BritMMFinal.7z?rlkey=w19h4shu9679wf7opbyl6po63&dl=1"
 }

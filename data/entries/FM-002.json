@@ -24,6 +24,6 @@
   "game_files_subpath": "Doktor2",
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/doktor2.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/xzqudoe7l4kieae7hjy1v/doktor2.rar?rlkey=f7k3hbj3cnmkg1yaad13m65se&dl=1"
 }

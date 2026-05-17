@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/MHVIII.7z",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/5cb7ugozu0qkvdfq7g0or/MHVIII.7z?rlkey=je6nxv03iva5ykr5co6yeqtv6&dl=1"
 }

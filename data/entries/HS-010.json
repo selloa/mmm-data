@@ -24,6 +24,6 @@
   "game_files_subpath": "Bernard_Geisterstunde",
   "engine": "AGS",
   "engine_version": "2.72",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Bernard_Geisterstunde.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/yqvi13t5bg23bpjwdll02/Bernard_Geisterstunde.zip?rlkey=mrt46awaz8vzunkob394uqxkb&dl=1"
 }

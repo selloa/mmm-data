@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.12.1074",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/%40-Man_Trailer.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/uzjqdhu206yfygt4yp5ic/Man_Trailer.zip?rlkey=go89fwyy8ystlftf5ri2bexq4&dl=1"
 }

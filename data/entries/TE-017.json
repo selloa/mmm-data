@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/bloodyquiz.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/8aka7lat1vgv7n4nml64n/bloodyquiz.rar?rlkey=b56ddwk5czq4jzh6rc6sacf3q&dl=1"
 }

@@ -24,6 +24,6 @@
   "game_files_subpath": "Ostereiersuche2011",
   "engine": "AGS",
   "engine_version": "3.21.1115",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Ostereiersuche_2011.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/7vi4jtdqh3l48uqnn6n9w/Ostereiersuche_2011.zip?rlkey=6vbsq5e3g3vj9ufe0ezkannv0&dl=1"
 }

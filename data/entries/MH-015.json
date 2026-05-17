@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.3.5.7",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/meteorheadTNS3.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/f54ygo7sbqi28fv2o8gcp/meteorheadTNS3.zip?rlkey=e2eeamyt8xf61yk6drue7v22n&dl=1"
 }

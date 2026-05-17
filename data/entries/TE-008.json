@@ -24,6 +24,6 @@
   "game_files_subpath": "Episode MS",
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/ms.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/qc756wse084erhq4qv644/ms.rar?rlkey=7eq0cr0bt72he5gjgl5jlussd&dl=1"
 }

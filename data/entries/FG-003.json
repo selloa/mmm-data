@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/MordImLaufrad.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/hydxybeu6dut25a9eemnr/MordImLaufrad.zip?rlkey=7ardtj5dz29qplvr7ukiy2vpc&dl=1"
 }

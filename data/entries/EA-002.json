@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": null,
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Edgar_Award_St2.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/swncx67mujppuvcqqejqt/Edgar_Award_St2.zip?rlkey=5ypg68sw89djt2328sa915m2k&dl=1"
 }

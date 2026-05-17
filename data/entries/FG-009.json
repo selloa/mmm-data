@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "unknown",
   "engine_version": null,
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/lonkey.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/2w9cz2fzmvd7quv7fe75h/lonkey.zip?rlkey=up9bh06tx32owtanpd076n68x&dl=1"
 }

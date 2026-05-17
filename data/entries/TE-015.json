@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mio2.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/f8r6n2l7e6yp05r2177co/mio2.rar?rlkey=l9k1zw2vaebcff1w1nc42x9xo&dl=1"
 }

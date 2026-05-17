@@ -24,6 +24,6 @@
   "game_files_subpath": "DidH 3",
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/didh3.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/9rtwc1kk7qnpnd9hz5cb3/didh3.rar?rlkey=oqmmskadclg13nsh5rgsu2ww3&dl=1"
 }

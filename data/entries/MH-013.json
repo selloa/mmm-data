@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.21.1115",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/meteorhead13.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/s6glioh3jmj6dszdw8gqu/meteorhead13.rar?rlkey=xl96gxs4nwxuag2oa1mujlofl&dl=1"
 }

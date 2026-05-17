@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/justmmm.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/zriw8ionjtuebcre8yq6z/justmmm.rar?rlkey=5eyrt1o8r5s6iatoj8lt77lhn&dl=1"
 }

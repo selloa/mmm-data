@@ -24,6 +24,6 @@
   "game_files_subpath": "red-tentacle",
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/red-tentacle.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/g49n3d4engw349delesda/red-tentacle.zip?rlkey=g9ofqdl5kiw1va94nwka84ams&dl=1"
 }

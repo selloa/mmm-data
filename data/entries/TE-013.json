@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/bernard_muss_mal.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/9ti9iub21egz2pkwzpr6n/bernard_muss_mal.rar?rlkey=o9tstu39ff296a7zesxhp067y&dl=1"
 }

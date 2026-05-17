@@ -24,6 +24,6 @@
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/TheNewPresident.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/4qr4c82xhw6r1v62cqzb3/TheNewPresident.rar?rlkey=i3mu5c8acfrf5ec8ah8615evl&dl=1"
 }

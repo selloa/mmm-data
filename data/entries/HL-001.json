@@ -24,6 +24,6 @@
   "game_files_subpath": "HollywoodSpecial2011-RonvilleViper",
   "engine": "AGS",
   "engine_version": "3.1.2",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/ronvilleviper.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/7cbhblf18vvtmp7vzfhvr/ronvilleviper.zip?rlkey=vjmif2xkodvkpgiv6d3616ftw&dl=1"
 }

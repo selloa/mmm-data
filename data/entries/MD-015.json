@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": null,
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/015_V1_00.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/2x5get22t7lwxs651eml2/015_V1_00.rar?rlkey=8d9u6ubb4om8jmeo0s3395p3a&dl=1"
 }

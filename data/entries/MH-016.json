@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.3.5.7",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/meteorheadlastchapter.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/vrh0b35rbzngceijjklad/meteorheadlastchapter.zip?rlkey=0n6bf0czf3gnpsnjvuofnlofl&dl=1"
 }

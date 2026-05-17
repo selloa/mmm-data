@@ -24,6 +24,6 @@
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/meteorhead2final.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/h9ic791t23isjdchf4b0y/meteorhead2final.rar?rlkey=exi8cqt4dtirnx2nslunuzn2e&dl=1"
 }
