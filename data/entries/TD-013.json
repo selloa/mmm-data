@@ -1,0 +1,25 @@
+{
+  "catalog_id": "TD-013",
+  "category": "Trailer & Demos",
+  "title": "Tech-Demo: LaGrande Hotel",
+  "release_date": "2009-05-08",
+  "authors": [
+    "1mal_volltanken"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": null,
+  "walkthrough_url": null,
+  "mmm_description": "Sehr kurze Techdemo für eine geplante MMM-Episode. Gezeigt wird das Innere des LaGrande Hotels in Ronville.",
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": null,
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=328",
+  "download_url_mmm_canonical": null,
+  "release_package_filename": null,
+  "release_package_stemname": null,
+  "game_files_subpath": null,
+  "engine": null,
+  "engine_version": null,
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
+}

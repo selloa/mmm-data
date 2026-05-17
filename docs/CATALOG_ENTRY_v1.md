@@ -22,6 +22,8 @@ Human-edited source file in this repo layout: `source/mmm_catalog.csv`. Generate
 | `authors` | array of string \| null | Normalized from `;`-separated list. |
 | `forum_thread_url_mmm` | string \| null | URI string; stricter URL checks can come later. |
 | `wiki_url_mmm` | string \| null | |
+| `walkthrough_url` | string \| null | MMM site walkthrough / Komplettlösung page. |
+| `mmm_description` | string \| null | Short synopsis from the MMM website listing. |
 | `forum_thread_url_adventure_treff` | string \| null | |
 | `forum_thread_url_adventure_treff_legacy` | string \| null | |
 | `youtube_longplay_url` | string \| null | |

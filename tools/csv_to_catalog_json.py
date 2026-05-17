@@ -25,6 +25,8 @@ CANONICAL_FIELDS: list[str] = [
     "authors",
     "forum_thread_url_mmm",
     "wiki_url_mmm",
+    "walkthrough_url",
+    "mmm_description",
     "forum_thread_url_adventure_treff",
     "forum_thread_url_adventure_treff_legacy",
     "youtube_longplay_url",
