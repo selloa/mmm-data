@@ -14,7 +14,7 @@ import sys
 import time
 from html import unescape
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import unquote, urljoin, urlparse
 
 import requests
 
@@ -27,6 +27,51 @@ session = requests.Session()
 session.headers.update(HEADERS)
 
 cache: dict[str, str] = {}
+_head_filename_cache: dict[str, str] = {}
+
+_CD_FILENAME_RE = re.compile(
+    r'filename\*=(?:UTF-8\'\')?([^;\s]+)|filename="([^"]+)"|filename=([^;\s]+)',
+    re.IGNORECASE,
+)
+_HTML_DOWNLOAD_BASENAMES = frozenset({"file.html", "file.htm"})
+
+
+def filename_from_content_disposition(value: str | None) -> str:
+    """Parse filename from a Content-Disposition header value."""
+    if not value:
+        return ""
+    m = _CD_FILENAME_RE.search(value)
+    if not m:
+        return ""
+    name = next(g for g in m.groups() if g)
+    return unquote(name.strip().strip('"'))
+
+
+def filename_from_download_url(url: str) -> str:
+    """
+    Derive the release archive filename from a download URL.
+
+    Uses the URL path basename, except for Joomla ``file.html`` endpoints that
+    serve a zip/rar/etc. body — those need a HEAD request and Content-Disposition.
+    """
+    url = url.strip()
+    if not url:
+        return ""
+    path = unquote(urlparse(url).path or "")
+    basename = path.rsplit("/", 1)[-1]
+    if basename.lower() not in _HTML_DOWNLOAD_BASENAMES:
+        return basename
+    if url in _head_filename_cache:
+        return _head_filename_cache[url]
+    name = ""
+    try:
+        r = session.head(url, allow_redirects=True, timeout=TIMEOUT)
+        name = filename_from_content_disposition(r.headers.get("Content-Disposition"))
+    except requests.RequestException as e:
+        print(f"  ! HEAD failed for {url}: {e}", file=sys.stderr)
+    _head_filename_cache[url] = name
+    time.sleep(0.1)
+    return name
 
 
 def _repo_root() -> Path:
