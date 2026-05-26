@@ -298,20 +298,20 @@ def build_html(groups):
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cabin+Sketch:wght@700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {{
-    --bg: #fef4f3;
-    --card: rgba(255, 255, 255, 0.85);
-    --card-border: rgba(96, 147, 76, 0.2);
+    --bg: #f2f3ee;
+    --card: #fff;
+    --card-border: rgba(96, 147, 76, 0.25);
     --accent: #4a7a3a;
-    --accent-dim: rgba(96, 147, 76, 0.2);
+    --accent-dim: rgba(96, 147, 76, 0.18);
     --highlight: #4a7a3a;
-    --text: rgba(0, 0, 0, 0.7);
+    --text: #3a3a3a;
     --text-bright: #1a1a1a;
-    --muted: rgba(0, 0, 0, 0.45);
+    --muted: #808080;
     --link: #3d6e30;
     --link-hover: #2a5520;
-    --border-subtle: rgba(0,0,0,.06);
-    --icon-bg: rgba(0,0,0,0.04);
-    --icon-border: rgba(0,0,0,0.1);
+    --border-subtle: rgba(0,0,0,.07);
+    --icon-bg: rgba(96, 147, 76, 0.06);
+    --icon-border: rgba(96, 147, 76, 0.2);
   }}
   html.dark {{
     --bg: #374037;
@@ -635,7 +635,7 @@ def build_html(groups):
   .goog-te-gadget a {{ display: none !important; }}
 </style>
 <script>
-(function(){{var s=localStorage.getItem('theme');if(s==='dark'||(!s&&window.matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark');}})();
+(function(){{var s=localStorage.getItem('theme');if(s==='dark')document.documentElement.classList.add('dark');}})();
 </script>
 </head>
 <body>
@@ -687,7 +687,7 @@ def build_html(groups):
   var html = document.documentElement;
   var toggle = document.getElementById('themeToggle');
   var stored = localStorage.getItem('theme');
-  if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {{
+  if (stored === 'dark') {{
     html.classList.add('dark');
   }}
   function updateIcon() {{
