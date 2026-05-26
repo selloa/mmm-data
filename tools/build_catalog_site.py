@@ -239,7 +239,7 @@ def render_episoden_section(items):
         if season_num == 0:
             continue
         is_first = season_num == 1
-        season_blocks.append(render_season_details(season_num, season_items, open_by_default=is_first))
+        season_blocks.append(render_season_details(season_num, season_items, open_by_default=False))
 
     inner = "\n".join(season_blocks)
 
@@ -286,7 +286,7 @@ def build_html(groups):
 
     sections = []
     for i, (cat, items) in enumerate(groups):
-        open_default = cat == "MMM-Episoden"
+        open_default = cat in ("Sammlungen", "MMM-Episoden")
         sections.append(render_category_section(cat, items, open_by_default=open_default))
 
     sections_html = "\n\n".join(sections)
