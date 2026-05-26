@@ -4,11 +4,13 @@
 import csv
 import html
 import os
+import shutil
 import sys
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 SOURCE_CSV = SCRIPT_DIR.parent / "source" / "mmm_catalog.csv"
+FAVICON_SRC = SCRIPT_DIR.parent / "assets" / "favicon-catalog.png"
 OUTPUT_DIR = SCRIPT_DIR.parent / "site"
 OUTPUT_HTML = OUTPUT_DIR / "index.html"
 
@@ -294,6 +296,7 @@ def build_html(groups):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="favicon.png">
 <title>Maniac Mansion Mania \u2013 Katalog</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -759,6 +762,9 @@ def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     page = build_html(groups)
     OUTPUT_HTML.write_text(page, encoding="utf-8")
+
+    if FAVICON_SRC.exists():
+        shutil.copy2(FAVICON_SRC, OUTPUT_DIR / "favicon.png")
 
     total = sum(len(items) for _, items in groups)
     print(f"Wrote {OUTPUT_HTML} ({total} entries, {len(groups)} categories)")
