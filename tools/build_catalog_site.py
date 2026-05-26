@@ -119,27 +119,29 @@ def build_link_slots(row):
     """Return a list of 5 HTML strings (one per slot), empty string if no link."""
     slots = []
 
+    _t = ' target="_blank" rel="noopener"'
+
     wiki = row.get("wiki_url_mmm", "").strip()
-    slots.append(f'<a href="{esc(wiki)}" title="Wiki" class="icon-link">Wiki</a>' if wiki else "")
+    slots.append(f'<a href="{esc(wiki)}" title="Wiki" class="icon-link"{_t}>Wiki</a>' if wiki else "")
 
     yt = row.get("youtube_longplay_url", "").strip()
     dur = row.get("youtube_longplay_duration", "").strip()
     if yt:
         label = f"YouTube ({dur})" if dur else "YouTube"
-        slots.append(f'<a href="{esc(yt)}" title="{esc(label)}" class="icon-link icon-yt">{esc(label)}</a>')
+        slots.append(f'<a href="{esc(yt)}" title="{esc(label)}" class="icon-link icon-yt"{_t}>{esc(label)}</a>')
     else:
         slots.append("")
 
     wt = row.get("walkthrough_url_mmm", "").strip()
-    slots.append(f'<a href="{esc(wt)}" title="Komplettlösung" class="icon-link">Lösung</a>' if wt else "")
+    slots.append(f'<a href="{esc(wt)}" title="Komplettlösung" class="icon-link"{_t}>Lösung</a>' if wt else "")
 
     forum = row.get("forum_thread_url_mmm", "").strip()
-    slots.append(f'<a href="{esc(forum)}" title="Forum-Thread" class="icon-link">Forum</a>' if forum else "")
+    slots.append(f'<a href="{esc(forum)}" title="Forum-Thread" class="icon-link"{_t}>Forum</a>' if forum else "")
 
     dl = row.get("download_url_mmm_docman", "").strip()
     if not dl:
         dl = row.get("download_url_mmm_canonical", "").strip()
-    slots.append(f'<a href="{esc(dl)}" title="Download" class="icon-link icon-dl">Download</a>' if dl else "")
+    slots.append(f'<a href="{esc(dl)}" title="Download" class="icon-link icon-dl" target="_blank" rel="noopener">Download</a>' if dl else "")
 
     return slots
 
@@ -151,7 +153,7 @@ def render_entry_row(row):
     authors = esc(row.get("authors", "").strip())
     desc = truncate(row.get("mmm_description", ""))
 
-    title_html = f'<a href="{esc(wiki)}">{title}</a>' if wiki else title
+    title_html = f'<a href="{esc(wiki)}" target="_blank" rel="noopener">{title}</a>' if wiki else title
 
     slots = build_link_slots(row)
     slot_cells = "".join(
