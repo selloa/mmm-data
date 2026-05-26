@@ -2,7 +2,7 @@
   "catalog_id": "FG-003",
   "category": "Fan Games",
   "title": "Murder in a wheel",
-  "release_date": "(wrong) Created on 30 March 2007.",
+  "release_date": null,
   "authors": [
     "Eshaktaar"
   ],
@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=e8kJEupWePk",
+  "youtube_longplay_duration": "1:23:35",
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=98",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/MordImLaufrad.zip",
   "release_package_filename": "MordImLaufrad.zip",

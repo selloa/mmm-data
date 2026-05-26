@@ -1,10 +1,10 @@
 {
   "catalog_id": "EA-005",
   "category": "Edgar Award Shows",
-  "title": "#05 Edgar Award Show - Staffel 4",
+  "title": "#04 Edgar Award Show - Staffel 4",
   "release_date": "2015-12-07",
   "authors": [
-    "Cmdr."
+    "Cmdr"
   ],
   "forum_thread_url_mmm": null,
   "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/The_Edgar_Award_Show_-_Staffel_4",
@@ -17,12 +17,13 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": null,
+  "youtube_longplay_duration": null,
   "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=416",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/awards/Edgar_Award_St4.zip",
   "release_package_filename": "Edgar_Award_St4.zip",
   "release_package_stemname": "Edgar_Award_St4",
   "game_files_subpath": null,
-  "engine": "unknown",
+  "engine": "AGS",
   "engine_version": null,
   "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Edgar_Award_St4.zip",
   "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ukd7eshjw6bg1c2t7dj1k/Edgar_Award_St4.zip?rlkey=aozzadkj367i4dgc5u5ktu4hs&dl=1"

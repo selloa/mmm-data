@@ -1,7 +1,7 @@
 {
   "catalog_id": "EA-006",
   "category": "Edgar Award Shows",
-  "title": "#06 Edgar Award Show - Staffel 5",
+  "title": "#05 Edgar Award Show - Staffel 5",
   "release_date": "2006-10-04",
   "authors": [
     "Lampengeist_M"
@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": null,
+  "youtube_longplay_duration": null,
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=69",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/awards/Edgar_Award_St5.rar",
   "release_package_filename": "Edgar_Award_St5.rar",

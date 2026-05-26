@@ -2,7 +2,7 @@
   "catalog_id": "FG-011",
   "category": "Fan Games",
   "title": "Maniac Metalhead Mania",
-  "release_date": "Created on 01 November 2020.",
+  "release_date": "2020-11-01",
   "authors": [
     "JPJF"
   ],
@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=gJrrCh95o1c&list=PLF3YnSazju8HuHX3V4SNjDV_JGZ684Hnl&index=1&pp=iAQB",
+  "youtube_longplay_duration": "1:21:05",
   "download_url_mmm_docman": null,
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/ManiacMetalheadMania.zip",
   "release_package_filename": "ManiacMetalheadMania.zip",

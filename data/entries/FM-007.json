@@ -2,7 +2,7 @@
   "catalog_id": "FM-007",
   "category": "Fan Movies",
   "title": "5th Maniac Birthday - Der Film",
-  "release_date": "Created on 11 March 2010.",
+  "release_date": "2010-03-11",
   "authors": [
     "Bòógieman"
   ],
@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=akeXSZwW9DE&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=24",
+  "youtube_longplay_duration": "26:45",
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=349",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/5thManiacBirthday.zip",
   "release_package_filename": "5thManiacBirthday.zip",

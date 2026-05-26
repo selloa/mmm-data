@@ -2,8 +2,10 @@
   "catalog_id": "MD-023",
   "category": "Maniac Dungeon",
   "title": "Raum 23: (R)ausgefallen",
-  "release_date": null,
-  "authors": null,
+  "release_date": "2024-10-15",
+  "authors": [
+    "alphawolf300"
+  ],
   "forum_thread_url_mmm": null,
   "wiki_url_mmm": null,
   "walkthrough_url_mmm": null,
@@ -15,13 +17,14 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=c0wge2nTPig&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=24",
-  "download_url_mmm_docman": null,
-  "download_url_mmm_canonical": null,
-  "release_package_filename": null,
-  "release_package_stemname": null,
-  "game_files_subpath": null,
+  "youtube_longplay_duration": "10:16",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=468",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/023_V1_00.zip",
+  "release_package_filename": "023_V1_00.zip",
+  "release_package_stemname": "023_V1_00",
+  "game_files_subpath": "023",
   "engine": null,
   "engine_version": null,
-  "mirror_url_github_private": null,
-  "mirror_url_dropbox_public": null
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/023_V1_00.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/byo91i9ch0uolbvlpa2ag/023_V1_00.zip?rlkey=g5d3wntkgh2i9qktim0s7i728&dl=1"
 }

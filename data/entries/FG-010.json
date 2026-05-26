@@ -2,7 +2,7 @@
   "catalog_id": "FG-010",
   "category": "Fan Games",
   "title": "Das Niemandsland",
-  "release_date": "Created on 03 December 2016.",
+  "release_date": "2016-12-03",
   "authors": [
     "JPJF"
   ],
@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=sfeMh-l01G8&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=34&pp=iAQB",
+  "youtube_longplay_duration": "57:21",
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/resources-mainmenu-76/downloads.html?task=doc_download&gid=424",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/Das-Niemandsland.zip",
   "release_package_filename": "Das-Niemandsland.zip",

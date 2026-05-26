@@ -31,6 +31,7 @@ Human-edited source file in this repo layout: `source/mmm_catalog.csv`. Generate
 | `forum_thread_url_adventure_treff` | string \| null | |
 | `forum_thread_url_adventure_treff_legacy` | string \| null | |
 | `youtube_longplay_url` | string \| null | |
+| `youtube_longplay_duration` | string \| null | Duration of the YouTube longplay video (e.g. "PT12M34S"). |
 | `download_url_mmm_docman` | string \| null | |
 | `download_url_mmm_canonical` | string \| null | |
 | `release_package_filename` | string \| null | |

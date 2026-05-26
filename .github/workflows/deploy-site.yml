@@ -1,0 +1,54 @@
+# Deploy the static catalog site to GitHub Pages.
+#
+# Triggers on every push to main that touches the source CSV, site builder,
+# or this workflow itself. Can also be run manually from the Actions tab.
+#
+# The site is built fresh each time (site/ is .gitignored) and deployed
+# via the official GitHub Pages action — no gh-pages branch needed.
+
+name: Deploy Site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "source/mmm_catalog.csv"
+      - "tools/build_catalog_site.py"
+      - ".github/workflows/deploy-site.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build catalog site
+        run: python tools/build_catalog_site.py
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

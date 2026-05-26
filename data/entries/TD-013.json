@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": null,
+  "youtube_longplay_duration": null,
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=328",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/Hotel-Tech-Demo.zip",
   "release_package_filename": "Hotel-Tech-Demo.zip",

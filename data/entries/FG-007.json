@@ -2,7 +2,7 @@
   "catalog_id": "FG-007",
   "category": "Fan Games",
   "title": "IWWHIIWWHITOMIROTPG: The Game!",
-  "release_date": "Created on 02 December 2009.",
+  "release_date": "2009-12-02",
   "authors": [
     "monkey_05_06"
   ],
@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=cSbYMBABPOo",
+  "youtube_longplay_duration": "12:32",
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=340",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/IWWHIIWWHITOMIROTPG-TheGame.zip",
   "release_package_filename": "IWWHIIWWHITOMIROTPG-TheGame.zip",

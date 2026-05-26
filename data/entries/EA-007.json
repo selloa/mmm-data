@@ -1,7 +1,7 @@
 {
   "catalog_id": "EA-007",
   "category": "Edgar Award Shows",
-  "title": "#07 Edgar Award Show - Staffel 6",
+  "title": "#06 Edgar Award Show - Staffel 6",
   "release_date": "2009-02-04",
   "authors": [
     "Edison Interactive"
@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": null,
+  "youtube_longplay_duration": null,
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=305",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/awards/Edgar_Award_St6.zip",
   "release_package_filename": "Edgar_Award_St6.zip",

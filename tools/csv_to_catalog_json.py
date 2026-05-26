@@ -34,6 +34,7 @@ CANONICAL_FIELDS: list[str] = [
     "forum_thread_url_adventure_treff",
     "forum_thread_url_adventure_treff_legacy",
     "youtube_longplay_url",
+    "youtube_longplay_duration",
     "download_url_mmm_docman",
     "download_url_mmm_canonical",
     "release_package_filename",

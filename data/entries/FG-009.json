@@ -2,7 +2,7 @@
   "catalog_id": "FG-009",
   "category": "Fan Games",
   "title": "The Tale of Lonkey Island",
-  "release_date": "Created on 19 October 2016.",
+  "release_date": "2016-10-19",
   "authors": [
     "Cmdr"
   ],
@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=ARx8ltXCq78",
+  "youtube_longplay_duration": "10:20:15",
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/resources-mainmenu-76/downloads.html?task=doc_download&gid=423",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/lonkey.zip",
   "release_package_filename": "lonkey.zip",

@@ -2,7 +2,7 @@
   "catalog_id": "FG-012",
   "category": "Fan Games",
   "title": "Maniac Metalhead Mania II",
-  "release_date": "Created on 01 April 2022.",
+  "release_date": "2022-04-01",
   "authors": [
     "JPJF"
   ],
@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=2ibZz4BQm7Q&list=PLF3YnSazju8HuHX3V4SNjDV_JGZ684Hnl&index=2&pp=iAQB",
+  "youtube_longplay_duration": "2:08:11",
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/resources-mainmenu-76/downloads.html?task=doc_download&gid=452",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/ManiacMetalheadManiaII.zip",
   "release_package_filename": "ManiacMetalheadManiaII.zip",

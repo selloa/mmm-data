@@ -1,0 +1,31 @@
+{
+  "catalog_id": "FG-013",
+  "category": "Fan-Games",
+  "title": "Night of the Meteor",
+  "release_date": "tba",
+  "authors": [
+    "Edison Interactive",
+    "MMM Community"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "www.night-of-the-meteor.de",
+  "walkthrough_url_mmm": null,
+  "walkthrough_mmm_author": null,
+  "walkthrough_mmm_date": null,
+  "walkthrough_mmm_body": null,
+  "walkthrough_url_amigamaster": null,
+  "mmm_description": null,
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": null,
+  "youtube_longplay_duration": null,
+  "download_url_mmm_docman": null,
+  "download_url_mmm_canonical": null,
+  "release_package_filename": null,
+  "release_package_stemname": null,
+  "game_files_subpath": null,
+  "engine": "AGS",
+  "engine_version": null,
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
+}

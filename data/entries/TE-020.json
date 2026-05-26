@@ -4,7 +4,7 @@
   "title": "Britney muss mahl",
   "release_date": "2008-06-02",
   "authors": [
-    "DarthConan"
+    "DarthConan / Cone Arex"
   ],
   "forum_thread_url_mmm": null,
   "wiki_url_mmm": null,
@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": null,
+  "youtube_longplay_duration": null,
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=284",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/BritMMFinal.7z",
   "release_package_filename": "BritMMFinal.7z",

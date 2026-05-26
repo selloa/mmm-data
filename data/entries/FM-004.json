@@ -2,9 +2,9 @@
   "catalog_id": "FM-004",
   "category": "Fan Movies",
   "title": "The new president",
-  "release_date": "Created on 15 July 2007.",
+  "release_date": "2007-07-15",
   "authors": [
-    "DarthConan"
+    "DarthConan / Cone Arex"
   ],
   "forum_thread_url_mmm": null,
   "wiki_url_mmm": null,
@@ -17,6 +17,7 @@
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=JboUdrXW7ro&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=29&pp=iAQB",
+  "youtube_longplay_duration": "13:14",
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=158",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/TheNewPresident.rar",
   "release_package_filename": "TheNewPresident.rar",
