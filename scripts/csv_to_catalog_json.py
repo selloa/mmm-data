@@ -22,6 +22,7 @@ CANONICAL_FIELDS: list[str] = [
     "category",
     "title",
     "has_talkie",
+    "text_languages_mmm",
     "release_date",
     "authors",
     "forum_thread_url_mmm",

@@ -19,6 +19,7 @@ Human-edited source file in this repo layout: `source/mmm_catalog.csv`. Generate
 | `category` | string | |
 | `title` | string | |
 | `has_talkie` | string \| null | `yes` when the primary catalog download includes voice acting; empty CSV cell → `null`. |
+| `text_languages_mmm` | string \| null | Comma-separated text/UI language codes from MMM listing-page flag GIFs (e.g. `GER, ENG, ITA, RUS`). Voice/talkie language is separate (`has_talkie`). Empty when no flags on the MMM page. |
 | `release_date` | string \| null | Keep raw string from CSV for now (includes values like `Created on …`). |
 | `authors` | array of string \| null | Normalized from `,`-separated list. |
 | `forum_thread_url_mmm` | string \| null | URI string; stricter URL checks can come later. |

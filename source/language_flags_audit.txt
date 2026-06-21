@@ -1,0 +1,437 @@
+# Language flags from MMM listing pages
+# Generated: 2026-06-22
+# Staffeln: 1–11
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-1.html
+- EP-001 | Episode 1: Geschwisterliebe
+  flags: ger, eng, ita, rus -> GER, ENG, ITA, RUS
+- EP-002 | Episode 2: Unruhen
+  flags: ger, eng -> GER, ENG
+- EP-003 | Episode 3: Stubenarrest
+  flags: ger -> GER
+- EP-004 | Episode 4: Mimikry der Emotionen
+  flags: ger -> GER
+- EP-005 | Episode 5: Rhythmen zum Reinbeißen
+  flags: ger -> GER
+- EP-006 | Episode 6: Er is' weg
+  flags: ger -> GER
+- EP-007 | Episode 7: Right said Fred!?!
+  flags: ger, eng -> GER, ENG
+- EP-008 | Episode 8: Die Abfuhr
+  flags: ger, eng -> GER, ENG
+- EP-009 | Episode 9: Radioaktiv
+  flags: ger, eng, spa, fra -> GER, ENG, FRA, SPA
+- EP-010 | Episode 10: Tales of the Weird Ed
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10.html
+- EP-091 | Episode 91: Fels in der Brandung
+  flags: ger -> GER
+- EP-092 | Episode 92: Projekt False Start
+  flags: ger -> GER
+- EP-093 | Episode 93: Murder at the Moonshine Mansion
+  flags: ger -> GER
+- EP-094 | Episode 94: Maniac on the Mississippi
+  flags: ger, eng, ita -> GER, ENG, ITA
+- EP-095 | Episode 95: Britneys Flucht
+  flags: ger, eng, ita -> GER, ENG, ITA
+- EP-096 | Episode 96: Dave's Home Odyssey
+  flags: ger -> GER
+- EP-097 | Episode 97: Tollhaus-Weihnachten
+  flags: ger, ita -> GER, ITA
+- EP-098 | Episode 98: Maniac Apartment
+  flags: ger, eng, ita, spa -> GER, ENG, ITA, SPA
+- EP-099 | Episode 99: Die Premiere
+  flags: ger -> GER
+- EP-100 | Episode 100: Money Mansion
+  flags: ger, eng -> GER, ENG
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-11.html
+- EP-101 | Episode 101: Mit anderen Augen
+  flags: ger -> GER
+- EP-102 | Episode 102: Michaels Nacht
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-2.html
+- EP-011 | Episode 11: Ein haariger Ausflug
+  flags: ger -> GER
+- EP-012 | Episode 12: Serien-Special: GIGA Mansion
+  flags: ger -> GER
+- EP-013 | Episode 13: Nur geträumt
+  flags: ger -> GER
+- EP-014 | Episode 14: Ed's Rache für den Hamsterbraten
+  flags: ger -> GER
+- EP-015 | Episode 15: Ortmaschine
+  flags: ger, eng, ita -> GER, ENG, ITA
+- EP-016 | Episode 16: Meteor Family - Die Rückkehr des Meteoriten
+  flags: ger, eng, ita -> GER, ENG, ITA
+- EP-017 | Episode 17: Das Labor
+  flags: ger -> GER
+- EP-018 | Episode 18: Shit Happens!
+  flags: ger -> GER
+- EP-019 | Episode 19: Das Date
+  flags: ger -> GER
+- EP-020 | Episode 20: Das Date 2
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-3.html
+- EP-021 | Episode 21: Rettet Kanal 13!
+  flags: ger -> GER
+- EP-022 | Episode 22: Presserummel
+  flags: ger -> GER
+- EP-023 | Episode 23: Das verflixte Geschenk
+  flags: ger -> GER
+- EP-024 | Episode 24: Time Machine
+  flags: ger -> GER
+- EP-025 | Episode 25: Bernard stört
+  flags: ger -> GER
+- EP-026 | Episode 26: Zeitenwende
+  flags: ger -> GER
+- EP-027 | Episode 27: Hamsternator
+  flags: ger -> GER
+- EP-028 | Episode 28: Time Machine 2
+  flags: ger -> GER
+- EP-029 | Episode 29: Flucht des Meteoriten
+  flags: ger -> GER
+- EP-030 | Episode 30: Memories of Zak
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-4.html
+- EP-031 | Episode 31: Britneys Suche
+  flags: ger, eng, ita -> GER, ENG, ITA
+- EP-032 | Episode 32: The Secret of Maniac Mansion
+  flags: ger -> GER
+- EP-033 | Episode 33: Carry on Smiley!
+  flags: ger, eng -> GER, ENG
+- EP-034 | Episode 34: Helden des Tages
+  flags: ger -> GER
+- EP-035 | Episode 35: Weggebeamt
+  flags: ger -> GER
+- EP-036 | Episode 36: Der Liebesbrief
+  flags: ger -> GER
+- EP-037 | Episode 37: Verabredung mit Dave
+  flags: ger, ita -> GER, ITA
+- EP-038 | Episode 38: Rescue Mission
+  flags: ger, ita -> GER, ITA
+- EP-039 | Episode 39: Erinnerungen
+  flags: ger -> GER
+- EP-040 | Episode 40: Verflixte Türen
+  flags: ger, eng, spa, fra, ita -> GER, ENG, FRA, ITA, SPA
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-5.html
+- EP-041 | Episode 41: Das neue Jugendschutzgesetz
+  flags: ger, ita -> GER, ITA
+- EP-042 | Episode 42: Die furchtbaren Pläne des Psycho Bernie
+  flags: ger -> GER
+- EP-043 | Episode 43: Vorsicht, Edna kommt!
+  flags: ger -> GER
+- EP-044 | Episode 44: Razors grosser Auftritt
+  flags: ger -> GER
+- EP-045 | Episode 45: Maniac Monday
+  flags: ger -> GER
+- EP-046 | Episode 46: Verschollen
+  flags: ger -> GER
+- EP-047 | Episode 47: Maniac Ostern
+  flags: ger -> GER
+- EP-048 | Episode 48: Wendy und das Buch des Todes
+  flags: ger -> GER
+- EP-049 | Episode 49: Clouso's grösster Coup
+  flags: ger -> GER
+- EP-050 | Episode 50: Das Date 3
+  flags: ger, ita -> GER, ITA
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-6.html
+- EP-051 | Episode 51: Ortmaschine II
+  flags: ger, ita -> GER, ITA
+- EP-052 | Episode 52: Ein irrer Tag eines Ronvillers
+  flags: ger -> GER
+- EP-053 | Episode 53: Der Klaus schlägt zurück
+  flags: ger, eng, fra, ita -> GER, ENG, FRA, ITA
+- EP-054 | Episode 54: CSI:RONVILLE
+  flags: ger -> GER
+- EP-055 | Episode 55: Hamsters of the mysterious man: Chapter of dream
+  flags: ger -> GER
+- EP-056 | Episode 56: Grotten-Urlaub
+  flags: ger -> GER
+- EP-057 | Episode 57: Ein geheimnisvoller Ausflug
+  flags: ger -> GER
+- EP-058 | Episode 58: The People's Court
+  flags: ger -> GER
+- EP-059 | Episode 59: Computerliebe
+  flags: ger -> GER
+- EP-060 | Episode 60: Jahrmarkt der Verdammten
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-7.html
+- EP-061 | Episode 61: Bernards Room
+  flags: ger, eng, spa, ita -> GER, ENG, ITA, SPA
+- EP-062 | Episode 62: Bernard gegen Berthold
+  flags: ger -> GER
+- EP-063 | Episode 63: Books - Deals unter Nachbarn
+  flags: ger -> GER
+- EP-064 | Episode 64: Baranoia
+  flags: ger -> GER
+- EP-065 | Episode 65: Save Smiley!
+  flags: ger -> GER
+- EP-066 | Episode 66: Hoagies neuer Freund
+  flags: ger -> GER
+- EP-067 | Episode 67: Die Schöne und das Biest
+  flags: ger -> GER
+- EP-068 | Episode 68: MaMMa ante Portas
+  flags: ger -> GER
+- EP-069 | Episode 69: Samstag
+  flags: ger -> GER
+- EP-070 | Episode 70: Maniac Mansion Begins
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-8.html
+- EP-071 | Episode 71: Neue Abenteuer auf Terra
+  flags: ger -> GER
+- EP-072 | Episode 72 : Mindbending TV
+  flags: ger -> GER
+- EP-073 | Episode 73: Even a broken Clock
+  flags: ger -> GER
+- EP-074 | Episode 74: Ted Edison a.t. Curse o. King RootenTooten
+  flags: ger -> GER
+- EP-075 | Episode 75:  Das Necronomicon
+  flags: ger -> GER
+- EP-076 | Episode 76: The Bernoulli-Show
+  flags: ger -> GER
+- EP-077 | Episode 77: Schwer verquer
+  flags: ger, eng -> GER, ENG
+- EP-078 | Episode 78: Dumm geholfen
+  flags: ger -> GER
+- EP-079 | Episode 79: Der Wunsch-O-Mat
+  flags: ger -> GER
+- EP-080 | Episode 80: Spiel des Lebens
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-9.html
+- EP-081 | Episode 81: Bernard bricht aus!
+  flags: ger -> GER
+- EP-082 | Episode 82: Freundin mit Hindernissen
+  flags: ger -> GER
+- EP-083 | Episode 83: Chasing Hoagie
+  flags: ger, eng, ita -> GER, ENG, ITA
+- EP-084 | Episode 84: Surf'n'Ronville
+  flags: ger -> GER
+- EP-085 | Episode 85: Freundin mit Hindernissen - Part 2
+  flags: ger -> GER
+- EP-086 | Episode 86: Bernard bekommt Besuch
+  flags: ger -> GER
+- EP-087 | Episode 87: Das Geheimnis des Blakes Hotel von Ronville
+  flags: ger -> GER
+- EP-088 | Episode 88: Der alltaegliche Wahnsinn
+  flags: ger -> GER
+- EP-089 | Episode 89: Der Weltrettungsalgorithmus - Die neue Version
+  flags: ger -> GER
+- EP-090 | Episode 90: Kofferpacken
+  flags: ger, eng, ita -> GER, ENG, ITA
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/fan-adventures.html
+- FG-003 | Cedric and the Revolution
+  flags: eng -> ENG
+- FG-004 | Lucas Maniac!
+  flags: eng, fra -> ENG, FRA
+- FG-005 | Die neuen Abenteuer des Zak McKracken
+  flags: ger, eng, spa, fra -> GER, ENG, FRA, SPA
+- FG-006 | IWWHIIWWHITOMIROTPG: The Game!
+  flags: eng -> ENG
+- FG-007 | Der neue Wahnsinn der Familie Herfurth
+  flags: ger -> GER
+- FG-008 | The Tale of Lonkey Island
+  flags: ger, ita -> GER, ITA
+- FG-009 | Das Niemandsland
+  flags: ger -> GER
+- FG-010 | Maniac Metalhead Mania
+  flags: ger, eng -> GER, ENG
+- FG-011 | Maniac Metalhead Mania II
+  flags: ger, eng -> GER, ENG
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/specials/edgar-award-show.html
+- EA-001 | Edgar Award Show - Staffel 1
+  flags: ger -> GER
+- EA-002 | Edgar Award Show - Staffel 2
+  flags: ger -> GER
+- EA-003 | Edgar Award Show - Staffel 3
+  flags: ger -> GER
+- EA-004 | Edgar Award Show - Staffel 4
+  flags: ger -> GER
+- EA-005 | Edgar Award Show - Staffel 5
+  flags: ger -> GER
+- EA-006 | Edgar Award Show - Staffel 6
+  flags: ger -> GER
+- EA-007 | Edgar Award Show - Staffel 7
+  flags: ger -> GER
+- EA-008 | Edgar Award Show - Staffel 8
+  flags: ger -> GER
+- EA-009 | Edgar Award Show - Staffel 9
+  flags: (none) -> (empty)
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/specials/festivitaeten.html
+- CO-001 | Ronmastered Collection
+  flags: (none) -> (empty)
+- FS-001 | Ostereiersuche 2010
+  flags: ger, ita -> GER, ITA
+- FS-002 | Ostereiersuche 2011
+  flags: ger, ita -> GER, ITA
+- FS-003 | Ostereiersuche 2018
+  flags: ger -> GER
+- XC-002 | Three Days Before Christmas - X-Mas 2015
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/specials/halloween-2005.html
+- HS-001 | Halloween 05-1 Ohne Titel
+  flags: ger -> GER
+- HS-002 | Halloween 05-2 Escape from Maniac Mansion
+  flags: ger -> GER
+- HS-003 | Halloween 05-3 Day of the Dead
+  flags: ger, eng, ita -> GER, ENG, ITA
+- HS-004 | Halloween 05-4 MMM-Horror
+  flags: ger -> GER
+- HS-005 | Halloween 05-5 Redrum
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/specials/halloween-2006.html
+- HS-006 | Halloween 06-1 The Curse of Maniac Mansion
+  flags: ger -> GER
+- HS-007 | Halloween 06-2 Hääää, ich glaub ich spinne!!!
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/specials/halloween-2010.html
+- HS-008 | Halloween 10-01 Das Monster aus der Racoon Lagoon
+  flags: ger -> GER
+- HS-009 | Halloween 10-02 T.M.M.C.M.F.H.
+  flags: ger -> GER
+- HS-010 | Halloween 10-03 Und Bernard läutet zur Geisterstunde
+  flags: ger -> GER
+- HS-011 | Halloween 10-04 Bad and Mad
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/specials/halloween-2011.html
+- HS-012 | Halloween 11-01 Man stirbt nur zweimal
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/specials/hollywood.html
+- HL-001 | Ronville Viper
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/specials/maniac-dungeon.html
+- MD-001 | Room 01 - The great Escape from Maniac Dungeon
+  flags: ger -> GER
+- MD-002 | Room 02 - Der Bunker
+  flags: ger -> GER
+- MD-003 | Room 03 - Der Verbindungstunnel
+  flags: ger -> GER
+- MD-004 | Room 04 - Die Grotte
+  flags: ger -> GER
+- MD-005 | Room 05 - Tief unter der Erde
+  flags: ger -> GER
+- MD-006 | Room 06 - The Race
+  flags: ger -> GER
+- MD-007 | Room 07 - Das unheimliche Wesen aus einem fremden Raum (V. 2.0)
+  flags: ger -> GER
+- MD-008 | Room 08 - Die Brücke
+  flags: ger -> GER
+- MD-009 | Room 09 - Und dann gab's wirklich echt überhaupt gar keins mehr, ehrlich.
+  flags: ger -> GER
+- MD-010 | Room 10 - Die neue Gefahr
+  flags: ger -> GER
+- MD-011 | Room 11 - Die vergrabene Gruft
+  flags: ger -> GER
+- MD-012 | Room 12 - Die Holozelle
+  flags: ger -> GER
+- MD-013 | Room 13 - Der Trockenraum
+  flags: ger -> GER
+- MD-014 | Room 14 - Vor der Tür
+  flags: ger -> GER
+- MD-015 | Room 15 - Die unterirdische Kulturstätte
+  flags: ger -> GER
+- MD-016 | Room 16 - Die U-Bahn-Station
+  flags: ger -> GER
+- MD-017 | Room 17 - Wahnsinnsfahrt im Geisterzug
+  flags: ger -> GER
+- MD-018 | Room 18 - Die perfekte Welle
+  flags: ger -> GER
+- MD-019 | Room 19 - Weihnachts-Dungeon
+  flags: ger -> GER
+- MD-020 | Room 20 - Die Pharaonen-Grabkammer
+  flags: ger -> GER
+- MD-021 | Room 21 - Durch Raum (21) und Zeit
+  flags: ger -> GER
+- MD-022 | Room 22 - Unter Affen
+  flags: ger -> GER
+- MD-023 | Room 23 - (R)ausgefallen
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/underground/fan-movies.html
+- FM-001 | Doktor in da House
+  flags: ger -> GER
+- FM-002 | Doktor in da House II
+  flags: ger -> GER
+- FM-003 | Kochen mit Fred und Ed
+  flags: ger -> GER
+- FM-004 | The new president
+  flags: ger -> GER
+- FM-005 | Doktor in da House III
+  flags: ger -> GER
+- FM-006 | just Maniac Mansion Mania - a special to 5 years of MMM
+  flags: ger -> GER
+- FM-007 | 5th Maniac Birthday - Der Film
+  flags: ger -> GER
+- FM-008 | Silvester 2011 - Dinner for one
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/underground/meteorhead-man.html
+- MH-006 | Meteorhead VI: Verbannt ins Exühl
+  flags: ger -> GER
+- MH-007 | Meteorhead Man und Peter Pommes retten die Fast Food-Industrie
+  flags: ger -> GER
+- MH-008 | Meteorhead VIII: Rettet Meteorhead Man
+  flags: ger -> GER
+- MH-009 | Meteorhead IX: Razors Mutation
+  flags: ger -> GER
+- MH-010 | Meteorhead X: Eine Frage der Ausrede
+  flags: ger -> GER
+- MH-011 | Meteorhead XI: Die Klauung des güldenen Headgars
+  flags: ger -> GER
+- MH-013 | Meteorhead XIII: Universale Veränderungen
+  flags: ger -> GER
+- MH-014 | Meteorhead XIV: A Road Movie
+  flags: ger -> GER
+- MH-015 | Meteorhead: Die unverträgliche Dreistigkeit des Schweins
+  flags: ger -> GER
+- MH-016 | Meteorhead: The Final Chapter - Die Qual des Wals
+  flags: ger -> GER
+
+## https://www.maniac-mansion-mania.com/index.php/de/spiele/underground/trash-episoden.html
+- TE-015 | Wink Smiley sucht den MMMMillionär - Vol. II
+  flags: ger -> GER
+- TE-016 | Wink Smiley sucht den Trashmillionär
+  flags: ger -> GER
+- TE-017 | Wink Smiley sucht den MMMM - Bloody Halloween Version
+  flags: ger -> GER
+- TE-018 | Bernard muss 3 mahl
+  flags: (none) -> (empty)
+- TE-019 | Bernard muss 4 mahl
+  flags: ger -> GER
+- TE-020 | Britney muss mahl
+  flags: ger -> GER
+- TE-021 | Smash The Tentacle
+  flags: ger -> GER
+- TE-022 | Episode 66 - Hoagies neuer Freund. Akt 3: Der verbotene Akt
+  flags: ger -> GER
+- TE-023 | Maniac Dungeon 7 - inoffizielle Urversion
+  flags: ger -> GER
+- TE-024 | Eine Traumepisode
+  flags: ger -> GER
+
+## Unmatched articles
+- 'A Christmas Odyssey - Christmas 2008' @ https://www.maniac-mansion-mania.com/index.php/de/spiele/specials/festivitaeten.html -> GER
+- 'Mord im Laufrad' @ https://www.maniac-mansion-mania.com/index.php/de/spiele/fan-adventures.html -> GER, ENG
+
+## Summary
+matched entries: 189
+with language string: 186
+matched but no flags: 3
+unmatched articles: 2

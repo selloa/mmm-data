@@ -10,6 +10,7 @@
     "category",
     "title",
     "has_talkie",
+    "text_languages_mmm",
     "release_date",
     "authors",
     "forum_thread_url_mmm",
@@ -40,6 +41,7 @@
     "category": { "type": "string", "minLength": 1 },
     "title": { "type": "string", "minLength": 1 },
     "has_talkie": { "type": ["string", "null"], "enum": ["yes", null] },
+    "text_languages_mmm": { "type": ["string", "null"] },
     "release_date": { "type": ["string", "null"] },
     "authors": {
       "type": ["array", "null"],

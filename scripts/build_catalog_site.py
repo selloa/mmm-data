@@ -167,6 +167,10 @@ def render_entry_row(row):
     if row.get("has_talkie", "").strip().lower() == "yes":
         title_html += ' <span class="talkie-badge" title="Sprachausgabe">Talkie</span>'
 
+    langs = row.get("text_languages_mmm", "").strip()
+    if langs:
+        title_html += f' <span class="lang-badge" title="Textsprachen">{esc(langs)}</span>'
+
     slots = build_link_slots(row)
     slot_cells = "".join(
         f'<span class="link-slot">{s}</span>' for s in slots
@@ -518,6 +522,20 @@ def build_html(groups):
     color: var(--accent);
     background: rgba(96, 147, 76, 0.15);
     border: 1px solid var(--accent-dim);
+    border-radius: 3px;
+    line-height: 1.4;
+  }}
+  .lang-badge {{
+    display: inline-block;
+    margin-left: .35rem;
+    padding: .05rem .35rem;
+    font-size: .58rem;
+    font-weight: 500;
+    letter-spacing: .2px;
+    vertical-align: middle;
+    color: var(--muted);
+    background: rgba(128, 128, 128, 0.12);
+    border: 1px solid rgba(128, 128, 128, 0.25);
     border-radius: 3px;
     line-height: 1.4;
   }}
