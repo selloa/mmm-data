@@ -133,7 +133,11 @@ def build_link_slots(row):
     dur = row.get("youtube_longplay_duration", "").strip()
     if yt:
         label = f"YouTube ({dur})" if dur else "YouTube"
-        slots.append(f'<a href="{esc(yt)}" title="{esc(label)}" class="icon-link icon-yt"{_t}>{esc(label)}</a>')
+        if dur:
+            inner = f'YouTube <span class="yt-duration">({esc(dur)})</span>'
+        else:
+            inner = "YouTube"
+        slots.append(f'<a href="{esc(yt)}" title="{esc(label)}" class="icon-link icon-yt"{_t}>{inner}</a>')
     else:
         slots.append("")
 
@@ -544,7 +548,7 @@ def build_html(groups):
   }}
   .link-grid {{
     display: inline-grid;
-    grid-template-columns: 3.2rem auto 3.8rem 3.6rem 5.2rem;
+    grid-template-columns: 3.2rem 7.75rem 3.8rem 3.6rem 5.2rem;
     gap: .2rem;
     align-items: center;
   }}
@@ -552,6 +556,9 @@ def build_html(groups):
     display: flex;
     justify-content: center;
     min-height: 1.2rem;
+  }}
+  .link-slot:nth-child(2) {{
+    justify-content: stretch;
   }}
   .icon-link {{
     display: inline-block;
@@ -574,9 +581,24 @@ def build_html(groups):
     border-color: var(--accent-dim);
   }}
   .icon-yt {{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: .15rem;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: nowrap;
     background: rgba(96, 147, 76, 0.12);
     color: var(--accent);
     border-color: var(--accent-dim);
+  }}
+  .yt-duration {{
+    display: inline-block;
+    min-width: 3.6em;
+    font-family: 'Roboto Mono', monospace;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    letter-spacing: 0;
   }}
   .icon-dl {{
     background: rgba(96, 147, 76, 0.2);
