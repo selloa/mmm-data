@@ -2,6 +2,7 @@
   "catalog_id": "MH-012",
   "category": "Meteorhead Series",
   "title": "#12: [UNRELEASED] Meteorhead XII: Krieg der Honkianer",
+  "has_talkie": null,
   "release_date": "(unverified) 2020-01-03 (LP Datum)",
   "authors": [
     "DarthConan / Cone Arex"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": null,
   "release_package_filename": null,
   "release_package_stemname": null,
+  "release_package_size_bytes": null,
   "game_files_subpath": null,
   "engine": null,
   "engine_version": null,

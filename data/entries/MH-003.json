@@ -2,6 +2,7 @@
   "catalog_id": "MH-003",
   "category": "Meteorhead Series",
   "title": "#03: Meteorhead III: All ways 1337 to Rome",
+  "has_talkie": null,
   "release_date": "2007-07-17",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/m3t30rh34dm4n%20111%20-%205p137%20m1r%20d45%201337%20v0m%20t0d.rar",
   "release_package_filename": "m3t30rh34dm4n 111 - 5p137 m1r d45 1337 v0m t0d.rar",
   "release_package_stemname": "m3t30rh34dm4n 111 - 5p137 m1r d45 1337 v0m t0d",
+  "release_package_size_bytes": 4146412,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

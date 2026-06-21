@@ -2,6 +2,7 @@
   "catalog_id": "MD-010",
   "category": "Maniac Dungeon",
   "title": "Raum 10: Die neue Gefahr",
+  "has_talkie": null,
   "release_date": "2007-06-09",
   "authors": [
     "hansa_export"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/010_V_1.0.rar",
   "release_package_filename": "010_V_1.0.rar",
   "release_package_stemname": "010_V_1.0",
+  "release_package_size_bytes": 11691017,
   "game_files_subpath": "010_V_1.0",
   "engine": "AGS",
   "engine_version": "2.72.920",

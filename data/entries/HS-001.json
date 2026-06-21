@@ -2,6 +2,7 @@
   "catalog_id": "HS-001",
   "category": "Halloween Specials",
   "title": "Episode H05-1: Halloween Special 2005",
+  "has_talkie": null,
   "release_date": "2005-10-31",
   "authors": [
     "ZENSIERT"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2005/Halloween.rar",
   "release_package_filename": "Halloween.rar",
   "release_package_stemname": "Halloween",
+  "release_package_size_bytes": 3521969,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.70.861",

@@ -2,6 +2,7 @@
   "catalog_id": "TD-011",
   "category": "Trailer & Demos",
   "title": "Trailer: Dumm geholfen (Episode 78)",
+  "has_talkie": null,
   "release_date": "2009-05-01",
   "authors": [
     "Fatal hoch zwei"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/dumm.rar",
   "release_package_filename": "dumm.rar",
   "release_package_stemname": "dumm",
+  "release_package_size_bytes": 5206561,
   "game_files_subpath": "Trailer",
   "engine": "AGS",
   "engine_version": "2.72.920",

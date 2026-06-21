@@ -2,6 +2,7 @@
   "catalog_id": "TD-013",
   "category": "Trailer & Demos",
   "title": "Tech-Demo: LaGrande Hotel",
+  "has_talkie": null,
   "release_date": "2009-05-08",
   "authors": [
     "1mal_volltanken"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/Hotel-Tech-Demo.zip",
   "release_package_filename": "Hotel-Tech-Demo.zip",
   "release_package_stemname": "Hotel-Tech-Demo",
+  "release_package_size_bytes": 4802075,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

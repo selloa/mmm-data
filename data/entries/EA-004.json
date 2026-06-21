@@ -2,6 +2,7 @@
   "catalog_id": "EA-004",
   "category": "Edgar Award Shows",
   "title": "#03 Edgar Award Show - Staffel 3",
+  "has_talkie": null,
   "release_date": "2006-09-16",
   "authors": [
     "MalleTheRedPhoenix"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/awards/Edgar_Award_St3.rar",
   "release_package_filename": "Edgar_Award_St3.rar",
   "release_package_stemname": "Edgar_Award_St3",
+  "release_package_size_bytes": 3598921,
   "game_files_subpath": "Edgar 3",
   "engine": "AGS",
   "engine_version": "2.71.894",

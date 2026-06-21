@@ -2,6 +2,7 @@
   "catalog_id": "EP-092",
   "category": "MMM-Episoden",
   "title": "Episode 092: Projekt False Start",
+  "has_talkie": null,
   "release_date": "2015-03-08",
   "authors": [
     "BlueCrystal"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm92.zip",
   "release_package_filename": "mmm92.zip",
   "release_package_stemname": "mmm92",
+  "release_package_size_bytes": 36109307,
   "game_files_subpath": "Project False Start Game",
   "engine": "Visionaire",
   "engine_version": "4.0",

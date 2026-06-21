@@ -2,6 +2,7 @@
   "catalog_id": "HS-010",
   "category": "Halloween Specials",
   "title": "Episode H10-3: Und Bernard läutet zur Geisterstunde",
+  "has_talkie": null,
   "release_date": "2010-11-21",
   "authors": [
     "WeirdEd strikes back"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2010/Bernard_Geisterstunde.zip",
   "release_package_filename": "Bernard_Geisterstunde.zip",
   "release_package_stemname": "Bernard_Geisterstunde",
+  "release_package_size_bytes": 6225703,
   "game_files_subpath": "Bernard_Geisterstunde",
   "engine": "AGS",
   "engine_version": "2.72",

@@ -2,6 +2,7 @@
   "catalog_id": "EP-005",
   "category": "MMM-Episoden",
   "title": "Episode 005: Rhythmen zum Reinbeißen",
+  "has_talkie": null,
   "release_date": "2005-03-29",
   "authors": [
     "Gremlin",
@@ -23,6 +24,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm05.zip",
   "release_package_filename": "mmm05.zip",
   "release_package_stemname": "mmm05",
+  "release_package_size_bytes": 1862630,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.62.772",

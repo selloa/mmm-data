@@ -2,6 +2,7 @@
   "catalog_id": "TE-011",
   "category": "Trash Episoden",
   "title": "Jagd auf rotes Tentakel",
+  "has_talkie": null,
   "release_date": "2007-05-30",
   "authors": [
     "Kaktus"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/red-tentacle.zip",
   "release_package_filename": "red-tentacle.zip",
   "release_package_stemname": "red-tentacle",
+  "release_package_size_bytes": 9507121,
   "game_files_subpath": "red-tentacle",
   "engine": "AGS",
   "engine_version": "2.72.920",

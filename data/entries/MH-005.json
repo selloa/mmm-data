@@ -2,6 +2,7 @@
   "catalog_id": "MH-005",
   "category": "Meteorhead Series",
   "title": "#05: Meteorhead V: Die Universalkraft",
+  "has_talkie": null,
   "release_date": "2007-10-04",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/mhfivefinal.7z",
   "release_package_filename": "mhfivefinal.7z",
   "release_package_stemname": "mhfivefinal",
+  "release_package_size_bytes": 4956786,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

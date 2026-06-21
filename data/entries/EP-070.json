@@ -2,6 +2,7 @@
   "catalog_id": "EP-070",
   "category": "MMM-Episoden",
   "title": "Episode 070: Maniac Mansion Begins",
+  "has_talkie": null,
   "release_date": "2007-10-28",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm70.zip",
   "release_package_filename": "mmm70.zip",
   "release_package_stemname": "mmm70",
+  "release_package_size_bytes": 15647193,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

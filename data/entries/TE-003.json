@@ -2,6 +2,7 @@
   "catalog_id": "TE-003",
   "category": "Trash Episoden",
   "title": "Herrschaft der Futanaris 2",
+  "has_talkie": null,
   "release_date": "2007-04-17",
   "authors": [
     "BlueGryphon"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/futa2.zip",
   "release_package_filename": "futa2.zip",
   "release_package_stemname": "futa2",
+  "release_package_size_bytes": 6260446,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

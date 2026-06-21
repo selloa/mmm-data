@@ -2,6 +2,7 @@
   "catalog_id": "EP-058",
   "category": "MMM-Episoden",
   "title": "Episode 058: The People´s Court",
+  "has_talkie": null,
   "release_date": "2007-04-01",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm58.zip",
   "release_package_filename": "mmm58.zip",
   "release_package_stemname": "mmm58",
+  "release_package_size_bytes": 5333883,
   "game_files_subpath": "Episode58",
   "engine": "AGS",
   "engine_version": "2.72.920",

@@ -2,6 +2,7 @@
   "catalog_id": "TD-006",
   "category": "Trailer & Demos",
   "title": "Demo: Die Eroberung",
+  "has_talkie": null,
   "release_date": "2009-04-29",
   "authors": [
     "Brush"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/dieeroberung.zip",
   "release_package_filename": "dieeroberung.zip",
   "release_package_stemname": "dieeroberung",
+  "release_package_size_bytes": 4029207,
   "game_files_subpath": "dieeroberung",
   "engine": "AGS",
   "engine_version": "2.70.854",

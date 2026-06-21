@@ -2,6 +2,7 @@
   "catalog_id": "EP-038",
   "category": "MMM-Episoden",
   "title": "Episode 038: Rescue Mission",
+  "has_talkie": null,
   "release_date": "2005-12-28",
   "authors": [
     "DarthConan / Cone Arex"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm38.zip",
   "release_package_filename": "mmm38.zip",
   "release_package_stemname": "mmm38",
+  "release_package_size_bytes": 2975877,
   "game_files_subpath": "mmm38",
   "engine": "AGS",
   "engine_version": "3.4.0.16",

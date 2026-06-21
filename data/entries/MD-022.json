@@ -2,6 +2,7 @@
   "catalog_id": "MD-022",
   "category": "Maniac Dungeon",
   "title": "Raum 22: Unter Affen",
+  "has_talkie": "yes",
   "release_date": "2024-09-05",
   "authors": [
     "alphawolf300"
@@ -18,13 +19,14 @@
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=fYvi0GwSg9w&list=PLF3YnSazju8E0A-CEFAJHF-YLPfltjCcs&index=23",
   "youtube_longplay_duration": "1:03:41",
-  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=469",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=469",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/022_V1_00.zip",
   "release_package_filename": "022_V1_00.zip",
   "release_package_stemname": "022_V1_00",
+  "release_package_size_bytes": 140315371,
   "game_files_subpath": "022",
   "engine": "AGS",
-  "engine_version": "3.6.1.23",
+  "engine_version": "3.5.1.27",
   "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/022_V1_00.zip",
   "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/06ekb3i6dysf5flmzpstx/022_V1_00.zip?rlkey=eyfpgstguzoge9c5tsoc13iws&dl=1"
 }

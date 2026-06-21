@@ -2,6 +2,7 @@
   "catalog_id": "EP-095",
   "category": "MMM-Episoden",
   "title": "Episode 095: Britney's Escape",
+  "has_talkie": "yes",
   "release_date": "2016-09-12",
   "authors": [
     "Liz",
@@ -19,13 +20,14 @@
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=Hi6Oh0PziZs&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=133",
   "youtube_longplay_duration": "37:50",
-  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10/1045-episode-95-britney-s-escape.html",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/BritneysEscape.zip",
-  "release_package_filename": "BritneysEscape.zip",
-  "release_package_stemname": "BritneysEscape",
-  "game_files_subpath": "BritneysEscape",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads/episoden/474-episode-95-talkie-deutsch/file.html",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm95-talkie-de.zip",
+  "release_package_filename": "mmm95-talkie-de.zip",
+  "release_package_stemname": "mmm95-talkie-de",
+  "release_package_size_bytes": 81439316,
+  "game_files_subpath": "German talky",
   "engine": "AGS",
-  "engine_version": "3.3.3",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/BritneysEscape.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ic0fr3iv7ha1e3nb8282r/BritneysEscape.zip?rlkey=rft16g29klex5iai43sgf7y3l&dl=1"
+  "engine_version": "3.3.3.0",
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
 }

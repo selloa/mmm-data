@@ -2,6 +2,7 @@
   "catalog_id": "TE-020",
   "category": "Trash Episoden",
   "title": "Britney muss mahl",
+  "has_talkie": null,
   "release_date": "2008-06-02",
   "authors": [
     "DarthConan / Cone Arex"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/BritMMFinal.7z",
   "release_package_filename": "BritMMFinal.7z",
   "release_package_stemname": "BritMMFinal",
+  "release_package_size_bytes": 1456075,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "3.01.1018",

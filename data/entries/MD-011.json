@@ -2,6 +2,7 @@
   "catalog_id": "MD-011",
   "category": "Maniac Dungeon",
   "title": "Raum 11: Die vergrabene Gruft",
+  "has_talkie": null,
   "release_date": "2008-03-09",
   "authors": [
     "Timer"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/011_V1_00.zip",
   "release_package_filename": "011_V1_00.zip",
   "release_package_stemname": "011_V1_00",
+  "release_package_size_bytes": 2065205,
   "game_files_subpath": "MMMD011",
   "engine": "AGS",
   "engine_version": "2.72.920",

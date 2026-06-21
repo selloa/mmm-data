@@ -2,6 +2,7 @@
   "catalog_id": "EP-008",
   "category": "MMM-Episoden",
   "title": "Episode 008: Die Abfuhr",
+  "has_talkie": null,
   "release_date": "2005-04-01",
   "authors": [
     "hansa_export"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm08.zip",
   "release_package_filename": "mmm08.zip",
   "release_package_stemname": "mmm08",
+  "release_package_size_bytes": 2239017,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.70.851",

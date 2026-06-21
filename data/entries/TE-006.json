@@ -2,6 +2,7 @@
   "catalog_id": "TE-006",
   "category": "Trash Episoden",
   "title": "NoGUI",
+  "has_talkie": null,
   "release_date": "2007-04-17",
   "authors": [
     "DarthConan / Cone Arex"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/NoGUI.zip",
   "release_package_filename": "NoGUI.zip",
   "release_package_stemname": "NoGUI",
+  "release_package_size_bytes": 3330208,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

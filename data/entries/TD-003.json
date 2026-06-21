@@ -2,6 +2,7 @@
   "catalog_id": "TD-003",
   "category": "Trailer & Demos",
   "title": "Tech-Demo: Maniac Mansion DS",
+  "has_talkie": null,
   "release_date": "2009-04-28",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/Maniac-Mansion-DS.rar",
   "release_package_filename": "Maniac-Mansion-DS.rar",
   "release_package_stemname": "Maniac-Mansion-DS",
+  "release_package_size_bytes": 1562462,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "2.72.920",

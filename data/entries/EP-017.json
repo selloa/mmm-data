@@ -2,6 +2,7 @@
   "catalog_id": "EP-017",
   "category": "MMM-Episoden",
   "title": "Episode 017: Das Labor",
+  "has_talkie": null,
   "release_date": "2005-05-08",
   "authors": [
     "TimurY"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm17.zip",
   "release_package_filename": "mmm17.zip",
   "release_package_stemname": "mmm17",
+  "release_package_size_bytes": 2130882,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "2.62.772",

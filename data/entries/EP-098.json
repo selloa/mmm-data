@@ -2,6 +2,7 @@
   "catalog_id": "EP-098",
   "category": "MMM-Episoden",
   "title": "Episode 098: Maniac Apartment",
+  "has_talkie": "yes",
   "release_date": "2018-02-14",
   "authors": [
     "Magic Productions (Viktor H.)",
@@ -19,13 +20,14 @@
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=lbVn9PHj_ts&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=138",
   "youtube_longplay_duration": "22:55",
-  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10/1078-episode-98-maniac-apartment.html",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm98.zip",
-  "release_package_filename": "mmm98.zip",
-  "release_package_stemname": "mmm98",
-  "game_files_subpath": "mmm98",
-  "engine": "AGS",
-  "engine_version": "3.4.0.16",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm98.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/1o17qof6v72m3rl3q6jq0/mmm98.zip?rlkey=2tucn72dk5khiyy3hri7cyoep&dl=1"
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=478",
+  "download_url_mmm_canonical": null,
+  "release_package_filename": null,
+  "release_package_stemname": null,
+  "release_package_size_bytes": null,
+  "game_files_subpath": null,
+  "engine": null,
+  "engine_version": null,
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
 }

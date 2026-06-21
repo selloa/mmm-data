@@ -2,6 +2,7 @@
   "catalog_id": "TE-002",
   "category": "Trash Episoden",
   "title": "Herrschaft der Futanaris",
+  "has_talkie": null,
   "release_date": "2007-04-17",
   "authors": [
     "Kaktus"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/futanari.rar",
   "release_package_filename": "futanari.rar",
   "release_package_stemname": "futanari",
+  "release_package_size_bytes": 1723834,
   "game_files_subpath": "futanari",
   "engine": "AGS",
   "engine_version": "2.72.920",

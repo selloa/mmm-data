@@ -2,6 +2,7 @@
   "catalog_id": "HS-011",
   "category": "Halloween Specials",
   "title": "Episode H10-4: Bad and Mad",
+  "has_talkie": null,
   "release_date": "2010-12-11",
   "authors": [
     "Rayman"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2010/BMAD.rar",
   "release_package_filename": "BMAD.rar",
   "release_package_stemname": "BMAD",
+  "release_package_size_bytes": 2700628,
   "game_files_subpath": "BMAD",
   "engine": "AGS",
   "engine_version": "2.72.920",

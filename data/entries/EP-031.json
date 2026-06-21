@@ -2,6 +2,7 @@
   "catalog_id": "EP-031",
   "category": "MMM-Episoden",
   "title": "Episode 031: Britneys Suche",
+  "has_talkie": "yes",
   "release_date": "2005-08-19",
   "authors": [
     "Rulaman"
@@ -18,13 +19,14 @@
   "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=7187",
   "youtube_longplay_url": "https://www.youtube.com/watch?v=3QpPTXwFypE&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=49",
   "youtube_longplay_duration": "22:49",
-  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=33",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm31.zip",
-  "release_package_filename": "mmm31.zip",
-  "release_package_stemname": "mmm31",
-  "game_files_subpath": "MMM31",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=464",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm31-talkie.zip",
+  "release_package_filename": "mmm31-talkie.zip",
+  "release_package_stemname": "mmm31-talkie",
+  "release_package_size_bytes": 23707648,
+  "game_files_subpath": null,
   "engine": "AGS",
-  "engine_version": "2.70.864",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm31.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/0xwc9rlbehl8pmtuyx0tn/mmm31.zip?rlkey=kd7mtdd8unli4qiq9cnktge6x&dl=1"
+  "engine_version": "3.5.1.27",
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
 }

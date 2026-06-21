@@ -2,6 +2,7 @@
   "catalog_id": "EA-009",
   "category": "Edgar Award Shows",
   "title": "#08 Edgar Award Show - Staffel 8",
+  "has_talkie": null,
   "release_date": "2015-08-11",
   "authors": [
     "MalleTheRedPhoenix"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/awards/Edgar_Award_St8.rar",
   "release_package_filename": "Edgar_Award_St8.rar",
   "release_package_stemname": "Edgar_Award_St8",
+  "release_package_size_bytes": 8522308,
   "game_files_subpath": "Edgar 8",
   "engine": "AGS",
   "engine_version": "2.72.920",

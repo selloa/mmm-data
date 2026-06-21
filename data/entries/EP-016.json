@@ -2,6 +2,7 @@
   "catalog_id": "EP-016",
   "category": "MMM-Episoden",
   "title": "Episode 016: Meteor Family – Die Rückkehr des Meteoriten (Reloaded)",
+  "has_talkie": null,
   "release_date": "2005-05-03",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm16reloaded.rar",
   "release_package_filename": "mmm16reloaded.rar",
   "release_package_stemname": "mmm16reloaded",
+  "release_package_size_bytes": 2052310,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

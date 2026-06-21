@@ -2,6 +2,7 @@
   "catalog_id": "EP-060",
   "category": "MMM-Episoden",
   "title": "Episode 060: Jahrmarkt der Verdammten",
+  "has_talkie": null,
   "release_date": "2007-05-30",
   "authors": [
     "Rondo"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm60.zip",
   "release_package_filename": "mmm60.zip",
   "release_package_stemname": "mmm60",
+  "release_package_size_bytes": 3190850,
   "game_files_subpath": "mmm60",
   "engine": "AGS",
   "engine_version": "2.72.920",

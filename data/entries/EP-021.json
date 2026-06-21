@@ -2,6 +2,7 @@
   "catalog_id": "EP-021",
   "category": "MMM-Episoden",
   "title": "Episode 021: Rettet Kanal 13!",
+  "has_talkie": null,
   "release_date": "2005-06-11",
   "authors": [
     "ManiakFreak"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm21.rar",
   "release_package_filename": "mmm21.rar",
   "release_package_stemname": "mmm21",
+  "release_package_size_bytes": 3229979,
   "game_files_subpath": "Maniac Mansion Mania 021 - Rettet Kanal 13/Files",
   "engine": "AGS",
   "engine_version": "2.61.747",

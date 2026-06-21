@@ -2,6 +2,7 @@
   "catalog_id": "MD-012",
   "category": "Maniac Dungeon",
   "title": "Raum 12: Die Holozelle",
+  "has_talkie": null,
   "release_date": "2008-06-08",
   "authors": [
     "linus"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/012_V1_00.zip",
   "release_package_filename": "012_V1_00.zip",
   "release_package_stemname": "012_V1_00",
+  "release_package_size_bytes": 1852190,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

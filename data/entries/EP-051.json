@@ -2,6 +2,7 @@
   "catalog_id": "EP-051",
   "category": "MMM-Episoden",
   "title": "Episode 051: Ortmaschine II",
+  "has_talkie": null,
   "release_date": "2006-07-22",
   "authors": [
     "Problem",
@@ -23,6 +24,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm51-v12.zip",
   "release_package_filename": "mmm51-v12.zip",
   "release_package_stemname": "mmm51-v12",
+  "release_package_size_bytes": 6229916,
   "game_files_subpath": "mmm51-v12",
   "engine": "AGS",
   "engine_version": "2.72.920",

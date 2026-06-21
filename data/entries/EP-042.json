@@ -2,6 +2,7 @@
   "catalog_id": "EP-042",
   "category": "MMM-Episoden",
   "title": "Episode 042: Die furchtbaren Pläne des Psycho Bernie",
+  "has_talkie": null,
   "release_date": "2006-02-20",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm42.rar",
   "release_package_filename": "mmm42.rar",
   "release_package_stemname": "mmm42",
+  "release_package_size_bytes": 9833175,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.70.864",

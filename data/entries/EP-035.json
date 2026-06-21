@@ -2,6 +2,7 @@
   "catalog_id": "EP-035",
   "category": "MMM-Episoden",
   "title": "Episode 035: Weggebeamt",
+  "has_talkie": null,
   "release_date": "2005-09-26",
   "authors": [
     "Dapor"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm35.zip",
   "release_package_filename": "mmm35.zip",
   "release_package_stemname": "mmm35",
+  "release_package_size_bytes": 5621092,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.70.864",

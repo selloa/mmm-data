@@ -2,6 +2,7 @@
   "catalog_id": "FM-007",
   "category": "Fan Movies",
   "title": "5th Maniac Birthday - Der Film",
+  "has_talkie": null,
   "release_date": "2010-03-11",
   "authors": [
     "Bòógieman"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/5thManiacBirthday.zip",
   "release_package_filename": "5thManiacBirthday.zip",
   "release_package_stemname": "5thManiacBirthday",
+  "release_package_size_bytes": 5711888,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.12.1074",

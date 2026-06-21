@@ -2,6 +2,7 @@
   "catalog_id": "EP-033",
   "category": "MMM-Episoden",
   "title": "Episode 033: Carry on Smiley!",
+  "has_talkie": null,
   "release_date": "2005-09-07",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm33.zip",
   "release_package_filename": "mmm33.zip",
   "release_package_stemname": "mmm33",
+  "release_package_size_bytes": 3491653,
   "game_files_subpath": "Smiley-engl",
   "engine": "AGS",
   "engine_version": "2.62.772",

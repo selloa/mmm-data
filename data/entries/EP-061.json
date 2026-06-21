@@ -2,6 +2,7 @@
   "catalog_id": "EP-061",
   "category": "MMM-Episoden",
   "title": "Episode 061: Bernards Room",
+  "has_talkie": "yes",
   "release_date": "2007-06-30",
   "authors": [
     "KhrisMUC"
@@ -18,13 +19,14 @@
   "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=11891",
   "youtube_longplay_url": "https://www.youtube.com/watch?v=KN_vPKNQHl8&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=91",
   "youtube_longplay_duration": "22:30",
-  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=157",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm61.rar",
-  "release_package_filename": "mmm61.rar",
-  "release_package_stemname": "mmm61",
-  "game_files_subpath": "MMM-61",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=481",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm61-talkie.zip",
+  "release_package_filename": "mmm61-talkie.zip",
+  "release_package_stemname": "mmm61-talkie",
+  "release_package_size_bytes": 51434881,
+  "game_files_subpath": null,
   "engine": "AGS",
-  "engine_version": "2.72.920",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm61.rar",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/c2zp6r3tqcsplow9v20d9/mmm61.rar?rlkey=1m5ru5k5vkfkj5grejsefqrq8&dl=1"
+  "engine_version": "3.6.2.9",
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
 }

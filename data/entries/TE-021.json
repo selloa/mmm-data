@@ -2,6 +2,7 @@
   "catalog_id": "TE-021",
   "category": "Trash Episoden",
   "title": "Smash The Tentacle",
+  "has_talkie": null,
   "release_date": "2008-08-07",
   "authors": [
     "Rondo"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/SmashTheTentacle.zip",
   "release_package_filename": "SmashTheTentacle.zip",
   "release_package_stemname": "SmashTheTentacle",
+  "release_package_size_bytes": 2705967,
   "game_files_subpath": "SmashTheTentacle",
   "engine": "AGS",
   "engine_version": "2.72.920",

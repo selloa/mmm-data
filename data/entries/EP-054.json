@@ -2,6 +2,7 @@
   "catalog_id": "EP-054",
   "category": "MMM-Episoden",
   "title": "Episode 054: CSI:RONVILLE",
+  "has_talkie": null,
   "release_date": "2006-09-13",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm54.zip",
   "release_package_filename": "mmm54.zip",
   "release_package_stemname": "mmm54",
+  "release_package_size_bytes": 5265210,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.62.772",

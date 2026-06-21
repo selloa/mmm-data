@@ -2,6 +2,7 @@
   "catalog_id": "TE-007",
   "category": "Trash Episoden",
   "title": "Iasons Testepisode",
+  "has_talkie": null,
   "release_date": "2007-04-17",
   "authors": [
     "Iason79"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/MMM_Iason79_test.rar",
   "release_package_filename": "MMM_Iason79_test.rar",
   "release_package_stemname": "MMM_Iason79_test",
+  "release_package_size_bytes": 1550636,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.71.894",

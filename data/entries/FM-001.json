@@ -2,6 +2,7 @@
   "catalog_id": "FM-001",
   "category": "Fan Movies",
   "title": "Doktor in da House",
+  "has_talkie": null,
   "release_date": "2007-04-17",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/Doktor-talk.zip",
   "release_package_filename": "Doktor-talk.zip",
   "release_package_stemname": "Doktor-talk",
+  "release_package_size_bytes": 7694866,
   "game_files_subpath": "Doktor-talk",
   "engine": "AGS",
   "engine_version": "2.72.920",

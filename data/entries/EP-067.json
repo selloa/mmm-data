@@ -2,6 +2,7 @@
   "catalog_id": "EP-067",
   "category": "MMM-Episoden",
   "title": "Episode 067: Die Schöne und das Biest",
+  "has_talkie": null,
   "release_date": "2007-10-13",
   "authors": [
     "Edison Interactive"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm67.zip",
   "release_package_filename": "mmm67.zip",
   "release_package_stemname": "mmm67",
+  "release_package_size_bytes": 12713944,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.62.772",

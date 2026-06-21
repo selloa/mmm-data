@@ -1,7 +1,8 @@
 {
   "catalog_id": "FG-002",
   "category": "Fan Games",
-  "title": "Maniac Manison Deluxe 1.3 (veraltet)",
+  "title": "Maniac Manison Deluxe",
+  "has_talkie": null,
   "release_date": null,
   "authors": [
     "LucasFan"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/mmd13setup.exe",
   "release_package_filename": "mmd13setup.exe",
   "release_package_stemname": "mmd13setup",
+  "release_package_size_bytes": 6352302,
   "game_files_subpath": null,
   "engine": "unknown",
   "engine_version": null,

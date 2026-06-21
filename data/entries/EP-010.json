@@ -2,6 +2,7 @@
   "catalog_id": "EP-010",
   "category": "MMM-Episoden",
   "title": "Episode 010: Tales of Weird Ed",
+  "has_talkie": null,
   "release_date": "2005-04-04",
   "authors": [
     "Edison Interactive"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm10.zip",
   "release_package_filename": "mmm10.zip",
   "release_package_stemname": "mmm10",
+  "release_package_size_bytes": 3839769,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.62.772",

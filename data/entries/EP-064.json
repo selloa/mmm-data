@@ -2,6 +2,7 @@
   "catalog_id": "EP-064",
   "category": "MMM-Episoden",
   "title": "Episode 064: Baranoia",
+  "has_talkie": null,
   "release_date": "2007-08-02",
   "authors": [
     "DarthConan / Cone Arex"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm64.rar",
   "release_package_filename": "mmm64.rar",
   "release_package_stemname": "mmm64",
+  "release_package_size_bytes": 6820854,
   "game_files_subpath": "E064",
   "engine": "AGS",
   "engine_version": "2.72.920",

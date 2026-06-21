@@ -2,6 +2,7 @@
   "catalog_id": "FM-008",
   "category": "Fan Movies",
   "title": "Silvester 2011 - Dinner for one",
+  "has_talkie": null,
   "release_date": "2012-01-02",
   "authors": [
     "Endres"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/DinnerForOne.zip",
   "release_package_filename": "DinnerForOne.zip",
   "release_package_stemname": "DinnerForOne",
+  "release_package_size_bytes": 2089933,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.12.1074",

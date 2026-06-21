@@ -2,6 +2,7 @@
   "catalog_id": "EP-023",
   "category": "MMM-Episoden",
   "title": "Episode 023: Das verflixte Geschenk",
+  "has_talkie": null,
   "release_date": "2005-06-20",
   "authors": [
     "Agent Cat"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm23.zip",
   "release_package_filename": "mmm23.zip",
   "release_package_stemname": "mmm23",
+  "release_package_size_bytes": 1857022,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "2.61.747",

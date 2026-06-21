@@ -2,6 +2,7 @@
   "catalog_id": "HS-002",
   "category": "Halloween Specials",
   "title": "Episode H05-2: Escape from Maniac Mansion",
+  "has_talkie": null,
   "release_date": "2005-10-31",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2005/Escape.rar",
   "release_package_filename": "Escape.rar",
   "release_package_stemname": "Escape",
+  "release_package_size_bytes": 3026309,
   "game_files_subpath": "Escape",
   "engine": "AGS",
   "engine_version": "2.62.772",

@@ -2,6 +2,7 @@
   "catalog_id": "MD-007",
   "category": "Maniac Dungeon",
   "title": "Raum 07: Das unheimliche Wesen aus einem fremden Raum",
+  "has_talkie": null,
   "release_date": "2007-04-15",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/007_V2_00.rar",
   "release_package_filename": "007_V2_00.rar",
   "release_package_stemname": "007_V2_00",
+  "release_package_size_bytes": 1820413,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

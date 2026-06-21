@@ -2,6 +2,7 @@
   "catalog_id": "HS-012",
   "category": "Halloween Specials",
   "title": "Episode H11-1: Man stirbt nur zweimal",
+  "has_talkie": null,
   "release_date": "2012-01-04",
   "authors": [
     "Spiderbyte"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2011/Halloween_2011.rar",
   "release_package_filename": "Halloween_2011.rar",
   "release_package_stemname": "Halloween_2011",
+  "release_package_size_bytes": 25443332,
   "game_files_subpath": "MMM - Man stirbt nur zweimal - Halloween Special 2011",
   "engine": "Visionaire",
   "engine_version": null,

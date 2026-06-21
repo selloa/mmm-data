@@ -2,6 +2,7 @@
   "catalog_id": "FG-008",
   "category": "Fan Games",
   "title": "Der neue Wahnsinn der Familie Herfurth",
+  "has_talkie": null,
   "release_date": "2014-09-11",
   "authors": [
     "JPJF"
@@ -22,9 +23,10 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/Familie-Herfurth-2_0.rar",
   "release_package_filename": "Familie-Herfurth-2_0.rar",
   "release_package_stemname": "Familie-Herfurth-2_0",
+  "release_package_size_bytes": 24655963,
   "game_files_subpath": "Familie Herfurth 2.0",
   "engine": "AGS",
-  "engine_version": null,
+  "engine_version": "3.4.0.16",
   "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Familie-Herfurth-2_0.rar",
   "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/smiedtyte50blkdommzlt/Familie-Herfurth-2_0.rar?rlkey=umw5sk09psmvv5boldhakhr0u&dl=1"
 }

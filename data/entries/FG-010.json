@@ -2,6 +2,7 @@
   "catalog_id": "FG-010",
   "category": "Fan Games",
   "title": "Das Niemandsland",
+  "has_talkie": null,
   "release_date": "2016-12-03",
   "authors": [
     "JPJF"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/Das-Niemandsland.zip",
   "release_package_filename": "Das-Niemandsland.zip",
   "release_package_stemname": "Das-Niemandsland",
+  "release_package_size_bytes": 35254850,
   "game_files_subpath": "Das Niemandsland",
   "engine": "AGS",
   "engine_version": "3.21.1115",

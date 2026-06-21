@@ -2,6 +2,7 @@
   "catalog_id": "TE-012",
   "category": "Trash Episoden",
   "title": "Run Hoagie Run",
+  "has_talkie": null,
   "release_date": "2007-06-07",
   "authors": [
     "Rondo"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/mmmRunHoagieRun.zip",
   "release_package_filename": "mmmRunHoagieRun.zip",
   "release_package_stemname": "mmmRunHoagieRun",
+  "release_package_size_bytes": 2379865,
   "game_files_subpath": "mmmRunHoagieRun",
   "engine": "AGS",
   "engine_version": "2.72.920",

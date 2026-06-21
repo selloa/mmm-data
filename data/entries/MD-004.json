@@ -2,6 +2,7 @@
   "catalog_id": "MD-004",
   "category": "Maniac Dungeon",
   "title": "Raum 04: Die Grotte",
+  "has_talkie": null,
   "release_date": "2006-12-13",
   "authors": [
     "Kaktus"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/004_V1_00.zip",
   "release_package_filename": "004_V1_00.zip",
   "release_package_stemname": "004_V1_00",
+  "release_package_size_bytes": 3060986,
   "game_files_subpath": "004_V.1.0",
   "engine": "AGS",
   "engine_version": "2.72.920",

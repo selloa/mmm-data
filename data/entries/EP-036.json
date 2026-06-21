@@ -2,6 +2,7 @@
   "catalog_id": "EP-036",
   "category": "MMM-Episoden",
   "title": "Episode 036: Der Liebesbrief",
+  "has_talkie": null,
   "release_date": "2005-10-10",
   "authors": [
     "MalleTheRedPhoenix"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm36.exe",
   "release_package_filename": "mmm36.exe",
   "release_package_stemname": "mmm36",
+  "release_package_size_bytes": 3246659,
   "game_files_subpath": "Episode 36",
   "engine": "AGS",
   "engine_version": "2.62.772",

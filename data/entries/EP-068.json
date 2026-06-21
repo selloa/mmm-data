@@ -2,6 +2,7 @@
   "catalog_id": "EP-068",
   "category": "MMM-Episoden",
   "title": "Episode 068: MaMMa ante Portas",
+  "has_talkie": null,
   "release_date": "2007-10-21",
   "authors": [
     "Fatal hoch zwei"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm68.zip",
   "release_package_filename": "mmm68.zip",
   "release_package_stemname": "mmm68",
+  "release_package_size_bytes": 6528429,
   "game_files_subpath": "E068",
   "engine": "AGS",
   "engine_version": "2.72.920",

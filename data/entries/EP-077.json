@@ -2,6 +2,7 @@
   "catalog_id": "EP-077",
   "category": "MMM-Episoden",
   "title": "Episode 077: Schwer verquer",
+  "has_talkie": null,
   "release_date": "2009-08-05",
   "authors": [
     "FrasierCrane"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm77.zip",
   "release_package_filename": "mmm77.zip",
   "release_package_stemname": "mmm77",
+  "release_package_size_bytes": 9171721,
   "game_files_subpath": "MMM77",
   "engine": "AGS",
   "engine_version": "2.72.920",

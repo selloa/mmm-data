@@ -2,6 +2,7 @@
   "catalog_id": "EP-081",
   "category": "MMM-Episoden",
   "title": "Episode 081: Bernard bricht aus!",
+  "has_talkie": null,
   "release_date": "2011-02-18",
   "authors": [
     "JPJF"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm81.rar",
   "release_package_filename": "mmm81.rar",
   "release_package_stemname": "mmm81",
+  "release_package_size_bytes": 2028143,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "3.1.2.1074",

@@ -2,6 +2,7 @@
   "catalog_id": "EP-100",
   "category": "MMM-Episoden",
   "title": "Episode 100: Money Mansion",
+  "has_talkie": "yes",
   "release_date": "2019-09-30",
   "authors": [
     "Cmdr"
@@ -18,13 +19,14 @@
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=_5u8kOAXobg&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=141",
   "youtube_longplay_duration": "5:37:29",
-  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10/1096-episode-100-money-mansion.html",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm100.zip",
-  "release_package_filename": "mmm100.zip",
-  "release_package_stemname": "mmm100",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=466",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm100-talkie.zip",
+  "release_package_filename": "mmm100-talkie.zip",
+  "release_package_stemname": "mmm100-talkie",
+  "release_package_size_bytes": 907419052,
   "game_files_subpath": null,
-  "engine": "AGS",
-  "engine_version": "3.4.3.1",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm100.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ddlyfnp6awx9egycuxvbo/mmm100.zip?rlkey=ampuvcupt60sute7alk8p56z6&dl=1"
+  "engine": "unknown",
+  "engine_version": null,
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
 }

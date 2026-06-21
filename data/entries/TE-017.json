@@ -2,6 +2,7 @@
   "catalog_id": "TE-017",
   "category": "Trash Episoden",
   "title": "Wink Smiley sucht den MMMM - Bloody Halloween Version",
+  "has_talkie": null,
   "release_date": "2007-09-02",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/bloodyquiz.rar",
   "release_package_filename": "bloodyquiz.rar",
   "release_package_stemname": "bloodyquiz",
+  "release_package_size_bytes": 2076797,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

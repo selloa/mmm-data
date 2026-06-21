@@ -2,6 +2,7 @@
   "catalog_id": "MD-014",
   "category": "Maniac Dungeon",
   "title": "Raum 14: Vor der Tür",
+  "has_talkie": null,
   "release_date": "2008-08-31",
   "authors": [
     "eX"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/014_V1_00.rar",
   "release_package_filename": "014_V1_00.rar",
   "release_package_stemname": "014_V1_00",
+  "release_package_size_bytes": 1839027,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

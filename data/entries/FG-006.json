@@ -2,6 +2,7 @@
   "catalog_id": "FG-006",
   "category": "Fan Games",
   "title": "Die neuen Abenteuer des Zak McKracken",
+  "has_talkie": null,
   "release_date": "2002",
   "authors": [
     "LucasFan"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/fanadv_zak2.exe",
   "release_package_filename": "fanadv_zak2.exe",
   "release_package_stemname": "fanadv_zak2",
+  "release_package_size_bytes": 7165704,
   "game_files_subpath": null,
   "engine": "unknown",
   "engine_version": null,

@@ -2,6 +2,7 @@
   "catalog_id": "TD-007",
   "category": "Trailer & Demos",
   "title": "Demo: MMM - Das Textadventure",
+  "has_talkie": null,
   "release_date": "2009-04-29",
   "authors": [
     "KhrisMUC"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/MMM-txt.rar",
   "release_package_filename": "MMM-txt.rar",
   "release_package_stemname": "MMM-txt",
+  "release_package_size_bytes": 111951,
   "game_files_subpath": null,
   "engine": "unknown",
   "engine_version": null,

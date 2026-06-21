@@ -2,6 +2,7 @@
   "catalog_id": "MD-003",
   "category": "Maniac Dungeon",
   "title": "Raum 03: Der Verbindungstunnel",
+  "has_talkie": null,
   "release_date": "2006-11-23",
   "authors": [
     "Nall-chan"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/003_V1_00.zip",
   "release_package_filename": "003_V1_00.zip",
   "release_package_stemname": "003_V1_00",
+  "release_package_size_bytes": 2040142,
   "game_files_subpath": "003_V1_00",
   "engine": "AGS",
   "engine_version": "2.72.920",

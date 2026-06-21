@@ -2,6 +2,7 @@
   "catalog_id": "EP-009",
   "category": "MMM-Episoden",
   "title": "Episode 009: Radioaktiv",
+  "has_talkie": null,
   "release_date": "2005-04-03",
   "authors": [
     "Rocco"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm09.zip",
   "release_package_filename": "mmm09.zip",
   "release_package_stemname": "mmm09",
+  "release_package_size_bytes": 3176596,
   "game_files_subpath": "mmm_09_v1_06",
   "engine": "AGS",
   "engine_version": "2.62.772",

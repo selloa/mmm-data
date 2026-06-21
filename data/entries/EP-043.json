@@ -2,6 +2,7 @@
   "catalog_id": "EP-043",
   "category": "MMM-Episoden",
   "title": "Episode 043: Vorsicht, Edna kommt!",
+  "has_talkie": null,
   "release_date": "2006-03-07",
   "authors": [
     "Rayman"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm43.rar",
   "release_package_filename": "mmm43.rar",
   "release_package_stemname": "mmm43",
+  "release_package_size_bytes": 2821036,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.70.864",

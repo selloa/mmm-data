@@ -2,6 +2,7 @@
   "catalog_id": "EP-039",
   "category": "MMM-Episoden",
   "title": "Episode 039: Erinnerungen",
+  "has_talkie": null,
   "release_date": "2005-12-31",
   "authors": [
     "Lampengeist_M"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm39.zip",
   "release_package_filename": "mmm39.zip",
   "release_package_stemname": "mmm39",
+  "release_package_size_bytes": 4841519,
   "game_files_subpath": "MMM39_Erinnerungen_V13",
   "engine": "AGS",
   "engine_version": "3.3.5.7",

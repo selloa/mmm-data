@@ -2,6 +2,7 @@
   "catalog_id": "XS-001",
   "category": "Mini Masterpieces",
   "title": "MMMMM #1: Eds Paket",
+  "has_talkie": "yes",
   "release_date": "2015-07-05",
   "authors": [
     "Kiwa"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.com/index.php/de/spiele/mini-episoden/412-mmmmm-1-eds-paket/file.html",
   "release_package_filename": "EdsPaket.zip",
   "release_package_stemname": "EdsPaket",
+  "release_package_size_bytes": 54432526,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.5.1.27",

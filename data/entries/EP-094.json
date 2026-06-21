@@ -2,6 +2,7 @@
   "catalog_id": "EP-094",
   "category": "MMM-Episoden",
   "title": "Episode 094: Maniac on the Mississippi",
+  "has_talkie": null,
   "release_date": "2015-11-13",
   "authors": [
     "Elvis"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/ManiacOnTheMississippi.zip",
   "release_package_filename": "ManiacOnTheMississippi.zip",
   "release_package_stemname": "ManiacOnTheMississippi",
+  "release_package_size_bytes": 5083890,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.3.4.2",

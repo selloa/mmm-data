@@ -2,6 +2,7 @@
   "catalog_id": "EP-041",
   "category": "MMM-Episoden",
   "title": "Episode 041: Das neue Jugendschutzgesetz",
+  "has_talkie": "yes",
   "release_date": "2006-01-30",
   "authors": [
     "DarthConan / Cone Arex"
@@ -18,13 +19,14 @@
   "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=8612",
   "youtube_longplay_url": "https://www.youtube.com/watch?v=aar2BgoyFJM&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=65",
   "youtube_longplay_duration": "43:35",
-  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=43",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm41.zip",
-  "release_package_filename": "mmm41.zip",
-  "release_package_stemname": "mmm41",
-  "game_files_subpath": "mmm41",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=473",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm41-talkie.zip",
+  "release_package_filename": "mmm41-talkie.zip",
+  "release_package_stemname": "mmm41-talkie",
+  "release_package_size_bytes": 185088169,
+  "game_files_subpath": null,
   "engine": "AGS",
-  "engine_version": "3.3.5.10",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm41.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/9nflqaxujpq6cqctonxcd/mmm41.zip?rlkey=1yyppd71mv5eab94ywiz4pxe5&dl=1"
+  "engine_version": "3.5.1",
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
 }

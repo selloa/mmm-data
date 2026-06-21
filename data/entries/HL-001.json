@@ -2,6 +2,7 @@
   "catalog_id": "HL-001",
   "category": "Hollywood Special",
   "title": "Ronville Viper",
+  "has_talkie": null,
   "release_date": "2011-09-26",
   "authors": [
     "Scorpe"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/hollywood/ronvilleviper.zip",
   "release_package_filename": "ronvilleviper.zip",
   "release_package_stemname": "ronvilleviper",
+  "release_package_size_bytes": 10248756,
   "game_files_subpath": "HollywoodSpecial2011-RonvilleViper",
   "engine": "AGS",
   "engine_version": "3.1.2",

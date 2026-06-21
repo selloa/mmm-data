@@ -2,6 +2,7 @@
   "catalog_id": "HS-006",
   "category": "Halloween Specials",
   "title": "Episode H06-1: The Curse of Maniac Mansion",
+  "has_talkie": null,
   "release_date": "2006-10-31",
   "authors": [
     "Rayman"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2006/TCoMM.rar",
   "release_package_filename": "TCoMM.rar",
   "release_package_stemname": "TCoMM",
+  "release_package_size_bytes": 5343248,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.71.894",

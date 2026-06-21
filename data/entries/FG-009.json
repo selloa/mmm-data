@@ -2,6 +2,7 @@
   "catalog_id": "FG-009",
   "category": "Fan Games",
   "title": "The Tale of Lonkey Island",
+  "has_talkie": null,
   "release_date": "2016-10-19",
   "authors": [
     "Cmdr"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/lonkey.zip",
   "release_package_filename": "lonkey.zip",
   "release_package_stemname": "lonkey",
+  "release_package_size_bytes": 15080055,
   "game_files_subpath": null,
   "engine": "unknown",
   "engine_version": null,

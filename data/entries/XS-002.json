@@ -2,6 +2,7 @@
   "catalog_id": "XS-002",
   "category": "Mini Masterpieces",
   "title": "MMMMM #2: Wendy im finsteren Keller (Version 2.0)",
+  "has_talkie": null,
   "release_date": "2015-07-05",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.com/index.php/de/spiele/mini-episoden/413-mmmmm-2/file.html",
   "release_package_filename": "MMMMM2Talky.zip",
   "release_package_stemname": "MMMMM2Talky",
+  "release_package_size_bytes": 46490149,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.5.1.27",

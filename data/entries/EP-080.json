@@ -2,6 +2,7 @@
   "catalog_id": "EP-080",
   "category": "MMM-Episoden",
   "title": "Episode 080: Spiel des Lebens",
+  "has_talkie": null,
   "release_date": "2011-01-06",
   "authors": [
     "JPJF"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm80.rar",
   "release_package_filename": "mmm80.rar",
   "release_package_stemname": "mmm80",
+  "release_package_size_bytes": 3040589,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "3.1.2.1074",

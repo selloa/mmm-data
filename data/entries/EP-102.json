@@ -2,6 +2,7 @@
   "catalog_id": "EP-102",
   "category": "MMM-Episoden",
   "title": "Episode 102: Michaels Nacht",
+  "has_talkie": "yes",
   "release_date": "2025-01-18",
   "authors": [
     "alphawolf300"
@@ -18,13 +19,14 @@
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=XCRXqR2PdCU&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=144",
   "youtube_longplay_duration": "32:22",
-  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-11/1143-episode-102-michaels-nacht.html",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=480",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel11/mmm102-talkie.zip",
   "release_package_filename": "mmm102-talkie.zip",
   "release_package_stemname": "mmm102-talkie",
+  "release_package_size_bytes": 85005655,
   "game_files_subpath": null,
   "engine": "AGS",
-  "engine_version": null,
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm102-talkie.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/espvgu9jf1e8f4ck7iitu/mmm102-talkie.zip?rlkey=7e2rnpysrzbzel2d2i4c7i3z9&dl=1"
+  "engine_version": "3.5.1.27",
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
 }

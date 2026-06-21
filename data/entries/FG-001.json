@@ -2,6 +2,7 @@
   "catalog_id": "FG-001",
   "category": "Fan Games",
   "title": "LeChuck Stories",
+  "has_talkie": null,
   "release_date": null,
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/LC-Stories_V1_1.zip",
   "release_package_filename": "LC-Stories_V1_1.zip",
   "release_package_stemname": "LC-Stories_V1_1",
+  "release_package_size_bytes": 3280561,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

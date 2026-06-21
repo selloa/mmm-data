@@ -2,6 +2,7 @@
   "catalog_id": "HS-007",
   "category": "Halloween Specials",
   "title": "Episode H06-2: Häää, ich glaub ich spinne!!!",
+  "has_talkie": null,
   "release_date": "2006-10-31",
   "authors": [
     "MisterL",
@@ -23,6 +24,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2006/Utschi.zip",
   "release_package_filename": "Utschi.zip",
   "release_package_stemname": "Utschi",
+  "release_package_size_bytes": 5102887,
   "game_files_subpath": "Utschi",
   "engine": "AGS",
   "engine_version": "2.72.920",

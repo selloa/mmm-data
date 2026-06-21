@@ -2,6 +2,7 @@
   "catalog_id": "EP-050",
   "category": "MMM-Episoden",
   "title": "Episode 050: Das Date 3",
+  "has_talkie": null,
   "release_date": "2006-06-26",
   "authors": [
     "Tütensuppe"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm50.zip",
   "release_package_filename": "mmm50.zip",
   "release_package_stemname": "mmm50",
+  "release_package_size_bytes": 2901922,
   "game_files_subpath": "MMM50",
   "engine": "AGS",
   "engine_version": "3.4.0.12",

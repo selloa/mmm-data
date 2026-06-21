@@ -2,6 +2,7 @@
   "catalog_id": "MD-020",
   "category": "Maniac Dungeon",
   "title": "Raum 20: Die Pharaonen-Grabkammer",
+  "has_talkie": null,
   "release_date": "2011-03-07",
   "authors": [
     "Rayman"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/020_V1_00.rar",
   "release_package_filename": "020_V1_00.rar",
   "release_package_stemname": "020_V1_00",
+  "release_package_size_bytes": 1446619,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

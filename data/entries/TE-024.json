@@ -2,6 +2,7 @@
   "catalog_id": "TE-024",
   "category": "Trash Episoden",
   "title": "Eine Traumepisode",
+  "has_talkie": null,
   "release_date": "2017-06-28",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/traumepisode.rar",
   "release_package_filename": "traumepisode.rar",
   "release_package_stemname": "traumepisode",
+  "release_package_size_bytes": 3387207,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.3.5.7",

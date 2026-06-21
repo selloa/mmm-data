@@ -2,6 +2,7 @@
   "catalog_id": "EP-090",
   "category": "MMM-Episoden",
   "title": "Episode 090: Kofferpacken",
+  "has_talkie": "yes",
   "release_date": "2014-11-23",
   "authors": [
     "Cmdr"
@@ -18,13 +19,14 @@
   "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?f=16&t=21782",
   "youtube_longplay_url": "https://www.youtube.com/watch?v=bCUGkja5sTI&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=126",
   "youtube_longplay_duration": "42:57",
-  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=404",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm90.zip",
-  "release_package_filename": "mmm90.zip",
-  "release_package_stemname": "mmm90",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=458",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm90-talkie.zip",
+  "release_package_filename": "mmm90-talkie.zip",
+  "release_package_stemname": "mmm90-talkie",
+  "release_package_size_bytes": 77288734,
   "game_files_subpath": null,
   "engine": "AGS",
-  "engine_version": "3.5.0.27",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm90.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/to9p5d9fdsh4exztnp1h3/mmm90.zip?rlkey=un2mnkt1gnfrd5fu8g51elnay&dl=1"
+  "engine_version": "3.5.1.19",
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
 }

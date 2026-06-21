@@ -2,6 +2,7 @@
   "catalog_id": "TD-012",
   "category": "Trailer & Demos",
   "title": "Trailer: Ortmaschine II (Episode 51)",
+  "has_talkie": null,
   "release_date": "2009-05-03",
   "authors": [
     "Problem"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/OrtmaschineClips.zip",
   "release_package_filename": "OrtmaschineClips.zip",
   "release_package_stemname": "OrtmaschineClips",
+  "release_package_size_bytes": 15628597,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.71.894",

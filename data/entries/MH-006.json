@@ -2,6 +2,7 @@
   "catalog_id": "MH-006",
   "category": "Meteorhead Series",
   "title": "#06: Meteorhead VI: Verbannt ins Exühl",
+  "has_talkie": null,
   "release_date": "2007-10-27",
   "authors": [
     "Fatal hoch zwei"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/exuehl.rar",
   "release_package_filename": "exuehl.rar",
   "release_package_stemname": "exuehl",
+  "release_package_size_bytes": 2207565,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

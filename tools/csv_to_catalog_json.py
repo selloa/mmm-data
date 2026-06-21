@@ -4,7 +4,7 @@ Convert mmm_catalog.csv rows to canonical v1 JSON (see docs/CATALOG_ENTRY_v1.md)
 
 Rules:
   - Every canonical field is present on each object; empty CSV cells become JSON null.
-  - authors: split on ';', strip parts, drop empties -> string array or null if none.
+  - authors: split on ',', strip parts, drop empties -> string array or null if none.
   - catalog_id, category, title must be non-empty after strip (exit 1 otherwise).
 """
 
@@ -21,6 +21,7 @@ CANONICAL_FIELDS: list[str] = [
     "catalog_id",
     "category",
     "title",
+    "has_talkie",
     "release_date",
     "authors",
     "forum_thread_url_mmm",
@@ -39,6 +40,7 @@ CANONICAL_FIELDS: list[str] = [
     "download_url_mmm_canonical",
     "release_package_filename",
     "release_package_stemname",
+    "release_package_size_bytes",
     "game_files_subpath",
     "engine",
     "engine_version",
@@ -46,7 +48,9 @@ CANONICAL_FIELDS: list[str] = [
     "mirror_url_dropbox_public",
 ]
 
-STRING_OR_NULL_FIELDS = frozenset(CANONICAL_FIELDS) - frozenset({"authors"})
+STRING_OR_NULL_FIELDS = frozenset(CANONICAL_FIELDS) - frozenset(
+    {"authors", "release_package_size_bytes"}
+)
 
 
 def _data_repo_root() -> Path:
@@ -68,9 +72,18 @@ def _cell_string(raw: str | None) -> str | None:
 def _cell_authors(raw: str | None) -> list[str] | None:
     if raw is None:
         return None
-    parts = [p.strip() for p in raw.split(";")]
+    parts = [p.strip().strip("'") for p in raw.split(",")]
     parts = [p for p in parts if p]
     return parts if parts else None
+
+
+def _cell_integer(raw: str | None) -> int | None:
+    if raw is None:
+        return None
+    s = raw.strip()
+    if not s:
+        return None
+    return int(s)
 
 
 def csv_row_to_entry(row: dict[str, str]) -> dict[str, Any]:
@@ -79,6 +92,8 @@ def csv_row_to_entry(row: dict[str, str]) -> dict[str, Any]:
         raw = row.get(key, "")
         if key == "authors":
             out[key] = _cell_authors(raw)
+        elif key == "release_package_size_bytes":
+            out[key] = _cell_integer(raw)
         elif key in STRING_OR_NULL_FIELDS:
             val = _cell_string(raw)
             out[key] = val

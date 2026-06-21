@@ -2,6 +2,7 @@
   "catalog_id": "FS-002",
   "category": "Easter Specials",
   "title": "Ostereiersuche 2011",
+  "has_talkie": null,
   "release_date": "2011-04-25",
   "authors": [
     "Rulaman"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/Ostereiersuche_2011.zip",
   "release_package_filename": "Ostereiersuche_2011.zip",
   "release_package_stemname": "Ostereiersuche_2011",
+  "release_package_size_bytes": 2758138,
   "game_files_subpath": "Ostereiersuche2011",
   "engine": "AGS",
   "engine_version": "3.21.1115",

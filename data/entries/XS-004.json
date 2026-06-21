@@ -2,6 +2,7 @@
   "catalog_id": "XS-004",
   "category": "Mini Masterpieces",
   "title": "MMMMM #4: Bertholds Rückkehr",
+  "has_talkie": null,
   "release_date": "2020-04-16",
   "authors": [
     "DarthConan / Cone Arex"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.com/index.php/de/spiele/mini-episoden/448-mmmmm-4-bertholds-rueckkehr/file.html",
   "release_package_filename": "bertholdsrueckkehr_v1_1.zip",
   "release_package_stemname": "bertholdsrueckkehr_v1_1",
+  "release_package_size_bytes": 5235060,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.5.0.24",

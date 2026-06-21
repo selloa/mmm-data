@@ -2,6 +2,7 @@
   "catalog_id": "EA-008",
   "category": "Edgar Award Shows",
   "title": "#07 Edgar Award Show - Staffel 7",
+  "has_talkie": null,
   "release_date": "2009-01-18",
   "authors": [
     "Rayman"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/awards/Edgar_Award_St7.rar",
   "release_package_filename": "Edgar_Award_St7.rar",
   "release_package_stemname": "Edgar_Award_St7",
+  "release_package_size_bytes": 6278638,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

@@ -2,6 +2,7 @@
   "catalog_id": "XS-005",
   "category": "Mini Masterpieces",
   "title": "MMMMM #5: Marcys Bestimmung",
+  "has_talkie": null,
   "release_date": "2020-05-03",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.com/index.php/de/spiele/mini-episoden/449-mmmmm-5-marcys-bestimmung/file.html",
   "release_package_filename": "MarcyBestimmungTalkie.zip",
   "release_package_stemname": "MarcyBestimmungTalkie",
+  "release_package_size_bytes": 68369387,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.5.1.27",

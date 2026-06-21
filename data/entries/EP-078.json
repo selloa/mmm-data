@@ -2,6 +2,7 @@
   "catalog_id": "EP-078",
   "category": "MMM-Episoden",
   "title": "Episode 078: Dumm geholfen",
+  "has_talkie": null,
   "release_date": "2009-10-01",
   "authors": [
     "Fatal hoch zwei"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm78.zip",
   "release_package_filename": "mmm78.zip",
   "release_package_stemname": "mmm78",
+  "release_package_size_bytes": 8679785,
   "game_files_subpath": "mmm78",
   "engine": "AGS",
   "engine_version": "2.72.920",

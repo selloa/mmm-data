@@ -2,6 +2,7 @@
   "catalog_id": "EP-045",
   "category": "MMM-Episoden",
   "title": "Episode 045: Maniac Monday",
+  "has_talkie": null,
   "release_date": "2006-04-03",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm45.zip",
   "release_package_filename": "mmm45.zip",
   "release_package_stemname": "mmm45",
+  "release_package_size_bytes": 4047380,
   "game_files_subpath": "MMM45",
   "engine": "AGS",
   "engine_version": "2.62.772",

@@ -2,6 +2,7 @@
   "catalog_id": "EP-004",
   "category": "MMM-Episoden",
   "title": "Episode 004: Mimikry der Emotionen",
+  "has_talkie": null,
   "release_date": "2005-03-25",
   "authors": [
     "dasJan"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm04.zip",
   "release_package_filename": "mmm04.zip",
   "release_package_stemname": "mmm04",
+  "release_package_size_bytes": 3197010,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.62.772",

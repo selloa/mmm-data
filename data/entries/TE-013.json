@@ -2,6 +2,7 @@
   "catalog_id": "TE-013",
   "category": "Trash Episoden",
   "title": "Bernard muss mahl",
+  "has_talkie": null,
   "release_date": "2007-06-12",
   "authors": [
     "Killermücke"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/bernard_muss_mal.rar",
   "release_package_filename": "bernard_muss_mal.rar",
   "release_package_stemname": "bernard_muss_mal",
+  "release_package_size_bytes": 1646340,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

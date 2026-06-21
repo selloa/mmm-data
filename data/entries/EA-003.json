@@ -2,6 +2,7 @@
   "catalog_id": "EA-003",
   "category": "Edgar Award Shows",
   "title": "#02b Edgar Award Show - Staffel 2 (Show II)",
+  "has_talkie": null,
   "release_date": "2008-01-05",
   "authors": [
     "Tütensuppe"
@@ -22,9 +23,10 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/awards/Edgar_Staffel_2_Show_II.zip",
   "release_package_filename": "Edgar_Staffel_2_Show_II.zip",
   "release_package_stemname": "Edgar_Staffel_2_Show_II",
+  "release_package_size_bytes": 3121399,
   "game_files_subpath": null,
   "engine": "AGS",
-  "engine_version": null,
+  "engine_version": "3.4.0.12",
   "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Edgar_Staffel_2_Show_II.zip",
   "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/32wv6r0od8jvc1u1zqgui/Edgar_Staffel_2_Show_II.zip?rlkey=clbv6trggxz5wmnw246puqysx&dl=1"
 }

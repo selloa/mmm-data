@@ -2,6 +2,7 @@
   "catalog_id": "MD-019",
   "category": "Maniac Dungeon",
   "title": "Raum 19: Weihnachts-Edition",
+  "has_talkie": null,
   "release_date": "2009-12-24",
   "authors": [
     "ManiacTwister"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/019_V1_00.rar",
   "release_package_filename": "019_V1_00.rar",
   "release_package_stemname": "019_V1_00",
+  "release_package_size_bytes": 1629242,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

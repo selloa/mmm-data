@@ -2,6 +2,7 @@
   "catalog_id": "EP-085",
   "category": "MMM-Episoden",
   "title": "Episode 085: Freundin mit Hindernissen - Part 2",
+  "has_talkie": null,
   "release_date": "2011-07-08",
   "authors": [
     "JPJF"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm85.rar",
   "release_package_filename": "mmm85.rar",
   "release_package_stemname": "mmm85",
+  "release_package_size_bytes": 2526996,
   "game_files_subpath": "FmHP2",
   "engine": "AGS",
   "engine_version": "3.1.2.1074",

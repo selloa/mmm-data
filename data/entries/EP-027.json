@@ -2,6 +2,7 @@
   "catalog_id": "EP-027",
   "category": "MMM-Episoden",
   "title": "Episode 027: Hamsternator",
+  "has_talkie": null,
   "release_date": "2005-07-29",
   "authors": [
     "Agent Cat"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm27.zip",
   "release_package_filename": "mmm27.zip",
   "release_package_stemname": "mmm27",
+  "release_package_size_bytes": 4462120,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.61.747",

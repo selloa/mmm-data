@@ -2,6 +2,7 @@
   "catalog_id": "EP-037",
   "category": "MMM-Episoden",
   "title": "Episode 037: Verabredung mit Dave",
+  "has_talkie": "yes",
   "release_date": "2005-12-27",
   "authors": [
     "Rulaman"
@@ -18,13 +19,14 @@
   "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=8333",
   "youtube_longplay_url": "https://www.youtube.com/watch?v=WNgC8cStxH0&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=57",
   "youtube_longplay_duration": "36:19",
-  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=39",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm37.zip",
-  "release_package_filename": "mmm37.zip",
-  "release_package_stemname": "mmm37",
-  "game_files_subpath": "MMM37",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=470",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel4/mmm37-talkie.zip",
+  "release_package_filename": "mmm37-talkie.zip",
+  "release_package_stemname": "mmm37-talkie",
+  "release_package_size_bytes": 59609664,
+  "game_files_subpath": null,
   "engine": "AGS",
-  "engine_version": "2.70.864",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm37.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/oshz33vbepa33tm80dhxc/mmm37.zip?rlkey=e4rgh6jcyqpfdtxl3bbhbxqv4&dl=1"
+  "engine_version": "3.5.1.27",
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
 }

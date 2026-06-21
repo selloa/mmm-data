@@ -2,6 +2,7 @@
   "catalog_id": "FG-013",
   "category": "Fan-Games",
   "title": "Night of the Meteor",
+  "has_talkie": null,
   "release_date": "tba",
   "authors": [
     "Edison Interactive",
@@ -14,7 +15,7 @@
   "walkthrough_mmm_date": null,
   "walkthrough_mmm_body": null,
   "walkthrough_url_amigamaster": null,
-  "mmm_description": null,
+  "mmm_description": "Ein Remake von Maniac Mansion im Stil von Day of the Tentacle",
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": null,
@@ -23,9 +24,10 @@
   "download_url_mmm_canonical": null,
   "release_package_filename": null,
   "release_package_stemname": null,
+  "release_package_size_bytes": null,
   "game_files_subpath": null,
   "engine": "AGS",
-  "engine_version": null,
+  "engine_version": "3.6.1.30",
   "mirror_url_github_private": null,
   "mirror_url_dropbox_public": null
 }

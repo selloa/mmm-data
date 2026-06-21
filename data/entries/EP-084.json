@@ -2,6 +2,7 @@
   "catalog_id": "EP-084",
   "category": "MMM-Episoden",
   "title": "Episode 084: Surf'n'Ronville",
+  "has_talkie": "yes",
   "release_date": "2011-06-05",
   "authors": [
     "ZAK"
@@ -18,13 +19,14 @@
   "forum_thread_url_adventure_treff_legacy": null,
   "youtube_longplay_url": "https://www.youtube.com/watch?v=NmNSF41C45g&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=119",
   "youtube_longplay_duration": "20:57",
-  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=376",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm84.zip",
-  "release_package_filename": "mmm84.zip",
-  "release_package_stemname": "mmm84",
-  "game_files_subpath": "Epi 84 - Surf'n'Ronville",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=476",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm84-talkie.zip",
+  "release_package_filename": "mmm84-talkie.zip",
+  "release_package_stemname": "mmm84-talkie",
+  "release_package_size_bytes": 23781029,
+  "game_files_subpath": null,
   "engine": "AGS",
-  "engine_version": "3.2.1.1115",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm84.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/6ufp8sbb4ika3tl2e8gw8/mmm84.zip?rlkey=i7ocdzrxxd3tr5m1ogeyrjehl&dl=1"
+  "engine_version": "3.21.1115",
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
 }

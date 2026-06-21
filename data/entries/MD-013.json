@@ -2,6 +2,7 @@
   "catalog_id": "MD-013",
   "category": "Maniac Dungeon",
   "title": "Raum 13: Der Trockenraum",
+  "has_talkie": null,
   "release_date": "2008-07-01",
   "authors": [
     "Endres"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/013_V1_01.zip",
   "release_package_filename": "013_V1_01.zip",
   "release_package_stemname": "013_V1_01",
+  "release_package_size_bytes": 1869145,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

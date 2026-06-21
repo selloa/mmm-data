@@ -2,6 +2,7 @@
   "catalog_id": "FG-007",
   "category": "Fan Games",
   "title": "IWWHIIWWHITOMIROTPG: The Game!",
+  "has_talkie": null,
   "release_date": "2009-12-02",
   "authors": [
     "monkey_05_06"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/IWWHIIWWHITOMIROTPG-TheGame.zip",
   "release_package_filename": "IWWHIIWWHITOMIROTPG-TheGame.zip",
   "release_package_stemname": "IWWHIIWWHITOMIROTPG-TheGame",
+  "release_package_size_bytes": 37150114,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.20.1099",

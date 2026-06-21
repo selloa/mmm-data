@@ -2,6 +2,7 @@
   "catalog_id": "EP-046",
   "category": "MMM-Episoden",
   "title": "Episode 046: Verschollen",
+  "has_talkie": null,
   "release_date": "2006-04-09",
   "authors": [
     "Kate"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm46.rar",
   "release_package_filename": "mmm46.rar",
   "release_package_stemname": "mmm46",
+  "release_package_size_bytes": 2675768,
   "game_files_subpath": "Lost",
   "engine": "AGS",
   "engine_version": "2.70.864",

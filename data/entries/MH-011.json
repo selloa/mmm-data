@@ -2,6 +2,7 @@
   "catalog_id": "MH-011",
   "category": "Meteorhead Series",
   "title": "#11: Meteorhead XI: Die Klauung des güldenen Headgars",
+  "has_talkie": null,
   "release_date": "2008-04-21",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/headgar.rar",
   "release_package_filename": "headgar.rar",
   "release_package_stemname": "headgar",
+  "release_package_size_bytes": 6921171,
   "game_files_subpath": "headgar",
   "engine": "AGS",
   "engine_version": "2.72.920",

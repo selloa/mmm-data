@@ -2,6 +2,7 @@
   "catalog_id": "EP-049",
   "category": "MMM-Episoden",
   "title": "Episode 049: Clouso's Großer Coup",
+  "has_talkie": null,
   "release_date": "2006-06-05",
   "authors": [
     "AdventureMoe"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm49.rar",
   "release_package_filename": "mmm49.rar",
   "release_package_stemname": "mmm49",
+  "release_package_size_bytes": 14102625,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.70.864",

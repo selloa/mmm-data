@@ -2,6 +2,7 @@
   "catalog_id": "EP-020",
   "category": "MMM-Episoden",
   "title": "Episode 020: Das Date 2",
+  "has_talkie": null,
   "release_date": "2005-06-09",
   "authors": [
     "Chaosbytes"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm20.rar",
   "release_package_filename": "mmm20.rar",
   "release_package_stemname": "mmm20",
+  "release_package_size_bytes": 2125225,
   "game_files_subpath": null,
   "engine": "Visionaire",
   "engine_version": null,

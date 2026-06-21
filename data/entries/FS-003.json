@@ -2,6 +2,7 @@
   "catalog_id": "FS-003",
   "category": "Easter Specials",
   "title": "Ostereiersuche 2018",
+  "has_talkie": null,
   "release_date": "2018-04-01",
   "authors": [
     "Cmdr"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/easter18.zip",
   "release_package_filename": "easter18.zip",
   "release_package_stemname": "easter18",
+  "release_package_size_bytes": 4512286,
   "game_files_subpath": null,
   "engine": "unknown",
   "engine_version": null,

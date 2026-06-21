@@ -2,6 +2,7 @@
   "catalog_id": "TD-010",
   "category": "Trailer & Demos",
   "title": "Tech-Demo: Murder at the Moonshine Mansion",
+  "has_talkie": null,
   "release_date": "2009-05-01",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/Moonshine.rar",
   "release_package_filename": "Moonshine.rar",
   "release_package_stemname": "Moonshine",
+  "release_package_size_bytes": 2896712,
   "game_files_subpath": "Moonshine",
   "engine": "AGS",
   "engine_version": "2.72.920",

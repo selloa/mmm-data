@@ -2,6 +2,7 @@
   "catalog_id": "MH-008",
   "category": "Meteorhead Series",
   "title": "#08: Meteorhead VIII: Rettet Meteorhead Man",
+  "has_talkie": null,
   "release_date": "2008-01-05",
   "authors": [
     "DarthConan / Cone Arex"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/MHVIII.7z",
   "release_package_filename": "MHVIII.7z",
   "release_package_stemname": "MHVIII",
+  "release_package_size_bytes": 2062724,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

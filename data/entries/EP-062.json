@@ -2,6 +2,7 @@
   "catalog_id": "EP-062",
   "category": "MMM-Episoden",
   "title": "Episode 062: Bernard gegen Berthold",
+  "has_talkie": null,
   "release_date": "2007-07-24",
   "authors": [
     "JPS"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm62.rar",
   "release_package_filename": "mmm62.rar",
   "release_package_stemname": "mmm62",
+  "release_package_size_bytes": 3735455,
   "game_files_subpath": "mmm62",
   "engine": "Visionaire",
   "engine_version": null,

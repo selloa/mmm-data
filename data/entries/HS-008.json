@@ -2,6 +2,7 @@
   "catalog_id": "HS-008",
   "category": "Halloween Specials",
   "title": "Episode H10-1: Das Monster aus der Racoon Lagoon",
+  "has_talkie": null,
   "release_date": "2010-10-31",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2010/racoonlagoon.rar",
   "release_package_filename": "racoonlagoon.rar",
   "release_package_stemname": "racoonlagoon",
+  "release_package_size_bytes": 5545408,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

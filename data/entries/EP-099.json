@@ -2,6 +2,7 @@
   "catalog_id": "EP-099",
   "category": "MMM-Episoden",
   "title": "Episode 099: Die Premiere",
+  "has_talkie": null,
   "release_date": "2018-02-20",
   "authors": [
     "Kaktus"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm99.zip",
   "release_package_filename": "mmm99.zip",
   "release_package_stemname": "mmm99",
+  "release_package_size_bytes": 8085621,
   "game_files_subpath": "mmm99",
   "engine": "AGS",
   "engine_version": "3.4.0.16",

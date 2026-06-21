@@ -2,6 +2,7 @@
   "catalog_id": "MH-015",
   "category": "Meteorhead Series",
   "title": "#15: Meteorhead: Die unverträgliche Dreistigkeit des Schweins",
+  "has_talkie": null,
   "release_date": "2017-10-16",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/meteorheadTNS3.zip",
   "release_package_filename": "meteorheadTNS3.zip",
   "release_package_stemname": "meteorheadTNS3",
+  "release_package_size_bytes": 7300532,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.3.5.7",

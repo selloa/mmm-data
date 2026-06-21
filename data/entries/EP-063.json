@@ -2,6 +2,7 @@
   "catalog_id": "EP-063",
   "category": "MMM-Episoden",
   "title": "Episode 063: Books - Deals unter Nachbarn",
+  "has_talkie": null,
   "release_date": "2007-08-01",
   "authors": [
     "Link2005"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm63.rar",
   "release_package_filename": "mmm63.rar",
   "release_package_stemname": "mmm63",
+  "release_package_size_bytes": 1782835,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

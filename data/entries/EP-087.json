@@ -2,6 +2,7 @@
   "catalog_id": "EP-087",
   "category": "MMM-Episoden",
   "title": "Episode 087: Das Geheimnis des Blakes Hotel von Ronville",
+  "has_talkie": null,
   "release_date": "2011-09-24",
   "authors": [
     "ZAK"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm87.zip",
   "release_package_filename": "mmm87.zip",
   "release_package_stemname": "mmm87",
+  "release_package_size_bytes": 5084204,
   "game_files_subpath": "Epi 87 - Das Geheimnis um Hotel Ronville",
   "engine": "AGS",
   "engine_version": "3.2.1.1115",

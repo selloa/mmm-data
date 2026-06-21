@@ -2,6 +2,7 @@
   "catalog_id": "EP-006",
   "category": "MMM-Episoden",
   "title": "Episode 006: Er is' weg",
+  "has_talkie": null,
   "release_date": "2005-03-30",
   "authors": [
     "Lak"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm06.zip",
   "release_package_filename": "mmm06.zip",
   "release_package_stemname": "mmm06",
+  "release_package_size_bytes": 1828431,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.62.772",

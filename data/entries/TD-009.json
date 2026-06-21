@@ -2,6 +2,7 @@
   "catalog_id": "TD-009",
   "category": "Trailer & Demos",
   "title": "Trailer: Police Molest - Trailer 2",
+  "has_talkie": null,
   "release_date": "2009-04-29",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/PoliceMolest-T2.rar",
   "release_package_filename": "PoliceMolest-T2.rar",
   "release_package_stemname": "PoliceMolest-T2",
+  "release_package_size_bytes": 2726158,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "2.72.920",

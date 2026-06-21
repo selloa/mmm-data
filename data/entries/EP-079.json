@@ -2,6 +2,7 @@
   "catalog_id": "EP-079",
   "category": "MMM-Episoden",
   "title": "Episode 079: Der Wunsch-O-Mat",
+  "has_talkie": null,
   "release_date": "2010-08-22",
   "authors": [
     "Siel"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm79.zip",
   "release_package_filename": "mmm79.zip",
   "release_package_stemname": "mmm79",
+  "release_package_size_bytes": 15508490,
   "game_files_subpath": "Episode 79 - Der Wunsch-O-Mat 1.01",
   "engine": "AGS",
   "engine_version": "3.0.2.1025",

@@ -2,6 +2,7 @@
   "catalog_id": "EP-089",
   "category": "MMM-Episoden",
   "title": "Episode 089: Der Weltrettungsalgorithmus - Die neue Version",
+  "has_talkie": null,
   "release_date": "2013-03-17",
   "authors": [
     "Kiwa"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm89.rar",
   "release_package_filename": "mmm89.rar",
   "release_package_stemname": "mmm89",
+  "release_package_size_bytes": 5808285,
   "game_files_subpath": "Epi 89 Die neue Version",
   "engine": "AGS",
   "engine_version": "3.2.1.1115",

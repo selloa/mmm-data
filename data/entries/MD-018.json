@@ -2,6 +2,7 @@
   "catalog_id": "MD-018",
   "category": "Maniac Dungeon",
   "title": "Raum 18: Die perfekte Welle",
+  "has_talkie": null,
   "release_date": "2009-12-03",
   "authors": [
     "fireorange"
@@ -22,9 +23,10 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/018_V1_00.rar",
   "release_package_filename": "018_V1_00.rar",
   "release_package_stemname": "018_V1_00",
+  "release_package_size_bytes": 1729651,
   "game_files_subpath": null,
   "engine": "AGS",
-  "engine_version": null,
+  "engine_version": "2.72.920",
   "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/018_V1_00.rar",
   "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/mzjh19c6jxuhr09bm0o4u/018_V1_00.rar?rlkey=bwhc4x0n0xodamrp8clk9opkd&dl=1"
 }

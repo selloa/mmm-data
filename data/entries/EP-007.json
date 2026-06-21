@@ -2,6 +2,7 @@
   "catalog_id": "EP-007",
   "category": "MMM-Episoden",
   "title": "Episode 007: Right said Fred!?!",
+  "has_talkie": "yes",
   "release_date": "2005-03-30",
   "authors": [
     "MisterL"
@@ -18,13 +19,14 @@
   "forum_thread_url_adventure_treff_legacy": "http://www.adventure-treff.de/forum/viewtopic.php?t=5735",
   "youtube_longplay_url": "https://www.youtube.com/watch?v=yotA2j8fPb4&list=PLF3YnSazju8E_2kO3nKy7oloZHG80C5l5&index=16",
   "youtube_longplay_duration": "25:36",
-  "download_url_mmm_docman": "http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=9",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm07.zip",
-  "release_package_filename": "mmm07.zip",
-  "release_package_stemname": "mmm07",
-  "game_files_subpath": "mmm07",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=463",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel1/mmm07-talkie.zip",
+  "release_package_filename": "mmm07-talkie.zip",
+  "release_package_stemname": "mmm07-talkie",
+  "release_package_size_bytes": 51586048,
+  "game_files_subpath": "mmm07_talkie",
   "engine": "AGS",
-  "engine_version": "2.62.772",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmm07.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/04wyl90pt68sdd43n5ysl/mmm07.zip?rlkey=cyg5elyem6tyjo8su2fwp6o8l&dl=1"
+  "engine_version": null,
+  "mirror_url_github_private": null,
+  "mirror_url_dropbox_public": null
 }

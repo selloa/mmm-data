@@ -2,6 +2,7 @@
   "catalog_id": "XS-003",
   "category": "Mini Masterpieces",
   "title": "MMMMM #3: Harrys verwegener Tag",
+  "has_talkie": null,
   "release_date": "2020-04-19",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.com/index.php/de/spiele/mini-episoden/415-mmmmm-3-harrys-verwegener-tag/file.html",
   "release_package_filename": "MMMMM3.rar",
   "release_package_stemname": "MMMMM3",
+  "release_package_size_bytes": 12540537,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920.0",

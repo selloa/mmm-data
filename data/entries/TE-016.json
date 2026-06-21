@@ -2,6 +2,7 @@
   "catalog_id": "TE-016",
   "category": "Trash Episoden",
   "title": "Wink Smiley sucht den Trashmillionär",
+  "has_talkie": null,
   "release_date": "2007-09-01",
   "authors": [
     "DarthConan / Cone Arex"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/Trashmillionaire.rar",
   "release_package_filename": "Trashmillionaire.rar",
   "release_package_stemname": "Trashmillionaire",
+  "release_package_size_bytes": 1211576,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "2.72.920",

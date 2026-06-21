@@ -2,6 +2,7 @@
   "catalog_id": "TE-014",
   "category": "Trash Episoden",
   "title": "Bernard muss 2 mahl",
+  "has_talkie": null,
   "release_date": "2007-07-20",
   "authors": [
     "Rayman"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/Bernard_muss_2_mahl.rar",
   "release_package_filename": "Bernard_muss_2_mahl.rar",
   "release_package_stemname": "Bernard_muss_2_mahl",
+  "release_package_size_bytes": 1651699,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

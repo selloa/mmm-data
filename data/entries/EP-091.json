@@ -2,6 +2,7 @@
   "catalog_id": "EP-091",
   "category": "MMM-Episoden",
   "title": "Episode 091: Fels in der Brandung",
+  "has_talkie": null,
   "release_date": "2015-01-09",
   "authors": [
     "MalleTheRedPhoenix"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm91.rar",
   "release_package_filename": "mmm91.rar",
   "release_package_stemname": "mmm91",
+  "release_package_size_bytes": 2664727,
   "game_files_subpath": "Episode 91 V1.0",
   "engine": "AGS",
   "engine_version": "2.72.920",

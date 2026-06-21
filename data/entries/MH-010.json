@@ -2,6 +2,7 @@
   "catalog_id": "MH-010",
   "category": "Meteorhead Series",
   "title": "#10: Meteorhead X: Eine Frage der Ausrede",
+  "has_talkie": null,
   "release_date": "2008-04-06",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/mhx.zip",
   "release_package_filename": "mhx.zip",
   "release_package_stemname": "mhx",
+  "release_package_size_bytes": 5773700,
   "game_files_subpath": "MHX",
   "engine": "AGS",
   "engine_version": "2.72.920",

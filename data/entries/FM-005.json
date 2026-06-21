@@ -2,6 +2,7 @@
   "catalog_id": "FM-005",
   "category": "Fan Movies",
   "title": "Doktor in da House III",
+  "has_talkie": null,
   "release_date": "2008-05-13",
   "authors": [
     "MalleTheRedPhoenix"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/didh3.rar",
   "release_package_filename": "didh3.rar",
   "release_package_stemname": "didh3",
+  "release_package_size_bytes": 10535373,
   "game_files_subpath": "DidH 3",
   "engine": "AGS",
   "engine_version": "2.72.920",

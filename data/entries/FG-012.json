@@ -2,6 +2,7 @@
   "catalog_id": "FG-012",
   "category": "Fan Games",
   "title": "Maniac Metalhead Mania II",
+  "has_talkie": null,
   "release_date": "2022-04-01",
   "authors": [
     "JPJF"
@@ -22,9 +23,10 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/ManiacMetalheadManiaII.zip",
   "release_package_filename": "ManiacMetalheadManiaII.zip",
   "release_package_stemname": "ManiacMetalheadManiaII",
+  "release_package_size_bytes": 5331498,
   "game_files_subpath": "ManiacMetalheadMania II/Game Data",
   "engine": "AGS",
-  "engine_version": null,
+  "engine_version": "3.5.0.25",
   "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/ManiacMetalheadManiaII.zip",
   "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/5mvllh0lkamwa553szgu4/ManiacMetalheadManiaII.zip?rlkey=3aj3dtmv7ehso4ls61d9u9z7z&dl=1"
 }

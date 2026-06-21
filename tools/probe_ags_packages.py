@@ -114,18 +114,21 @@ AGS_MARKERS = frozenset(
     }
 )
 AGS_EXE_HINTS = re.compile(r"(?:^|/)(?:game|acwin|ags\d+|ags)\.exe$", re.I)
+# AGS embeds runtime version strings far into the main game exe (often >2 MiB).
+EXE_PROBE_MAX_BYTES = 12_000_000
 VERSION_PATTERNS = [
     re.compile(rb"ACI version (\d+\.\d+\.\d+(?:\.\d+)?)", re.I),
     re.compile(
         rb"(?:AGS\s+v?|Adventure Game Studio v?|Compiled with AGS v?)(\d+\.\d+\.\d+(?:\.\d+)?)",
         re.I,
     ),
-    re.compile(rb"(\d+\.\d+\.\d+\.\d+)", re.I),
 ]
 # Runtime version embedded without the "ACI version" prefix (older/custom exe names).
 LEGACY_RUNTIME_VERSION_RE = re.compile(
     rb"\b(2\.(?:5\d|6\d|7\d|80|81|82|70)\.\d{3,4}|3\.\d{1,2}\.\d{4}(?:\.\d+)?)\b"
 )
+FOUR_PART_RUNTIME_VERSION_RE = re.compile(rb"\b([23]\.\d{1,2}\.\d{1,2}\.\d{1,4})\b")
+_FALSE_VERSIONS = frozenset({"1.0.0.0", "6.6.6.6", "9.9.9.9", "0.0.0.0"})
 
 
 @dataclass
@@ -179,15 +182,18 @@ def read_member(archive: Path, member: str, max_bytes: int = 2_000_000) -> bytes
     suffix = archive.suffix.lower()
     member = norm_arc_path(member)
     if suffix == ".zip":
-        with zipfile.ZipFile(archive) as zf:
-            with zf.open(member) as f:
-                return f.read(max_bytes)
+        try:
+            with zipfile.ZipFile(archive) as zf:
+                with zf.open(member) as f:
+                    return f.read(max_bytes)
+        except (NotImplementedError, OSError, zipfile.BadZipFile):
+            pass
     proc = subprocess.run(
-        [str(SEVEN_Z), "e", "-so", f"-o{max_bytes}", str(archive), member],
+        [str(SEVEN_Z), "e", "-so", str(archive), member],
         capture_output=True,
         check=False,
     )
-    # 7z e -so does not support -o size limit; trim after read
+    # 7z e -so does not support a byte limit; trim after read.
     if proc.returncode != 0:
         raise RuntimeError(proc.stderr.decode("utf-8", "replace")[:200])
     return proc.stdout[:max_bytes]
@@ -197,11 +203,18 @@ def find_version_in_blob(data: bytes) -> str | None:
     for pat in VERSION_PATTERNS:
         for m in pat.finditer(data):
             ver = m.group(1).decode("ascii", "ignore")
-            if ver != "1.0.0.0":  # winsetup / PE noise
+            if ver not in _FALSE_VERSIONS:
                 return ver
     m = LEGACY_RUNTIME_VERSION_RE.search(data)
     if m:
-        return m.group(1).decode("ascii", "ignore")
+        ver = m.group(1).decode("ascii", "ignore")
+        if ver not in _FALSE_VERSIONS:
+            return ver
+    m = FOUR_PART_RUNTIME_VERSION_RE.search(data)
+    if m:
+        ver = m.group(1).decode("ascii", "ignore")
+        if ver not in _FALSE_VERSIONS:
+            return ver
     return None
 
 
@@ -315,7 +328,7 @@ def probe_archive(catalog_id: str, archive: Path) -> ProbeResult:
         ]
         for member in exe_members:
             try:
-                blob = read_member(archive, member, max_bytes=2_000_000)
+                blob = read_member(archive, member, max_bytes=EXE_PROBE_MAX_BYTES)
             except Exception:
                 continue
             ver = find_version_in_blob(blob)
@@ -380,7 +393,8 @@ def apply_probe_to_catalog(
         if probe.is_ags is not True:
             continue
         row["engine"] = "AGS"
-        row["engine_version"] = probe.ags_version or ""
+        if probe.ags_version:
+            row["engine_version"] = probe.ags_version
         row["game_files_subpath"] = layout_to_subpath(probe.layout)
         updated += 1
 
@@ -392,6 +406,20 @@ def apply_probe_to_catalog(
     return updated
 
 
+def rows_missing_engine_version(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    out: list[dict[str, str]] = []
+    for row in rows:
+        if (row.get("engine") or "").strip() != "AGS":
+            continue
+        if (row.get("engine_version") or "").strip():
+            continue
+        fn = (row.get("release_package_filename") or "").strip()
+        if not fn:
+            continue
+        out.append(row)
+    return out
+
+
 def main() -> int:
     import argparse
 
@@ -401,18 +429,31 @@ def main() -> int:
         action="store_true",
         help="Write engine, engine_version, game_files_subpath for probed rows",
     )
+    parser.add_argument(
+        "--missing-versions",
+        action="store_true",
+        help="probe catalog rows with engine=AGS and empty engine_version",
+    )
     parser.add_argument("--csv", type=Path, default=CSV_PATH)
     args = parser.parse_args()
 
     with args.csv.open(encoding="utf-8-sig", newline="") as f:
-        target_rows = [r for r in csv.DictReader(f) if r["catalog_id"] in NEW_IDS]
+        all_rows = list(csv.DictReader(f))
+
+    if args.missing_versions:
+        target_rows = rows_missing_engine_version(all_rows)
+        target_ids = {r["catalog_id"] for r in target_rows}
+    else:
+        target_rows = [r for r in all_rows if r["catalog_id"] in NEW_IDS]
+        target_ids = NEW_IDS
 
     target_rows.sort(key=lambda r: r["catalog_id"])
     results = probe_rows(target_rows)
 
     if args.apply_csv:
-        n = apply_probe_to_catalog(args.csv, results, ids=NEW_IDS)
-        print(f"Updated {n} catalog row(s) in {args.csv}")
+        n = apply_probe_to_catalog(args.csv, results, ids=target_ids)
+        filled = sum(1 for r in results if r.ags_version)
+        print(f"Updated {n} catalog row(s); {filled} with engine_version in {args.csv}")
         return 0
 
     ags = [r for r in results if r.is_ags is True]

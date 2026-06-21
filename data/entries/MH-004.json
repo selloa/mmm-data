@@ -2,6 +2,7 @@
   "catalog_id": "MH-004",
   "category": "Meteorhead Series",
   "title": "#04: Meteorhead IV: Forgotten Memories",
+  "has_talkie": null,
   "release_date": "2007-07-17",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/mh4.rar",
   "release_package_filename": "mh4.rar",
   "release_package_stemname": "mh4",
+  "release_package_size_bytes": 2425721,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

@@ -1,0 +1,1211 @@
+# Talkie links from MMM staffel overview pages
+# Generated: 2026-06-21
+# Source: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-{N}.html (staffeln 1–11)
+
+## Staffel 1
+
+### EP-001 | Episode 1: Geschwisterliebe
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-1.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=5
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=457
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=5
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-002 | Episode 2: Unruhen
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-1.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=6
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=460
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=6
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-003 | Episode 3: Stubenarrest
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-1.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=1
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=1
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-004 | Episode 4: Mimikry der Emotionen
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-1.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=4
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=4
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-005 | Episode 5: Rhythmen zum Reinbeißen
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-1.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=7
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=7
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-006 | Episode 6: Er is' weg
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-1.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=8
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=8
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-007 | Episode 7: Right said Fred!?!
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-1.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=9
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=463
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=9
+catalog_matches_talkie: no
+wiki_sprachausgabe: no
+
+### EP-008 | Episode 8: Die Abfuhr
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-1.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=10
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=10
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-009 | Episode 9: Radioaktiv
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-1.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=11
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=11
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-010 | Episode 10: Tales of the Weird Ed
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-1.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=12
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=12
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+
+## Staffel 2
+
+### EP-011 | Episode 11: Ein haariger Ausflug
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-2.html
+has_talkie_on_site: yes
+has_talkie_tag: no
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=13
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=484
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=13
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-012 | Episode 12: Serien-Special: GIGA Mansion
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-2.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=14
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=14
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-013 | Episode 13: Nur geträumt
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-2.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=15
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=15
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-014 | Episode 14: Ed's Rache für den Hamsterbraten
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-2.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=16
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=16
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-015 | Episode 15: Ortmaschine
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-2.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=17
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=17
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-016 | Episode 16: Meteor Family - Die Rückkehr des Meteoriten
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-2.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=18
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=18
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-017 | Episode 17: Das Labor
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-2.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=19
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=19
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-018 | Episode 18: Shit Happens!
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-2.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=20
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=20
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-019 | Episode 19: Das Date
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-2.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=21
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=21
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-020 | Episode 20: Das Date 2
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-2.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=22
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=22
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+
+## Staffel 3
+
+### EP-021 | Episode 21: Rettet Kanal 13!
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-3.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=23
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=23
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-022 | Episode 22: Presserummel
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-3.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=24
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=24
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-023 | Episode 23: Das verflixte Geschenk
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-3.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=25
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=25
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-024 | Episode 24: Time Machine
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-3.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=26
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=26
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-025 | Episode 25: Bernard stört
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-3.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=27
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=27
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-026 | Episode 26: Zeitenwende
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-3.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=28
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=28
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-027 | Episode 27: Hamsternator
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-3.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=29
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=29
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-028 | Episode 28: Time Machine 2
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-3.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=30
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=30
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-029 | Episode 29: Flucht des Meteoriten
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-3.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=31
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=31
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-030 | Episode 30: Memories of Zak
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-3.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=32
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=32
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+
+## Staffel 4
+
+### EP-031 | Episode 31: Britneys Suche
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-4.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=33
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=464
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=33
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-032 | Episode 32: The Secret of Maniac Mansion
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-4.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=34
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=467
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=34
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-033 | Episode 33: Carry on Smiley!
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-4.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=35
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=35
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-034 | Episode 34: Helden des Tages
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-4.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=36
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=36
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-035 | Episode 35: Weggebeamt
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-4.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=37
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=37
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-036 | Episode 36: Der Liebesbrief
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-4.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=38
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=38
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-037 | Episode 37: Verabredung mit Dave
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-4.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=39
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=470
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=39
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-038 | Episode 38: Rescue Mission
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-4.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=40
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=40
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-039 | Episode 39: Erinnerungen
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-4.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=41
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=41
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-040 | Episode 40: Verflixte Türen
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-4.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=42
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=461
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=42
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+
+## Staffel 5
+
+### EP-041 | Episode 41: Das neue Jugendschutzgesetz
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-5.html
+has_talkie_on_site: yes
+has_talkie_tag: no
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=43
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=473
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=43
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-042 | Episode 42: Die furchtbaren Pläne des Psycho Bernie
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-5.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=44
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=44
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-043 | Episode 43: Vorsicht, Edna kommt!
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-5.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=45
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=45
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-044 | Episode 44: Razors grosser Auftritt
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-5.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=46
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=471
+catalog_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=471
+catalog_matches_talkie: yes
+wiki_sprachausgabe: yes
+
+### EP-045 | Episode 45: Maniac Monday
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-5.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=47
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=47
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-046 | Episode 46: Verschollen
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-5.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=48
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=48
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-047 | Episode 47: Maniac Ostern
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-5.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=49
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=49
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-048 | Episode 48: Wendy und das Buch des Todes
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-5.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=50
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=50
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-049 | Episode 49: Clouso's grösster Coup
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-5.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=51
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=51
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-050 | Episode 50: Das Date 3
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-5.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=52
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=52
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+
+## Staffel 6
+
+### EP-051 | Episode 51: Ortmaschine II
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-6.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=53
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=53
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-052 | Episode 52: Ein irrer Tag eines Ronvillers
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-6.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=189
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=189
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-053 | Episode 53: Der Klaus schlägt zurück
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-6.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=55
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=462
+catalog_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=462
+catalog_matches_talkie: yes
+wiki_sprachausgabe: yes
+
+### EP-054 | Episode 54: CSI:RONVILLE
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-6.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=56
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=56
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-055 | Episode 55: Hamsters of the mysterious man: Chapter of dream
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-6.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=57
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=57
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-056 | Episode 56: Grotten-Urlaub
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-6.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=58
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=58
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-057 | Episode 57: Ein geheimnisvoller Ausflug
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-6.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=92
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=92
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-058 | Episode 58: The People's Court
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-6.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=112
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=112
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-059 | Episode 59: Computerliebe
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-6.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=150
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=150
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-060 | Episode 60: Jahrmarkt der Verdammten
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-6.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=151
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=151
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+
+## Staffel 7
+
+### EP-061 | Episode 61: Bernards Room
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-7.html
+has_talkie_on_site: yes
+has_talkie_tag: no
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=157
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=481
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=157
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-062 | Episode 62: Bernard gegen Berthold
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-7.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=163
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=163
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-063 | Episode 63: Books - Deals unter Nachbarn
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-7.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=164
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=164
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-064 | Episode 64: Baranoia
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-7.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=165
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=165
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-065 | Episode 65: Save Smiley!
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-7.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=166
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=166
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-066 | Episode 66: Hoagies neuer Freund
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-7.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=167
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=167
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-067 | Episode 67: Die Schöne und das Biest
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-7.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=175
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=175
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-068 | Episode 68: MaMMa ante Portas
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-7.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=176
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=176
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-069 | Episode 69: Samstag
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-7.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=185
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=185
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-070 | Episode 70: Maniac Mansion Begins
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-7.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=187
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=187
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+
+## Staffel 8
+
+### EP-071 | Episode 71: Neue Abenteuer auf Terra
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-8.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=188
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=188
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-072 | Episode 72 : Mindbending TV
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-8.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=287
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=287
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-073 | Episode 73: Even a broken Clock
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-8.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=296
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=296
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-074 | Episode 74: Ted Edison a.t. Curse o. King RootenTooten
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-8.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=297
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=297
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-075 | Episode 75:  Das Necronomicon
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-8.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=301
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=301
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-076 | Episode 76: The Bernoulli-Show
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-8.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=330
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=330
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-077 | Episode 77: Schwer verquer
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-8.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=331
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=331
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-078 | Episode 78: Dumm geholfen
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-8.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=336
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=336
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-079 | Episode 79: Der Wunsch-O-Mat
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-8.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=356
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=356
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-080 | Episode 80: Spiel des Lebens
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-8.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=366
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=366
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+
+## Staffel 9
+
+### EP-081 | Episode 81: Bernard bricht aus!
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-9.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=369
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=369
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-082 | Episode 82: Freundin mit Hindernissen
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-9.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=372
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=372
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-083 | Episode 83: Chasing Hoagie
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-9.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=375
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=375
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-084 | Episode 84: Surf'n'Ronville
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-9.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=376
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=476
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=376
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-085 | Episode 85: Freundin mit Hindernissen - Part 2
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-9.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=377
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php?option=com_docman&task=doc_download&gid=377
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-086 | Episode 86: Bernard bekommt Besuch
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-9.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=378
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=378
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-087 | Episode 87: Das Geheimnis des Blakes Hotel von Ronville
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-9.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=379
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=379
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-088 | Episode 88: Der alltaegliche Wahnsinn
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-9.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=391
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=391
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-089 | Episode 89: Der Weltrettungsalgorithmus - Die neue Version
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-9.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=393
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads/doc_download/393-episode-89.html
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-090 | Episode 90: Kofferpacken
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-9.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=404
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=458
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=404
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+
+## Staffel 10
+
+### EP-091 | Episode 91: Fels in der Brandung
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=406
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=406
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-092 | Episode 92: Projekt False Start
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=408
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=408
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-093 | Episode 93: Murder at the Moonshine Mansion
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads.html?task=doc_download&gid=409
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=483
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads/doc_download/409-episode-93.html
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-094 | Episode 94: Maniac on the Mississippi
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=411
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10/1023-episode-94-murder-at-the-mississippi.html
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-095 | Episode 95: Britneys Flucht
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=421
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/ressourcen/downloads/episoden/474-episode-95-talkie-deutsch/file.html
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10/1045-episode-95-britney-s-escape.html
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-096 | Episode 96: Dave's Home Odyssey
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=428
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=428
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-097 | Episode 97: Tollhaus-Weihnachten
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=429
+talkie_docman: (none)
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=429
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-098 | Episode 98: Maniac Apartment
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=432
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=478
+catalog_docman: http://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10/1078-episode-98-maniac-apartment.html
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-099 | Episode 99: Die Premiere
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10.html
+has_talkie_on_site: no
+has_talkie_tag: no
+talkie_link_type: none
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=434
+talkie_docman: (none)
+catalog_docman: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10/1080-episode-99-die-premiere.html
+catalog_matches_talkie: n/a
+wiki_sprachausgabe: no
+
+### EP-100 | Episode 100: Money Mansion
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=441
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=466
+catalog_docman: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-10/1096-episode-100-money-mansion.html
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+
+## Staffel 11
+
+### EP-101 | Episode 101: Mit anderen Augen
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-11.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=456
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=459
+catalog_docman: https://maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-11/1118-episode-101-mit-anderen-augen.html
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+### EP-102 | Episode 102: Michaels Nacht
+staffel_page: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-11.html
+has_talkie_on_site: yes
+has_talkie_tag: yes
+talkie_link_type: separate
+original_docman: (none)
+talkie_docman: https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=480
+catalog_docman: https://www.maniac-mansion-mania.com/index.php/de/spiele/episoden/staffel-11/1143-episode-102-michaels-nacht.html
+catalog_matches_talkie: no
+wiki_sprachausgabe: yes
+
+
+========================================================================
+
+# SUMMARY
+
+## Talkies on staffel pages (20)
+  - EP-001: Episode 1: Geschwisterliebe [separate]
+  - EP-002: Episode 2: Unruhen [separate]
+  - EP-007: Episode 7: Right said Fred!?! [separate]
+  - EP-011: Episode 11: Ein haariger Ausflug [separate]
+  - EP-031: Episode 31: Britneys Suche [separate]
+  - EP-032: Episode 32: The Secret of Maniac Mansion [separate]
+  - EP-037: Episode 37: Verabredung mit Dave [separate]
+  - EP-040: Episode 40: Verflixte Türen [separate]
+  - EP-041: Episode 41: Das neue Jugendschutzgesetz [separate]
+  - EP-044: Episode 44: Razors grosser Auftritt [separate]
+  - EP-053: Episode 53: Der Klaus schlägt zurück [separate]
+  - EP-061: Episode 61: Bernards Room [separate]
+  - EP-084: Episode 84: Surf'n'Ronville [separate]
+  - EP-090: Episode 90: Kofferpacken [separate]
+  - EP-093: Episode 93: Murder at the Moonshine Mansion [separate]
+  - EP-095: Episode 95: Britneys Flucht [separate]
+  - EP-098: Episode 98: Maniac Apartment [separate]
+  - EP-100: Episode 100: Money Mansion [separate]
+  - EP-101: Episode 101: Mit anderen Augen [separate]
+  - EP-102: Episode 102: Michaels Nacht [separate]
+
+## Catalog mismatches — catalog_docman != talkie link (18)
+  - EP-001: Episode 1: Geschwisterliebe [separate]
+  - EP-002: Episode 2: Unruhen [separate]
+  - EP-007: Episode 7: Right said Fred!?! [separate]
+  - EP-011: Episode 11: Ein haariger Ausflug [separate]
+  - EP-031: Episode 31: Britneys Suche [separate]
+  - EP-032: Episode 32: The Secret of Maniac Mansion [separate]
+  - EP-037: Episode 37: Verabredung mit Dave [separate]
+  - EP-040: Episode 40: Verflixte Türen [separate]
+  - EP-041: Episode 41: Das neue Jugendschutzgesetz [separate]
+  - EP-061: Episode 61: Bernards Room [separate]
+  - EP-084: Episode 84: Surf'n'Ronville [separate]
+  - EP-090: Episode 90: Kofferpacken [separate]
+  - EP-093: Episode 93: Murder at the Moonshine Mansion [separate]
+  - EP-095: Episode 95: Britneys Flucht [separate]
+  - EP-098: Episode 98: Maniac Apartment [separate]
+  - EP-100: Episode 100: Money Mansion [separate]
+  - EP-101: Episode 101: Mit anderen Augen [separate]
+  - EP-102: Episode 102: Michaels Nacht [separate]
+
+## Wiki Sprachausgabe but no talkie on staffel page (0)
+  (none)
+
+## Talkie on staffel page but not in Wiki Sprachausgabe (1)
+  - EP-007: Episode 7: Right said Fred!?! [separate]
+

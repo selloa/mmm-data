@@ -2,6 +2,7 @@
   "catalog_id": "MH-009",
   "category": "Meteorhead Series",
   "title": "#09: Meteorhead IX: Razors Mutation",
+  "has_talkie": null,
   "release_date": "2008-03-23",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/MHIXFinal.7z",
   "release_package_filename": "MHIXFinal.7z",
   "release_package_stemname": "MHIXFinal",
+  "release_package_size_bytes": 2276979,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "3.00.1000",

@@ -2,6 +2,7 @@
   "catalog_id": "MH-001",
   "category": "Meteorhead Series",
   "title": "#01: Meteorhead",
+  "has_talkie": null,
   "release_date": "2007-06-12",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/meteorhead.rar",
   "release_package_filename": "meteorhead.rar",
   "release_package_stemname": "meteorhead",
+  "release_package_size_bytes": 1585837,
   "game_files_subpath": "meteorhead",
   "engine": "AGS",
   "engine_version": "2.72.920",

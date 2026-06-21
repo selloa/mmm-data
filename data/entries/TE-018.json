@@ -2,6 +2,7 @@
   "catalog_id": "TE-018",
   "category": "Trash Episoden",
   "title": "Bernard muss 3 mahl",
+  "has_talkie": null,
   "release_date": "2008-03-25",
   "authors": [
     "shanki"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/Bernard_muss_3_mahlfinal.rar",
   "release_package_filename": "Bernard_muss_3_mahlfinal.rar",
   "release_package_stemname": "Bernard_muss_3_mahlfinal",
+  "release_package_size_bytes": 3149866,
   "game_files_subpath": "Bernard muss 3 mahl",
   "engine": "AGS",
   "engine_version": "2.72.920",

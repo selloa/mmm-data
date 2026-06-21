@@ -2,6 +2,7 @@
   "catalog_id": "EP-066",
   "category": "MMM-Episoden",
   "title": "Episode 066: Hoagies neuer Freund",
+  "has_talkie": null,
   "release_date": "2007-08-12",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel7/mmm66.rar",
   "release_package_filename": "mmm66.rar",
   "release_package_stemname": "mmm66",
+  "release_package_size_bytes": 4989457,
   "game_files_subpath": "mmm66",
   "engine": "AGS",
   "engine_version": "2.72.920",

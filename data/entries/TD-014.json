@@ -2,6 +2,7 @@
   "catalog_id": "TD-014",
   "category": "Trailer & Demos",
   "title": "Trailer: Wayne Shyster - Ace Attorney",
+  "has_talkie": null,
   "release_date": "2011-04-13",
   "authors": [
     "Siel"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/WayneShyster-Ace_AttorneyTrailer.zip",
   "release_package_filename": "WayneShyster-Ace_AttorneyTrailer.zip",
   "release_package_stemname": "WayneShyster-Ace_AttorneyTrailer",
+  "release_package_size_bytes": 3783721,
   "game_files_subpath": "Wayne Shyster-Ace_AttorneyTrailer",
   "engine": "AGS",
   "engine_version": "3.12.1074",

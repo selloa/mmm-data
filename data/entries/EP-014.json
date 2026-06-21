@@ -2,6 +2,7 @@
   "catalog_id": "EP-014",
   "category": "MMM-Episoden",
   "title": "Episode 014: Ed's Rache für den Hamsterbraten",
+  "has_talkie": null,
   "release_date": "2005-05-01",
   "authors": [
     "Monsum"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm14.zip",
   "release_package_filename": "mmm14.zip",
   "release_package_stemname": "mmm14",
+  "release_package_size_bytes": 1869559,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.62.772",

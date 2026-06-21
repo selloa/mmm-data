@@ -2,6 +2,7 @@
   "catalog_id": "EP-013",
   "category": "MMM-Episoden",
   "title": "Episode 013: Nur geträumt",
+  "has_talkie": null,
   "release_date": "2005-04-30",
   "authors": [
     "ZENSIERT"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm13.zip",
   "release_package_filename": "mmm13.zip",
   "release_package_stemname": "mmm13",
+  "release_package_size_bytes": 2463138,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.62.772",

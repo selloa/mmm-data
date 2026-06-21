@@ -2,6 +2,7 @@
   "catalog_id": "MH-016",
   "category": "Meteorhead Series",
   "title": "#16: Meteorhead: The Final Chapter - Die Qual des Wals",
+  "has_talkie": null,
   "release_date": "2017-12-24",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/meteorheadlastchapter.zip",
   "release_package_filename": "meteorheadlastchapter.zip",
   "release_package_stemname": "meteorheadlastchapter",
+  "release_package_size_bytes": 10432978,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.3.5.7",

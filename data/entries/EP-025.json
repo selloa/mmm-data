@@ -2,6 +2,7 @@
   "catalog_id": "EP-025",
   "category": "MMM-Episoden",
   "title": "Episode 025: Bernard stört ( v2.3 )",
+  "has_talkie": null,
   "release_date": "2005-07-26",
   "authors": [
     "Oldtimer"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/MMM_25_V3.0.zip",
   "release_package_filename": "MMM_25_V3.0.zip",
   "release_package_stemname": "MMM_25_V3.0",
+  "release_package_size_bytes": 19333033,
   "game_files_subpath": null,
   "engine": "Visionaire",
   "engine_version": null,

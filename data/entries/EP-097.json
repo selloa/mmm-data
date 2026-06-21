@@ -2,6 +2,7 @@
   "catalog_id": "EP-097",
   "category": "MMM-Episoden",
   "title": "Episode 097: Tollhaus Weihnachten",
+  "has_talkie": null,
   "release_date": "2017-12-24",
   "authors": [
     "Fatal hoch zwei"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm97.zip",
   "release_package_filename": "mmm97.zip",
   "release_package_stemname": "mmm97",
+  "release_package_size_bytes": 11923009,
   "game_files_subpath": "X-mas Mansion",
   "engine": "AGS",
   "engine_version": "3.5.0.22",

@@ -2,6 +2,7 @@
   "catalog_id": "FG-011",
   "category": "Fan Games",
   "title": "Maniac Metalhead Mania",
+  "has_talkie": null,
   "release_date": "2020-11-01",
   "authors": [
     "JPJF"
@@ -22,9 +23,10 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/ManiacMetalheadMania.zip",
   "release_package_filename": "ManiacMetalheadMania.zip",
   "release_package_stemname": "ManiacMetalheadMania",
+  "release_package_size_bytes": 4560007,
   "game_files_subpath": "Maniac Metalhead Mania",
   "engine": "AGS",
-  "engine_version": null,
+  "engine_version": "3.5.0.25",
   "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/ManiacMetalheadMania.zip",
   "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ddwgw5sip6pjhg5kgsvud/ManiacMetalheadMania.zip?rlkey=ojg5t2m8p4diuhroqn5spyaea&dl=1"
 }

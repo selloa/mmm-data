@@ -2,6 +2,7 @@
   "catalog_id": "EP-055",
   "category": "MMM-Episoden",
   "title": "Episode 055: Hamsters of the mysterious man: Chapter of dream",
+  "has_talkie": null,
   "release_date": "2006-11-15",
   "authors": [
     "DarthConan / Cone Arex"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm55.zip",
   "release_package_filename": "mmm55.zip",
   "release_package_stemname": "mmm55",
+  "release_package_size_bytes": 3413656,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

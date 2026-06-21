@@ -2,6 +2,7 @@
   "catalog_id": "TD-004",
   "category": "Trailer & Demos",
   "title": "Trailer: @-Man - The Dork Knight",
+  "has_talkie": null,
   "release_date": "2009-04-28",
   "authors": [
     "Bòógieman"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/@-Man_Trailer.zip",
   "release_package_filename": "@-Man_Trailer.zip",
   "release_package_stemname": "@-Man_Trailer",
+  "release_package_size_bytes": 2374876,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.12.1074",

@@ -2,6 +2,7 @@
   "catalog_id": "EP-057",
   "category": "MMM-Episoden",
   "title": "Episode 057: Der komplizierte Ausflug",
+  "has_talkie": null,
   "release_date": "2007-03-06",
   "authors": [
     "sky09"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm57-v2_04.rar",
   "release_package_filename": "mmm57-v2_04.rar",
   "release_package_stemname": "mmm57-v2_04",
+  "release_package_size_bytes": 15686994,
   "game_files_subpath": "Ep57-EGA v2.04",
   "engine": "AGS",
   "engine_version": "2.72.920",

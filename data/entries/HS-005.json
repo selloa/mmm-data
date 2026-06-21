@@ -2,6 +2,7 @@
   "catalog_id": "HS-005",
   "category": "Halloween Specials",
   "title": "Episode H05-5: REDRUM - Wer ist der Mörder",
+  "has_talkie": null,
   "release_date": "2005-10-31",
   "authors": [
     "Kate"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2005/Redrum.rar",
   "release_package_filename": "Redrum.rar",
   "release_package_stemname": "Redrum",
+  "release_package_size_bytes": 5962450,
   "game_files_subpath": "Redrum",
   "engine": "AGS",
   "engine_version": "2.70.864",

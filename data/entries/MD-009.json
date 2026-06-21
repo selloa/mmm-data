@@ -2,6 +2,7 @@
   "catalog_id": "MD-009",
   "category": "Maniac Dungeon",
   "title": "Raum 09: Und dann gab's wirklich, echt überhaupt gar keins mehr, ehrlich!",
+  "has_talkie": null,
   "release_date": "2007-04-22",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/009_V1_00.zip",
   "release_package_filename": "009_V1_00.zip",
   "release_package_stemname": "009_V1_00",
+  "release_package_size_bytes": 2500978,
   "game_files_subpath": "009",
   "engine": "AGS",
   "engine_version": "2.72.920",

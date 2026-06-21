@@ -2,6 +2,7 @@
   "catalog_id": "TE-023",
   "category": "Trash Episoden",
   "title": "Maniac Dungeon 7 - inoffizielle Urversion",
+  "has_talkie": null,
   "release_date": "2011-03-04",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/007_V1_00.rar",
   "release_package_filename": "007_V1_00.rar",
   "release_package_stemname": "007_V1_00",
+  "release_package_size_bytes": 1650136,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

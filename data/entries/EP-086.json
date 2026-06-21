@@ -2,6 +2,7 @@
   "catalog_id": "EP-086",
   "category": "MMM-Episoden",
   "title": "Episode 086: Bernard bekommt Besuch",
+  "has_talkie": null,
   "release_date": "2011-08-19",
   "authors": [
     "Panniban"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm86.zip",
   "release_package_filename": "mmm86.zip",
   "release_package_stemname": "mmm86",
+  "release_package_size_bytes": 11799752,
   "game_files_subpath": "Epi86 Bernard bekommt Besuch",
   "engine": "AGS",
   "engine_version": "3.2.1.1115",

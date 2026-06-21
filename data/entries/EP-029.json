@@ -2,6 +2,7 @@
   "catalog_id": "EP-029",
   "category": "MMM-Episoden",
   "title": "Episode 029: Die Flucht des Meteoriten",
+  "has_talkie": null,
   "release_date": "2005-08-17",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm29.zip",
   "release_package_filename": "mmm29.zip",
   "release_package_stemname": "mmm29",
+  "release_package_size_bytes": 2829082,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.62.772",

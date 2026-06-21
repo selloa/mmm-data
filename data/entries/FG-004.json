@@ -2,6 +2,7 @@
   "catalog_id": "FG-004",
   "category": "Fan Games",
   "title": "Cedric and the Revolution",
+  "has_talkie": null,
   "release_date": "2005-12-24",
   "authors": [
     "Bernie"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/Cedric_Revolution.zip",
   "release_package_filename": "Cedric_Revolution.zip",
   "release_package_stemname": "Cedric_Revolution",
+  "release_package_size_bytes": 1805701,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.70.863",

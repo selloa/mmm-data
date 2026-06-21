@@ -2,6 +2,7 @@
   "catalog_id": "EP-052",
   "category": "MMM-Episoden",
   "title": "Episode 052: Ein irrer Tag eines Ronvillers (Version 2.0)",
+  "has_talkie": null,
   "release_date": "2006-07-26",
   "authors": [
     "Kaktus"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm52.7z",
   "release_package_filename": "mmm52.7z",
   "release_package_stemname": "mmm52",
+  "release_package_size_bytes": 9392374,
   "game_files_subpath": "52v2",
   "engine": "AGS",
   "engine_version": "2.72.920",

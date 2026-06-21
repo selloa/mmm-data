@@ -2,6 +2,7 @@
   "catalog_id": "EP-024",
   "category": "MMM-Episoden",
   "title": "Episode 024: Time Machine",
+  "has_talkie": null,
   "release_date": "2005-07-15",
   "authors": [
     "Kate"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm24.rar",
   "release_package_filename": "mmm24.rar",
   "release_package_stemname": "mmm24",
+  "release_package_size_bytes": 1510990,
   "game_files_subpath": "mmm",
   "engine": "AGS",
   "engine_version": "2.62.772",

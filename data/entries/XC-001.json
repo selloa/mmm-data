@@ -2,6 +2,7 @@
   "catalog_id": "XC-001",
   "category": "Christmas Specials",
   "title": "#01: A Christmas Odyssey",
+  "has_talkie": null,
   "release_date": "2008-12-11",
   "authors": [
     "LilaQ"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/X_Mas_Odysee.zip",
   "release_package_filename": "X_Mas_Odysee.zip",
   "release_package_stemname": "X_Mas_Odysee",
+  "release_package_size_bytes": 10774542,
   "game_files_subpath": "X Mas Odyssey",
   "engine": "AGS",
   "engine_version": "2.72.920",

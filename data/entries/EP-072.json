@@ -2,6 +2,7 @@
   "catalog_id": "EP-072",
   "category": "MMM-Episoden",
   "title": "Episode 072: Mindbending TV",
+  "has_talkie": null,
   "release_date": "2008-06-15",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm72.rar",
   "release_package_filename": "mmm72.rar",
   "release_package_stemname": "mmm72",
+  "release_package_size_bytes": 2171324,
   "game_files_subpath": "mindbending 1.01",
   "engine": "AGS",
   "engine_version": "2.72.920",

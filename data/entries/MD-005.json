@@ -2,6 +2,7 @@
   "catalog_id": "MD-005",
   "category": "Maniac Dungeon",
   "title": "Raum 05: Tief unter der Erde",
+  "has_talkie": null,
   "release_date": "2007-01-15",
   "authors": [
     "Quallenfischer"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/005_V1_00.rar",
   "release_package_filename": "005_V1_00.rar",
   "release_package_stemname": "005_V1_00",
+  "release_package_size_bytes": 1601565,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

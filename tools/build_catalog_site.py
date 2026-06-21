@@ -157,6 +157,9 @@ def render_entry_row(row):
 
     title_html = f'<a href="{esc(wiki)}" target="_blank" rel="noopener">{title}</a>' if wiki else title
 
+    if row.get("has_talkie", "").strip().lower() == "yes":
+        title_html += ' <span class="talkie-badge" title="Sprachausgabe">Talkie</span>'
+
     slots = build_link_slots(row)
     slot_cells = "".join(
         f'<span class="link-slot">{s}</span>' for s in slots
@@ -496,6 +499,21 @@ def build_html(groups):
     text-decoration: none;
   }}
   .col-title a:hover {{ color: var(--link-hover); text-decoration: underline; }}
+  .talkie-badge {{
+    display: inline-block;
+    margin-left: .35rem;
+    padding: .05rem .35rem;
+    font-size: .58rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    vertical-align: middle;
+    color: var(--accent);
+    background: rgba(96, 147, 76, 0.15);
+    border: 1px solid var(--accent-dim);
+    border-radius: 3px;
+    line-height: 1.4;
+  }}
   .entry-desc {{
     display: block;
     font-size: .72rem;

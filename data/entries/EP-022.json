@@ -2,6 +2,7 @@
   "catalog_id": "EP-022",
   "category": "MMM-Episoden",
   "title": "Episode 022: Presserummel",
+  "has_talkie": null,
   "release_date": "2005-06-15",
   "authors": [
     "Tribble"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm22.zip",
   "release_package_filename": "mmm22.zip",
   "release_package_stemname": "mmm22",
+  "release_package_size_bytes": 2598253,
   "game_files_subpath": "mmm22v1[1].1",
   "engine": "AGS",
   "engine_version": "2.61.747",

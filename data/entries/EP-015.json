@@ -2,6 +2,7 @@
   "catalog_id": "EP-015",
   "category": "MMM-Episoden",
   "title": "Episode 015: Ortmaschine",
+  "has_talkie": null,
   "release_date": "2005-05-02",
   "authors": [
     "Problem"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/MMM15_V121.zip",
   "release_package_filename": "MMM15_V121.zip",
   "release_package_stemname": "MMM15_V121",
+  "release_package_size_bytes": 4412068,
   "game_files_subpath": "MMM15_V121",
   "engine": "AGS",
   "engine_version": "2.72.920",

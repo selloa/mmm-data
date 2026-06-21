@@ -2,6 +2,7 @@
   "catalog_id": "EP-074",
   "category": "MMM-Episoden",
   "title": "Episode 074: Ted Edison and the Curse of King Rooten Tooten",
+  "has_talkie": null,
   "release_date": "2008-10-18",
   "authors": [
     "MisterL"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel8/mmm74.zip",
   "release_package_filename": "mmm74.zip",
   "release_package_stemname": "mmm74",
+  "release_package_size_bytes": 6627282,
   "game_files_subpath": "Epi74",
   "engine": "AGS",
   "engine_version": "2.72.920",

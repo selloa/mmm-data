@@ -9,7 +9,7 @@ Human-edited source file in this repo layout: `source/mmm_catalog.csv`. Generate
 - **Primary key:** `catalog_id` (stable; matches CSV).
 - **Property names:** Same as CSV header (`snake_case`), so the CSV→JSON mapping is obvious.
 - **Empty CSV cell:** Stored as JSON `null` (never omit the key in v1 — keeps shape uniform and diffs simple).
-- **`authors`:** Canonical form is a **JSON array of strings**; the converter splits the CSV on `;` and trims each part. Empty / whitespace-only → `null`.
+- **`authors`:** Canonical form is a **JSON array of strings**; the converter splits the CSV on `,` and trims each part. Empty / whitespace-only → `null`.
 
 ## Field table
 
@@ -18,8 +18,9 @@ Human-edited source file in this repo layout: `source/mmm_catalog.csv`. Generate
 | `catalog_id` | string | Required globally unique id. |
 | `category` | string | |
 | `title` | string | |
+| `has_talkie` | string \| null | `yes` when the primary catalog download includes voice acting; empty CSV cell → `null`. |
 | `release_date` | string \| null | Keep raw string from CSV for now (includes values like `Created on …`). |
-| `authors` | array of string \| null | Normalized from `;`-separated list. |
+| `authors` | array of string \| null | Normalized from `,`-separated list. |
 | `forum_thread_url_mmm` | string \| null | URI string; stricter URL checks can come later. |
 | `wiki_url_mmm` | string \| null | |
 | `walkthrough_url_mmm` | string \| null | MMM site walkthrough / Komplettlösung page. |
@@ -36,6 +37,7 @@ Human-edited source file in this repo layout: `source/mmm_catalog.csv`. Generate
 | `download_url_mmm_canonical` | string \| null | |
 | `release_package_filename` | string \| null | |
 | `release_package_stemname` | string \| null | |
+| `release_package_size_bytes` | integer \| null | Size of the release archive in bytes (from local mirror or download). |
 | `game_files_subpath` | string \| null | |
 | `engine` | string \| null | |
 | `engine_version` | string \| null | |

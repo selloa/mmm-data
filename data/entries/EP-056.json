@@ -2,6 +2,7 @@
   "catalog_id": "EP-056",
   "category": "MMM-Episoden",
   "title": "Episode 056: Grotten-Urlaub",
+  "has_talkie": null,
   "release_date": "2007-01-31",
   "authors": [
     "Fatal hoch zwei"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel6/mmm56.zip",
   "release_package_filename": "mmm56.zip",
   "release_package_stemname": "mmm56",
+  "release_package_size_bytes": 4139357,
   "game_files_subpath": "mmm56",
   "engine": "AGS",
   "engine_version": "2.72.920",

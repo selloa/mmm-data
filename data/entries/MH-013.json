@@ -2,6 +2,7 @@
   "catalog_id": "MH-013",
   "category": "Meteorhead Series",
   "title": "#13: Meteorhead XIII: Universale Veränderungen",
+  "has_talkie": null,
   "release_date": "2012-10-18",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/meteorhead13.rar",
   "release_package_filename": "meteorhead13.rar",
   "release_package_stemname": "meteorhead13",
+  "release_package_size_bytes": 2605352,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.21.1115",

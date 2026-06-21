@@ -2,10 +2,11 @@
   "catalog_id": "EP-012",
   "category": "MMM-Episoden",
   "title": "Episode 012: Giga Mansion",
+  "has_talkie": null,
   "release_date": "2005",
   "authors": [
-    "'Pippo'",
-    "'TheBrain'"
+    "Pippo",
+    "TheBrain"
   ],
   "forum_thread_url_mmm": null,
   "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/GIGA_Mansion",
@@ -23,6 +24,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm12.zip",
   "release_package_filename": "mmm12.zip",
   "release_package_stemname": "mmm12",
+  "release_package_size_bytes": 2404015,
   "game_files_subpath": "Giga Mansion",
   "engine": "AGS",
   "engine_version": "2.62.772",

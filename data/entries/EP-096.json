@@ -2,6 +2,7 @@
   "catalog_id": "EP-096",
   "category": "MMM-Episoden",
   "title": "Episode 096: Dave's Home Odyssey",
+  "has_talkie": null,
   "release_date": "2017-11-11",
   "authors": [
     "Kinkilla"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel10/mmm96.zip",
   "release_package_filename": "mmm96.zip",
   "release_package_stemname": "mmm96",
+  "release_package_size_bytes": 12761935,
   "game_files_subpath": "Episode96",
   "engine": "AGS",
   "engine_version": "3.2.1.1115",

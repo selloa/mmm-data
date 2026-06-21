@@ -2,6 +2,7 @@
   "catalog_id": "EA-010",
   "category": "Edgar Award Shows",
   "title": "#09 Edgar Award Show - Staffel 9",
+  "has_talkie": null,
   "release_date": "2015-02-14",
   "authors": [
     "JPJF"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/awards/Edgar_Award_St9.rar",
   "release_package_filename": "Edgar_Award_St9.rar",
   "release_package_stemname": "Edgar_Award_St9",
+  "release_package_size_bytes": 5680174,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "3.21.1115",

@@ -2,6 +2,7 @@
   "catalog_id": "EP-047",
   "category": "MMM-Episoden",
   "title": "Episode 047: Maniac Ostern",
+  "has_talkie": null,
   "release_date": "2006-04-18",
   "authors": [
     "Bissiger Witzbold"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel5/mmm47.zip",
   "release_package_filename": "mmm47.zip",
   "release_package_stemname": "mmm47",
+  "release_package_size_bytes": 5595687,
   "game_files_subpath": "MMM47",
   "engine": "AGS",
   "engine_version": "3.4.0.12",

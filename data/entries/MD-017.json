@@ -2,6 +2,7 @@
   "catalog_id": "MD-017",
   "category": "Maniac Dungeon",
   "title": "Raum 17: Wahnsinnsfahrt im Geisterzug",
+  "has_talkie": null,
   "release_date": "2009-12-03",
   "authors": [
     "1mal_volltanken"
@@ -22,9 +23,10 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/017_V1_00.rar",
   "release_package_filename": "017_V1_00.rar",
   "release_package_stemname": "017_V1_00",
+  "release_package_size_bytes": 2614246,
   "game_files_subpath": "017",
   "engine": "AGS",
-  "engine_version": null,
+  "engine_version": "2.72.920",
   "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/017_V1_00.rar",
   "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/fnjzajsd3ralqw2l6r0yl/017_V1_00.rar?rlkey=vd9lww91yjbkrz38kvbj2z4a3&dl=1"
 }

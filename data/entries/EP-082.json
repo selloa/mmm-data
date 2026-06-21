@@ -2,6 +2,7 @@
   "catalog_id": "EP-082",
   "category": "MMM-Episoden",
   "title": "Episode 082: Freundin mit Hindernissen",
+  "has_talkie": null,
   "release_date": "2011-04-01",
   "authors": [
     "JPJF"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel9/mmm82.rar",
   "release_package_filename": "mmm82.rar",
   "release_package_stemname": "mmm82",
+  "release_package_size_bytes": 1835441,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "3.1.2.1074",

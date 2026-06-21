@@ -2,6 +2,7 @@
   "catalog_id": "MH-002",
   "category": "Meteorhead Series",
   "title": "#02: Meteorhead 2: Return of an idiot",
+  "has_talkie": null,
   "release_date": "2007-07-15",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/meteorhead2final.rar",
   "release_package_filename": "meteorhead2final.rar",
   "release_package_stemname": "meteorhead2final",
+  "release_package_size_bytes": 2621093,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

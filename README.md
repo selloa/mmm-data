@@ -6,6 +6,8 @@
 
 **Public read API (hosted):** https://mmm-api-production-7f5a.up.railway.app — OpenAPI at `/docs`, browse index at `/v1/entries`, full row at `/v1/entries/{catalog_id}` ([mmm-api](https://github.com/selloa/mmm-api) repo; deployment tracks the git ref in its `build/catalog-data-ref.txt`, currently **`v0.2.0`** of this repo). **Example UI:** [mmm-api-viewer](https://github.com/selloa/mmm-api-viewer) (GitHub Pages MMM API Viewer).
 
+**Katalog-Webseite:** https://selloa.github.io/mmm-data/ — static browse UI built from `source/mmm_catalog.csv` ([Deploy Site](.github/workflows/deploy-site.yml) on push to `main`).
+
 **Purpose:** a **versioned canonical catalog** of MMM works (episodes, collections, fan games, and related rows). Later you can add more datasets and schemas beside the catalog without changing this core idea.
 
 **What belongs here (v1):** `schema/` (JSON Schema), `source/` (authoring CSV), `data/entries/` (generated JSON, one object per file), `tools/` (encode + validate), `requirements.txt`, and `docs/` (human semantics). **Not** required on day one: a public website or mirror automation—**read access** is also available via the **public API** above in addition to raw GitHub files.

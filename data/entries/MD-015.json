@@ -2,6 +2,7 @@
   "catalog_id": "MD-015",
   "category": "Maniac Dungeon",
   "title": "Raum 15: Die unterirdische Kulturstätte",
+  "has_talkie": null,
   "release_date": "2009-08-10",
   "authors": [
     "fireorange"
@@ -22,9 +23,10 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/maniac-dungeon/015_V1_00.rar",
   "release_package_filename": "015_V1_00.rar",
   "release_package_stemname": "015_V1_00",
+  "release_package_size_bytes": 1631311,
   "game_files_subpath": null,
   "engine": "AGS",
-  "engine_version": null,
+  "engine_version": "2.72.920",
   "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/015_V1_00.rar",
   "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/2x5get22t7lwxs651eml2/015_V1_00.rar?rlkey=8d9u6ubb4om8jmeo0s3395p3a&dl=1"
 }

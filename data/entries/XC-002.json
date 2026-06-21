@@ -2,6 +2,7 @@
   "catalog_id": "XC-002",
   "category": "Christmas Specials",
   "title": "#02: Three Days Before Christmas",
+  "has_talkie": null,
   "release_date": "2015-12-21",
   "authors": [
     "fireorange"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/xmas2015TDBC.rar",
   "release_package_filename": "xmas2015TDBC.rar",
   "release_package_stemname": "xmas2015TDBC",
+  "release_package_size_bytes": 2315594,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.1.0.1050",

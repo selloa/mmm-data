@@ -2,6 +2,7 @@
   "catalog_id": "EP-028",
   "category": "MMM-Episoden",
   "title": "Episode 028: Time Machine II",
+  "has_talkie": null,
   "release_date": "2005-08-12",
   "authors": [
     "Kate"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm28.zip",
   "release_package_filename": "mmm28.zip",
   "release_package_stemname": "mmm28",
+  "release_package_size_bytes": 4786624,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.62.772",

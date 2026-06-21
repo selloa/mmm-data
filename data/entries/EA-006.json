@@ -2,6 +2,7 @@
   "catalog_id": "EA-006",
   "category": "Edgar Award Shows",
   "title": "#05 Edgar Award Show - Staffel 5",
+  "has_talkie": null,
   "release_date": "2006-10-04",
   "authors": [
     "Lampengeist_M"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/awards/Edgar_Award_St5.rar",
   "release_package_filename": "Edgar_Award_St5.rar",
   "release_package_stemname": "Edgar_Award_St5",
+  "release_package_size_bytes": 4737276,
   "game_files_subpath": "Edgar5",
   "engine": "AGS",
   "engine_version": null,

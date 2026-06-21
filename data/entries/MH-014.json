@@ -2,6 +2,7 @@
   "catalog_id": "MH-014",
   "category": "Meteorhead Series",
   "title": "#14: Meteorhead XIV: A Road Movie",
+  "has_talkie": null,
   "release_date": "2013-08-31",
   "authors": [
     "BlueGryphon"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/road.rar",
   "release_package_filename": "road.rar",
   "release_package_stemname": "road",
+  "release_package_size_bytes": 8190820,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "3.21.1115",

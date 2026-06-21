@@ -2,6 +2,7 @@
   "catalog_id": "EA-007",
   "category": "Edgar Award Shows",
   "title": "#06 Edgar Award Show - Staffel 6",
+  "has_talkie": null,
   "release_date": "2009-02-04",
   "authors": [
     "Edison Interactive"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/awards/Edgar_Award_St6.zip",
   "release_package_filename": "Edgar_Award_St6.zip",
   "release_package_stemname": "Edgar_Award_St6",
+  "release_package_size_bytes": 9486328,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

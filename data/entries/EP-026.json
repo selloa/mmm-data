@@ -2,6 +2,7 @@
   "catalog_id": "EP-026",
   "category": "MMM-Episoden",
   "title": "Episode 026: Zeitenwende",
+  "has_talkie": null,
   "release_date": "2005-07-26",
   "authors": [
     "Hainet",
@@ -23,6 +24,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm26.zip",
   "release_package_filename": "mmm26.zip",
   "release_package_stemname": "mmm26",
+  "release_package_size_bytes": 3070880,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.70.861",

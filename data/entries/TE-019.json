@@ -2,6 +2,7 @@
   "catalog_id": "TE-019",
   "category": "Trash Episoden",
   "title": "Bernard muss 4 mahl",
+  "has_talkie": null,
   "release_date": "2008-06-02",
   "authors": [
     "Rayman"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/BM4M.rar",
   "release_package_filename": "BM4M.rar",
   "release_package_stemname": "BM4M",
+  "release_package_size_bytes": 1564091,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": null,

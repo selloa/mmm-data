@@ -2,6 +2,7 @@
   "catalog_id": "EP-018",
   "category": "MMM-Episoden",
   "title": "Episode 018: Shit Happens!",
+  "has_talkie": null,
   "release_date": "2005-05-10",
   "authors": [
     "jr"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel2/mmm18.rar",
   "release_package_filename": "mmm18.rar",
   "release_package_stemname": "mmm18",
+  "release_package_size_bytes": 1653336,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.62.772",

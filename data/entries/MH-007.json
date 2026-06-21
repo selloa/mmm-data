@@ -2,6 +2,7 @@
   "catalog_id": "MH-007",
   "category": "Meteorhead Series",
   "title": "#07: Meteorhead Man und Peter Pommes retten die Fast Food-Industrie",
+  "has_talkie": null,
   "release_date": "2007-12-07",
   "authors": [
     "DarthConan / Cone Arex"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/underground/meteorkoppfertig.rar",
   "release_package_filename": "meteorkoppfertig.rar",
   "release_package_stemname": "meteorkoppfertig",
+  "release_package_size_bytes": 4007336,
   "game_files_subpath": null,
   "engine": "AGS",
   "engine_version": "2.72.920",

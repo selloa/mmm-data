@@ -2,6 +2,7 @@
   "catalog_id": "TD-002",
   "category": "Trailer & Demos",
   "title": "Tech-Demo: Dott-MM - Küche",
+  "has_talkie": null,
   "release_date": "2009-04-28",
   "authors": [
     "MisterL",
@@ -24,6 +25,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/trailers_demos/dott-k-che.rar",
   "release_package_filename": "dott-k-che.rar",
   "release_package_stemname": "dott-k-che",
+  "release_package_size_bytes": 2824564,
   "game_files_subpath": "Compiled",
   "engine": "AGS",
   "engine_version": "2.72.920",

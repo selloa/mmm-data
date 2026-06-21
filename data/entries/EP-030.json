@@ -2,6 +2,7 @@
   "catalog_id": "EP-030",
   "category": "MMM-Episoden",
   "title": "Episode 030: Remembering Zak",
+  "has_talkie": null,
   "release_date": "2005-08-17",
   "authors": [
     "SMASH GAMES"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/episoden/staffel3/mmm30.zip",
   "release_package_filename": "mmm30.zip",
   "release_package_stemname": "mmm30",
+  "release_package_size_bytes": 2826009,
   "game_files_subpath": "mmm30",
   "engine": "AGS",
   "engine_version": "2.70.864",

@@ -2,6 +2,7 @@
   "catalog_id": "HS-004",
   "category": "Halloween Specials",
   "title": "Episode H05-4: MMM-HORROR",
+  "has_talkie": null,
   "release_date": "2005-10-31",
   "authors": [
     "ManiakFreak"
@@ -22,6 +23,7 @@
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/halloween2005/MMM-HORROR.zip",
   "release_package_filename": "MMM-HORROR.zip",
   "release_package_stemname": "MMM-HORROR",
+  "release_package_size_bytes": 4015792,
   "game_files_subpath": "MMM-HORROR_1.01",
   "engine": "AGS",
   "engine_version": "2.70.864",
