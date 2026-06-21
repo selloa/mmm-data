@@ -120,6 +120,13 @@ def truncate(text, length=100):
     return text[:length].rsplit(" ", 1)[0] + "\u2026"
 
 
+def extra_text_languages(raw: str) -> str | None:
+    """Return comma-separated non-German codes, or None if nothing to show."""
+    codes = [c.strip() for c in (raw or "").split(",") if c.strip()]
+    extra = [c for c in codes if c.upper() != "GER"]
+    return ", ".join(extra) if extra else None
+
+
 def build_link_slots(row):
     """Return a list of 5 HTML strings (one per slot), empty string if no link."""
     slots = []
@@ -167,9 +174,10 @@ def render_entry_row(row):
     if row.get("has_talkie", "").strip().lower() == "yes":
         title_html += ' <span class="talkie-badge" title="Sprachausgabe">Talkie</span>'
 
-    langs = row.get("text_languages_mmm", "").strip()
-    if langs:
-        title_html += f' <span class="lang-badge" title="Textsprachen">{esc(langs)}</span>'
+    extra = extra_text_languages(row.get("text_languages_mmm", ""))
+    if extra:
+        tip = esc(f"Textsprachen: {extra}")
+        title_html += f' <span class="lang-hint" title="{tip}" aria-label="{tip}">i18n</span>'
 
     slots = build_link_slots(row)
     slot_cells = "".join(
@@ -525,18 +533,16 @@ def build_html(groups):
     border-radius: 3px;
     line-height: 1.4;
   }}
-  .lang-badge {{
+  .lang-hint {{
     display: inline-block;
     margin-left: .35rem;
-    padding: .05rem .35rem;
     font-size: .58rem;
     font-weight: 500;
     letter-spacing: .2px;
     vertical-align: middle;
     color: var(--muted);
-    background: rgba(128, 128, 128, 0.12);
-    border: 1px solid rgba(128, 128, 128, 0.25);
-    border-radius: 3px;
+    cursor: help;
+    user-select: none;
     line-height: 1.4;
   }}
   .entry-desc {{
