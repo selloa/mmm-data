@@ -1,9 +1,9 @@
 {
   "catalog_id": "FG-011",
   "category": "Fan Games",
-  "title": "Maniac Metalhead Mania",
+  "title": "Maniac Metalhead Mania II",
   "has_talkie": null,
-  "release_date": "2020-11-01",
+  "release_date": "2022-04-01",
   "authors": [
     "JPJF"
   ],
@@ -17,16 +17,16 @@
   "mmm_description": null,
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
-  "youtube_longplay_url": "https://www.youtube.com/watch?v=gJrrCh95o1c&list=PLF3YnSazju8HuHX3V4SNjDV_JGZ684Hnl&index=1&pp=iAQB",
-  "youtube_longplay_duration": "1:21:05",
-  "download_url_mmm_docman": null,
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/ManiacMetalheadMania.zip",
-  "release_package_filename": "ManiacMetalheadMania.zip",
-  "release_package_stemname": "ManiacMetalheadMania",
-  "release_package_size_bytes": 4560007,
-  "game_files_subpath": "Maniac Metalhead Mania",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=2ibZz4BQm7Q&list=PLF3YnSazju8HuHX3V4SNjDV_JGZ684Hnl&index=2&pp=iAQB",
+  "youtube_longplay_duration": "2:08:11",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/resources-mainmenu-76/downloads.html?task=doc_download&gid=452",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/ManiacMetalheadManiaII.zip",
+  "release_package_filename": "ManiacMetalheadManiaII.zip",
+  "release_package_stemname": "ManiacMetalheadManiaII",
+  "release_package_size_bytes": 5331498,
+  "game_files_subpath": "ManiacMetalheadMania II/Game Data",
   "engine": "AGS",
   "engine_version": "3.5.0.25",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/ManiacMetalheadMania.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ddwgw5sip6pjhg5kgsvud/ManiacMetalheadMania.zip?rlkey=ojg5t2m8p4diuhroqn5spyaea&dl=1"
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/ManiacMetalheadManiaII.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/5mvllh0lkamwa553szgu4/ManiacMetalheadManiaII.zip?rlkey=3aj3dtmv7ehso4ls61d9u9z7z&dl=1"
 }

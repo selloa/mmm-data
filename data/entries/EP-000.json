@@ -1,0 +1,32 @@
+{
+  "catalog_id": "EP-000",
+  "category": "MMM Origins",
+  "title": "Maniac Mansion Deluxe",
+  "has_talkie": null,
+  "release_date": "2005-03-07",
+  "authors": [
+    "LucasFan"
+  ],
+  "forum_thread_url_mmm": null,
+  "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Maniac_Mansion_Deluxe",
+  "walkthrough_url_mmm": null,
+  "walkthrough_mmm_author": null,
+  "walkthrough_mmm_date": null,
+  "walkthrough_mmm_body": null,
+  "walkthrough_url_amigamaster": null,
+  "mmm_description": null,
+  "forum_thread_url_adventure_treff": null,
+  "forum_thread_url_adventure_treff_legacy": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=u94DXXHVm18",
+  "youtube_longplay_duration": "1:37:11",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=97",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/mmd13setup.exe",
+  "release_package_filename": "mmd13setup.exe",
+  "release_package_stemname": "mmd13setup",
+  "release_package_size_bytes": 6352302,
+  "game_files_subpath": null,
+  "engine": "unknown",
+  "engine_version": null,
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/mmd13setup.exe",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/3cfvpu527r7gnigrk5old/mmd13setup.exe?rlkey=6itzmdzq9u1rglwujnvec4dgf&dl=1"
+}

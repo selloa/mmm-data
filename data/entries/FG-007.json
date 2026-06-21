@@ -1,11 +1,11 @@
 {
   "catalog_id": "FG-007",
   "category": "Fan Games",
-  "title": "IWWHIIWWHITOMIROTPG: The Game!",
+  "title": "Der neue Wahnsinn der Familie Herfurth",
   "has_talkie": null,
-  "release_date": "2009-12-02",
+  "release_date": "2014-09-11",
   "authors": [
-    "monkey_05_06"
+    "JPJF"
   ],
   "forum_thread_url_mmm": null,
   "wiki_url_mmm": null,
@@ -17,16 +17,16 @@
   "mmm_description": null,
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
-  "youtube_longplay_url": "https://www.youtube.com/watch?v=cSbYMBABPOo",
-  "youtube_longplay_duration": "12:32",
-  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=340",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/IWWHIIWWHITOMIROTPG-TheGame.zip",
-  "release_package_filename": "IWWHIIWWHITOMIROTPG-TheGame.zip",
-  "release_package_stemname": "IWWHIIWWHITOMIROTPG-TheGame",
-  "release_package_size_bytes": 37150114,
-  "game_files_subpath": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=k4Mou1aJDhg&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=33&pp=iAQB",
+  "youtube_longplay_duration": "2:10:47",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/resources-mainmenu-76/downloads.html?task=doc_download&gid=399",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/Familie-Herfurth-2_0.rar",
+  "release_package_filename": "Familie-Herfurth-2_0.rar",
+  "release_package_stemname": "Familie-Herfurth-2_0",
+  "release_package_size_bytes": 24655963,
+  "game_files_subpath": "Familie Herfurth 2.0",
   "engine": "AGS",
-  "engine_version": "3.20.1099",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/IWWHIIWWHITOMIROTPG-TheGame.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/wb36m2i0jo66jadq2dg8u/IWWHIIWWHITOMIROTPG-TheGame.zip?rlkey=2ru9bi3rva5fexyuwmjl2bpa5&dl=1"
+  "engine_version": "3.4.0.16",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Familie-Herfurth-2_0.rar",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/smiedtyte50blkdommzlt/Familie-Herfurth-2_0.rar?rlkey=umw5sk09psmvv5boldhakhr0u&dl=1"
 }

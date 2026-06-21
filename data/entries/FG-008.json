@@ -1,11 +1,11 @@
 {
   "catalog_id": "FG-008",
   "category": "Fan Games",
-  "title": "Der neue Wahnsinn der Familie Herfurth",
+  "title": "The Tale of Lonkey Island",
   "has_talkie": null,
-  "release_date": "2014-09-11",
+  "release_date": "2016-10-19",
   "authors": [
-    "JPJF"
+    "Cmdr"
   ],
   "forum_thread_url_mmm": null,
   "wiki_url_mmm": null,
@@ -17,16 +17,16 @@
   "mmm_description": null,
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
-  "youtube_longplay_url": "https://www.youtube.com/watch?v=k4Mou1aJDhg&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=33&pp=iAQB",
-  "youtube_longplay_duration": "2:10:47",
-  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/resources-mainmenu-76/downloads.html?task=doc_download&gid=399",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/Familie-Herfurth-2_0.rar",
-  "release_package_filename": "Familie-Herfurth-2_0.rar",
-  "release_package_stemname": "Familie-Herfurth-2_0",
-  "release_package_size_bytes": 24655963,
-  "game_files_subpath": "Familie Herfurth 2.0",
-  "engine": "AGS",
-  "engine_version": "3.4.0.16",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Familie-Herfurth-2_0.rar",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/smiedtyte50blkdommzlt/Familie-Herfurth-2_0.rar?rlkey=umw5sk09psmvv5boldhakhr0u&dl=1"
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=ARx8ltXCq78",
+  "youtube_longplay_duration": "10:20:15",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/resources-mainmenu-76/downloads.html?task=doc_download&gid=423",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/lonkey.zip",
+  "release_package_filename": "lonkey.zip",
+  "release_package_stemname": "lonkey",
+  "release_package_size_bytes": 15080055,
+  "game_files_subpath": null,
+  "engine": "unknown",
+  "engine_version": null,
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/lonkey.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/2w9cz2fzmvd7quv7fe75h/lonkey.zip?rlkey=up9bh06tx32owtanpd076n68x&dl=1"
 }

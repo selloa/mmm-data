@@ -16,6 +16,7 @@ OUTPUT_HTML = OUTPUT_DIR / "index.html"
 
 CATEGORY_ORDER = [
     "Collections",
+    "MMM Origins",
     "MMM-Episoden",
     "Mini Masterpieces",
     "Halloween Specials",
@@ -36,6 +37,7 @@ EPISODES_PER_SEASON = 10
 
 CATEGORY_LABELS = {
     "Collections": "Sammlungen",
+    "MMM Origins": "MMM Origins",
     "MMM-Episoden": "MMM-Episoden",
     "Halloween Specials": "Halloween Specials",
     "Christmas Specials": "Weihnachts-Specials",
@@ -56,6 +58,7 @@ CATEGORY_MERGE = {"Fan-Games": "Fan Games"}
 
 CATEGORY_ANCHOR = {
     "Collections": "sammlungen",
+    "MMM Origins": "origins",
     "MMM-Episoden": "episoden",
     "Halloween Specials": "halloween",
     "Christmas Specials": "weihnachten",

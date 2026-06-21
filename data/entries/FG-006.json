@@ -1,11 +1,11 @@
 {
   "catalog_id": "FG-006",
   "category": "Fan Games",
-  "title": "Die neuen Abenteuer des Zak McKracken",
+  "title": "IWWHIIWWHITOMIROTPG: The Game!",
   "has_talkie": null,
-  "release_date": "2002",
+  "release_date": "2009-12-02",
   "authors": [
-    "LucasFan"
+    "monkey_05_06"
   ],
   "forum_thread_url_mmm": null,
   "wiki_url_mmm": null,
@@ -15,18 +15,18 @@
   "walkthrough_mmm_body": null,
   "walkthrough_url_amigamaster": null,
   "mmm_description": null,
-  "forum_thread_url_adventure_treff": "https://archive.org/details/fanadv_zak2",
+  "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
-  "youtube_longplay_url": "https://www.youtube.com/watch?v=QVJwrtmeLuk",
-  "youtube_longplay_duration": "1:30:44",
-  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=95",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/fanadv_zak2.exe",
-  "release_package_filename": "fanadv_zak2.exe",
-  "release_package_stemname": "fanadv_zak2",
-  "release_package_size_bytes": 7165704,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=cSbYMBABPOo",
+  "youtube_longplay_duration": "12:32",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/component/docman/?task=doc_download&gid=340",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/IWWHIIWWHITOMIROTPG-TheGame.zip",
+  "release_package_filename": "IWWHIIWWHITOMIROTPG-TheGame.zip",
+  "release_package_stemname": "IWWHIIWWHITOMIROTPG-TheGame",
+  "release_package_size_bytes": 37150114,
   "game_files_subpath": null,
-  "engine": "unknown",
-  "engine_version": null,
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/fanadv_zak2.exe",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/tgz9wxbduh6sdh020mzku/fanadv_zak2.exe?rlkey=nhq81uoco2wv7emxxe28zhv7k&dl=1"
+  "engine": "AGS",
+  "engine_version": "3.20.1099",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/IWWHIIWWHITOMIROTPG-TheGame.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/wb36m2i0jo66jadq2dg8u/IWWHIIWWHITOMIROTPG-TheGame.zip?rlkey=2ru9bi3rva5fexyuwmjl2bpa5&dl=1"
 }

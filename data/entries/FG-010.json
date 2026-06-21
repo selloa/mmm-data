@@ -1,9 +1,9 @@
 {
   "catalog_id": "FG-010",
   "category": "Fan Games",
-  "title": "Das Niemandsland",
+  "title": "Maniac Metalhead Mania",
   "has_talkie": null,
-  "release_date": "2016-12-03",
+  "release_date": "2020-11-01",
   "authors": [
     "JPJF"
   ],
@@ -17,16 +17,16 @@
   "mmm_description": null,
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
-  "youtube_longplay_url": "https://www.youtube.com/watch?v=sfeMh-l01G8&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=34&pp=iAQB",
-  "youtube_longplay_duration": "57:21",
-  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/resources-mainmenu-76/downloads.html?task=doc_download&gid=424",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/Das-Niemandsland.zip",
-  "release_package_filename": "Das-Niemandsland.zip",
-  "release_package_stemname": "Das-Niemandsland",
-  "release_package_size_bytes": 35254850,
-  "game_files_subpath": "Das Niemandsland",
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=gJrrCh95o1c&list=PLF3YnSazju8HuHX3V4SNjDV_JGZ684Hnl&index=1&pp=iAQB",
+  "youtube_longplay_duration": "1:21:05",
+  "download_url_mmm_docman": null,
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/ManiacMetalheadMania.zip",
+  "release_package_filename": "ManiacMetalheadMania.zip",
+  "release_package_stemname": "ManiacMetalheadMania",
+  "release_package_size_bytes": 4560007,
+  "game_files_subpath": "Maniac Metalhead Mania",
   "engine": "AGS",
-  "engine_version": "3.21.1115",
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Das-Niemandsland.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/nnlen42wysuhtuyadj71v/Das-Niemandsland.zip?rlkey=ja69ydamrpm1eocsxa8v40rhe&dl=1"
+  "engine_version": "3.5.0.25",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/ManiacMetalheadMania.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/ddwgw5sip6pjhg5kgsvud/ManiacMetalheadMania.zip?rlkey=ojg5t2m8p4diuhroqn5spyaea&dl=1"
 }

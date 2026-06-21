@@ -1,11 +1,11 @@
 {
   "catalog_id": "FG-009",
   "category": "Fan Games",
-  "title": "The Tale of Lonkey Island",
+  "title": "Das Niemandsland",
   "has_talkie": null,
-  "release_date": "2016-10-19",
+  "release_date": "2016-12-03",
   "authors": [
-    "Cmdr"
+    "JPJF"
   ],
   "forum_thread_url_mmm": null,
   "wiki_url_mmm": null,
@@ -17,16 +17,16 @@
   "mmm_description": null,
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
-  "youtube_longplay_url": "https://www.youtube.com/watch?v=ARx8ltXCq78",
-  "youtube_longplay_duration": "10:20:15",
-  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/resources-mainmenu-76/downloads.html?task=doc_download&gid=423",
-  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/lonkey.zip",
-  "release_package_filename": "lonkey.zip",
-  "release_package_stemname": "lonkey",
-  "release_package_size_bytes": 15080055,
-  "game_files_subpath": null,
-  "engine": "unknown",
-  "engine_version": null,
-  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/lonkey.zip",
-  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/2w9cz2fzmvd7quv7fe75h/lonkey.zip?rlkey=up9bh06tx32owtanpd076n68x&dl=1"
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=sfeMh-l01G8&list=PLF3YnSazju8H4Rc-lY6Ccp3E8nz34OJuh&index=34&pp=iAQB",
+  "youtube_longplay_duration": "57:21",
+  "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/en/resources-mainmenu-76/downloads.html?task=doc_download&gid=424",
+  "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/fan-adventures/Das-Niemandsland.zip",
+  "release_package_filename": "Das-Niemandsland.zip",
+  "release_package_stemname": "Das-Niemandsland",
+  "release_package_size_bytes": 35254850,
+  "game_files_subpath": "Das Niemandsland",
+  "engine": "AGS",
+  "engine_version": "3.21.1115",
+  "mirror_url_github_private": "https://github.com/selloa/mmm-mirror-poc-7k3xq/releases/download/v1/Das-Niemandsland.zip",
+  "mirror_url_dropbox_public": "https://www.dropbox.com/scl/fi/nnlen42wysuhtuyadj71v/Das-Niemandsland.zip?rlkey=ja69ydamrpm1eocsxa8v40rhe&dl=1"
 }
