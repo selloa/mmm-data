@@ -3,7 +3,7 @@
 # On every push and pull request to `main`, GitHub runs a fresh Ubuntu VM that:
 #   1. Checks out your repo
 #   2. Installs Python and `requirements.txt` (jsonschema, etc.)
-#   3. Runs `python tools/build_catalog.py` (same as locally: CSV → data/entries/*.json + validate)
+#   3. Runs `python scripts/build_catalog.py` (same as locally: CSV → data/entries/*.json + validate)
 #   4. Runs `git diff --exit-code` so the job FAILS if anything changed
 #
 # So: if you edit `source/mmm_catalog.csv` but forget to commit the regenerated
@@ -34,7 +34,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Regenerate catalog and run JSON Schema validation
-        run: python tools/build_catalog.py
+        run: python scripts/build_catalog.py
 
       - name: Fail if generated files were not committed
         run: git diff --exit-code
