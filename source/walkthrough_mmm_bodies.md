@@ -14,10 +14,10 @@ Re-import with: `python tools/import_walkthrough_bodies_md.py`
 
 ## EP-001 — Episode 001: Geschwisterliebe
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-001
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 001: Geschwisterliebe
 
 ---walkthrough_mmm_body---
@@ -55,10 +55,10 @@ Dieser wird dann draußen in den Briefkasten gesteckt und der Hebel am Briefkast
 
 ## EP-002 — Episode 002: Unruhen
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-002
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 002: Unruhen
 
 ---walkthrough_mmm_body---
@@ -83,10 +83,10 @@ Die Stinkbombe werfen wir dann in die Dachluke und gehen hinauf.
 
 ## EP-003 — Episode 003: Stubenarrest
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-003
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 003: Stubenarrest
 
 ---walkthrough_mmm_body---
@@ -114,10 +114,10 @@ Jetzt braucht Bernard nur noch zur Haustür zu gehn...
 
 ## EP-004 — Episode 004: Mimikry der Emotionen
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-004
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 004: Mimikry der Emotionen
 
 ---walkthrough_mmm_body---
@@ -144,10 +144,10 @@ Wenn man den Grünen Punkt drückt, bevor man ihn mit Blut eingeschmiert hat, ko
 
 ## EP-005 — Episode 005: Rhythmen zum Reinbeißen
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-005
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 005: Rhythmen zum Reinbeißen
 
 ---walkthrough_mmm_body---
@@ -173,10 +173,10 @@ Die Dose muss in der Mikrowelle erhitzt werden und dann bringen wir sie dem Grü
 
 ## EP-006 — Episode 006: Er is' weg
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-006
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 006: Er is' weg
 
 ---walkthrough_mmm_body---
@@ -195,10 +195,10 @@ Nach dem Gespräch mit Grün Tentakel gehen wir in die Küche, schnappen uns die
 
 ## EP-007 — Episode 007: Right said Fred!?!
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-007
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 007: Right said Fred!?!
 
 ---walkthrough_mmm_body---
@@ -239,10 +239,10 @@ Jetzt müssen wir nur noch zurück ins obere Stockwerk gehen.
 
 ## EP-008 — Episode 008: Die Abfuhr
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-008
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 008: Die Abfuhr
 
 ---walkthrough_mmm_body---
@@ -280,10 +280,10 @@ Bernard geht in die Küche und benutzt den Kassettenrekorder und danach öffnen 
 
 ## EP-009 — Episode 009: Radioaktiv
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-009
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 009: Radioaktiv
 
 ---walkthrough_mmm_body---
@@ -427,10 +427,10 @@ Hamster vorher in Micro und dann verschicken
 
 ## EP-010 — Episode 010: Tales of Weird Ed
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-010
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 010: Tales of Weird Ed
 
 ---walkthrough_mmm_body---
@@ -523,10 +523,10 @@ Nach der Visite in deinem Zimmer begibst du dich vor die Haustür und genießt d
 
 ## EP-011 — Episode 011: Ein haariger Ausflug - Special Edison
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-011
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 011: Ein haariger Ausflug - Special Edison
 
 ---walkthrough_mmm_body---
@@ -583,10 +583,10 @@ Anschließend benutzen wir den Spiegel mit Dave, damit Dave seine Taschenlampe e
 
 ## EP-012 — Episode 012: Giga Mansion
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-012
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 012: Giga Mansion
 
 ---walkthrough_mmm_body---
@@ -621,10 +621,10 @@ Wir nehmen die CD und geben sie an Patrik im Studio.
 
 ## EP-013 — Episode 013: Nur geträumt
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-013
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 013: Nur geträumt
 
 ---walkthrough_mmm_body---
@@ -665,10 +665,10 @@ Herzlichen Glückwunsch, Sie haben MMM13 - Nür Geträumt aufgelöst.
 
 ## EP-014 — Episode 014: Ed's Rache für den Hamsterbraten
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-014
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 014: Ed's Rache für den Hamsterbraten
 
 ---walkthrough_mmm_body---
@@ -691,10 +691,10 @@ Herzlichen Glückwunsch, sie haben MMM14 - Ed's Rache für den Hamsterbraten auf
 
 ## EP-015 — Episode 015: Ortmaschine
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-015
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 015: Ortmaschine
 
 ---walkthrough_mmm_body---
@@ -782,10 +782,10 @@ Herzlichen Glückwunsch Sie haben MMM 15 Ortmaschine aufgelöst.
 
 ## EP-016 — Episode 016: Meteor Family – Die Rückkehr des Meteoriten (Reloaded)
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-016
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 016: Meteor Family – Die Rückkehr des Meteoriten (Reloaded)
 
 ---walkthrough_mmm_body---
@@ -854,10 +854,10 @@ Dieser kann dann betrachtet werden.
 
 ## EP-017 — Episode 017: Das Labor
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-017
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 017: Das Labor
 
 ---walkthrough_mmm_body---
@@ -889,10 +889,10 @@ Im Labor benutzen wir die Batterien mit dem Batteriefach und benutzen den Hebel 
 
 ## EP-018 — Episode 018: Shit Happens!
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-018
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 018: Shit Happens!
 
 ---walkthrough_mmm_body---
@@ -923,10 +923,10 @@ Herzlichen Glückwunsch, sie haben MMM18 - Schit Happens aufgelöst.
 
 ## EP-019 — Episode 019: Das Date
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-019
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 019: Das Date
 
 ---walkthrough_mmm_body---
@@ -946,10 +946,10 @@ Im Wohnzimmer benutzen wir den Lukenöffner unter das Sofa, gehen nach draußen 
 
 ## EP-020 — Episode 020: Das Date 2
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-020
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 020: Das Date 2
 
 ---walkthrough_mmm_body---
@@ -972,10 +972,10 @@ Nun geben wir die Pizza an Bernard.
 
 ## EP-021 — Episode 021: Rettet Kanal 13!
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-021
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 021: Rettet Kanal 13!
 
 ---walkthrough_mmm_body---
@@ -1009,10 +1009,10 @@ Damit wird die Fernbedienung repariert und zu guter Letzt der Fernseher eingesch
 
 ## EP-022 — Episode 022: Presserummel
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-022
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 022: Presserummel
 
 ---walkthrough_mmm_body---
@@ -1054,10 +1054,10 @@ Das grün gefärbte Laken und die gelben Ringe geben wir an Jeff und gehen vor d
 
 ## EP-023 — Episode 023: Das verflixte Geschenk
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-023
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 023: Das verflixte Geschenk
 
 ---walkthrough_mmm_body---
@@ -1089,10 +1089,10 @@ Nun gehen wir noch vor die Haustür.
 
 ## EP-024 — Episode 024: Time Machine
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-024
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 024: Time Machine
 
 ---walkthrough_mmm_body---
@@ -1167,10 +1167,10 @@ Sodann können wir durchstarten.
 
 ## EP-025 — Episode 025: Bernard stört ( v2.3 )
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-025
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 025: Bernard stört ( v2.3 )
 
 ---walkthrough_mmm_body---
@@ -1263,10 +1263,10 @@ Nachdem wir das Gold in den Tresor und das Akku in unser Handy gelegt haben, ruf
 
 ## EP-026 — Episode 026: Zeitenwende
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-026
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 026: Zeitenwende
 
 ---walkthrough_mmm_body---
@@ -1314,10 +1314,10 @@ Den Diamanten nehmen (und den Abspann genießen).
 
 ## EP-027 — Episode 027: Hamsternator
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-027
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 027: Hamsternator
 
 ---walkthrough_mmm_body---
@@ -1367,10 +1367,10 @@ Dem gebt ihr sogleich das Gurglozid.
 
 ## EP-028 — Episode 028: Time Machine II
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-028
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 028: Time Machine II
 
 ---walkthrough_mmm_body---
@@ -1471,10 +1471,10 @@ Wieder zurück in der Zukunft geht ihr mit Bernard nach oben, öffnet die Luke u
 
 ## EP-029 — Episode 029: Die Flucht des Meteoriten
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-029
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 029: Die Flucht des Meteoriten
 
 ---walkthrough_mmm_body---
@@ -1514,10 +1514,10 @@ In der Dunkelheit, die uns im nächsten Raum umgibt, können wir nur blind nach 
 
 ## EP-030 — Episode 030: Remembering Zak
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-030
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 030: Remembering Zak
 
 ---walkthrough_mmm_body---
@@ -1559,10 +1559,10 @@ Wir nehmen den weißen Kristall, beamen uns mit der Plattform zurück zur Erde, 
 
 ## EP-031 — Episode 031: Britneys Suche
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-031
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 031: Britneys Suche
 
 ---walkthrough_mmm_body---
@@ -1602,10 +1602,10 @@ Der Dietrich hilft uns nun dabei die Tür zu Bernards Zimmer, sowie seine rechte
 
 ## EP-032 — Episode 032: The Secret of Maniac Mansion
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-032
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 032: The Secret of Maniac Mansion
 
 ---walkthrough_mmm_body---
@@ -1688,10 +1688,10 @@ Also besser immer nur ein Mal öffnen!
 
 ## EP-033 — Episode 033: Carry on Smiley!
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-033
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 033: Carry on Smiley!
 
 ---walkthrough_mmm_body---
@@ -1775,10 +1775,10 @@ Eastereggs:- Gebt Mark Eteer seine leere Brieftasche. - Gebt Wink Smiley das Rez
 
 ## EP-034 — Episode 034: Helden des Tages
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-034
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 034: Helden des Tages
 
 ---walkthrough_mmm_body---
@@ -1875,10 +1875,10 @@ Mülleimer, Fenster)
 
 ## EP-035 — Episode 035: Weggebeamt
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-035
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 035: Weggebeamt
 
 ---walkthrough_mmm_body---
@@ -1894,10 +1894,10 @@ Code: 634218
 
 ## EP-036 — Episode 036: Der Liebesbrief
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-036
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 036: Der Liebesbrief
 
 ---walkthrough_mmm_body---
@@ -1946,10 +1946,10 @@ Aber nachdem wir Bernards Benzin ins Feuerzeug füllen, können wir das Feuer en
 
 ## EP-037 — Episode 037: Verabredung mit Dave
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-037
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 037: Verabredung mit Dave
 
 ---walkthrough_mmm_body---
@@ -2023,10 +2023,10 @@ Jetzt brauchen wir nur noch den fertigen Brief durch Sandys Tür durchzuschieben
 
 ## EP-038 — Episode 038: Rescue Mission
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-038
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 038: Rescue Mission
 
 ---walkthrough_mmm_body---
@@ -2067,10 +2067,10 @@ Damit ist es ein Leichtes Bernards Zimmertür zu öffnen.
 
 ## EP-039 — Episode 039: Erinnerungen
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-039
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 039: Erinnerungen
 
 ---walkthrough_mmm_body---
@@ -2114,10 +2114,10 @@ Noch einmal verlässt Bernard sein Zimmer und schon kann man den Rest des Spiels
 
 ## EP-040 — Episode 040: Verflixte Türen (Version 2.05)
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-040
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 040: Verflixte Türen (Version 2.05)
 
 ---walkthrough_mmm_body---
@@ -2183,10 +2183,10 @@ Wenn man sich das Nest auf dem Dach angeschaut hat, dann kann man es mitnehmen..
 
 ## EP-041 — Episode 041: Das neue Jugendschutzgesetz
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-041
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 041: Das neue Jugendschutzgesetz
 
 ---walkthrough_mmm_body---
@@ -2239,10 +2239,10 @@ Die benutzen wir mit dem Hamster.Egal was wir mit dem Hamster gemacht haben, am 
 
 ## EP-042 — Episode 042: Die furchtbaren Pläne des Psycho Bernie
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-042
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 042: Die furchtbaren Pläne des Psycho Bernie
 
 ---walkthrough_mmm_body---
@@ -2375,10 +2375,10 @@ Als Edna, wenn man die Fernsteuerung benutzt, solange man den Sensor im Benzin, 
 
 ## EP-043 — Episode 043: Vorsicht, Edna kommt!
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-043
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 043: Vorsicht, Edna kommt!
 
 ---walkthrough_mmm_body---
@@ -2415,10 +2415,10 @@ Damit vernichten wir Ednas Barrikade und fliehen schnellstens in den Garten.
 
 ## EP-044 — Episode 044: Razors großer Auftritt
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-044
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 044: Razors großer Auftritt
 
 ---walkthrough_mmm_body---
@@ -2484,10 +2484,10 @@ Nimm den Kältestrahler von der Wand und benutze ihn auf Lorian/Dreiauge.
 
 ## EP-045 — Episode 045: Maniac Monday
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-045
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 045: Maniac Monday
 
 ---walkthrough_mmm_body---
@@ -2624,10 +2624,10 @@ Die Tasse dann mit dem heiligen Wasser benutzen, um dem Traum zu entkommen.
 
 ## EP-046 — Episode 046: Verschollen
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-046
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 046: Verschollen
 
 ---walkthrough_mmm_body---
@@ -2717,10 +2717,10 @@ Zu guter Letzt müssen wir noch einen Busch aus dem Weg räumen (nehmen) und nac
 
 ## EP-047 — Episode 047: Maniac Ostern
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-047
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 047: Maniac Ostern
 
 ---walkthrough_mmm_body---
@@ -2777,10 +2777,10 @@ Damit kann man das Kästchen auf dem Kamin öffnen. - An der Innenseite der Bade
 
 ## EP-048 — Episode 048: Wendy und das Buch des Todes
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-048
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 048: Wendy und das Buch des Todes
 
 ---walkthrough_mmm_body---
@@ -2858,10 +2858,10 @@ Benutzt man den Schlüssel zu Mors atra mit diesem Spalt, geschieht etwas.
 
 ## EP-049 — Episode 049: Clouso's Großer Coup
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-049
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 049: Clouso's Großer Coup
 
 ---walkthrough_mmm_body---
@@ -2924,10 +2924,10 @@ Nun zur Achmeds Wohnung gehen und den Abspann bestaunen.
 
 ## EP-050 — Episode 050: Das Date 3
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-050
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 050: Das Date 3
 
 ---walkthrough_mmm_body---
@@ -2973,10 +2973,10 @@ Mit Chuck reden - Britney alle Gegenstände zeigen - Emilia Aufnahmen der andere
 
 ## EP-051 — Episode 051: Ortmaschine II
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-051
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 051: Ortmaschine II
 
 ---walkthrough_mmm_body---
@@ -3072,10 +3072,10 @@ Damit überspringt man dann auch den größten Teil des Spiels.
 
 ## EP-052 — Episode 052: Ein irrer Tag eines Ronvillers (Version 2.0)
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-052
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 052: Ein irrer Tag eines Ronvillers (Version 2.0)
 
 ---walkthrough_mmm_body---
@@ -3186,10 +3186,10 @@ Mit der nehmen wir eine Granate und benutzen sie mit der Wand.Eastereggs:-Im Bad
 
 ## EP-053 — Episode 053: Der Klaus schlägt zurück
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-053
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 053: Der Klaus schlägt zurück
 
 ---walkthrough_mmm_body---
@@ -3377,10 +3377,10 @@ Todesstern benutzen - und auch wenns net als Easteregg gilt, einfach mal im Intr
 
 ## EP-054 — Episode 054: CSI:RONVILLE
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-054
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 054: CSI:RONVILLE
 
 ---walkthrough_mmm_body---
@@ -3509,10 +3509,10 @@ ENDEEastereggs:-Über die linke Pfütze auf dem Polizei-Parkplatz laufen. -Nachd
 
 ## EP-055 — Episode 055: Hamsters of the mysterious man: Chapter of dream
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-055
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 055: Hamsters of the mysterious man: Chapter of dream
 
 ---walkthrough_mmm_body---
@@ -3572,10 +3572,10 @@ Anschließend Fernseher benutzen. - Radio in der Abstellkammer benutzen.(mit Bei
 
 ## EP-056 — Episode 056: Grotten-Urlaub
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-056
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 056: Grotten-Urlaub
 
 ---walkthrough_mmm_body---
@@ -3645,10 +3645,10 @@ Kochplatte auf den Sockel abstellen, den Diamanten darauf und einschalten.
 
 ## EP-057 — Episode 057: Der komplizierte Ausflug
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-057
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 057: Der komplizierte Ausflug
 
 ---walkthrough_mmm_body---
@@ -3852,10 +3852,10 @@ Verlasse das Gebiet.Eastereggs:-benutze die Milch mit dem Glas, und gib es Kyle-
 
 ## EP-058 — Episode 058: The People´s Court
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-058
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 058: The People´s Court
 
 ---walkthrough_mmm_body---
@@ -3959,10 +3959,10 @@ Aktionen:-Die Leumundszeugen Hoagie, Dave und Achmed im Gerichtssaal -Die TV-Sho
 
 ## EP-059 — Episode 059: Computerliebe
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-059
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 059: Computerliebe
 
 ---walkthrough_mmm_body---
@@ -3997,10 +3997,10 @@ Am anderen PC chatten wir nun wieder mit F*cking Vista und schieben die neu erla
 
 ## EP-060 — Episode 060: Jahrmarkt der Verdammten
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-060
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 060: Jahrmarkt der Verdammten
 
 ---walkthrough_mmm_body---
@@ -4055,10 +4055,10 @@ Betrachtet man diesen, geschieht etwas Seltsames.
 
 ## EP-061 — Episode 061: Bernards Room
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-061
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 061: Bernards Room
 
 ---walkthrough_mmm_body---
@@ -4125,10 +4125,10 @@ Eastereggs: + Man sollte die einzelnen Gegenstände "benutzen" um lustige Kommen
 
 ## EP-062 — Episode 062: Bernard gegen Berthold
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-062
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 062: Bernard gegen Berthold
 
 ---walkthrough_mmm_body---
@@ -4205,10 +4205,10 @@ Es folgt Spass mit Hoagie!
 
 ## EP-063 — Episode 063: Books - Deals unter Nachbarn
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-063
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 063: Books - Deals unter Nachbarn
 
 ---walkthrough_mmm_body---
@@ -4241,10 +4241,10 @@ Wir bekommen eine Zeitung zu sehen.
 
 ## EP-064 — Episode 064: Baranoia
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-064
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 064: Baranoia
 
 ---walkthrough_mmm_body---
@@ -4307,10 +4307,10 @@ Das Zero Point Module legen wir auf den Karton und benutzen letztendlich die BFG
 
 ## EP-065 — Episode 065: Save Smiley!
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-065
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 065: Save Smiley!
 
 ---walkthrough_mmm_body---
@@ -4353,10 +4353,10 @@ Abwarten was passiert. ;)ENDE
 
 ## EP-066 — Episode 066: Hoagies neuer Freund
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-066
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 066: Hoagies neuer Freund
 
 ---walkthrough_mmm_body---
@@ -4442,10 +4442,10 @@ Ganz rechts liegt ein Bulle vom Mars um die Ecke den schmeißen wir runter, dass
 
 ## EP-067 — Episode 067: Die Schöne und das Biest
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-067
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 067: Die Schöne und das Biest
 
 ---walkthrough_mmm_body---
@@ -4823,10 +4823,10 @@ Wenn man am Ende lange wartet gibt es einen schönen Gag...
 
 ## EP-068 — Episode 068: MaMMa ante Portas
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-068
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 068: MaMMa ante Portas
 
 ---walkthrough_mmm_body---
@@ -4964,10 +4964,10 @@ Jetzt kann man den Abspann genießen.
 
 ## EP-069 — Episode 069: Samstag
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-069
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 069: Samstag
 
 ---walkthrough_mmm_body---
@@ -5017,10 +5017,10 @@ Nun sagen wir noch Britney bescheid und das Spiel ist zuende.Eastereggs:-Man sol
 
 ## EP-070 — Episode 070: Maniac Mansion Begins
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-070
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 070: Maniac Mansion Begins
 
 ---walkthrough_mmm_body---
@@ -5306,10 +5306,10 @@ Dezember (Systemzeit) anschaut, passiert etwas „ungewöhnliches“ mit ihm.
 
 ## EP-071 — Episode 071: Neue Abenteuer auf Terra
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-071
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 071: Neue Abenteuer auf Terra
 
 ---walkthrough_mmm_body---
@@ -5382,10 +5382,10 @@ Nachdem man alle Süßigkeiten beim Apotheker abgegeben hat, kann man sich an di
 
 ## EP-072 — Episode 072: Mindbending TV
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-072
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 072: Mindbending TV
 
 ---walkthrough_mmm_body---
@@ -5445,10 +5445,10 @@ In Winks Studio sollte man versuchen das Schild mit dem Logo zu NEHMEN.
 
 ## EP-073 — Episode 073: Even a broken clock
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-073
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 073: Even a broken clock
 
 ---walkthrough_mmm_body---
@@ -5489,10 +5489,10 @@ Zu guter letzt wenden wir die Axt auf die Uhr an und betrachten den Abspann.East
 
 ## EP-074 — Episode 074: Ted Edison and the Curse of King Rooten Tooten
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-074
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 074: Ted Edison and the Curse of King Rooten Tooten
 
 ---walkthrough_mmm_body---
@@ -5593,10 +5593,10 @@ Nach der längeren Cutscene können wir noch einen Dialog führen, die Antworten
 
 ## EP-075 — Episode 075: Das Necronomicon
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-075
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 075: Das Necronomicon
 
 ---walkthrough_mmm_body---
@@ -5884,10 +5884,10 @@ Mit Razor Achmeds Badezimmer in der blauen Dimension besuchen - Den richtigen Sp
 
 ## EP-076 — Episode 076: The Bernoulli-Show
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-076
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 076: The Bernoulli-Show
 
 ---walkthrough_mmm_body---
@@ -5921,10 +5921,10 @@ Die Auswahl der Fragen ist hierbei egal, man sollte aber die obersten Fragen zue
 
 ## EP-077 — Episode 077: Schwer verquer
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-077
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 077: Schwer verquer
 
 ---walkthrough_mmm_body---
@@ -6084,10 +6084,10 @@ Wenn man mit Hoagie ganz am Schluss des Spiels am Seil über Hoagies Haus "schwe
 
 ## EP-078 — Episode 078: Dumm geholfen
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-078
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 078: Dumm geholfen
 
 ---walkthrough_mmm_body---
@@ -6303,10 +6303,10 @@ Das Schlauchende benutzen wir mit dem Hamsterhintern samt Trichter und schalten 
 
 ## EP-079 — Episode 079: Der Wunsch-O-Mat
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-079
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 079: Der Wunsch-O-Mat
 
 ---walkthrough_mmm_body---
@@ -6497,10 +6497,10 @@ Die Möglichkeiten, sich dem Meteorpolizisten vorzustellen sind allesamt Anspiel
 
 ## EP-081 — Episode 081: Bernard bricht aus!
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-081
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 081: Bernard bricht aus!
 
 ---walkthrough_mmm_body---
@@ -6584,10 +6584,10 @@ Genießen wir die Show.
 
 ## EP-082 — Episode 082: Freundin mit Hindernissen
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-082
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 082: Freundin mit Hindernissen
 
 ---walkthrough_mmm_body---
@@ -6644,10 +6644,10 @@ Wenn wir auf dem Schwarzen Brett betrachten, können wir andere Hinweise vor, da
 
 ## EP-085 — Episode 085: Freundin mit Hindernissen - Part 2
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-085
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 085: Freundin mit Hindernissen - Part 2
 
 ---walkthrough_mmm_body---
@@ -6741,10 +6741,10 @@ In den Wäldern, versuchen, den Stein mit dem Baum auf der rechten Seite zu verw
 
 ## EP-086 — Episode 086: Bernard bekommt Besuch
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-086
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 086: Bernard bekommt Besuch
 
 ---walkthrough_mmm_body---
@@ -6888,10 +6888,10 @@ Gutschein-Nr. 4724549Abspann und Ende.
 
 ## EP-087 — Episode 087: Das Geheimnis des Blakes Hotel von Ronville
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-087
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 087: Das Geheimnis des Blakes Hotel von Ronville
 
 ---walkthrough_mmm_body---
@@ -6950,10 +6950,10 @@ Nun begibst du dich zurück zur Rezeption und Benutzt das Medaillon mit dem Tres
 
 ## EP-088 — Episode 088: Der alltägliche Wahnsinn
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-088
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 088: Der alltägliche Wahnsinn
 
 ---walkthrough_mmm_body---
@@ -7026,10 +7026,10 @@ Wir führen unnötigen Aktionen in der Bushaltestelle, so dass die Passanten ver
 
 ## EP-089 — Episode 089: Der Weltrettungsalgorithmus - Die neue Version
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-089
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 089: Der Weltrettungsalgorithmus - Die neue Version
 
 ---walkthrough_mmm_body---
@@ -7348,10 +7348,10 @@ Er bezieht sich auf den Film Matrix.Generell gibt es in der ganzen Epi viele Gag
 
 ## EP-091 — Episode 091: Fels in der Brandung
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-091
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 091: Fels in der Brandung
 
 ---walkthrough_mmm_body---
@@ -7408,10 +7408,10 @@ Um Bernard wieder aufmuntern zu können, zeigen wir ihn zu guter Letzt seinen Ei
 
 ## EP-093 — Episode 093: Murder at the Moonshine Mansion
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-093
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 093: Murder at the Moonshine Mansion
 
 ---walkthrough_mmm_body---
@@ -7627,10 +7627,10 @@ Als letzte Aktion noch „bewegen“ auf den Steinhaufen anwenden und den Abspan
 
 ## EP-096 — Episode 096: Dave's Home Odyssey
 
-**category:** MMM-Episoden
+**category:** MMM Episoden
 
 catalog_id: EP-096
-category: MMM-Episoden
+category: MMM Episoden
 title: Episode 096: Dave's Home Odyssey
 
 ---walkthrough_mmm_body---

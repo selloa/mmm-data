@@ -1,12 +1,12 @@
 {
   "catalog_id": "CO-001",
-  "category": "Collections",
+  "category": "MMM Remastered",
   "title": "Ronmastered Collection 1 - Episode 01-09",
   "has_talkie": "yes",
   "text_languages_mmm": null,
   "release_date": "2025-03-07",
   "authors": [
-    "Cmdr"
+    "Cmdr*"
   ],
   "forum_thread_url_mmm": "https://www.maniac-mansion-mania.de/forum/index.php?topic=2838.0",
   "wiki_url_mmm": "http://wiki.maniac-mansion-mania.de/wiki/Maniac_Mansion_Mania_Ronmastered_Collection",
@@ -18,7 +18,7 @@
   "mmm_description": "Heute vor genau 20 Jahren... ...hat LucasFan seine Episode 1: Geschwisterliebe veröffentlicht und damit den Startschuss für das Maniac Mansion Mania Projekt gelegt. Um dieses Jubiläum gebührend zu feiern, veröffentliche ich heute die... Maniac Mansion Mania Ronmastered Collection Diese enthält die ersten 9 Episoden von Maniac Mansion Mania in neu aufgearbeiteter Form: Vollständige Neuentwicklung der Episoden Überarbeitung des Spiel-/Rätseldesigns für ein besseres Spielerlebnis Umsetzung mit aktuellem AGS 3.6.1 - vollständig kompatibel mit modernen Systemen Modernisierte Steuerung Neue Hintergründe mit Farbverläufen Neue Animationen Sprachausgabe! Folgende Episoden sind enthalten: Episode 1: Geschwisterliebe von LucasFan Episode 2: Unruhen von KhrisMUC Episode 3: Stubenarrest von Lak Episode 4: Mimikry der Emotionen von dasJan Episode 5: Rhythmen zum Reinbeißen von MarkusD Episode 6: Er is' weg von Lak Episode 7: Right said Fred!?! von MisterL Episode 8: Die Abfuhr von hansa_export Episode 9: Radioaktiv von Rocco Bedanken möchte ich mich insbesondere bei alphawolf300 und Cone Arex, die mich bei der Entwicklung tatkräftig unterstützt haben!",
   "forum_thread_url_adventure_treff": null,
   "forum_thread_url_adventure_treff_legacy": null,
-  "youtube_longplay_url": null,
+  "youtube_longplay_url": "https://www.youtube.com/watch?v=1Bm9CZWhGv4",
   "youtube_longplay_duration": null,
   "download_url_mmm_docman": "https://www.maniac-mansion-mania.com/index.php/de/component/docman/?task=doc_download&gid=477",
   "download_url_mmm_canonical": "https://www.maniac-mansion-mania.de/downloads/specials/Festivitaeten/MMM_RonmasteredCollection.zip",

@@ -17,7 +17,7 @@ OUTPUT_HTML = OUTPUT_DIR / "index.html"
 CATEGORY_ORDER = [
     "Collections",
     "MMM Origins",
-    "MMM-Episoden",
+    "MMM Episoden",
     "Mini Masterpieces",
     "Halloween Specials",
     "Christmas Specials",
@@ -38,7 +38,7 @@ EPISODES_PER_SEASON = 10
 CATEGORY_LABELS = {
     "Collections": "Sammlungen",
     "MMM Origins": "MMM Origins",
-    "MMM-Episoden": "MMM-Episoden",
+    "MMM Episoden": "MMM Episoden",
     "Halloween Specials": "Halloween Specials",
     "Christmas Specials": "Weihnachts-Specials",
     "Easter Specials": "Oster-Specials",
@@ -59,7 +59,7 @@ CATEGORY_MERGE = {"Fan-Games": "Fan Games"}
 CATEGORY_ANCHOR = {
     "Collections": "sammlungen",
     "MMM Origins": "origins",
-    "MMM-Episoden": "episoden",
+    "MMM Episoden": "episoden",
     "Halloween Specials": "halloween",
     "Christmas Specials": "weihnachten",
     "Easter Specials": "ostern",
@@ -252,7 +252,7 @@ def render_season_details(season_num, items, open_by_default=False):
 
 
 def render_episoden_section(items):
-    anchor = CATEGORY_ANCHOR["MMM-Episoden"]
+    anchor = CATEGORY_ANCHOR["MMM Episoden"]
     count = len(items)
     seasons = group_into_seasons(items)
 
@@ -267,14 +267,14 @@ def render_episoden_section(items):
 
     return f"""<section class="category" id="{esc(anchor)}">
   <details open>
-  <summary>MMM-Episoden <span>({count})</span></summary>
+  <summary>MMM Episoden <span>({count})</span></summary>
 {inner}
   </details>
 </section>"""
 
 
 def render_category_section(cat, items, open_by_default=False):
-    if cat == "MMM-Episoden":
+    if cat == "MMM Episoden":
         return render_episoden_section(items)
 
     label = CATEGORY_LABELS.get(cat, cat)
@@ -308,7 +308,7 @@ def build_html(groups):
 
     sections = []
     for i, (cat, items) in enumerate(groups):
-        open_default = cat in ("Sammlungen", "MMM-Episoden")
+        open_default = cat in ("Sammlungen", "MMM Episoden")
         sections.append(render_category_section(cat, items, open_by_default=open_default))
 
     sections_html = "\n\n".join(sections)
