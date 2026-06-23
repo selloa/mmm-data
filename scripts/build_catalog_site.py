@@ -15,6 +15,7 @@ OUTPUT_DIR = SCRIPT_DIR.parent / "site"
 OUTPUT_HTML = OUTPUT_DIR / "index.html"
 
 CATEGORY_ORDER = [
+    "MMM Remastered",
     "Collections",
     "MMM Origins",
     "MMM Episoden",
@@ -36,6 +37,7 @@ CATEGORY_ORDER = [
 EPISODES_PER_SEASON = 10
 
 CATEGORY_LABELS = {
+    "MMM Remastered": "MMM Remastered",
     "Collections": "Sammlungen",
     "MMM Origins": "MMM Origins",
     "MMM Episoden": "MMM Episoden",
@@ -57,6 +59,7 @@ CATEGORY_LABELS = {
 CATEGORY_MERGE = {"Fan-Games": "Fan Games"}
 
 CATEGORY_ANCHOR = {
+    "MMM Remastered": "mmm-remastered",
     "Collections": "sammlungen",
     "MMM Origins": "origins",
     "MMM Episoden": "episoden",
@@ -236,7 +239,7 @@ def group_into_seasons(items):
         else:
             s = 0
         seasons.setdefault(s, []).append(row)
-    return sorted(seasons.items())
+    return sorted(seasons.items(), reverse=True)
 
 
 def render_season_details(season_num, items, open_by_default=False):
