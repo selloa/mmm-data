@@ -412,7 +412,15 @@ def build_html(groups):
   }}
   #search:focus {{ border-color: var(--accent); }}
   #search::placeholder {{ color: var(--muted); }}
+  .search-hint {{
+    margin-top: .45rem;
+    font-size: .72rem;
+    color: var(--muted);
+    text-align: center;
+    line-height: 1.5;
+  }}
   .toc {{
+    display: none; /* TODO: temporarily hidden */
     max-width: 1100px;
     margin: 0 auto 2.5rem;
     background: var(--card);
@@ -727,7 +735,8 @@ def build_html(groups):
 <p class="stats">{total} Eintr\u00e4ge in {len(groups)} Kategorien</p>
 
 <div class="search-wrap">
-  <input type="text" id="search" placeholder="Katalog durchsuchen\u2026">
+  <input type="text" id="search" autofocus aria-label="Katalog live filtern" placeholder="Sofort filtern \u2013 z.B. \u2026">
+  <p class="search-hint">Filtert sofort alle {total} Eintr\u00e4ge \u2013 Titel, Autor, Datum und mehr. Kein Seitenwechsel.</p>
 </div>
 
 <nav class="toc">
@@ -774,6 +783,45 @@ def build_html(groups):
 
   var search = document.getElementById('search');
   var sections = document.querySelectorAll('.category');
+
+  var placeholderExamples = ['LucasFan', 'Halloween', 'Episode 042', 'Geschwisterliebe', 'Bernard', 'Fan-Games'];
+  var placeholderPrefix = 'Sofort filtern \u2013 z.B. ';
+  var placeholderFocused = 'Sofort filtern\u2026';
+  var placeholderIndex = 0;
+  var placeholderTimer = null;
+
+  function setRotatingPlaceholder() {{
+    search.placeholder = placeholderPrefix + placeholderExamples[placeholderIndex];
+    placeholderIndex = (placeholderIndex + 1) % placeholderExamples.length;
+  }}
+
+  function startPlaceholderRotation() {{
+    if (placeholderTimer) return;
+    setRotatingPlaceholder();
+    placeholderTimer = setInterval(setRotatingPlaceholder, 3000);
+  }}
+
+  function stopPlaceholderRotation() {{
+    if (placeholderTimer) {{
+      clearInterval(placeholderTimer);
+      placeholderTimer = null;
+    }}
+  }}
+
+  search.addEventListener('focus', function() {{
+    stopPlaceholderRotation();
+    if (!this.value) this.placeholder = placeholderFocused;
+  }});
+
+  search.addEventListener('blur', function() {{
+    if (!this.value) startPlaceholderRotation();
+  }});
+
+  if (document.activeElement === search) {{
+    if (!search.value) search.placeholder = placeholderFocused;
+  }} else if (!search.value) {{
+    startPlaceholderRotation();
+  }}
 
   search.addEventListener('input', function() {{
     var q = this.value.toLowerCase().trim();
