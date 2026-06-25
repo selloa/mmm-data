@@ -5,28 +5,48 @@ from __future__ import annotations
 
 from typing import Literal
 
-ActivePage = Literal["catalog", "birthdays", "quiz"]
+ActivePage = Literal["catalog", "list", "birthdays", "quiz"]
+
+_NAV_TARGETS = ("catalog", "list", "birthdays", "quiz")
+_NAV_LABELS = {
+    "catalog": "Katalog",
+    "list": "Tabelle",
+    "birthdays": "Geburtstage",
+    "quiz": "Quiz",
+}
+_NAV_HREFS: dict[ActivePage, dict[str, str | None]] = {
+    "catalog": {
+        "catalog": None,
+        "list": "list.html",
+        "birthdays": "birthdays.html",
+        "quiz": "quiz/",
+    },
+    "list": {
+        "catalog": "index.html",
+        "list": None,
+        "birthdays": "birthdays.html",
+        "quiz": "quiz/",
+    },
+    "birthdays": {
+        "catalog": "index.html",
+        "list": "list.html",
+        "birthdays": None,
+        "quiz": "quiz/",
+    },
+    "quiz": {
+        "catalog": "../index.html",
+        "list": "../list.html",
+        "birthdays": "../birthdays.html",
+        "quiz": None,
+    },
+}
 
 
 def render_header_nav(active: ActivePage) -> str:
-    if active == "catalog":
-        items: list[tuple[str, str | None, bool]] = [
-            ("Katalog", None, True),
-            ("Geburtstage", "birthdays.html", False),
-            ("Quiz", "quiz/", False),
-        ]
-    elif active == "birthdays":
-        items = [
-            ("Katalog", "index.html", False),
-            ("Geburtstage", None, True),
-            ("Quiz", "quiz/", False),
-        ]
-    else:
-        items = [
-            ("Katalog", "../index.html", False),
-            ("Geburtstage", "../birthdays.html", False),
-            ("Quiz", None, True),
-        ]
+    hrefs = _NAV_HREFS[active]
+    items: list[tuple[str, str | None, bool]] = [
+        (_NAV_LABELS[target], hrefs[target], target == active) for target in _NAV_TARGETS
+    ]
 
     parts: list[str] = []
     for i, (label, href, is_current) in enumerate(items):

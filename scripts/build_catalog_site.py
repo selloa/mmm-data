@@ -27,8 +27,15 @@ SOURCE_CSV = SCRIPT_DIR.parent / "source" / "mmm_catalog.csv"
 FAVICON_SRC = SCRIPT_DIR.parent / "assets" / "favicon-catalog.png"
 OUTPUT_DIR = SCRIPT_DIR.parent / "site"
 OUTPUT_HTML = OUTPUT_DIR / "index.html"
+LIST_HTML = OUTPUT_DIR / "list.html"
+CATALOG_JSON = OUTPUT_DIR / "catalog.json"
 BIRTHDAYS_HTML = OUTPUT_DIR / "birthdays.html"
 BIRTHDAYS_JSON = OUTPUT_DIR / "birthdays-catalog.json"
+
+HIDDEN_TABLE_COLUMNS = frozenset({
+    "mirror_url_github_private",
+    "mirror_url_dropbox_public",
+})
 
 CATEGORY_ORDER = [
     "MMM Remastered",
@@ -372,6 +379,33 @@ def build_birthday_catalog(rows):
             }
         )
     return result
+
+
+def category_order_keys():
+    seen: set[str] = set()
+    ordered: list[str] = []
+    for cat in CATEGORY_ORDER:
+        key = CATEGORY_MERGE.get(cat, cat)
+        if key in seen:
+            continue
+        seen.add(key)
+        ordered.append(key)
+    return ordered
+
+
+def catalog_csv_columns() -> list[str]:
+    with open(SOURCE_CSV, encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+        return list(reader.fieldnames or [])
+
+
+def build_catalog_json(rows: list[dict], columns: list[str]) -> dict:
+    out_rows = []
+    for row in rows:
+        out_rows.append(
+            {col: ((row.get(col) or "").strip() or None) for col in columns}
+        )
+    return {"columns": columns, "rows": out_rows}
 
 
 def build_html(groups):
@@ -775,6 +809,8 @@ def build_html(groups):
     color: var(--muted);
     text-align: center;
   }}
+  .stats a {{ color: var(--link); text-decoration: none; }}
+  .stats a:hover {{ color: var(--link-hover); text-decoration: underline; }}
   @media (max-width: 700px) {{
     .toc ul {{ columns: 1; }}
     body {{ padding: 1rem .5rem; }}
@@ -818,7 +854,7 @@ def build_html(groups):
   mit Links zu Wiki, Komplettl\u00f6sungen, YouTube-Longplays und Downloads.
 </p>
 
-<p class="stats">{total} Eintr\u00e4ge in {len(groups)} Kategorien</p>
+<p class="stats">{total} Eintr\u00e4ge in {len(groups)} Kategorien &middot; <a href="list.html">Tabellenansicht</a></p>
 
 <div class="search-wrap">
   <input type="text" id="search" autofocus aria-label="Katalog live filtern" placeholder="Sofort filtern \u2013 z.B. \u2026">
@@ -936,6 +972,493 @@ function googleTranslateElementInit() {{
 }}
 </script>
 <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>"""
+
+
+def build_list_html(total: int) -> str:
+    hidden_cols_json = json.dumps(sorted(HIDDEN_TABLE_COLUMNS), ensure_ascii=False)
+    site_nav = render_header_nav("list")
+    return f"""<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="favicon.png">
+<title>Maniac Mansion Mania \u2013 Katalog (Tabelle)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cabin+Sketch:wght@700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {{
+    --bg: #f2f3ee;
+    --card: #fff;
+    --card-border: rgba(96, 147, 76, 0.25);
+    --accent: #4a7a3a;
+    --accent-dim: rgba(96, 147, 76, 0.18);
+    --text: #3a3a3a;
+    --text-bright: #1a1a1a;
+    --muted: #808080;
+    --link: #3d6e30;
+    --link-hover: #2a5520;
+    --border-subtle: rgba(0,0,0,.07);
+  }}
+  html.dark {{
+    --bg: #374037;
+    --card: rgba(34, 32, 30, 0.9);
+    --card-border: rgba(96, 147, 76, 0.15);
+    --accent: #60934c;
+    --accent-dim: rgba(96, 147, 76, 0.3);
+    --text: rgba(255, 255, 255, 0.7);
+    --text-bright: #fff;
+    --muted: rgba(255, 255, 255, 0.4);
+    --link: #60934c;
+    --link-hover: #8cbf72;
+    --border-subtle: rgba(255,255,255,.04);
+  }}
+  * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+  body {{
+    font-family: 'Roboto Mono', monospace;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    padding: 2rem 1rem;
+    font-size: 14px;
+  }}
+  h1 {{
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .2rem;
+    color: var(--text-bright);
+    letter-spacing: 1px;
+  }}
+  .subtitle {{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: var(--muted);
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }}
+  .page-header, .intro, .search-wrap, .stats {{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }}
+  .page-header {{ margin-bottom: 1.5rem; }}
+  .header-nav {{
+    text-align: center;
+    margin-bottom: .6rem;
+    font-size: .72rem;
+  }}
+  .header-nav a {{
+    color: var(--muted);
+    text-decoration: none;
+    letter-spacing: .3px;
+  }}
+  .header-nav a:hover {{
+    color: var(--text);
+    text-decoration: underline;
+  }}
+  .header-nav .nav-sep {{
+    color: var(--muted);
+    margin: 0 .35rem;
+  }}
+{header_nav_css()}
+  .intro {{
+    margin-bottom: 1.5rem;
+    padding: 0 .2rem;
+    font-size: .8rem;
+    color: var(--muted);
+    line-height: 1.7;
+    text-align: center;
+  }}
+  .intro a {{ color: var(--link); text-decoration: none; }}
+  .intro a:hover {{ text-decoration: underline; }}
+  .search-wrap {{ margin-bottom: 1.5rem; }}
+  #search {{
+    width: 100%;
+    padding: .6rem 1rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: .85rem;
+    border: 1px solid var(--accent-dim);
+    border-radius: 4px;
+    background: var(--card);
+    color: var(--text);
+    outline: none;
+  }}
+  #search:focus {{ border-color: var(--accent); }}
+  #search::placeholder {{ color: var(--muted); }}
+  .search-hint {{
+    margin-top: .45rem;
+    font-size: .72rem;
+    color: var(--muted);
+    text-align: center;
+  }}
+  .stats {{
+    margin-bottom: .8rem;
+    font-size: .72rem;
+    color: var(--muted);
+    text-align: center;
+  }}
+  .table-wrap {{
+    max-width: 100%;
+    margin: 0 auto 1.5rem;
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 4px;
+    padding: .75rem;
+  }}
+  .table-scroll {{
+    overflow: auto;
+    max-height: calc(100vh - 18rem);
+  }}
+  .loading {{
+    text-align: center;
+    color: var(--muted);
+    padding: 2rem;
+  }}
+  .hidden {{ display: none !important; }}
+  .csv-table {{
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: .68rem;
+    min-width: max-content;
+  }}
+  .csv-table thead th {{
+    text-align: left;
+    color: var(--muted);
+    font-weight: 500;
+    padding: .4rem .55rem;
+    border-bottom: 2px solid var(--accent-dim);
+    background: var(--card);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+  }}
+  .csv-table thead th:hover {{ color: var(--text-bright); }}
+  .csv-table thead th.sort-active {{ color: var(--accent); }}
+  .csv-table thead th.sort-asc::after {{ content: ' \\25B2'; font-size: .55rem; }}
+  .csv-table thead th.sort-desc::after {{ content: ' \\25BC'; font-size: .55rem; }}
+  .csv-table tbody td {{
+    padding: .35rem .55rem;
+    border-bottom: 1px solid var(--border-subtle);
+    vertical-align: top;
+    max-width: 16rem;
+  }}
+  .csv-table tbody tr:hover td {{ background: var(--accent-dim); }}
+  .csv-table tbody tr:hover td.sticky-col {{ background: var(--card); filter: brightness(0.97); }}
+  html.dark .csv-table tbody tr:hover td.sticky-col {{ filter: brightness(1.08); }}
+  .sticky-col {{
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--card);
+    box-shadow: 2px 0 4px rgba(0,0,0,.05);
+    max-width: 7rem;
+  }}
+  .csv-table thead th.sticky-col {{ z-index: 3; }}
+  .cell-text {{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 15rem;
+  }}
+  .col-long .cell-text {{
+    white-space: normal;
+    max-width: 14rem;
+    max-height: 3.6em;
+    overflow: hidden;
+  }}
+  .csv-table a {{
+    color: var(--link);
+    text-decoration: none;
+  }}
+  .csv-table a:hover {{ text-decoration: underline; color: var(--link-hover); }}
+  .empty-filter {{
+    text-align: center;
+    color: var(--muted);
+    padding: 1.5rem 0;
+    font-size: .85rem;
+  }}
+{theme_toggle_css()}
+  footer {{
+    max-width: 1400px;
+    margin: 3rem auto 1rem;
+    padding: 1.2rem 1.5rem;
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 4px;
+    color: var(--muted);
+    font-size: .75rem;
+    line-height: 1.7;
+    text-align: center;
+  }}
+  @media (max-width: 700px) {{
+    body {{ padding: 1rem .5rem; }}
+    h1 {{ font-size: 1.6rem; }}
+    .subtitle {{ font-size: 1.1rem; }}
+  }}
+</style>
+<script>
+(function(){{var s=localStorage.getItem('theme');if(s==='dark')document.documentElement.classList.add('dark');}})();
+</script>
+</head>
+<body>
+
+{theme_toggle_html()}
+
+<header class="page-header">
+  {site_nav}
+  <h1>Katalog</h1>
+  <p class="subtitle">Tabellenansicht</p>
+</header>
+
+<p class="intro">
+  <a href="index.html">Zur Kategorieansicht</a>
+</p>
+
+<p class="stats" id="statsLine">{total} Eintr\u00e4ge</p>
+
+<div class="search-wrap">
+  <input type="text" id="search" autofocus aria-label="Tabelle filtern" placeholder="Sofort filtern \u2013 z.B. \u2026">
+  <p class="search-hint">Durchsucht alle Spalten aller Eintr\u00e4ge.</p>
+</div>
+
+<div class="table-wrap">
+  <div id="loading" class="loading">Katalog wird geladen&hellip;</div>
+  <div id="tableWrap" class="hidden">
+    <div class="table-scroll">
+      <table class="csv-table">
+        <thead><tr id="headerRow"></tr></thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+    <p id="emptyFilter" class="empty-filter hidden">Keine Eintr\u00e4ge passen zum Filter.</p>
+  </div>
+</div>
+
+<footer>
+  <p>selloa \u2013 2026</p>
+</footer>
+
+{theme_toggle_script()}
+<script>
+(function() {{
+  var HIDDEN_COLS = Object.fromEntries({hidden_cols_json}.map(function(c) {{ return [c, 1]; }}));
+  var columns = [];
+  var allRows = [];
+  var sortCol = '';
+  var sortDir = 1;
+  var LONG_COLS = {{ mmm_description: 1, walkthrough_mmm_body: 1 }};
+  var NUM_COLS = {{ release_package_size_bytes: 1 }};
+  var TRUNC = 100;
+
+  function esc(s) {{
+    if (s == null) return '';
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }}
+
+  function cellValue(row, col) {{
+    var v = row[col];
+    return v == null ? '' : String(v);
+  }}
+
+  function parseCatalogId(id) {{
+    if (!id) return {{ prefix: '', num: -1 }};
+    var dash = id.indexOf('-');
+    if (dash < 0) return {{ prefix: id, num: -1 }};
+    var num = parseInt(id.slice(dash + 1), 10);
+    return {{ prefix: id.slice(0, dash), num: isNaN(num) ? -1 : num }};
+  }}
+
+  function compareCatalogId(va, vb) {{
+    var pa = parseCatalogId(va);
+    var pb = parseCatalogId(vb);
+    var cmp = pa.prefix.localeCompare(pb.prefix, 'de');
+    if (cmp !== 0) return cmp;
+    return pa.num - pb.num;
+  }}
+
+  function isUrl(val) {{
+    return /^https?:\\/\\//i.test(val);
+  }}
+
+  function truncateText(text) {{
+    if (text.length <= TRUNC) return text;
+    var cut = text.slice(0, TRUNC);
+    var sp = cut.lastIndexOf(' ');
+    if (sp > TRUNC * 0.6) cut = cut.slice(0, sp);
+    return cut + '\\u2026';
+  }}
+
+  function renderCell(row, col) {{
+    var raw = cellValue(row, col);
+    if (!raw) return '';
+    var display = LONG_COLS[col] ? truncateText(raw) : raw;
+    if (isUrl(raw)) {{
+      var label = display.length > 42 ? display.slice(0, 39) + '\\u2026' : display;
+      return '<a href="' + esc(raw) + '" target="_blank" rel="noopener" title="' + esc(raw) + '">' + esc(label) + '</a>';
+    }}
+    var titleAttr = (LONG_COLS[col] && raw.length > TRUNC) ? ' title="' + esc(raw) + '"' : '';
+    return '<span class="cell-text"' + titleAttr + '>' + esc(display) + '</span>';
+  }}
+
+  function rowHaystack(row) {{
+    return Object.keys(row).filter(function(k) {{ return k !== '_csvIdx'; }}).map(function(c) {{
+      return cellValue(row, c);
+    }}).join(' ').toLowerCase();
+  }}
+
+  function compareRows(a, b) {{
+    if (!sortCol) return a._csvIdx - b._csvIdx;
+    var va = cellValue(a, sortCol);
+    var vb = cellValue(b, sortCol);
+    if (!va && !vb) return 0;
+    if (!va) return 1;
+    if (!vb) return -1;
+    var cmp = 0;
+    if (sortCol === 'catalog_id') {{
+      cmp = compareCatalogId(va, vb);
+    }} else if (NUM_COLS[sortCol]) {{
+      cmp = (parseInt(va, 10) || 0) - (parseInt(vb, 10) || 0);
+    }} else {{
+      cmp = va.localeCompare(vb, 'de', {{ numeric: true, sensitivity: 'base' }});
+    }}
+    if (cmp === 0) {{
+      cmp = compareCatalogId(cellValue(a, 'catalog_id'), cellValue(b, 'catalog_id'));
+    }}
+    return cmp * sortDir;
+  }}
+
+  function updateSortHeaders() {{
+    document.querySelectorAll('#headerRow th').forEach(function(th) {{
+      th.classList.remove('sort-active', 'sort-asc', 'sort-desc');
+      if (th.getAttribute('data-sort') === sortCol) {{
+        th.classList.add('sort-active', sortDir === 1 ? 'sort-asc' : 'sort-desc');
+      }}
+    }});
+  }}
+
+  function bindHeaderSort() {{
+    document.querySelectorAll('#headerRow th').forEach(function(th) {{
+      th.addEventListener('click', function() {{
+        var col = th.getAttribute('data-sort');
+        if (sortCol === col) sortDir = -sortDir;
+        else {{ sortCol = col; sortDir = 1; }}
+        render();
+      }});
+    }});
+  }}
+
+  function buildHeader() {{
+    var row = document.getElementById('headerRow');
+    row.innerHTML = columns.map(function(col) {{
+      var sticky = col === 'catalog_id' ? ' sticky-col' : '';
+      return '<th class="' + sticky.trim() + '" data-sort="' + esc(col) + '">' + esc(col) + '</th>';
+    }}).join('');
+    bindHeaderSort();
+  }}
+
+  function render() {{
+    var q = document.getElementById('search').value.toLowerCase().trim();
+    var filtered = allRows.filter(function(row) {{
+      return !q || rowHaystack(row).indexOf(q) !== -1;
+    }});
+    filtered.sort(compareRows);
+    var tbody = document.getElementById('tableBody');
+    var emptyEl = document.getElementById('emptyFilter');
+    if (!filtered.length) {{
+      tbody.innerHTML = '';
+      emptyEl.classList.remove('hidden');
+    }} else {{
+      tbody.innerHTML = filtered.map(function(row) {{
+        return '<tr>' + columns.map(function(col) {{
+          var cls = [];
+          if (col === 'catalog_id') cls.push('sticky-col');
+          if (LONG_COLS[col]) cls.push('col-long');
+          var attr = cls.length ? ' class="' + cls.join(' ') + '"' : '';
+          return '<td' + attr + '>' + renderCell(row, col) + '</td>';
+        }}).join('') + '</tr>';
+      }}).join('');
+      emptyEl.classList.add('hidden');
+    }}
+    document.getElementById('statsLine').textContent = filtered.length === allRows.length
+      ? allRows.length + ' Eintr\\u00e4ge'
+      : filtered.length + ' von ' + allRows.length + ' Eintr\\u00e4gen';
+    updateSortHeaders();
+  }}
+
+  var search = document.getElementById('search');
+  var placeholderExamples = ['EP-042', 'LucasFan', 'Halloween', 'wiki_url', 'AGS', 'mmm01-talkie'];
+  var placeholderPrefix = 'Sofort filtern \\u2013 z.B. ';
+  var placeholderFocused = 'Sofort filtern\\u2026';
+  var placeholderIndex = 0;
+  var placeholderTimer = null;
+
+  function setRotatingPlaceholder() {{
+    search.placeholder = placeholderPrefix + placeholderExamples[placeholderIndex];
+    placeholderIndex = (placeholderIndex + 1) % placeholderExamples.length;
+  }}
+  function startPlaceholderRotation() {{
+    if (placeholderTimer) return;
+    setRotatingPlaceholder();
+    placeholderTimer = setInterval(setRotatingPlaceholder, 3000);
+  }}
+  function stopPlaceholderRotation() {{
+    if (placeholderTimer) {{ clearInterval(placeholderTimer); placeholderTimer = null; }}
+  }}
+  search.addEventListener('focus', function() {{
+    stopPlaceholderRotation();
+    if (!this.value) this.placeholder = placeholderFocused;
+  }});
+  search.addEventListener('blur', function() {{
+    if (!this.value) startPlaceholderRotation();
+  }});
+  search.addEventListener('input', render);
+  if (!search.value && document.activeElement !== search) startPlaceholderRotation();
+
+  fetch('catalog.json')
+    .then(function(r) {{
+      if (!r.ok) throw new Error('catalog.json nicht gefunden');
+      return r.json();
+    }})
+    .then(function(data) {{
+      columns = (data.columns || []).filter(function(c) {{ return !HIDDEN_COLS[c]; }});
+      allRows = (data.rows || []).map(function(row, idx) {{
+        var copy = Object.assign({{}}, row);
+        copy._csvIdx = idx;
+        return copy;
+      }});
+      if (!columns.length && allRows.length) {{
+        columns = Object.keys(allRows[0]).filter(function(c) {{
+          return c !== '_csvIdx' && !HIDDEN_COLS[c];
+        }});
+      }}
+      buildHeader();
+      document.getElementById('loading').classList.add('hidden');
+      document.getElementById('tableWrap').classList.remove('hidden');
+      render();
+    }})
+    .catch(function(err) {{
+      document.getElementById('loading').textContent = 'Fehler beim Laden: ' + err.message;
+    }});
+}})();
+</script>
 
 </body>
 </html>"""
@@ -1061,7 +1584,7 @@ def build_birthdays_html():
     <section class="section"><h2>Dieser Monat</h2><div id="month-content"></div></section>
     <section class="section" id="sec-year-only"><h2>Jubil&auml;umsjahr (genauer Tag unbekannt)</h2><div id="year-only-content"></div></section>
   </div>
-  <p class="footer-note">Release-Daten stammen aus dem MMM-Katalog und werden laufend korrigiert.<br>Neu bauen mit <code>python scripts/build_catalog_site.py</code></p>
+  <p class="footer-note">Release-Daten stammen aus dem MMM-Katalog und werden laufend korrigiert.</p>
 </div>
 {theme_toggle_script()}
 <script>
@@ -1117,10 +1640,15 @@ def main():
     rows = load_catalog()
     groups = group_by_category(rows)
     birthday_catalog = build_birthday_catalog(rows)
+    columns = catalog_csv_columns()
+    catalog_json = build_catalog_json(rows, columns)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    total = sum(len(items) for _, items in groups)
     page = build_html(groups)
     OUTPUT_HTML.write_text(page, encoding="utf-8")
+    LIST_HTML.write_text(build_list_html(total), encoding="utf-8")
+    CATALOG_JSON.write_text(json.dumps(catalog_json, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     BIRTHDAYS_HTML.write_text(build_birthdays_html(), encoding="utf-8")
     BIRTHDAYS_JSON.write_text(json.dumps(birthday_catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -1131,8 +1659,9 @@ def main():
 
     build_quiz(OUTPUT_DIR)
 
-    total = sum(len(items) for _, items in groups)
     print(f"Wrote {OUTPUT_HTML} ({total} entries, {len(groups)} categories)")
+    print(f"Wrote {LIST_HTML}")
+    print(f"Wrote {CATALOG_JSON} ({len(catalog_json['rows'])} entries, {len(columns)} columns)")
     print(f"Wrote {BIRTHDAYS_HTML} ({len(birthday_catalog)} birthday entries)")
     print(f"Wrote {BIRTHDAYS_JSON}")
 
