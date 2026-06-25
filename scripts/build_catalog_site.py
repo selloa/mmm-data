@@ -14,6 +14,14 @@ _SCRIPT_DIR = Path(__file__).resolve().parent
 if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))
 
+from site_chrome import (
+    header_nav_css,
+    render_header_nav,
+    theme_toggle_css,
+    theme_toggle_html,
+    theme_toggle_script,
+)
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 SOURCE_CSV = SCRIPT_DIR.parent / "source" / "mmm_catalog.csv"
 FAVICON_SRC = SCRIPT_DIR.parent / "assets" / "favicon-catalog.png"
@@ -377,6 +385,8 @@ def build_html(groups):
 
     sections_html = "\n\n".join(sections)
 
+    site_nav = render_header_nav("catalog")
+
     return f"""<!DOCTYPE html>
 <html lang="de">
 <head>
@@ -471,6 +481,7 @@ def build_html(groups):
     color: var(--muted);
     margin: 0 .35rem;
   }}
+{header_nav_css()}
   .intro {{
     max-width: 1100px;
     margin: 0 auto 1.5rem;
@@ -742,21 +753,7 @@ def build_html(groups):
   }}
   .back-top.visible {{ opacity: 1; pointer-events: auto; }}
   .back-top:hover {{ background: var(--link-hover); }}
-  .theme-toggle {{
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    background: var(--card);
-    border: 1px solid var(--card-border);
-    border-radius: 4px;
-    padding: .4rem .6rem;
-    cursor: pointer;
-    font-size: 1.1rem;
-    line-height: 1;
-    z-index: 200;
-    transition: background .2s;
-  }}
-  .theme-toggle:hover {{ background: var(--accent-dim); }}
+{theme_toggle_css()}
   footer {{
     max-width: 1100px;
     margin: 3rem auto 1rem;
@@ -806,14 +803,12 @@ def build_html(groups):
 </head>
 <body>
 
-<button class="theme-toggle" id="themeToggle" title="Dark / Light Mode">&#9790;</button>
+{theme_toggle_html()}
 
 <div id="google_translate_element" style="margin-bottom:.5rem; opacity:.6; font-size:.75rem;"></div>
 
 <header class="page-header">
-  <nav class="header-nav" aria-label="Seitennavigation">
-    <a href="birthdays.html">Geburtstage</a><span class="nav-sep">&middot;</span><a href="quiz/">Quiz</a>
-  </nav>
+  {site_nav}
   <h1>Katalog</h1>
   <p class="subtitle">Alle Episoden und Specials auf einen Blick</p>
 </header>
@@ -854,24 +849,9 @@ def build_html(groups):
 
 <a href="#" class="back-top" id="backTop">&#9650; Nach oben</a>
 
+{theme_toggle_script()}
 <script>
 (function() {{
-  var html = document.documentElement;
-  var toggle = document.getElementById('themeToggle');
-  var stored = localStorage.getItem('theme');
-  if (stored === 'dark') {{
-    html.classList.add('dark');
-  }}
-  function updateIcon() {{
-    toggle.textContent = html.classList.contains('dark') ? '\u2600' : '\u263E';
-  }}
-  updateIcon();
-  toggle.addEventListener('click', function() {{
-    html.classList.toggle('dark');
-    localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
-    updateIcon();
-  }});
-
   var search = document.getElementById('search');
   var sections = document.querySelectorAll('.category');
 
@@ -966,6 +946,7 @@ def build_birthdays_html():
         {k: v for k, v in CATEGORY_LABELS.items() if k not in EXCLUDED_BIRTHDAY_CATEGORIES},
         ensure_ascii=False,
     )
+    site_nav = render_header_nav("birthdays")
     return f"""<!DOCTYPE html>
 <html lang="de">
 <head>
@@ -1027,10 +1008,11 @@ def build_birthdays_html():
     color: var(--text);
     text-decoration: underline;
   }}
+{header_nav_css()}
   h1 {{ text-align: center; font-family: 'Cabin Sketch', cursive; font-size: 2.2rem; font-weight: 700; text-transform: uppercase; color: var(--text-bright); letter-spacing: 1px; }}
   .subtitle {{ text-align: center; font-family: 'Amatic SC', cursive; color: var(--muted); margin: .3rem 0 1rem; font-size: 1.4rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; }}
   .header-meta {{ text-align: center; font-size: .8rem; color: var(--muted); margin-bottom: 1.5rem; }}
-  .theme-toggle {{ position: fixed; top: 1rem; right: 1rem; background: var(--card); border: 1px solid var(--card-border); border-radius: 4px; padding: .4rem .7rem; cursor: pointer; font-size: 1rem; color: var(--text); z-index: 100; }}
+{theme_toggle_css()}
   .section {{ background: var(--card); border: 1px solid var(--card-border); border-radius: 4px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem; }}
   .section h2 {{ font-family: 'Cabin Sketch', cursive; font-size: 1.15rem; font-weight: 700; text-transform: uppercase; color: var(--text-bright); border-bottom: 1px solid var(--accent-dim); padding-bottom: .4rem; margin-bottom: 1rem; }}
   .section-empty {{ color: var(--muted); font-size: .85rem; font-style: italic; }}
@@ -1064,12 +1046,10 @@ def build_birthdays_html():
 </style>
 </head>
 <body>
-<button class="theme-toggle" id="themeToggle" title="Dark Mode" aria-label="Dark Mode">&#9790;</button>
+{theme_toggle_html()}
 <div class="wrap">
   <header class="page-header">
-    <nav class="header-nav" aria-label="Seitennavigation">
-      <a href="index.html">Katalog</a>
-    </nav>
+    {site_nav}
     <h1>MMM Geburtstage</h1>
     <p class="subtitle">Release-Jubil&auml;en</p>
     <p class="header-meta"><span id="currentDate"></span></p>
@@ -1083,15 +1063,10 @@ def build_birthdays_html():
   </div>
   <p class="footer-note">Release-Daten stammen aus dem MMM-Katalog und werden laufend korrigiert.<br>Neu bauen mit <code>python scripts/build_catalog_site.py</code></p>
 </div>
+{theme_toggle_script()}
 <script>
 (function() {{
   var CATEGORY_LABELS = {labels_json};
-  var html = document.documentElement;
-  var toggle = document.getElementById('themeToggle');
-  if (localStorage.getItem('theme') === 'dark') html.classList.add('dark');
-  function updateIcon() {{ toggle.textContent = html.classList.contains('dark') ? '\\u2600' : '\\u263E'; }}
-  updateIcon();
-  toggle.addEventListener('click', function() {{ html.classList.toggle('dark'); localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light'); updateIcon(); }});
   function startOfDay(d) {{ return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }}
   function daysBetween(a, b) {{ return Math.round((startOfDay(b) - startOfDay(a)) / 86400000); }}
   function formatDateDE(d) {{ return d.toLocaleDateString('de-DE', {{ weekday:'long', day:'numeric', month:'long', year:'numeric' }}); }}

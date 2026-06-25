@@ -17,6 +17,7 @@ on:
       - "scripts/build_quiz_site.py"
       - "scripts/quiz_lib.py"
       - "scripts/quiz_suggest.py"
+      - "scripts/site_chrome.py"
       - "quiz/**"
       - ".github/workflows/deploy-site.yml"
   workflow_dispatch:
