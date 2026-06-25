@@ -116,10 +116,10 @@ def load_round_files(rounds_dir: Path | None = None) -> list[dict]:
     return all_rounds
 
 
-def validate_rounds(
+def collect_validation_errors(
     rounds: list[dict],
     catalog: list[dict[str, str]] | None = None,
-) -> None:
+) -> list[str]:
     ids = catalog_ids(catalog)
     seen_weeks: set[str] = set()
     errors: list[str] = []
@@ -158,10 +158,103 @@ def validate_rounds(
         if cid and cid not in ids:
             errors.append(f"{src} {week}: unknown catalog_id {cid!r}")
 
+    return errors
+
+
+def validate_round_draft(
+    draft: dict,
+    catalog: list[dict[str, str]] | None = None,
+    existing_rounds: list[dict] | None = None,
+) -> list[str]:
+    """Validate one round for the dev tool (includes duplicate-week check against repo)."""
+    errors = collect_validation_errors([draft], catalog)
+    week = draft.get("week")
+    if week and existing_rounds:
+        for r in existing_rounds:
+            if r.get("week") == week:
+                src = r.get("_source_file", "?")
+                errors.append(f"duplicate week {week} (already in {src})")
+                break
+    return errors
+
+
+def validate_rounds(
+    rounds: list[dict],
+    catalog: list[dict[str, str]] | None = None,
+) -> None:
+    errors = collect_validation_errors(rounds, catalog)
     if errors:
         for e in errors:
             print(f"quiz validate error: {e}", file=sys.stderr)
         raise SystemExit(1)
+
+
+def parse_iso_week(week: str) -> tuple[int, int] | None:
+    m = WEEK_ID.match(week)
+    if not m:
+        return None
+    return int(week[:4]), int(week[6:8])
+
+
+def compare_iso_week(a: str, b: str) -> int:
+    pa, pb = parse_iso_week(a), parse_iso_week(b)
+    if not pa or not pb:
+        return 0
+    if pa[0] != pb[0]:
+        return pa[0] - pb[0]
+    return pa[1] - pb[1]
+
+
+def iso_week_from_date(d) -> str:
+    iso = d.isocalendar()
+    return f"{iso.year}-W{iso.week:02d}"
+
+
+def iso_week_today() -> str:
+    from datetime import date
+
+    return iso_week_from_date(date.today())
+
+
+def next_iso_weeks(start_week: str, count: int) -> list[str]:
+    from datetime import date, timedelta
+
+    y, w = parse_iso_week(start_week) or (date.today().year, 1)
+    # Monday of ISO week
+    d = date.fromisocalendar(y, w, 1)
+    out = []
+    for i in range(count):
+        wd = d + timedelta(weeks=i)
+        out.append(iso_week_from_date(wd))
+    return out
+
+
+def find_fallback_week(week: str, week_order: list[str]) -> str | None:
+    best = None
+    for w in week_order:
+        if compare_iso_week(w, week) <= 0:
+            best = w
+    return best
+
+
+def schedule_with_gaps(rounds: list[dict], gap_count: int = 8) -> dict:
+    schedule = build_schedule(rounds)
+    current = iso_week_today()
+    gaps = []
+    for week in next_iso_weeks(current, gap_count):
+        has_round = week in schedule["rounds"]
+        fallback_from = None
+        if not has_round:
+            fallback_from = find_fallback_week(week, schedule["week_order"])
+        gaps.append(
+            {
+                "week": week,
+                "has_round": has_round,
+                "fallback_from": fallback_from,
+                "is_current": week == current,
+            }
+        )
+    return {**schedule, "current_week": current, "gaps": gaps}
 
 
 def build_schedule(rounds: list[dict]) -> dict:

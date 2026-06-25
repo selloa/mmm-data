@@ -84,6 +84,15 @@ def build_quiz_html() -> str:
   }}
   .round-meta strong {{ color: var(--accent); }}
   .round-theme {{ font-size: .8rem; color: var(--muted); margin-bottom: .5rem; }}
+  .fallback-banner {{
+    font-size: .78rem;
+    color: var(--muted);
+    margin-bottom: .75rem;
+    padding: .5rem .65rem;
+    border-radius: 4px;
+    border: 1px dashed var(--card-border);
+    background: var(--bg);
+  }}
   .question {{
     font-size: 1rem;
     color: var(--text-bright);
@@ -168,6 +177,7 @@ def build_quiz_html() -> str:
   <div id="loading">Quiz wird geladen&hellip;</div>
   <section class="section quiz-section empty hidden" id="empty"></section>
   <section class="section quiz-section hidden" id="quiz">
+    <div class="fallback-banner hidden" id="fallbackBanner"></div>
     <div class="round-meta">Woche <strong id="weekLabel"></strong> &middot; <span id="catLabel"></span></div>
     <div class="round-theme" id="roundTheme"></div>
     <p class="question" id="questionText"></p>
@@ -207,6 +217,30 @@ def build_quiz_html() -> str:
     return m ? m[1] : null;
   }}
 
+  function parseIsoWeek(w) {{
+    var m = /^(\\d{{4}})-W(\\d{{2}})$/.exec(w);
+    if (!m) return null;
+    return {{ year: parseInt(m[1], 10), week: parseInt(m[2], 10) }};
+  }}
+
+  function compareIsoWeek(a, b) {{
+    var pa = parseIsoWeek(a), pb = parseIsoWeek(b);
+    if (!pa || !pb) return 0;
+    if (pa.year !== pb.year) return pa.year - pb.year;
+    return pa.week - pb.week;
+  }}
+
+  function findFallbackRound(week, schedule) {{
+    var order = schedule.week_order || [];
+    var best = null;
+    for (var i = 0; i < order.length; i++) {{
+      var w = order[i];
+      if (compareIsoWeek(w, week) <= 0) best = w;
+    }}
+    if (!best || !schedule.rounds) return null;
+    return schedule.rounds[best] || null;
+  }}
+
   function updateHeaderMeta(week) {{
     var d = new Date();
     var dateStr = d.toLocaleDateString('de-DE', {{
@@ -225,8 +259,8 @@ def build_quiz_html() -> str:
     }} catch (e) {{ return {{ attempts: 0, solved: false }}; }}
   }}
 
-  function saveProgress(week) {{
-    sessionStorage.setItem(storageKey(week), JSON.stringify({{
+  function saveProgress() {{
+    sessionStorage.setItem(storageKey(state.week), JSON.stringify({{
       attempts: state.attempts,
       solved: state.solved
     }}));
@@ -247,7 +281,7 @@ def build_quiz_html() -> str:
     var r = state.round;
     var base = state.schedule.base_url || (location.href.split('?')[0]);
     var cat = r.category_label || r.category;
-    var lines = ['\\uD83E\\uDDE0 MMM Quiz #' + r.week + ' \\u2014 ' + cat];
+    var lines = ['\\uD83E\\uDDE0 MMM Quiz #' + state.week + ' \\u2014 ' + cat];
     if (state.solved) {{
       lines.push('\\u2705 ' + attemptLabel(state.attempts) + '!');
     }} else {{
@@ -297,15 +331,26 @@ def build_quiz_html() -> str:
     updateForumBox();
   }}
 
-  function renderRound(round) {{
+  function renderRound(round, opts) {{
+    opts = opts || {{}};
     state.round = round;
-    var prog = loadProgress(round.week);
+    var prog = loadProgress(state.week);
     state.attempts = prog.attempts || 0;
     state.solved = prog.solved || false;
 
     document.getElementById('loading').classList.add('hidden');
+    document.getElementById('empty').classList.add('hidden');
     document.getElementById('quiz').classList.remove('hidden');
-    document.getElementById('weekLabel').textContent = round.week;
+    document.getElementById('weekLabel').textContent = state.week;
+    var banner = document.getElementById('fallbackBanner');
+    if (opts.fallbackFrom) {{
+      banner.textContent =
+        'Keine neue Frage f\\u00fcr diese Woche \\u2014 Wiederholung aus ' + opts.fallbackFrom + '.';
+      banner.classList.remove('hidden');
+    }} else {{
+      banner.textContent = '';
+      banner.classList.add('hidden');
+    }}
     document.getElementById('catLabel').textContent = round.category_label || round.category;
     var roundTheme = document.getElementById('roundTheme');
     roundTheme.textContent = round.theme ? 'Thema: ' + round.theme : '';
@@ -344,12 +389,12 @@ def build_quiz_html() -> str:
         if (i !== idx && i !== state.round.correct_index) b.classList.add('dim');
         if (i === state.round.correct_index && i !== idx) b.classList.add('correct');
       }});
-      saveProgress(state.round.week);
+      saveProgress();
       showResult(true);
     }} else {{
       btn.classList.add('wrong');
       btn.disabled = true;
-      saveProgress(state.round.week);
+      saveProgress();
       showResult(false);
       setTimeout(function() {{
         document.getElementById('result').classList.add('hidden');
@@ -360,6 +405,7 @@ def build_quiz_html() -> str:
 
   function showEmpty(week, schedule) {{
     document.getElementById('loading').classList.add('hidden');
+    document.getElementById('quiz').classList.add('hidden');
     var el = document.getElementById('empty');
     el.classList.remove('hidden');
     var nearest = schedule.week_order || [];
@@ -394,8 +440,16 @@ def build_quiz_html() -> str:
       state.week = week;
       updateHeaderMeta(week);
       var round = schedule.rounds && schedule.rounds[week];
-      if (round) renderRound(round);
-      else showEmpty(week, schedule);
+      if (round) {{
+        renderRound(round);
+      }} else {{
+        var fallback = findFallbackRound(week, schedule);
+        if (fallback) {{
+          renderRound(fallback, {{ fallbackFrom: fallback.week }});
+        }} else {{
+          showEmpty(week, schedule);
+        }}
+      }}
     }})
     .catch(function(err) {{
       document.getElementById('loading').textContent = 'Fehler: ' + err.message;

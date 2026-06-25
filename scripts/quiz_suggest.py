@@ -115,18 +115,36 @@ def pick_distractor_authors(catalog: list[dict], exclude: str, n: int = 3) -> li
     return random.sample(pool, n)
 
 
-def synopsis_draft(row: dict, catalog: list[dict]) -> str | None:
-    desc = (row.get("mmm_description") or "").strip()
-    if len(desc) < 40:
-        return None
-    snippet = desc[:120].rsplit(" ", 1)[0] + "…" if len(desc) > 120 else desc
-    title = row["title"]
+def author_draft_struct(row: dict, catalog: list[dict]) -> dict | None:
     author = (row.get("authors") or "").split(",")[0].strip()
+    if not author:
+        return None
     distractors = pick_distractor_authors(catalog, author)
     options = [author] + distractors
     while len(options) < 4:
         options.append("???")
     options = options[:4]
+    wiki = (row.get("wiki_url_mmm") or "").strip() or None
+    return {
+        "catalog_id": row["catalog_id"],
+        "title": row["title"],
+        "category": "autoren",
+        "category_label": "Autoren",
+        "question": f"Wer schrieb {row['title']}?",
+        "options": options,
+        "correct_index": 0,
+        "explanation": f"Autor von {row['title']}: {author}.",
+        "links": {"catalog_id": row["catalog_id"], "wiki": wiki},
+    }
+
+
+def synopsis_draft(row: dict, catalog: list[dict]) -> str | None:
+    desc = (row.get("mmm_description") or "").strip()
+    if len(desc) < 40:
+        return None
+    title = row["title"]
+    author = (row.get("authors") or "").split(",")[0].strip()
+    distractors = pick_distractor_authors(catalog, author)
     lines = [
         f"- **ENTWURF — Autor** (`{row['catalog_id']}`)",
         f"  - Frage: Wer schrieb *{title}*?",
@@ -135,6 +153,73 @@ def synopsis_draft(row: dict, catalog: list[dict]) -> str | None:
         "",
     ]
     return "\n".join(lines)
+
+
+def build_suggestions(
+    year: int,
+    month: int,
+    catalog: list[dict] | None = None,
+) -> dict:
+    catalog = catalog if catalog is not None else load_catalog()
+    ref_year = year
+    staffel = staffel_for_month(month)
+    eps = staffel_episodes(catalog, staffel)
+    anniversaries_raw = anniversary_entries(catalog, year, month, ref_year)
+
+    anniversaries = []
+    for entry in anniversaries_raw:
+        row = entry["row"]
+        parsed = entry["parsed"]
+        flags = []
+        if entry["round10"]:
+            flags.append("10er")
+        elif entry["round5"]:
+            flags.append("5er")
+        anniversaries.append(
+            {
+                "catalog_id": row["catalog_id"],
+                "title": row["title"],
+                "release_date": format_de_date(parsed["day"], parsed["month"], parsed["year"]),
+                "age": entry["age"],
+                "flags": flags,
+                "wiki": (row.get("wiki_url_mmm") or "").strip() or None,
+                "hint": "Chronik-Frage zum Release-Datum oder Titel",
+            }
+        )
+
+    author_drafts: list[dict] = []
+    for row in eps:
+        draft = author_draft_struct(row, catalog)
+        if draft:
+            author_drafts.append(draft)
+        if len(author_drafts) >= 4:
+            break
+
+    seasonal_hint = None
+    if month in SEASONAL_HINTS:
+        cat_name, prefix = SEASONAL_HINTS[month]
+        seasonal = [r for r in catalog if r["catalog_id"].startswith(prefix)]
+        seasonal_hint = {
+            "category": cat_name,
+            "prefix": prefix,
+            "count": len(seasonal),
+            "samples": [
+                {"catalog_id": r["catalog_id"], "title": r["title"]} for r in seasonal[:5]
+            ],
+        }
+
+    return {
+        "year": year,
+        "month": month,
+        "month_label": MONTH_NAMES_DE[month],
+        "staffel": staffel,
+        "staffel_episodes": [
+            {"catalog_id": r["catalog_id"], "title": r["title"]} for r in eps
+        ],
+        "anniversaries": anniversaries,
+        "author_drafts": author_drafts,
+        "seasonal_hint": seasonal_hint,
+    }
 
 
 def chronik_draft(entry: dict, ref_year: int) -> str:

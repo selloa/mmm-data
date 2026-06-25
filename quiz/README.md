@@ -4,7 +4,7 @@ Wöchentliches Community-Quiz (eine Frage pro ISO-Woche), statisch unter der Kat
 
 **Live-URL (nach Deploy):** https://selloa.github.io/mmm-data/quiz/
 
-Die Quiz-Seite nutzt dasselbe dezente Site-Chrome wie die Geburtstagsseite (Header-Nav `Katalog · Geburtstage · Quiz`, Dark-Mode-Toggle, Section-Layout). Gemeinsame Bausteine liegen in [`scripts/site_chrome.py`](../scripts/site_chrome.py).
+Die Quiz-Seite nutzt dasselbe dezente Site-Chrome wie die Geburtstagsseite (Header-Nav `Katalog · Tabelle · Geburtstage · Quiz`, Dark-Mode-Toggle, Section-Layout). Gemeinsame Bausteine liegen in [`scripts/site_chrome.py`](../scripts/site_chrome.py).
 
 ---
 
@@ -142,6 +142,35 @@ python scripts/build_catalog_site.py
 
 ---
 
+## Dev Tool (lokal, Copy-Paste)
+
+Zum Kuratieren neuer Runden ohne direktes Schreiben in `quiz/rounds/`:
+
+```powershell
+python scripts/quiz_dev_tool.py
+# → http://127.0.0.1:8765
+```
+
+Das Tool bietet:
+
+- **Übersicht** aller Runden + Lücken (nächste 8 ISO-Wochen), inkl. Fallback-Hinweis
+- **Editor** mit Katalog-Picker, Spieler-Vorschau und Validierung gegen `mmm_catalog.csv`
+- **Vorschläge** aus `quiz_suggest` (Jubiläen, Autor-Entwürfe) — per Klick ins Formular
+- **Copy JSON** (einzelne Runde oder Datei-Skeleton mit `meta`) zum manuellen Einfügen
+
+Es schreibt **nicht** in `quiz/rounds/`. Typischer Ablauf:
+
+```powershell
+python scripts/quiz_dev_tool.py
+# Browser: Lücke wählen → Vorschlag übernehmen → kuratieren → Validieren → Copy JSON
+# In quiz/rounds/YYYY-MM.json einfügen
+python scripts/build_catalog_site.py
+```
+
+Port ändern: `python scripts/quiz_dev_tool.py --port 9000`
+
+---
+
 ## Forum-Text (Spieler)
 
 Nach richtiger Antwort: Button „In Zwischenablage kopieren“. **Keine Lösung** im Text — nur Ich-Perspektive, Woche, Kategorie, Versuchsanzahl, URL.
@@ -169,6 +198,7 @@ Ich glaube, das stimmt nicht — der Katalog braucht hier eine Korrektur.
 | [`scripts/quiz_lib.py`](../scripts/quiz_lib.py) | Laden, Validierung, `schedule.json` |
 | [`scripts/build_quiz_site.py`](../scripts/build_quiz_site.py) | HTML + JSON nach `site/quiz/` |
 | [`scripts/quiz_suggest.py`](../scripts/quiz_suggest.py) | Monats-Vorschläge → `quiz/suggestions/` |
+| [`scripts/quiz_dev_tool.py`](../scripts/quiz_dev_tool.py) | Lokales Dev-UI (`:8765`) — Editor, Validierung, Copy JSON |
 | [`scripts/build_catalog_site.py`](../scripts/build_catalog_site.py) | Ruft Quiz-Build am Ende von `main()` auf |
 
 ---
