@@ -17,6 +17,8 @@ if str(_SCRIPT_DIR) not in sys.path:
 from site_chrome import (
     header_nav_css,
     render_header_nav,
+    render_site_footer,
+    site_footer_css,
     theme_toggle_css,
     theme_toggle_html,
     theme_toggle_script,
@@ -788,20 +790,7 @@ def build_html(groups):
   .back-top.visible {{ opacity: 1; pointer-events: auto; }}
   .back-top:hover {{ background: var(--link-hover); }}
 {theme_toggle_css()}
-  footer {{
-    max-width: 1100px;
-    margin: 3rem auto 1rem;
-    padding: 1.2rem 1.5rem;
-    background: var(--card);
-    border: 1px solid var(--card-border);
-    border-radius: 4px;
-    color: var(--muted);
-    font-size: .75rem;
-    line-height: 1.7;
-  }}
-  footer strong {{ color: var(--text-bright); }}
-  footer a {{ color: var(--link); }}
-  footer a:hover {{ color: var(--link-hover); }}
+{site_footer_css()}
   .stats {{
     max-width: 1100px;
     margin: 0 auto .8rem;
@@ -846,19 +835,13 @@ def build_html(groups):
 <header class="page-header">
   {site_nav}
   <h1>Katalog</h1>
-  <p class="subtitle">Alle Episoden und Specials auf einen Blick</p>
+  <p class="subtitle">Kategorieansicht</p>
 </header>
-
-<p class="intro">
-  Der komplette Katalog aller Maniac Mansion Mania Episoden, Specials, Fan-Games und mehr \u2013
-  mit Links zu Wiki, Komplettl\u00f6sungen, YouTube-Longplays und Downloads.
-</p>
 
 <p class="stats">{total} Eintr\u00e4ge in {len(groups)} Kategorien &middot; <a href="list.html">Tabellenansicht</a></p>
 
 <div class="search-wrap">
   <input type="text" id="search" autofocus aria-label="Katalog live filtern" placeholder="Sofort filtern \u2013 z.B. \u2026">
-  <p class="search-hint">Filtert sofort alle {total} Eintr\u00e4ge \u2013 Titel, Autor, Datum und mehr. Kein Seitenwechsel.</p>
 </div>
 
 <nav class="toc">
@@ -870,18 +853,7 @@ def build_html(groups):
 
 {sections_html}
 
-<footer>
-  <p><strong>Quellen</strong></p>
-  <ul style="list-style:none;margin:.4rem 0 .8rem;">
-    <li>MMM Webseite \u2013 Spiele (<a href="https://www.maniac-mansion-mania.com/index.php/de/spiele.html">Link</a>)</li>
-    <li>MMM Wiki (<a href="http://wiki.maniac-mansion-mania.de">Link</a>)</li>
-    <li>MMM Forum (<a href="https://www.maniac-mansion-mania.de/forum/">Link</a>)</li>
-  </ul>
-  <p>
-    <a href="https://www.maniac-mansion-mania.com">maniac-mansion-mania.com</a>
-  </p>
-  <p style="margin-top:.6rem;">selloa \u2013 2026</p>
-</footer>
+{render_site_footer()}
 
 <a href="#" class="back-top" id="backTop">&#9650; Nach oben</a>
 
@@ -1192,18 +1164,7 @@ def build_list_html(total: int) -> str:
     font-size: .85rem;
   }}
 {theme_toggle_css()}
-  footer {{
-    max-width: 1400px;
-    margin: 3rem auto 1rem;
-    padding: 1.2rem 1.5rem;
-    background: var(--card);
-    border: 1px solid var(--card-border);
-    border-radius: 4px;
-    color: var(--muted);
-    font-size: .75rem;
-    line-height: 1.7;
-    text-align: center;
-  }}
+{site_footer_css()}
   @media (max-width: 700px) {{
     body {{ padding: 1rem .5rem; }}
     h1 {{ font-size: 1.6rem; }}
@@ -1248,9 +1209,7 @@ def build_list_html(total: int) -> str:
   </div>
 </div>
 
-<footer>
-  <p>selloa \u2013 2026</p>
-</footer>
+{render_site_footer()}
 
 {theme_toggle_script()}
 <script>
@@ -1536,6 +1495,7 @@ def build_birthdays_html():
   .subtitle {{ text-align: center; font-family: 'Amatic SC', cursive; color: var(--muted); margin: .3rem 0 1rem; font-size: 1.4rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; }}
   .header-meta {{ text-align: center; font-size: .8rem; color: var(--muted); margin-bottom: 1.5rem; }}
 {theme_toggle_css()}
+{site_footer_css()}
   .section {{ background: var(--card); border: 1px solid var(--card-border); border-radius: 4px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem; }}
   .section h2 {{ font-family: 'Cabin Sketch', cursive; font-size: 1.15rem; font-weight: 700; text-transform: uppercase; color: var(--text-bright); border-bottom: 1px solid var(--accent-dim); padding-bottom: .4rem; margin-bottom: 1rem; }}
   .section-empty {{ color: var(--muted); font-size: .85rem; font-style: italic; }}
@@ -1563,7 +1523,6 @@ def build_birthdays_html():
   .list-title a {{ color: var(--link); text-decoration: none; }}
   .list-title a:hover {{ text-decoration: underline; }}
   .list-meta {{ color: var(--muted); font-size: .75rem; }}
-  .footer-note {{ text-align: center; font-size: .72rem; color: var(--muted); margin-top: 2rem; line-height: 1.7; }}
   .loading {{ text-align: center; color: var(--muted); padding: 3rem; }}
   .hidden {{ display: none; }}
 </style>
@@ -1584,8 +1543,8 @@ def build_birthdays_html():
     <section class="section"><h2>Dieser Monat</h2><div id="month-content"></div></section>
     <section class="section" id="sec-year-only"><h2>Jubil&auml;umsjahr (genauer Tag unbekannt)</h2><div id="year-only-content"></div></section>
   </div>
-  <p class="footer-note">Release-Daten stammen aus dem MMM-Katalog und werden laufend korrigiert.</p>
 </div>
+{render_site_footer()}
 {theme_toggle_script()}
 <script>
 (function() {{

@@ -61,6 +61,39 @@ def render_header_nav(active: ActivePage) -> str:
     return f'<nav class="header-nav" aria-label="Seitennavigation">{inner}</nav>'
 
 
+def site_footer_css() -> str:
+    return """
+  footer {
+    max-width: 1100px;
+    margin: 3rem auto 1rem;
+    padding: 1.2rem 1.5rem;
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 4px;
+    color: var(--muted);
+    font-size: .75rem;
+    line-height: 1.7;
+  }
+  footer strong { color: var(--text-bright); }
+  footer a { color: var(--link); }
+  footer a:hover { color: var(--link-hover); }"""
+
+
+def render_site_footer() -> str:
+    return """<footer>
+  <p><strong>Quellen</strong></p>
+  <ul style="list-style:none;margin:.4rem 0 .8rem;">
+    <li>MMM Webseite \u2013 Spiele (<a href="https://www.maniac-mansion-mania.com/index.php/de/spiele.html">Link</a>)</li>
+    <li>MMM Wiki (<a href="http://wiki.maniac-mansion-mania.de">Link</a>)</li>
+    <li>MMM Forum (<a href="https://www.maniac-mansion-mania.de/forum/">Link</a>)</li>
+  </ul>
+  <p>
+    <a href="https://www.maniac-mansion-mania.com">maniac-mansion-mania.com</a>
+  </p>
+  <p style="margin-top:.6rem;">selloa \u2013 2026</p>
+</footer>"""
+
+
 def header_nav_css() -> str:
     return """
   .header-nav .nav-current {
