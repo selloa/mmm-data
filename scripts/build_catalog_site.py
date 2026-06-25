@@ -513,10 +513,6 @@ def build_html(groups):
     color: var(--text);
     text-decoration: underline;
   }}
-  .header-nav .nav-sep {{
-    color: var(--muted);
-    margin: 0 .35rem;
-  }}
 {header_nav_css()}
   .intro {{
     max-width: 1100px;
@@ -1042,10 +1038,6 @@ def build_list_html(total: int) -> str:
     color: var(--text);
     text-decoration: underline;
   }}
-  .header-nav .nav-sep {{
-    color: var(--muted);
-    margin: 0 .35rem;
-  }}
 {header_nav_css()}
   .intro {{
     margin-bottom: 1.5rem;
@@ -1545,7 +1537,6 @@ def build_birthdays_html():
     <section class="section"><h2>Heute</h2><div id="today-content"></div></section>
     <section class="section"><h2>Demn&auml;chst (30 Tage)</h2><div id="upcoming-content"></div></section>
     <section class="section"><h2>Dieser Monat</h2><div id="month-content"></div></section>
-    <section class="section" id="sec-year-only"><h2>Jubil&auml;umsjahr (genauer Tag unbekannt)</h2><div id="year-only-content"></div></section>
   </div>
 </div>
 {render_site_footer()}
@@ -1573,23 +1564,21 @@ def build_birthdays_html():
   function renderSection(el, items, mode) {{ if(!items.length){{ el.innerHTML='<p class=\"section-empty\">Keine Eintr&auml;ge.</p>'; return; }} if(mode==='cards') el.innerHTML='<div class=\"cards\">'+items.map(renderCard).join('')+'</div>'; else el.innerHTML=items.map(function(i){{ return renderListItem(i, mode==='upcoming'); }}).join(''); }}
   function processCatalog(catalog) {{
     var today=startOfDay(new Date()); document.getElementById('currentDate').textContent=formatDateDE(today);
-    var todayItems=[], upcomingItems=[], monthItems=[], yearOnlyItems=[];
+    var todayItems=[], upcomingItems=[], monthItems=[];
     catalog.forEach(function(entry) {{
       var p=entry.parsed;
-      if(p.precision==='year') {{ var ay=computeAge(p,today); if(ay>=1) yearOnlyItems.push(Object.assign({{}}, entry, {{ age: ay }})); return; }}
+      if(p.precision==='year') {{ return; }}
       var ageToday=computeAge(p,today); var isToday=today.getMonth()===p.month-1 && today.getDate()===p.day;
       if(isToday&&ageToday>=1) todayItems.push(Object.assign({{}}, entry, {{ age: ageToday }}));
       var occ=nextOccurrence(p,today); var days=daysBetween(today,occ);
       if(days>0&&days<=30) {{ var aa=computeAge(p,occ); if(aa>=1) upcomingItems.push(Object.assign({{}}, entry, {{ age: aa, occurrence: occ, daysUntil: days }})); }}
       if(today.getMonth()===p.month-1&&ageToday>=1) monthItems.push(Object.assign({{}}, entry, {{ age: ageToday, occurrence: new Date(today.getFullYear(), p.month-1, p.day) }}));
     }});
-    todayItems.sort(compareEntries); upcomingItems.sort(function(a,b){{ return a.daysUntil-b.daysUntil || compareEntries(a,b); }}); monthItems.sort(function(a,b){{ return (a.parsed.day||0)-(b.parsed.day||0)||compareEntries(a,b); }}); yearOnlyItems.sort(compareEntries);
+    todayItems.sort(compareEntries); upcomingItems.sort(function(a,b){{ return a.daysUntil-b.daysUntil || compareEntries(a,b); }}); monthItems.sort(function(a,b){{ return (a.parsed.day||0)-(b.parsed.day||0)||compareEntries(a,b); }});
     var todayEl=document.getElementById('today-content');
     if(todayItems.length) renderSection(todayEl, todayItems, 'cards'); else {{ var next=upcomingItems[0]; todayEl.innerHTML='<p class=\"section-empty\">'+(next ? 'Heute keine Geburtstage &mdash; n&auml;chster am '+formatShortDE(next.occurrence)+': '+esc(next.title) : 'Heute keine Geburtstage.')+'</p>'; }}
     renderSection(document.getElementById('upcoming-content'), upcomingItems, 'upcoming');
     renderSection(document.getElementById('month-content'), monthItems, 'list');
-    var yearEl=document.getElementById('year-only-content');
-    if(yearOnlyItems.length) renderSection(yearEl, yearOnlyItems, 'cards'); else {{ yearEl.innerHTML='<p class=\"section-empty\">Keine Eintr&auml;ge mit nur Jahresangabe.</p>'; document.getElementById('sec-year-only').classList.add('hidden'); }}
     document.getElementById('loading').classList.add('hidden'); document.getElementById('content').classList.remove('hidden');
   }}
   fetch('birthdays-catalog.json').then(function(r){{ if(!r.ok) throw new Error('birthdays-catalog.json nicht gefunden'); return r.json(); }}).then(processCatalog).catch(function(err){{ document.getElementById('loading').textContent='Fehler beim Laden: '+err.message; }});

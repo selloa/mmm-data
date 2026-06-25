@@ -96,6 +96,10 @@ def render_site_footer() -> str:
 
 def header_nav_css() -> str:
     return """
+  .header-nav .nav-sep {
+    color: var(--muted);
+    margin: 0 .35rem;
+  }
   .header-nav .nav-current {
     color: var(--muted);
     letter-spacing: .3px;
@@ -173,10 +177,6 @@ def subpage_chrome_css() -> str:
   .header-nav a:hover {
     color: var(--text);
     text-decoration: underline;
-  }
-  .header-nav .nav-sep {
-    color: var(--muted);
-    margin: 0 .35rem;
   }
   h1 {
     text-align: center;
