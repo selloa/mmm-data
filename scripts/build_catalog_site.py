@@ -3,7 +3,9 @@
 
 import csv
 import html
+import json
 import os
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -13,6 +15,8 @@ SOURCE_CSV = SCRIPT_DIR.parent / "source" / "mmm_catalog.csv"
 FAVICON_SRC = SCRIPT_DIR.parent / "assets" / "favicon-catalog.png"
 OUTPUT_DIR = SCRIPT_DIR.parent / "site"
 OUTPUT_HTML = OUTPUT_DIR / "index.html"
+BIRTHDAYS_HTML = OUTPUT_DIR / "birthdays.html"
+BIRTHDAYS_JSON = OUTPUT_DIR / "birthdays-catalog.json"
 
 CATEGORY_ORDER = [
     "MMM Remastered",
@@ -57,6 +61,10 @@ CATEGORY_LABELS = {
 }
 
 CATEGORY_MERGE = {"Fan-Games": "Fan Games"}
+EXCLUDED_BIRTHDAY_CATEGORIES = {"Fan Games", "Fan Movies", "Trailer & Demos"}
+UNVERIFIED_PREFIX = re.compile(r"^\(unverified\)\s*", re.IGNORECASE)
+DATE_ISO = re.compile(r"^(\d{4})-(\d{2})-(\d{2})")
+DATE_YEAR = re.compile(r"^(\d{4})")
 
 CATEGORY_ANCHOR = {
     "MMM Remastered": "mmm-remastered",
@@ -303,6 +311,54 @@ def render_toc(groups):
         count = len(entries)
         items.append(f'    <li><a href="#{esc(anchor)}">{esc(label)}</a> <span class="count">({count})</span></li>')
     return "\n".join(items)
+
+
+def parse_release_date(raw: str) -> dict | None:
+    text = (raw or "").strip()
+    if not text or text.lower() in ("null", "none", "n/a"):
+        return None
+    unverified = False
+    if UNVERIFIED_PREFIX.match(text):
+        unverified = True
+        text = UNVERIFIED_PREFIX.sub("", text).strip()
+    text = re.sub(r"\s*\([^)]*\)\s*$", "", text).strip()
+    m = DATE_ISO.match(text)
+    if m:
+        year, month, day = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        if not (1 <= month <= 12 and 1 <= day <= 31):
+            return None
+        return {"year": year, "month": month, "day": day, "precision": "day", "unverified": unverified}
+    m = DATE_YEAR.match(text)
+    if m:
+        return {"year": int(m.group(1)), "precision": "year", "unverified": unverified}
+    return None
+
+
+def build_birthday_catalog(rows):
+    result = []
+    for row in rows:
+        cat = row.get("category", "")
+        if cat in EXCLUDED_BIRTHDAY_CATEGORIES:
+            continue
+        parsed = parse_release_date(row.get("release_date", ""))
+        if not parsed:
+            continue
+        download = (row.get("download_url_mmm_docman", "") or "").strip()
+        if not download:
+            download = (row.get("download_url_mmm_canonical", "") or "").strip()
+        result.append(
+            {
+                "catalog_id": row.get("catalog_id", "").strip(),
+                "category": cat,
+                "title": row.get("title", "").strip(),
+                "release_date": row.get("release_date", "").strip(),
+                "parsed": parsed,
+                "wiki_url_mmm": (row.get("wiki_url_mmm", "") or "").strip() or None,
+                "download_url": download or None,
+                "has_talkie": (row.get("has_talkie", "") or "").strip().lower() == "yes",
+            }
+        )
+    return result
 
 
 def build_html(groups):
@@ -734,6 +790,9 @@ def build_html(groups):
   Der komplette Katalog aller Maniac Mansion Mania Episoden, Specials, Fan-Games und mehr \u2013
   mit Links zu Wiki, Komplettl\u00f6sungen, YouTube-Longplays und Downloads.
 </p>
+<p class="intro" style="margin-top:-.8rem; margin-bottom:1.5rem;">
+  <a href="birthdays.html">Zu den dynamischen Episoden-Geburtstagen</a>
+</p>
 
 <p class="stats">{total} Eintr\u00e4ge in {len(groups)} Kategorien</p>
 
@@ -873,19 +932,180 @@ function googleTranslateElementInit() {{
 </html>"""
 
 
+def build_birthdays_html():
+    labels_json = json.dumps(
+        {k: v for k, v in CATEGORY_LABELS.items() if k not in EXCLUDED_BIRTHDAY_CATEGORIES},
+        ensure_ascii=False,
+    )
+    return f"""<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="favicon.png">
+<title>MMM Geburtstage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cabin+Sketch:wght@700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {{
+    --bg: #f2f3ee;
+    --card: #fff;
+    --card-border: rgba(96, 147, 76, 0.25);
+    --accent: #4a7a3a;
+    --accent-dim: rgba(96, 147, 76, 0.18);
+    --text: #3a3a3a;
+    --text-bright: #1a1a1a;
+    --muted: #808080;
+    --link: #3d6e30;
+    --link-hover: #2a5520;
+    --border-subtle: rgba(0,0,0,.07);
+    --round5: #5a8f4a;
+    --round10: #c9a227;
+    --round10-bg: rgba(201, 162, 39, 0.15);
+  }}
+  html.dark {{
+    --bg: #374037;
+    --card: rgba(34, 32, 30, 0.9);
+    --card-border: rgba(96, 147, 76, 0.15);
+    --accent: #60934c;
+    --accent-dim: rgba(96, 147, 76, 0.3);
+    --text: rgba(255, 255, 255, 0.7);
+    --text-bright: #fff;
+    --muted: rgba(255, 255, 255, 0.4);
+    --link: #60934c;
+    --link-hover: #8cbf72;
+    --border-subtle: rgba(255,255,255,.04);
+    --round5: #8cbf72;
+    --round10: #e8c547;
+    --round10-bg: rgba(232, 197, 71, 0.18);
+  }}
+  * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+  body {{ font-family: 'Roboto Mono', monospace; background: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem 1rem 3rem; font-size: 14px; }}
+  .wrap {{ max-width: 1100px; margin: 0 auto; }}
+  h1 {{ text-align: center; font-family: 'Cabin Sketch', cursive; font-size: 2.2rem; font-weight: 700; text-transform: uppercase; color: var(--text-bright); letter-spacing: 1px; }}
+  .subtitle {{ text-align: center; font-family: 'Amatic SC', cursive; color: var(--muted); margin: .3rem 0 1.5rem; font-size: 1.4rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; }}
+  .header-meta {{ text-align: center; font-size: .8rem; color: var(--muted); margin-bottom: 1.5rem; }}
+  .header-meta a {{ color: var(--link); text-decoration: none; }}
+  .header-meta a:hover {{ color: var(--link-hover); text-decoration: underline; }}
+  .theme-toggle {{ position: fixed; top: 1rem; right: 1rem; background: var(--card); border: 1px solid var(--card-border); border-radius: 4px; padding: .4rem .7rem; cursor: pointer; font-size: 1rem; color: var(--text); z-index: 100; }}
+  .section {{ background: var(--card); border: 1px solid var(--card-border); border-radius: 4px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem; }}
+  .section h2 {{ font-family: 'Cabin Sketch', cursive; font-size: 1.15rem; font-weight: 700; text-transform: uppercase; color: var(--text-bright); border-bottom: 1px solid var(--accent-dim); padding-bottom: .4rem; margin-bottom: 1rem; }}
+  .section-empty {{ color: var(--muted); font-size: .85rem; font-style: italic; }}
+  .cards {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }}
+  .card {{ border: 1px solid var(--border-subtle); border-radius: 4px; padding: 1rem; background: var(--bg); }}
+  .card.round5 {{ border-color: var(--round5); }}
+  .card.round10 {{ border-color: var(--round10); background: var(--round10-bg); }}
+  .card-title {{ font-weight: 500; color: var(--text-bright); margin-bottom: .35rem; font-size: .9rem; }}
+  .card-title a {{ color: var(--link); text-decoration: none; }}
+  .card-title a:hover {{ color: var(--link-hover); text-decoration: underline; }}
+  .card-meta {{ font-size: .75rem; color: var(--muted); margin-bottom: .5rem; }}
+  .badge-row {{ display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .5rem; }}
+  .badge {{ display: inline-block; font-size: .7rem; padding: .15rem .45rem; border-radius: 3px; background: var(--accent-dim); color: var(--accent); font-weight: 500; }}
+  .badge.round5 {{ background: rgba(90, 143, 74, 0.2); color: var(--round5); }}
+  .badge.round10 {{ background: var(--round10-bg); color: var(--round10); font-weight: 700; }}
+  .badge.unverified {{ background: rgba(128,128,128,.15); color: var(--muted); }}
+  .badge.talkie {{ background: rgba(96,147,76,.12); color: var(--accent); }}
+  .card-links a {{ color: var(--link); text-decoration: none; margin-right: .8rem; font-size: .75rem; }}
+  .card-links a:hover {{ color: var(--link-hover); text-decoration: underline; }}
+  .list-item {{ display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1rem; padding: .65rem 0; border-bottom: 1px solid var(--border-subtle); font-size: .82rem; }}
+  .list-item:last-child {{ border-bottom: none; }}
+  .list-date {{ min-width: 5.5rem; color: var(--muted); font-size: .75rem; }}
+  .list-countdown {{ min-width: 6rem; color: var(--accent); font-size: .75rem; }}
+  .list-title {{ flex: 1; color: var(--text-bright); }}
+  .list-title a {{ color: var(--link); text-decoration: none; }}
+  .list-title a:hover {{ text-decoration: underline; }}
+  .footer-note {{ text-align: center; font-size: .72rem; color: var(--muted); margin-top: 2rem; line-height: 1.7; }}
+  .loading {{ text-align: center; color: var(--muted); padding: 3rem; }}
+  .hidden {{ display: none; }}
+</style>
+</head>
+<body>
+<button class="theme-toggle" id="themeToggle" title="Dark Mode" aria-label="Dark Mode">&#9790;</button>
+<div class="wrap">
+  <h1>MMM Geburtstage</h1>
+  <p class="subtitle">Release-Jubil&auml;en</p>
+  <p class="header-meta"><span id="currentDate"></span> &middot; <a href="index.html">Zur&uuml;ck zum Katalog</a></p>
+  <div id="loading" class="loading">Katalog wird geladen&hellip;</div>
+  <div id="content" class="hidden">
+    <section class="section"><h2>Heute</h2><div id="today-content"></div></section>
+    <section class="section"><h2>Demn&auml;chst (30 Tage)</h2><div id="upcoming-content"></div></section>
+    <section class="section"><h2>Dieser Monat</h2><div id="month-content"></div></section>
+    <section class="section" id="sec-year-only"><h2>Jubil&auml;umsjahr (genauer Tag unbekannt)</h2><div id="year-only-content"></div></section>
+  </div>
+  <p class="footer-note">Release-Daten stammen aus dem MMM-Katalog und werden laufend korrigiert.<br>Neu bauen mit <code>python scripts/build_catalog_site.py</code></p>
+</div>
+<script>
+(function() {{
+  var CATEGORY_LABELS = {labels_json};
+  var html = document.documentElement;
+  var toggle = document.getElementById('themeToggle');
+  if (localStorage.getItem('theme') === 'dark') html.classList.add('dark');
+  function updateIcon() {{ toggle.textContent = html.classList.contains('dark') ? '\\u2600' : '\\u263E'; }}
+  updateIcon();
+  toggle.addEventListener('click', function() {{ html.classList.toggle('dark'); localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light'); updateIcon(); }});
+  function startOfDay(d) {{ return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }}
+  function daysBetween(a, b) {{ return Math.round((startOfDay(b) - startOfDay(a)) / 86400000); }}
+  function formatDateDE(d) {{ return d.toLocaleDateString('de-DE', {{ weekday:'long', day:'numeric', month:'long', year:'numeric' }}); }}
+  function formatShortDE(d) {{ return d.toLocaleDateString('de-DE', {{ day:'2-digit', month:'2-digit' }}); }}
+  function computeAge(parsed, ref) {{ var age = ref.getFullYear() - parsed.year; if (parsed.precision === 'day') {{ var b = new Date(ref.getFullYear(), parsed.month - 1, parsed.day); if (startOfDay(ref) < startOfDay(b)) age--; }} return age; }}
+  function nextOccurrence(parsed, from) {{ var y = from.getFullYear(); var o = new Date(y, parsed.month - 1, parsed.day); if (startOfDay(o) < startOfDay(from)) o = new Date(y + 1, parsed.month - 1, parsed.day); return o; }}
+  function sortKey(e) {{ var p=e.parsed; var ep=0; if(e.catalog_id.indexOf('EP-')===0) ep=parseInt(e.catalog_id.slice(3),10)||0; return [p.month||0,p.day||0,e.category,ep,e.title]; }}
+  function compareEntries(a,b) {{ var ka=sortKey(a), kb=sortKey(b); for(var i=0;i<ka.length;i++){{ if(ka[i]<kb[i]) return -1; if(ka[i]>kb[i]) return 1; }} return 0; }}
+  function ageLabel(age) {{ return age === 1 ? '1 Jahr' : age + ' Jahre'; }}
+  function roundFlags(age) {{ return {{ round5: age > 0 && age % 5 === 0, round10: age > 0 && age % 10 === 0 }}; }}
+  function esc(s) {{ var d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }}
+  function renderBadges(item) {{ var f=roundFlags(item.age); var out='<div class="badge-row"><span class="badge">'+esc(ageLabel(item.age))+'</span>'; if(f.round10) out += '<span class="badge round10">Runder Geburtstag!</span>'; else if(f.round5) out += '<span class="badge round5">5er-Jubil&auml;um</span>'; if(item.parsed.unverified) out += '<span class="badge unverified">unverified</span>'; if(item.has_talkie) out += '<span class="badge talkie">Talkie</span>'; return out + '</div>'; }}
+  function renderLinks(entry) {{ var parts=[]; if(entry.wiki_url_mmm) parts.push('<a href=\"'+esc(entry.wiki_url_mmm)+'\" target=\"_blank\" rel=\"noopener\">Wiki</a>'); if(entry.download_url) parts.push('<a href=\"'+esc(entry.download_url)+'\" target=\"_blank\" rel=\"noopener\">Download</a>'); return parts.length ? '<div class=\"card-links\">'+parts.join('')+'</div>' : ''; }}
+  function renderCard(item) {{ var f=roundFlags(item.age); var cls='card'; if(f.round10) cls+=' round10'; else if(f.round5) cls+=' round5'; var title=esc(item.title); if(item.wiki_url_mmm) title='<a href=\"'+esc(item.wiki_url_mmm)+'\" target=\"_blank\" rel=\"noopener\">'+title+'</a>'; var cat=CATEGORY_LABELS[item.category]||item.category; return '<div class=\"'+cls+'\"><div class=\"card-title\">'+title+'</div><div class=\"card-meta\">'+esc(cat)+' &middot; Release: '+esc(item.release_date)+'</div>'+renderBadges(item)+renderLinks(item)+'</div>'; }}
+  function renderListItem(item, showCountdown) {{ var f=roundFlags(item.age); var title=esc(item.title); if(item.wiki_url_mmm) title='<a href=\"'+esc(item.wiki_url_mmm)+'\" target=\"_blank\" rel=\"noopener\">'+title+'</a>'; var cat=CATEGORY_LABELS[item.category]||item.category; var dateStr=item.occurrence?formatShortDE(item.occurrence):''; var countdown=''; if(showCountdown&&item.daysUntil!=null) countdown=item.daysUntil===1?'morgen':'in '+item.daysUntil+' Tagen'; var badges='<span class=\"badge\">'+esc(ageLabel(item.age))+'</span>'; if(f.round10) badges+=' <span class=\"badge round10\">10er</span>'; else if(f.round5) badges+=' <span class=\"badge round5\">5er</span>'; return '<div class=\"list-item\">'+(dateStr?'<span class=\"list-date\">'+dateStr+'</span>':'')+(countdown?'<span class=\"list-countdown\">'+esc(countdown)+'</span>':'')+'<span class=\"list-title\">'+title+'</span><span>'+esc(cat)+'</span>'+badges+'</div>'; }}
+  function renderSection(el, items, mode) {{ if(!items.length){{ el.innerHTML='<p class=\"section-empty\">Keine Eintr&auml;ge.</p>'; return; }} if(mode==='cards') el.innerHTML='<div class=\"cards\">'+items.map(renderCard).join('')+'</div>'; else el.innerHTML=items.map(function(i){{ return renderListItem(i, mode==='upcoming'); }}).join(''); }}
+  function processCatalog(catalog) {{
+    var today=startOfDay(new Date()); document.getElementById('currentDate').textContent=formatDateDE(today);
+    var todayItems=[], upcomingItems=[], monthItems=[], yearOnlyItems=[];
+    catalog.forEach(function(entry) {{
+      var p=entry.parsed;
+      if(p.precision==='year') {{ var ay=computeAge(p,today); if(ay>=1) yearOnlyItems.push(Object.assign({{}}, entry, {{ age: ay }})); return; }}
+      var ageToday=computeAge(p,today); var isToday=today.getMonth()===p.month-1 && today.getDate()===p.day;
+      if(isToday&&ageToday>=1) todayItems.push(Object.assign({{}}, entry, {{ age: ageToday }}));
+      var occ=nextOccurrence(p,today); var days=daysBetween(today,occ);
+      if(days>0&&days<=30) {{ var aa=computeAge(p,occ); if(aa>=1) upcomingItems.push(Object.assign({{}}, entry, {{ age: aa, occurrence: occ, daysUntil: days }})); }}
+      if(today.getMonth()===p.month-1&&ageToday>=1) monthItems.push(Object.assign({{}}, entry, {{ age: ageToday, occurrence: new Date(today.getFullYear(), p.month-1, p.day) }}));
+    }});
+    todayItems.sort(compareEntries); upcomingItems.sort(function(a,b){{ return a.daysUntil-b.daysUntil || compareEntries(a,b); }}); monthItems.sort(function(a,b){{ return (a.parsed.day||0)-(b.parsed.day||0)||compareEntries(a,b); }}); yearOnlyItems.sort(compareEntries);
+    var todayEl=document.getElementById('today-content');
+    if(todayItems.length) renderSection(todayEl, todayItems, 'cards'); else {{ var next=upcomingItems[0]; todayEl.innerHTML='<p class=\"section-empty\">'+(next ? 'Heute keine Geburtstage &mdash; n&auml;chster am '+formatShortDE(next.occurrence)+': '+esc(next.title) : 'Heute keine Geburtstage.')+'</p>'; }}
+    renderSection(document.getElementById('upcoming-content'), upcomingItems, 'upcoming');
+    renderSection(document.getElementById('month-content'), monthItems, 'list');
+    var yearEl=document.getElementById('year-only-content');
+    if(yearOnlyItems.length) renderSection(yearEl, yearOnlyItems, 'cards'); else {{ yearEl.innerHTML='<p class=\"section-empty\">Keine Eintr&auml;ge mit nur Jahresangabe.</p>'; document.getElementById('sec-year-only').classList.add('hidden'); }}
+    document.getElementById('loading').classList.add('hidden'); document.getElementById('content').classList.remove('hidden');
+  }}
+  fetch('birthdays-catalog.json').then(function(r){{ if(!r.ok) throw new Error('birthdays-catalog.json nicht gefunden'); return r.json(); }}).then(processCatalog).catch(function(err){{ document.getElementById('loading').textContent='Fehler beim Laden: '+err.message; }});
+}})();
+</script>
+</body>
+</html>"""
+
+
 def main():
     rows = load_catalog()
     groups = group_by_category(rows)
+    birthday_catalog = build_birthday_catalog(rows)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     page = build_html(groups)
     OUTPUT_HTML.write_text(page, encoding="utf-8")
+    BIRTHDAYS_HTML.write_text(build_birthdays_html(), encoding="utf-8")
+    BIRTHDAYS_JSON.write_text(json.dumps(birthday_catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     if FAVICON_SRC.exists():
         shutil.copy2(FAVICON_SRC, OUTPUT_DIR / "favicon.png")
 
     total = sum(len(items) for _, items in groups)
     print(f"Wrote {OUTPUT_HTML} ({total} entries, {len(groups)} categories)")
+    print(f"Wrote {BIRTHDAYS_HTML} ({len(birthday_catalog)} birthday entries)")
+    print(f"Wrote {BIRTHDAYS_JSON}")
 
 
 if __name__ == "__main__":
