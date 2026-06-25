@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "label": "Pilot-Runde (Probetest)",
+    "theme": "Vier Kategorien aus dem Chat-Probetest",
+    "author": "selloa"
+  },
+  "rounds": [
+    {
+      "week": "2026-W26",
+      "theme": "Bernard & Tentakel",
+      "category": "handlung",
+      "category_label": "Handlung",
+      "question": "In welcher Episode hat Grün Tentakel das Demoband von Razor gefressen — und Bernard droht Ärger, weil Razor es jeden Moment abholen will?",
+      "options": [
+        "Episode 002: Unruhen",
+        "Episode 005: Rhythmen zum Reinbeißen",
+        "Episode 044: Razors großer Auftritt",
+        "Episode 009: Radioaktiv"
+      ],
+      "correct_index": 1,
+      "explanation": "In Episode 005 wohnt Grün Tentakel seit Episode 002 bei Bernard auf dem Dachboden und hat Razors neueste Demo gefressen.",
+      "links": {
+        "catalog_id": "EP-005",
+        "wiki": "http://wiki.maniac-mansion-mania.de/wiki/Rhythmen_zum_Reinbei%C3%9Fen"
+      }
+    },
+    {
+      "week": "2026-W27",
+      "theme": "Bernard vs. Klaus",
+      "category": "autoren",
+      "category_label": "Autoren",
+      "question": "Wer ist Autor von Episode 008: Die Abfuhr — der Episode, in der Bernard es mit dem Schulschläger Klaus aufnimmt?",
+      "options": [
+        "Lak",
+        "hansa_export",
+        "Edison Interactive",
+        "ZENSIERT"
+      ],
+      "correct_index": 1,
+      "explanation": "Die Abfuhr stammt von hansa_export (Staffel 1, April 2005).",
+      "links": {
+        "catalog_id": "EP-008",
+        "wiki": "http://wiki.maniac-mansion-mania.de/wiki/Die_Abfuhr"
+      }
+    },
+    {
+      "week": "2026-W28",
+      "theme": "Der Startschuss",
+      "category": "chronik",
+      "category_label": "Chronik",
+      "question": "Maniac Mansion Deluxe (EP-000) und Episode 001: Geschwisterliebe gelten als Startschuss des MMM-Projekts. Welches Veröffentlichungsdatum teilen beide Einträge laut Katalog?",
+      "options": [
+        "7. März 2005",
+        "17. März 2005",
+        "30. März 2005",
+        "7. März 2006"
+      ],
+      "correct_index": 0,
+      "explanation": "Im Katalog stehen für EP-000 und EP-001 beide 2005-03-07. (Falls das für MMD nicht stimmt — Katalog-Feedback willkommen!)",
+      "links": {
+        "catalog_id": "EP-001",
+        "wiki": "http://wiki.maniac-mansion-mania.de/wiki/Geschwisterliebe"
+      },
+      "dev_notes": "EP-000-Datum im Katalog verifizieren"
+    },
+    {
+      "week": "2026-W29",
+      "theme": "Staffel 5",
+      "category": "katalog",
+      "category_label": "Katalog & Staffeln",
+      "question": "Im MMM-Katalog sind die Hauptepisoden in Staffeln à 10 Episoden gegliedert. Welche Episode eröffnet Staffel 5?",
+      "options": [
+        "Episode 040: Verflixte Türen",
+        "Episode 041: Das neue Jugendschutzgesetz",
+        "Episode 050: Das Date 3",
+        "Episode 051: Ortmaschine II"
+      ],
+      "correct_index": 1,
+      "explanation": "Staffel 5 umfasst die Episoden 041–050; Episode 041 eröffnet sie.",
+      "links": {
+        "catalog_id": "EP-041",
+        "wiki": "http://wiki.maniac-mansion-mania.de/wiki/Das_neue_Jugendschutzgesetz"
+      }
+    }
+  ]
+}

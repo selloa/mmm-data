@@ -14,6 +14,10 @@ on:
     paths:
       - "source/mmm_catalog.csv"
       - "scripts/build_catalog_site.py"
+      - "scripts/build_quiz_site.py"
+      - "scripts/quiz_lib.py"
+      - "scripts/quiz_suggest.py"
+      - "quiz/**"
       - ".github/workflows/deploy-site.yml"
   workflow_dispatch:
 

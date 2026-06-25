@@ -10,6 +10,10 @@ import shutil
 import sys
 from pathlib import Path
 
+_SCRIPT_DIR = Path(__file__).resolve().parent
+if str(_SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(_SCRIPT_DIR))
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 SOURCE_CSV = SCRIPT_DIR.parent / "source" / "mmm_catalog.csv"
 FAVICON_SRC = SCRIPT_DIR.parent / "assets" / "favicon-catalog.png"
@@ -352,6 +356,7 @@ def build_birthday_catalog(rows):
                 "category": cat,
                 "title": row.get("title", "").strip(),
                 "release_date": row.get("release_date", "").strip(),
+                "authors": row.get("authors", "").strip() or None,
                 "parsed": parsed,
                 "wiki_url_mmm": (row.get("wiki_url_mmm", "") or "").strip() or None,
                 "download_url": download or None,
@@ -443,6 +448,28 @@ def build_html(groups):
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
+  }}
+  .page-header {{
+    max-width: 1100px;
+    margin: 0 auto 1.5rem;
+  }}
+  .header-nav {{
+    text-align: center;
+    margin-bottom: .6rem;
+    font-size: .72rem;
+  }}
+  .header-nav a {{
+    color: var(--muted);
+    text-decoration: none;
+    letter-spacing: .3px;
+  }}
+  .header-nav a:hover {{
+    color: var(--text);
+    text-decoration: underline;
+  }}
+  .header-nav .nav-sep {{
+    color: var(--muted);
+    margin: 0 .35rem;
   }}
   .intro {{
     max-width: 1100px;
@@ -783,15 +810,17 @@ def build_html(groups):
 
 <div id="google_translate_element" style="margin-bottom:.5rem; opacity:.6; font-size:.75rem;"></div>
 
-<h1>Katalog</h1>
-<p class="subtitle">Alle Episoden und Specials auf einen Blick</p>
+<header class="page-header">
+  <nav class="header-nav" aria-label="Seitennavigation">
+    <a href="birthdays.html">Geburtstage</a><span class="nav-sep">&middot;</span><a href="quiz/">Quiz</a>
+  </nav>
+  <h1>Katalog</h1>
+  <p class="subtitle">Alle Episoden und Specials auf einen Blick</p>
+</header>
 
 <p class="intro">
   Der komplette Katalog aller Maniac Mansion Mania Episoden, Specials, Fan-Games und mehr \u2013
   mit Links zu Wiki, Komplettl\u00f6sungen, YouTube-Longplays und Downloads.
-</p>
-<p class="intro" style="margin-top:-.8rem; margin-bottom:1.5rem;">
-  <a href="birthdays.html">Zu den dynamischen Episoden-Geburtstagen</a>
 </p>
 
 <p class="stats">{total} Eintr\u00e4ge in {len(groups)} Kategorien</p>
@@ -983,11 +1012,24 @@ def build_birthdays_html():
   * {{ margin: 0; padding: 0; box-sizing: border-box; }}
   body {{ font-family: 'Roboto Mono', monospace; background: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem 1rem 3rem; font-size: 14px; }}
   .wrap {{ max-width: 1100px; margin: 0 auto; }}
+  .page-header {{ margin-bottom: 1.5rem; }}
+  .header-nav {{
+    text-align: center;
+    margin-bottom: .6rem;
+    font-size: .72rem;
+  }}
+  .header-nav a {{
+    color: var(--muted);
+    text-decoration: none;
+    letter-spacing: .3px;
+  }}
+  .header-nav a:hover {{
+    color: var(--text);
+    text-decoration: underline;
+  }}
   h1 {{ text-align: center; font-family: 'Cabin Sketch', cursive; font-size: 2.2rem; font-weight: 700; text-transform: uppercase; color: var(--text-bright); letter-spacing: 1px; }}
-  .subtitle {{ text-align: center; font-family: 'Amatic SC', cursive; color: var(--muted); margin: .3rem 0 1.5rem; font-size: 1.4rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; }}
+  .subtitle {{ text-align: center; font-family: 'Amatic SC', cursive; color: var(--muted); margin: .3rem 0 1rem; font-size: 1.4rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; }}
   .header-meta {{ text-align: center; font-size: .8rem; color: var(--muted); margin-bottom: 1.5rem; }}
-  .header-meta a {{ color: var(--link); text-decoration: none; }}
-  .header-meta a:hover {{ color: var(--link-hover); text-decoration: underline; }}
   .theme-toggle {{ position: fixed; top: 1rem; right: 1rem; background: var(--card); border: 1px solid var(--card-border); border-radius: 4px; padding: .4rem .7rem; cursor: pointer; font-size: 1rem; color: var(--text); z-index: 100; }}
   .section {{ background: var(--card); border: 1px solid var(--card-border); border-radius: 4px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem; }}
   .section h2 {{ font-family: 'Cabin Sketch', cursive; font-size: 1.15rem; font-weight: 700; text-transform: uppercase; color: var(--text-bright); border-bottom: 1px solid var(--accent-dim); padding-bottom: .4rem; margin-bottom: 1rem; }}
@@ -1015,6 +1057,7 @@ def build_birthdays_html():
   .list-title {{ flex: 1; color: var(--text-bright); }}
   .list-title a {{ color: var(--link); text-decoration: none; }}
   .list-title a:hover {{ text-decoration: underline; }}
+  .list-meta {{ color: var(--muted); font-size: .75rem; }}
   .footer-note {{ text-align: center; font-size: .72rem; color: var(--muted); margin-top: 2rem; line-height: 1.7; }}
   .loading {{ text-align: center; color: var(--muted); padding: 3rem; }}
   .hidden {{ display: none; }}
@@ -1023,9 +1066,14 @@ def build_birthdays_html():
 <body>
 <button class="theme-toggle" id="themeToggle" title="Dark Mode" aria-label="Dark Mode">&#9790;</button>
 <div class="wrap">
-  <h1>MMM Geburtstage</h1>
-  <p class="subtitle">Release-Jubil&auml;en</p>
-  <p class="header-meta"><span id="currentDate"></span> &middot; <a href="index.html">Zur&uuml;ck zum Katalog</a></p>
+  <header class="page-header">
+    <nav class="header-nav" aria-label="Seitennavigation">
+      <a href="index.html">Katalog</a>
+    </nav>
+    <h1>MMM Geburtstage</h1>
+    <p class="subtitle">Release-Jubil&auml;en</p>
+    <p class="header-meta"><span id="currentDate"></span></p>
+  </header>
   <div id="loading" class="loading">Katalog wird geladen&hellip;</div>
   <div id="content" class="hidden">
     <section class="section"><h2>Heute</h2><div id="today-content"></div></section>
@@ -1055,10 +1103,12 @@ def build_birthdays_html():
   function ageLabel(age) {{ return age === 1 ? '1 Jahr' : age + ' Jahre'; }}
   function roundFlags(age) {{ return {{ round5: age > 0 && age % 5 === 0, round10: age > 0 && age % 10 === 0 }}; }}
   function esc(s) {{ var d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }}
+  function formatCardMeta(item) {{ var parts=[CATEGORY_LABELS[item.category]||item.category]; if(item.authors) parts.push(item.authors); parts.push('Release: '+item.release_date); return esc(parts.join(' \\u00b7 ')); }}
+  function formatListMeta(item) {{ var parts=[CATEGORY_LABELS[item.category]||item.category]; if(item.authors) parts.push(item.authors); return esc(parts.join(' \\u00b7 ')); }}
   function renderBadges(item) {{ var f=roundFlags(item.age); var out='<div class="badge-row"><span class="badge">'+esc(ageLabel(item.age))+'</span>'; if(f.round10) out += '<span class="badge round10">Runder Geburtstag!</span>'; else if(f.round5) out += '<span class="badge round5">5er-Jubil&auml;um</span>'; if(item.parsed.unverified) out += '<span class="badge unverified">unverified</span>'; if(item.has_talkie) out += '<span class="badge talkie">Talkie</span>'; return out + '</div>'; }}
   function renderLinks(entry) {{ var parts=[]; if(entry.wiki_url_mmm) parts.push('<a href=\"'+esc(entry.wiki_url_mmm)+'\" target=\"_blank\" rel=\"noopener\">Wiki</a>'); if(entry.download_url) parts.push('<a href=\"'+esc(entry.download_url)+'\" target=\"_blank\" rel=\"noopener\">Download</a>'); return parts.length ? '<div class=\"card-links\">'+parts.join('')+'</div>' : ''; }}
-  function renderCard(item) {{ var f=roundFlags(item.age); var cls='card'; if(f.round10) cls+=' round10'; else if(f.round5) cls+=' round5'; var title=esc(item.title); if(item.wiki_url_mmm) title='<a href=\"'+esc(item.wiki_url_mmm)+'\" target=\"_blank\" rel=\"noopener\">'+title+'</a>'; var cat=CATEGORY_LABELS[item.category]||item.category; return '<div class=\"'+cls+'\"><div class=\"card-title\">'+title+'</div><div class=\"card-meta\">'+esc(cat)+' &middot; Release: '+esc(item.release_date)+'</div>'+renderBadges(item)+renderLinks(item)+'</div>'; }}
-  function renderListItem(item, showCountdown) {{ var f=roundFlags(item.age); var title=esc(item.title); if(item.wiki_url_mmm) title='<a href=\"'+esc(item.wiki_url_mmm)+'\" target=\"_blank\" rel=\"noopener\">'+title+'</a>'; var cat=CATEGORY_LABELS[item.category]||item.category; var dateStr=item.occurrence?formatShortDE(item.occurrence):''; var countdown=''; if(showCountdown&&item.daysUntil!=null) countdown=item.daysUntil===1?'morgen':'in '+item.daysUntil+' Tagen'; var badges='<span class=\"badge\">'+esc(ageLabel(item.age))+'</span>'; if(f.round10) badges+=' <span class=\"badge round10\">10er</span>'; else if(f.round5) badges+=' <span class=\"badge round5\">5er</span>'; return '<div class=\"list-item\">'+(dateStr?'<span class=\"list-date\">'+dateStr+'</span>':'')+(countdown?'<span class=\"list-countdown\">'+esc(countdown)+'</span>':'')+'<span class=\"list-title\">'+title+'</span><span>'+esc(cat)+'</span>'+badges+'</div>'; }}
+  function renderCard(item) {{ var f=roundFlags(item.age); var cls='card'; if(f.round10) cls+=' round10'; else if(f.round5) cls+=' round5'; var title=esc(item.title); if(item.wiki_url_mmm) title='<a href=\"'+esc(item.wiki_url_mmm)+'\" target=\"_blank\" rel=\"noopener\">'+title+'</a>'; return '<div class=\"'+cls+'\"><div class=\"card-title\">'+title+'</div><div class=\"card-meta\">'+formatCardMeta(item)+'</div>'+renderBadges(item)+renderLinks(item)+'</div>'; }}
+  function renderListItem(item, showCountdown) {{ var f=roundFlags(item.age); var title=esc(item.title); if(item.wiki_url_mmm) title='<a href=\"'+esc(item.wiki_url_mmm)+'\" target=\"_blank\" rel=\"noopener\">'+title+'</a>'; var dateStr=item.occurrence?formatShortDE(item.occurrence):''; var countdown=''; if(showCountdown&&item.daysUntil!=null) countdown=item.daysUntil===1?'morgen':'in '+item.daysUntil+' Tagen'; var badges='<span class=\"badge\">'+esc(ageLabel(item.age))+'</span>'; if(f.round10) badges+=' <span class=\"badge round10\">10er</span>'; else if(f.round5) badges+=' <span class=\"badge round5\">5er</span>'; return '<div class=\"list-item\">'+(dateStr?'<span class=\"list-date\">'+dateStr+'</span>':'')+(countdown?'<span class=\"list-countdown\">'+esc(countdown)+'</span>':'')+'<span class=\"list-title\">'+title+'</span><span class=\"list-meta\">'+formatListMeta(item)+'</span>'+badges+'</div>'; }}
   function renderSection(el, items, mode) {{ if(!items.length){{ el.innerHTML='<p class=\"section-empty\">Keine Eintr&auml;ge.</p>'; return; }} if(mode==='cards') el.innerHTML='<div class=\"cards\">'+items.map(renderCard).join('')+'</div>'; else el.innerHTML=items.map(function(i){{ return renderListItem(i, mode==='upcoming'); }}).join(''); }}
   function processCatalog(catalog) {{
     var today=startOfDay(new Date()); document.getElementById('currentDate').textContent=formatDateDE(today);
@@ -1101,6 +1151,10 @@ def main():
 
     if FAVICON_SRC.exists():
         shutil.copy2(FAVICON_SRC, OUTPUT_DIR / "favicon.png")
+
+    from build_quiz_site import build_quiz
+
+    build_quiz(OUTPUT_DIR)
 
     total = sum(len(items) for _, items in groups)
     print(f"Wrote {OUTPUT_HTML} ({total} entries, {len(groups)} categories)")
