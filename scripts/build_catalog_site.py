@@ -809,6 +809,8 @@ def build_html(groups):
     .col-author, .col-date {{ display: none; }}
     .col-title {{ width: 70%; }}
   }}
+  /* Google Translate temporarily hidden */
+  #google_translate_element {{ display: none !important; }}
   #google_translate_element select {{
     background: var(--card);
     color: var(--text);
@@ -830,7 +832,7 @@ def build_html(groups):
 
 {theme_toggle_html()}
 
-<div id="google_translate_element" style="margin-bottom:.5rem; opacity:.6; font-size:.75rem;"></div>
+<div id="google_translate_element" style="display:none" aria-hidden="true"></div>
 
 <header class="page-header">
   {site_nav}
@@ -935,6 +937,7 @@ def build_html(groups):
 }})();
 </script>
 
+<!-- Google Translate temporarily disabled
 <script>
 function googleTranslateElementInit() {{
   new google.translate.TranslateElement(
@@ -944,6 +947,7 @@ function googleTranslateElementInit() {{
 }}
 </script>
 <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+-->
 
 </body>
 </html>"""
